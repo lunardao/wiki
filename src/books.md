@@ -1,0 +1,22 @@
+# Books
+
+- [Manifesto for a democratic civilization vol 1](https://libgen.ee/book_137483732), by Abdullah Ocalan
+- [Wretched of the earth](https://libgen.ee/book_137999833), by Franz Fanon
+- [Zeroes and ones](https://libgen.ee/book_138125024), by Sadie Plant
+- [Princes of Yen](https://libgen.ee/book_137197427), by Richard Werner
+- [The new paradigm in macroeconomics](https://libgen.ee/book_136318400), by Rickard Werner
+- [Authoritarian and Democratic Technics](https://theanarchistlibrary.org/library/lewis-mumford-authoritarian-and-democratic-technics), by Lewis Mumford
+- [Society of spactacle](https://libgen.ee/book_136174668), by Guy Debord
+- [Cypherpunks; freedom and the future of internet](https://libgen.ee/book_4761276), by Julian Assange
+- [The Linux Command Line A Complete Introduction](https://libgen.is/book/index.php?md5=3C531CCECB36FF9FFC64081E1233A638), by William E. Shotts
+- [Git pocket guide](https://libgen.is/book/index.php?md5=CCBD27EB344E03CA49666716DEAE9E5A), by Richard E. Silverman
+- [Understanding Pure Mathematics](https://libgen.is/book/index.php?md5=A12418F80B9FEFF3CF993253B88F3055), by A. J. Sadler, D.W.S.Thorning
+- [A programmer's introduction to mathematics](https://libgen.is/book/index.php?md5=14074C1DD80FAD624DE1FD4149266E50), by Jeremy Kun
+- [Art of war](https://libgen.is/book/index.php?md5=79930DFA74DA9E76CECB94ACDE7794CC), by Sun Tzu
+- [Art of loving](https://libgen.is/book/index.php?md5=CA1B20F6AAB3EABBB60BEF85CBA1949A), by Erich Fromm
+- [Economic Interdependence and War](https://libgen.is/book/index.php?md5=5D40D3134DC4B92EC275E9EB3C8C25AC), by Dale C. Copeland
+- [The autobiography of Malcolm X as told to Alex Haley](https://libgen.is/book/index.php?md5=314C04B6CA8B01DCFB8555346D197ED5)
+- [Revolution in Rojava: Democratic Autonomy and Women’s Liberation in Syrian Kurdistan](https://libgen.is/book/index.php?md5=DC137DCFE5B717BD07B0B06655C088E3), by Michael Knapp, Anja Flach, Ercan Ayboğa, Janet Biehl (trans.)
+- [My whole life was a struggle](https://annas-archive.org/md5/e96a51a5bbbf91082821c5120e209fc6), by Sakine Cansiz
+- [How to Opt-Out of the Technocratic State](https://annas-archive.org/md5/056e4a80fe37fa5243bc45076c6eeead), by Derrick Broze
+- [Agorism in the 21st Century](https://agorist.xyz/)
