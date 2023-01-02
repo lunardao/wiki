@@ -2,11 +2,15 @@
 
 Pull requests to collaborate on the [wiki](https://wiki.lunardao.net).
 
+## Usage
+
+Use `/src` folder for proposed edits.
+
 ## Notes
 
-- cargo install mdbook (in home)
+- `cargo install mdbook` (in home)
 - go to src/doc/web_wiki
-- mdbook serve
+- `mdbook serve`
 - open summary.md
 - add the new chapter (look how it was done previously)
 - the new chapter file will be created automatically when added to summary.md
