@@ -16,3 +16,4 @@ Use `/src` folder for proposed edits.
 - open the file that was created and add whatever content should be there
 - git add, commit etc whatever applies and push
 - don't git pull when git serve is running
+.
