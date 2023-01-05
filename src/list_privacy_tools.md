@@ -1,6 +1,6 @@
 # List of privacy tools
 
-As efforts on decentralization, privacy and zero-knowledge cryptography constantly develop, we should not see privacy and distribution as a goal in a distant future. LunarDAO aims to see what tools and possibilities are there here and now. As a community of Lunarpunks we have the ability to compile a solid pool of resources, links, manuals which constantly evolves.
+As efforts on decentralization, privacy and zero-knowledge cryptography constantly develop, we should not see privacy and distribution as a goal in a distant future. LunarDAO aims to see what tools and possibilities are there here and now. As a community of Lunarpunks we have the ability to compile a solid pool of resources, links, manuals which constantly evolves. It is import for everyone to make their own evaluation of these projects privacy standard and make an informed decision what to use based on that.
 
 ## Online video sharing platforms
 
@@ -84,13 +84,15 @@ VeraCrypt is a free open source disk encryption software for creating encrypted 
 [**LUKS**](https://docs.fedoraproject.org/en-US/quick-docs/encrypting-drives-using-LUKS/#_overview_of_luks):<br>
 LUKS is a feature in linux distributions as well as on Tails. It is used for encryption of particitions, such as USB or disk.</br>
 
-## VPN and TOR
+## VPN and Onion routing
 
 [**ProtonVPN**](https://protonvpn.com/download)
 
 [**RiseupVPN**](https://riseup.net/en/vpn)
 
 [**TOR browser**](https://www.torproject.org/download/)
+
+[Lokinet](https://lokinet.org/) is a private browser (onion routing) that doesn't reveal you Ip address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq.)
 
 ## MAC address randomization
 
@@ -106,7 +108,7 @@ Wi-Fi, Bluetooth, and Ethernet connections all use MAC addresses. MAC addresses 
 
 IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity). It is a unique numeric identifier of GSM, or 3GPP and iDEN mobile phones, as well as some satellite phones.
 
-**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The simpliest way is to install [Wallace Toolbox](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip)
+**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [Wallace Toolbox](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip)
 
 [**Random IMEI generator**](https://randommer.io/imei-generator)
 
