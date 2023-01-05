@@ -92,7 +92,7 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 [**TOR browser**](https://www.torproject.org/download/)
 
-[Lokinet](https://lokinet.org/) is a private browser (onion routing) that doesn't reveal you Ip address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq.)
+[**Lokinet**](https://lokinet.org/) is a private browser (onion routing) that doesn't reveal you Ip address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq.)
 
 ## MAC address randomization
 
