@@ -2,46 +2,6 @@
 
 As efforts on decentralization, privacy and zero-knowledge cryptography constantly develop, we should not see privacy and distribution as a goal in a distant future. LunarDAO aims to see what tools and possibilities are there here and now. As a community of Lunarpunks we have the ability to compile a solid pool of resources, links, manuals which constantly evolves. It is import for everyone to make their own evaluation of these projects privacy standard and make an informed decision what to use based on that.
 
-## Crypto privacy tools
-
-- [**Monero**](https://www.getmonero.org/) is private crypto currency (layer 1).  
-    - [Documentation](https://monerodocs.org/)
-
-- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBS assets).  
-    - [Documentation](https://protocol.penumbra.zone/main/index.html)
-
-- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
-    - [Whitepaper](https://www.pantherprotocol.io/resources/panther-protocol-v-1-0-1.pdf)
-
-- [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship) - Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin)
-
-- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [anonymizing assets](./anonymizing_assets.md) to read more and also check [Aztec user guide](https://docs.aztec.network/zk-money/userguide) for zk.money.  
-    - [Documentation](https://docs.aztec.network/how-aztec-works/faq)
-
-- [**Zcash**](https://z.cash/) is a private crypto currency (layer 1).  
-    - [Documentation](https://zcash.readthedocs.io/en/latest/)
-
-- [**Oxen**](oxen.io) is a private crypto currency (layer 1).
-
-- [**Anoma**](https://anoma.net/)  
-    - [Whitepaper](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
-
-- [**Sienna network**](https://sienna.network/)
-
-- [**Espresso**](https://www.espressosys.com/)
-
-- [**Iron fish**](https://ironfish.network)  
-    - [Whitepaper](https://ironfish.network/docs/whitepaper/1_introduction)
-
-- [**Railgun**](https://railgun.ch/) is a privacy solution for Etherum, Polygon and Binance  
-    - [Whitepaper](https://assets.railgun.org/docs/whitepaper)
-
-- [**NYM**](https://nymtech.net/)  
-Is a decentralized mixnet ensuring data and metadata privacy.
-
-- [**HPRP**](https://hoprnet.org/protocol)  
-Is a decentralized mixnet ensuring data and metadata privacy.
-
 ## Online video sharing platforms
 
 [**FreeTube**](https://freetubeapp.io/):  
@@ -49,7 +9,7 @@ A private YouTube client.
 
 [**Invidious**](https://inv.riverside.rocks/):  
 Invidious is an open-source alternative to YouTube and is intended as a privacy alternative to the official YouTube website.  
-    - [Documentation](https://github.com/iv-org/documentation)
+[Documentation](https://github.com/iv-org/documentation)
 
 ## Messaging apps/clients
 
@@ -60,47 +20,47 @@ Ircd is a fully anonymous peer-to-peer communication tool developed by DarkFi wh
 
 - [**Session**](https://getsession.org/):  
 Session is an open source messenger that supports private and anonymous communications; DM, group chats, and voice calls.  
-    - [Documentation](https://github.com/oxen-io) and [Whitepaper](https://arxiv.org/pdf/2002.04609.pdf).
+[Documentation](https://github.com/oxen-io) and [Whitepaper](https://arxiv.org/pdf/2002.04609.pdf).
 
 - [**Signal**](https://www.signal.org/):  
 Signal is a free, end-to-end private messenger for DM, group chats and calls. At present, to set up Signal you need a phone number.  
-    - [Documentation](https://www.signal.org/docs/)
+[Documentation](https://www.signal.org/docs/)
 
 - [**Molly**](https://molly.im/):  
 Molly is an independent Signal fork for Android. Molly is compatible with Signal user but also has a few more unique features, including SOCKS proxy and Tor support.  
-    - [Documentation](https://github.com/mollyim/mollyim-android)
+[Documentation](https://github.com/mollyim/mollyim-android)
 
 - [**Element**](https://element.io/):  
 End-to-end encrypted messenger for DM and group chats, and video. Bridges to other chat app, even commercial/centralized an not private ones, such as Whatsapp and Telegram.  
-    - [Documentation](https://github.com/vector-im)
+[Documentation](https://github.com/vector-im)
 
 - [**XMPP**](https://xmpp.org/) with [Jabber](jabber.org) or [Pidgin](https://pidgin.im/):  
 XMPP is a set of open technologies for instant messaging, group chat, voice and video calls. It is decentralized and open source.  
-    - [Documentation](https://xmpp.org/about/technology-overview/)
+[Documentation](https://xmpp.org/about/technology-overview/)
 
 - [**Simplex chat**](https://simplex.chat/):  
 End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users.  
-    - [Documentation](https://github.com/simplex-chat/simplex-chat)
+[Documentation](https://github.com/simplex-chat/simplex-chat)
 
 ## Virtual machines and Tails
 
 - [**Tails**](https://tails.boum.org/):  
 Tails is a portable operating system which protects against surveillance. The entire OS is on a USB without accessing or storing data in the computer (only using RAM). No metadata stored after shut down. MAc adress spoofing and tor network to connect to internet by default. Data on USB encrypted. Based on a minimalistic version of Debian - Gnome. GPG encryption, email client, onion file share, pidgin, wiping option, keepass, metadata cleaner etc by default. Tails has a function which shuts down the computer immediatly after USB removal.  
-    - [Documentation](https://tails.boum.org/doc/index.en.html)
+[Documentation](https://tails.boum.org/doc/index.en.html)
 
 - [**Whonix**](https://www.whonix.org/):  
 Whonix is a virtual machine that runs like a process (an app) inside the OS, to help user stay anonymous on internet by for example randomizing IP address and using TOR. When shut down, no data is stored.  
-    - [Documentation](https://www.whonix.org/wiki/Documentation)
+[Documentation](https://www.whonix.org/wiki/Documentation)
 
 - [**Qubes**](https://www.qubes-os.org/):  
 Works on a model of secure compartmentalization through virtualization, isolating both hardware and virtual machines (qubes) from each other. Creating not only a technical solution under the assumption that a user will suffer exploits, but also a mindset and praxis how to protect the user and limit the damage when events such as opening malicious links or files happen, by doing so in a disposable virtual machine.  
-    - [Documentation](https://www.qubes-os.org/doc/)
+[Documentation](https://www.qubes-os.org/doc/)
 
 ## Email and file encryption
 
 - [**OpenPGP**](https://www.openpgp.org/):  
 OpenPGP is end-to-end encryption protocol used for email communication.  
-    - [Documentation](https://www.openpgp.org/software/developer/)
+[Documentation](https://www.openpgp.org/software/developer/)
 
 - [**Rage**](https://github.com/str4d/rage):  
 Rage is a rust implementation of age. It features small explicit keys, no config options, and UNIX-style composability. Runs in terminal.
@@ -178,6 +138,59 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 The shred command helps to overwrite the data of a file or disk several times. This makes it harder for third party software and hardware probing to recover the data, which is supporting users privacy.</br>
 
 - [**bleachbit**](https://www.bleachbit.org/)
+
+## Crypto anonymity and privacy
+
+The projects below are all claiming to be privacy oriented, but that doesn't mean that all of them are completely private. Every user need to make their own research. LunarDAO also have plans to go deeper into these projects and continously update this wiki with relevant information.
+
+### Layer 1
+
+- [**Monero**](https://www.getmonero.org/) is private crypto currency.  
+[Documentation](https://monerodocs.org/)
+
+- [**Zcash**](https://z.cash/) is a private crypto currency.  
+[Documentation](https://zcash.readthedocs.io/en/latest/)
+    
+- [**Oxen**](oxen.io) is a private crypto currency.
+
+
+### Layer 2
+
+
+- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBS assets).  
+[Documentation](https://protocol.penumbra.zone/main/index.html)
+
+- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
+[Whitepaper](https://www.pantherprotocol.io/resources/panther-protocol-v-1-0-1.pdf)
+
+- [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship) - Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin)
+
+- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [anonymizing assets](./anonymizing_assets.md) to read more and also check [Aztec user guide](https://docs.aztec.network/zk-money/userguide) for zk.money.  
+[Documentation](https://docs.aztec.network/how-aztec-works/faq)
+
+
+
+
+
+- [**Anoma**](https://anoma.net/)  
+[Whitepaper](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
+
+- [**Sienna network**](https://sienna.network/)
+
+- [**Espresso**](https://www.espressosys.com/)
+
+- [**Iron fish**](https://ironfish.network)  
+[Whitepaper](https://ironfish.network/docs/whitepaper/1_introduction)
+
+- [**Railgun**](https://railgun.ch/) is a privacy solution for Etherum, Polygon and Binance  
+[Whitepaper](https://assets.railgun.org/docs/whitepaper)
+
+- [**NYM**](https://nymtech.net/)  
+Is a decentralized mixnet ensuring data and metadata privacy.
+
+- [**HPRP**](https://hoprnet.org/protocol)  
+Is a decentralized mixnet ensuring data and metadata privacy.  
+[Documentation](https://github.com/hoprnet)
 
 ## Privacy resources
 
