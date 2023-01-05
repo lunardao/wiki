@@ -68,6 +68,8 @@ Rage is a rust implementation of age. It features small explicit keys, no config
 
 ## Email clients
 
+These email client are without cost and end-to-end encrypted. For Riseup and Systemli an invite code is required to be able to create a new email.
+
 [**Tutanota**](https://tutanota.com/)
 
 [**Protonmail**](https://proton.me/)
