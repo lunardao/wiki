@@ -118,6 +118,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 ## Secure android phones
 
 - Google pixel (yes strangely enough) with [**Graphene OS**](https://grapheneos.org/)
+Graphene OS is completely without Google apps and also automatically randomizes MAC address. There is Fdroid instead of app store, [Session](https://getsession.org/), [Signal](https://www.signal.org/), or  [Element](https://element.io/) as messenger app, [Fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) as browser, [Bitmask](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [ProtonVPN](https://protonvpn.com/download) for VPN services and [Tor browser](https://www.torproject.org/download/), [Markor](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [Aurora app](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [jmp.chat](https://jmp.chat/).
 
 ## Digital photo metadata removal
 
@@ -135,7 +136,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 ## Shred/Wipe files
 
 - [**Shred files on linux**](https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/):
-The shred command helps to overwrite the data of a file or disk several times. This makes it harder for third party software and hardware probing to recover the data, which is supporting users privacy.</br>
+The shred command helps to overwrite the data of a file or disk several times. This makes it harder for third party software and hardware probing to recover the data, which is supporting users privacy.
 
 - [**bleachbit**](https://www.bleachbit.org/)
 
@@ -168,7 +169,7 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 ### Layer 2
 
 
-- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBS assets).  
+- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBC assets).  
 [Documentation](https://protocol.penumbra.zone/main/index.html)
 
 - [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
@@ -179,7 +180,7 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 - [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [anonymizing assets](./anonymizing_assets.md) to read more and also check [Aztec user guide](https://docs.aztec.network/zk-money/userguide) for zk.money.  
 [Documentation](https://docs.aztec.network/how-aztec-works/faq)
 
-- [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency build on Secret Network.
+- [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network.
 
 - [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  
 [Whitepaper](https://assets.railgun.org/docs/whitepaper)
@@ -191,7 +192,5 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 - [**Anonymous Planet: The Hitchhiker’s Guide to Online Anonymity**](https://anonymousplanet.org/) is a maintained guide with the aim of providing an introduction to various online tracking, and online ID verification techniques, and detailed guidance to creating and maintaining (truly) anonymous online identities.
 
 - [**Privacy Guides**](https://www.privacyguides.org/) The privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools.
-
-- Mykola Siusko has put together an extensive base of crypto privacy resources, which you can find [here](https://github.com/Msiusko)
 
 
