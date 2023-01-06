@@ -134,7 +134,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 
 ## Shred/Wipe files
 
-- [**Shred files on linux**](https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/):<br>
+- [**Shred files on linux**](https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/):
 The shred command helps to overwrite the data of a file or disk several times. This makes it harder for third party software and hardware probing to recover the data, which is supporting users privacy.</br>
 
 - [**bleachbit**](https://www.bleachbit.org/)
@@ -145,13 +145,24 @@ The projects below are all claiming to be privacy oriented, but that doesn't mea
 
 ### Layer 1
 
-- [**Monero**](https://www.getmonero.org/) is private crypto currency.  
+- [**Monero**](https://www.getmonero.org/) is private by default crypto currency.  
 [Documentation](https://monerodocs.org/)
 
-- [**Zcash**](https://z.cash/) is a private crypto currency.  
+- [**Zcash**](https://z.cash/) is a private crypto currency and also allows for transparent transactions.  
 [Documentation](https://zcash.readthedocs.io/en/latest/)
     
-- [**Oxen**](oxen.io) is a private crypto currency.
+- [**Oxen**](oxen.io) is a private cryptocurrency, Session, end-to-end encrypted messaging platform, and also includes Lokinet which provides network anonymity.
+
+- [**Anoma**](https://anoma.net/) is a privacy oriented protocol which supports both transparent and shielded transactions. 
+[Whitepaper](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
+
+- [**NYM**](https://nymtech.net/)  
+Is a decentralized mixnet ensuring data and metadata privacy.  
+[Whitepaper](https://nymtech.net/nym-whitepaper.pdf)
+
+- [**HPRP**](https://hoprnet.org/protocol)  
+Is a decentralized mixnet ensuring data and metadata privacy.  
+[Documentation](https://github.com/hoprnet)
 
 
 ### Layer 2
@@ -168,29 +179,10 @@ The projects below are all claiming to be privacy oriented, but that doesn't mea
 - [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [anonymizing assets](./anonymizing_assets.md) to read more and also check [Aztec user guide](https://docs.aztec.network/zk-money/userguide) for zk.money.  
 [Documentation](https://docs.aztec.network/how-aztec-works/faq)
 
+- [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency build on Secret Network.
 
-
-
-
-- [**Anoma**](https://anoma.net/)  
-[Whitepaper](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
-
-- [**Sienna network**](https://sienna.network/)
-
-- [**Espresso**](https://www.espressosys.com/)
-
-- [**Iron fish**](https://ironfish.network)  
-[Whitepaper](https://ironfish.network/docs/whitepaper/1_introduction)
-
-- [**Railgun**](https://railgun.ch/) is a privacy solution for Etherum, Polygon and Binance  
+- [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  
 [Whitepaper](https://assets.railgun.org/docs/whitepaper)
-
-- [**NYM**](https://nymtech.net/)  
-Is a decentralized mixnet ensuring data and metadata privacy.
-
-- [**HPRP**](https://hoprnet.org/protocol)  
-Is a decentralized mixnet ensuring data and metadata privacy.  
-[Documentation](https://github.com/hoprnet)
 
 ## Privacy resources
 
