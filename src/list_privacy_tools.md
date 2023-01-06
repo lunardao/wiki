@@ -91,9 +91,9 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 - [**RiseupVPN**](https://riseup.net/en/vpn)
 
-- [**TOR browser**](https://www.torproject.org/download/)
+- [**TOR browser**](https://www.torproject.org/download/) is a private browser which hides your IP address. The project is using onion routing; relays which are run by volonteers. The browser stores no data and also block trackers.
 
-- [**Lokinet**](https://lokinet.org/) is a private browser (onion routing) that doesn't reveal you Ip address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
+- [**Lokinet**](https://lokinet.org/) is a private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
 
 ## MAC address randomization
 
@@ -109,16 +109,16 @@ Wi-Fi, Bluetooth, and Ethernet connections all use MAC addresses. MAC addresses 
 
 IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity). It is a unique numeric identifier of GSM, or 3GPP and iDEN mobile phones, as well as some satellite phones.
 
-**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [Wallace Toolbox](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip)
+**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [Wallace Toolbox](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip).
 
 - [**Random IMEI generator**](https://randommer.io/imei-generator)
 
 - Installing [**Gerda OS**](https://gerda.tech/#h1.4_install) on Nokia 8110 for improved usability.
 
-## Secure android phones
+## Secure android phone
 
-- Google pixel (yes strangely enough) with [**Graphene OS**](https://grapheneos.org/)
-Graphene OS is completely without Google apps and also automatically randomizes MAC address. There is Fdroid instead of app store, [Session](https://getsession.org/), [Signal](https://www.signal.org/), or  [Element](https://element.io/) as messenger app, [Fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) as browser, [Bitmask](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [ProtonVPN](https://protonvpn.com/download) for VPN services and [Tor browser](https://www.torproject.org/download/), [Markor](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [Aurora app](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [jmp.chat](https://jmp.chat/).
+- [**Graphene OS**](https://grapheneos.org/) on a Google pixel phone (from 4 and up, less than are no longer maintained). Note that not all Google pixel  
+Graphene OS is completely without Google apps and also automatically randomizes [MAC address](https://en.wikipedia.org/wiki/MAC_address). There is [F-Droid](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [Session](https://getsession.org/), [Signal](https://www.signal.org/), or  [Element](https://element.io/) as messenger app, [Fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [Bitmask](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [ProtonVPN](https://protonvpn.com/download) for VPN services and [Tor browser](https://www.torproject.org/download/) for onion routing, [Markor](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [Aurora app](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [jmp.chat](https://jmp.chat/).
 
 ## Digital photo metadata removal
 
