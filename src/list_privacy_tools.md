@@ -97,11 +97,11 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 ## MAC address randomization
 
-Wi-Fi, Bluetooth, and Ethernet connections all use MAC addresses. MAC addresses are always a 12 digit hexadecimal number, with the numbers separated every two digits by a colon or hyphen. MAC addresses are used to identify which device is which on users local network. Because they’re unique, MAC addresses can be used to track a user. When walking around, a smartphone scans for nearby Wi-Fi networks and broadcasts its MAC address. For better privacy it is good to learn how to change the MAC address. Here are three pages which addresses this issue:
+Wi-Fi, Bluetooth, and Ethernet connections all use MAC addresses (Media Access Control Address). MAC addresses are always a 12 digit hexadecimal number, with the numbers separated every two digits by a colon or hyphen. MAC addresses are used to identify which device is which on users local network. Because they’re unique, MAC addresses can be used to track a user. When walking around, a smartphone scans for nearby Wi-Fi networks and broadcasts its MAC address. For better privacy it is good to learn how to change the MAC address. Here are three pages which addresses this issue:
 
 - [Android developers](https://android-developers.googleblog.com/2017/04/changes-to-device-identifiers-in.html)  
-- [GrapheneOS](https://grapheneos.org/usage#updates-security)  
-- [Cyberithub](https://www.cyberithub.com/how-to-change-the-mac-address-on-ubuntu-20-04-lts-macchanger/)
+- [GrapheneOS](https://grapheneos.org/usage#updates-security): read more under 'Secure android phone'.  
+- [Cyberithub](https://www.cyberithub.com/how-to-change-the-mac-address-on-ubuntu-20-04-lts-macchanger/): This is a guide on how to install macchanger on Debian based OS and how to change the mac address manually (the random changes during testing didn't work so far, but doing it manually works well).
 
 ## IMEI randomization
 
