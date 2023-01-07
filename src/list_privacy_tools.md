@@ -126,7 +126,6 @@ Graphene OS is completely without Google apps and also automatically randomizes 
 
 - [**ExifCleaner**](https://exifcleaner.com/)
 
-
 ## File sharing tools
 
 - [**Onionshare**](https://onionshare.org/)
@@ -140,57 +139,21 @@ The shred command helps to overwrite the data of a file or disk several times. T
 
 - [**bleachbit**](https://www.bleachbit.org/)
 
-## Crypto anonymity and privacy
+## Public wifi networks
 
-The projects below are all claiming to be privacy oriented, but that doesn't mean that all of them are completely private. Every user need to make their own research. LunarDAO also have plans to go deeper into these projects and continously update this wiki with relevant information.
-
-### Layer 1
-
-- [**Monero**](https://www.getmonero.org/) is private by default crypto currency.  
-[Documentation](https://monerodocs.org/)
-
-- [**Zcash**](https://z.cash/) is a private crypto currency and also allows for transparent transactions.  
-[Documentation](https://zcash.readthedocs.io/en/latest/)
-    
-- [**Oxen**](oxen.io) is a private cryptocurrency, Session, end-to-end encrypted messaging platform, and also includes Lokinet which provides network anonymity.
-
-- [**Anoma**](https://anoma.net/) is a privacy oriented protocol which supports both transparent and shielded transactions. 
-[Whitepaper](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
-
-- [**NYM**](https://nymtech.net/)  
-Is a decentralized mixnet ensuring data and metadata privacy.  
-[Whitepaper](https://nymtech.net/nym-whitepaper.pdf)
-
-- [**HPRP**](https://hoprnet.org/protocol)  
-Is a decentralized mixnet ensuring data and metadata privacy.  
-[Documentation](https://github.com/hoprnet)
-
-
-### Layer 2
-
-
-- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBC assets).  
-[Documentation](https://protocol.penumbra.zone/main/index.html)
-
-- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
-[Whitepaper](https://www.pantherprotocol.io/resources/panther-protocol-v-1-0-1.pdf)
-
-- [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship) - Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin)
-
-- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [anonymizing assets](./anonymizing_assets.md) to read more and also check [Aztec user guide](https://docs.aztec.network/zk-money/userguide) for zk.money.  
-[Documentation](https://docs.aztec.network/how-aztec-works/faq)
-
-- [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network.
-
-- [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  
-[Whitepaper](https://assets.railgun.org/docs/whitepaper)
+- https://freifunk.net/en/
+- https://www.wifimap.io/
 
 ## Privacy resources
+
+- [Agorism blog](- https://agorism.blog/anarkio/survival-outside-the-state)
+- [Why the states monopoly on identity is more dangerous than Google and Facebook - Agorism blog](https://agorism.blog/anarkio/why-the-states-monopoly-on-identity-is-more-dangerous-than-google-facebook)
+
+- [Opt Out Podcast](https://optoutpod.com/) is a podcast abut why privacy matters, as well as a resource to find relevant privacy tools.
 
 - [**Privacy tools**](https://www.privacytools.io/) provides services, tools and privacy guides to counter global mass surveillance.
 
 - [**Anonymous Planet: The Hitchhiker’s Guide to Online Anonymity**](https://anonymousplanet.org/) is a maintained guide with the aim of providing an introduction to various online tracking, and online ID verification techniques, and detailed guidance to creating and maintaining (truly) anonymous online identities.
 
 - [**Privacy Guides**](https://www.privacyguides.org/) The privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools.
-
 
