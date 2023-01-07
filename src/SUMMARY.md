@@ -39,7 +39,7 @@
 # Crypto
 
 - [Anonymizing assets](./anonymizing_assets.md)
-
+- [Privacy projects](./crypto_privacy_projects.md)
 
 # Tools
 
