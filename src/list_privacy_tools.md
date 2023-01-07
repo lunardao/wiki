@@ -146,10 +146,13 @@ The shred command helps to overwrite the data of a file or disk several times. T
 
 ## Privacy resources
 
-- [Agorism blog](- https://agorism.blog/anarkio/survival-outside-the-state)
+- [Agorism blog](- https://agorism.blog/anarkio/survival-outside-the-state)  
+
 - [Why the states monopoly on identity is more dangerous than Google and Facebook - Agorism blog](https://agorism.blog/anarkio/why-the-states-monopoly-on-identity-is-more-dangerous-than-google-facebook)
 
 - [Opt Out Podcast](https://optoutpod.com/) is a podcast abut why privacy matters, as well as a resource to find relevant privacy tools.
+
+- [web3 privacy now](https://github.com/Msiusko/web3privacy) is a research project aimed at building a culture of privacy in web3.
 
 - [**Privacy tools**](https://www.privacytools.io/) provides services, tools and privacy guides to counter global mass surveillance.
 
