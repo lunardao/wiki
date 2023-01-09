@@ -1,6 +1,6 @@
 # Changing RPC guide
 
-## In Metamask
+## Metamask
 
 **1) Go to Networks**
 
@@ -10,7 +10,7 @@
 
 **2) Add a network**
 
-- Click on the button *Add a network*
+- Click on *Add a network*
 
 ![](./pics/add_a_network.png)
 
@@ -22,9 +22,11 @@
 
 **4) Add information for Custom RPC**
 
-The custom RPC is mostly using the same information as Etherum mainnet. What we change is the *Network name* which can be any name and is visible to the user on their own account 
-and *New RPC URL*. In *New RPC URL* we write the TRUSTED new endpoint. Because we want to change the RPC for Etherum; *Chain ID*, *Currency symbol* and *Block explorer URL* remain 
-the same. Paralelní Polis is offering the community to use their endpoint https://bordel.xyz.
+The custom RPC (for Etherum in this guide, can be any other network) is mostly using the same information as Etherum mainnet. Because we want to change the RPC for Etherum; *Chain ID*, *Currency symbol* and *Block explorer URL* remain the same. 
+
+- Change *Network name* (which can be any name and is visible to the user on their own account) 
+- Enter *New RPC URL*. Paralelní Polis is offering the community to use their endpoint https://bordel.xyz
+This need to be a TRUSTED endpoint.
 
 ![](./pics/custom_rpc_information.png)
 
