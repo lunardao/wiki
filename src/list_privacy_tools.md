@@ -4,10 +4,10 @@ As efforts on decentralization, privacy and zero-knowledge cryptography constant
 
 ## Online video sharing platforms
 
-[**FreeTube**](https://freetubeapp.io/):  
+[**FreeTube**](https://freetubeapp.io/)  
 A private YouTube client.
 
-[**Invidious**](https://inv.riverside.rocks/):  
+[**Invidious**](https://inv.riverside.rocks/)  
 Invidious is an open-source alternative to YouTube and is intended as a privacy alternative to the official YouTube website.  
 [Documentation](https://github.com/iv-org/documentation)
 
@@ -15,54 +15,54 @@ Invidious is an open-source alternative to YouTube and is intended as a privacy 
 
 For all the private messaging options it is necessary to use an application to hide your IP address, such as [ProtonVPN](https://protonvpn.com/download), [RiseupVPN](https://riseup.net/en/vpn) or [TOR](https://www.torproject.org/download/). If used on phone - do not use a sim-card and set up an automatic reset of the mac address on every re-connection.
 
-- [**ircd**](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html):  
+- [**ircd**](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html)  
 Ircd is a fully anonymous peer-to-peer communication tool developed by DarkFi which can be used encrypted or unencrypted, supports DM and group chats. Works with clients like [Weechat](https://weechat.org/) directly in terminal. No need to create an account, no captchas, no bloated app with extra empty screen space. Fully distributed, runs on tor.
 
-- [**Session**](https://getsession.org/):  
+- [**Session**](https://getsession.org/)  
 Session is an open source messenger that supports private and anonymous communications; DM, group chats, and voice calls.  
 [Documentation](https://github.com/oxen-io) and [Whitepaper](https://arxiv.org/pdf/2002.04609.pdf).
 
-- [**Signal**](https://www.signal.org/):  
+- [**Signal**](https://www.signal.org/)  
 Signal is a free, end-to-end private messenger for DM, group chats and calls. At present, to set up Signal you need a phone number.  
 [Documentation](https://www.signal.org/docs/)
 
-- [**Molly**](https://molly.im/):  
+- [**Molly**](https://molly.im/)  
 Molly is an independent Signal fork for Android. Molly is compatible with Signal user but also has a few more unique features, including SOCKS proxy and Tor support.  
 [Documentation](https://github.com/mollyim/mollyim-android)
 
-- [**Element**](https://element.io/):  
+- [**Element**](https://element.io/)  
 End-to-end encrypted messenger for DM and group chats, and video. Bridges to other chat app, even commercial/centralized an not private ones, such as Whatsapp and Telegram.  
 [Documentation](https://github.com/vector-im)
 
-- [**XMPP**](https://xmpp.org/) with [Jabber](jabber.org) or [Pidgin](https://pidgin.im/):  
+- [**XMPP**](https://xmpp.org/) with [Jabber](jabber.org) or [Pidgin](https://pidgin.im/)  
 XMPP is a set of open technologies for instant messaging, group chat, voice and video calls. It is decentralized and open source.  
 [Documentation](https://xmpp.org/about/technology-overview/)
 
-- [**Simplex chat**](https://simplex.chat/):  
+- [**Simplex chat**](https://simplex.chat/)  
 End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users.  
 [Documentation](https://github.com/simplex-chat/simplex-chat)
 
 ## Virtual machines and Tails
 
-- [**Tails**](https://tails.boum.org/):  
+- [**Tails**](https://tails.boum.org/)  
 Tails is a portable operating system which protects against surveillance. The entire OS is on a USB without accessing or storing data in the computer (only using RAM). No metadata stored after shut down. MAc adress spoofing and tor network to connect to internet by default. Data on USB encrypted. Based on a minimalistic version of Debian - Gnome. GPG encryption, email client, onion file share, pidgin, wiping option, keepass, metadata cleaner etc by default. Tails has a function which shuts down the computer immediatly after USB removal.  
 [Documentation](https://tails.boum.org/doc/index.en.html)
 
-- [**Whonix**](https://www.whonix.org/):  
+- [**Whonix**](https://www.whonix.org/)  
 Whonix is a virtual machine that runs like a process (an app) inside the OS, to help user stay anonymous on internet by for example randomizing IP address and using TOR. When shut down, no data is stored.  
 [Documentation](https://www.whonix.org/wiki/Documentation)
 
-- [**Qubes**](https://www.qubes-os.org/):  
+- [**Qubes**](https://www.qubes-os.org/)  
 Works on a model of secure compartmentalization through virtualization, isolating both hardware and virtual machines (qubes) from each other. Creating not only a technical solution under the assumption that a user will suffer exploits, but also a mindset and praxis how to protect the user and limit the damage when events such as opening malicious links or files happen, by doing so in a disposable virtual machine.  
 [Documentation](https://www.qubes-os.org/doc/)
 
 ## Email and file encryption
 
-- [**OpenPGP**](https://www.openpgp.org/):  
+- [**OpenPGP**](https://www.openpgp.org/)  
 OpenPGP is end-to-end encryption protocol used for email communication.  
 [Documentation](https://www.openpgp.org/software/developer/)
 
-- [**Rage**](https://github.com/str4d/rage):  
+- [**Rage**](https://github.com/str4d/rage)  
 Rage is a rust implementation of age. It features small explicit keys, no config options, and UNIX-style composability. Runs in terminal.
 
 ## Email clients
@@ -79,10 +79,10 @@ These email client are without cost and end-to-end encrypted. For Riseup and Sys
 
 ## Disk encryption
 
-- [**VeraCrypt**](https://www.veracrypt.fr/en/Home.html):  
+- [**VeraCrypt**](https://www.veracrypt.fr/en/Home.html)  
 VeraCrypt is a free open source disk encryption software for creating encrypted storage; hidden or visible partitions or devices.
 
-- [**LUKS**](https://docs.fedoraproject.org/en-US/quick-docs/encrypting-drives-using-LUKS/#_overview_of_luks):  
+- [**LUKS**](https://docs.fedoraproject.org/en-US/quick-docs/encrypting-drives-using-LUKS/#_overview_of_luks)  
 LUKS is a feature in linux distributions as well as on Tails. It is used for encryption of particitions, such as USB or disk.
 
 ## VPN and Onion routing
@@ -91,9 +91,11 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 - [**RiseupVPN**](https://riseup.net/en/vpn)
 
-- [**TOR browser**](https://www.torproject.org/download/) is a private browser which hides your IP address. The project is using onion routing; relays which are run by volonteers. The browser stores no data and also block trackers.
+- [**TOR browser**](https://www.torproject.org/download/)  
+A private browser which hides your IP address. The project is using onion routing; relays which are run by volonteers. The browser stores no data and also block trackers.
 
-- [**Lokinet**](https://lokinet.org/) is a private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
+- [**Lokinet**](https://lokinet.org/)  
+A private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
 
 ## MAC address randomization
 
@@ -128,7 +130,9 @@ Graphene OS is completely without Google apps and also automatically randomizes 
 
 ## File sharing tools
 
-- [**Onionshare**](https://onionshare.org/)
+- [**Onionshare**](https://onionshare.org/)  
+With Onionshare the user can anonymously share files, host websites, and chat with friends using the Tor network.  
+[Documentation](https://docs.onionshare.org/2.6/en/)
 
 - [**Send**](https://github.com/timvisee/send-instances/#instances)
 
@@ -137,26 +141,24 @@ Graphene OS is completely without Google apps and also automatically randomizes 
 - [**Shred files on linux**](https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/):
 The shred command helps to overwrite the data of a file or disk several times. This makes it harder for third party software and hardware probing to recover the data, which is supporting users privacy.
 
-- [**bleachbit**](https://www.bleachbit.org/)
+- [**Bleachbit**](https://www.bleachbit.org/)  
+Free software to free cache, delete cookies, clear Internet history, shred temporary files and delete logs.
 
 ## Public wifi networks
 
-- https://freifunk.net/en/
-- https://www.wifimap.io/
+- [Freifunk](https://freifunk.net/en/) is a non-commercial initiative for free wireless networks.  
+- [Wifi Map](https://www.wifimap.io/) is a free wifi search tool. Enter city and receive all free wifi options in ths city.
 
 ## Privacy resources
 
-- [Agorism blog](- https://agorism.blog/anarkio/survival-outside-the-state)  
-
-- [Why the states monopoly on identity is more dangerous than Google and Facebook - Agorism blog](https://agorism.blog/anarkio/why-the-states-monopoly-on-identity-is-more-dangerous-than-google-facebook)
-
-- [Opt Out Podcast](https://optoutpod.com/) is a podcast abut why privacy matters, as well as a resource to find relevant privacy tools.
-
-- [web3 privacy now](https://github.com/Msiusko/web3privacy) is a research project aimed at building a culture of privacy in web3.
+- [Opt Out Podcast](https://optoutpod.com/)  
+A podcast abut why privacy matters, as well as a resource to find relevant privacy tools.
 
 - [**Privacy tools**](https://www.privacytools.io/) provides services, tools and privacy guides to counter global mass surveillance.
 
-- [**Anonymous Planet: The Hitchhiker’s Guide to Online Anonymity**](https://anonymousplanet.org/) is a maintained guide with the aim of providing an introduction to various online tracking, and online ID verification techniques, and detailed guidance to creating and maintaining (truly) anonymous online identities.
+- [**Anonymous Planet: The Hitchhiker’s Guide to Online Anonymity**](https://anonymousplanet.org/)  
+This guide aims to provide an introduction to various online tracking, and online ID verification techniques, and detailed guidance to creating and maintaining (truly) anonymous online identities.
 
-- [**Privacy Guides**](https://www.privacyguides.org/) The privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools.
+- [**Privacy Guides**](https://www.privacyguides.org/)  
+The privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools.
 
