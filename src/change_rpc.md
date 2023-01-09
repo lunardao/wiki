@@ -4,19 +4,19 @@
 
 **1) Go to Networks**
 
-- Go to 'Networks' in Metamask to change RPC.
+- Go to *Networks* in Metamask to change RPC.
 
 ![](./pics/networks.png)
 
 **2) Add a network**
 
-- Click on the button 'Add a network'
+- Click on the button *Add a network*
 
 ![](./pics/add_a_network.png)
 
 **3) Add a network manually**
 
-- Select 'Add a network manually'
+- Select *Add a network manually*
 
 ![](./pics/add_network_manually.png)
 
