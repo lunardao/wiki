@@ -4,7 +4,7 @@
 
 **1) Go to Networks**
 
-- Go to *Networks* in Metamask to change RPC.
+- Go to Setting in Metamask and select *Networks* to add a custom RPC.
 
 ![](./pics/networks.png)
 
