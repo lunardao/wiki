@@ -35,6 +35,7 @@
     - [Randomizing IMEI](./imei.md)
         - [IMEI table](./imei_tables/imei_table.md)
 - [Privacy tools](./list_privacy_tools.md)
+- [Privacy resources](./privacy_resources.md)
 
 # Crypto
 
