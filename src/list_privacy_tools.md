@@ -159,16 +159,3 @@ A non-commercial initiative for free wireless networks.
 - [**Wifi Map**](https://www.wifimap.io/)  
 A free wifi search tool. Enter city and receive all free wifi options in ths city.
 
-## Privacy resources
-
-- [**Opt Out Podcast**](https://optoutpod.com/)  
-A podcast abut why privacy matters, as well as a resource to find relevant privacy tools.
-
-- [**Privacy tools**](https://www.privacytools.io/) provides services, tools and privacy guides to counter global mass surveillance.
-
-- [**Anonymous Planet: The Hitchhiker’s Guide to Online Anonymity**](https://anonymousplanet.org/)  
-This guide aims to provide an introduction to various online tracking, and online ID verification techniques, and detailed guidance to creating and maintaining (truly) anonymous online identities.
-
-- [**Privacy Guides**](https://www.privacyguides.org/)  
-The privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools.
-
