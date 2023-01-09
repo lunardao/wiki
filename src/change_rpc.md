@@ -29,4 +29,4 @@ the same. Paralelní Polis is offering the community to use their endpoint https
 ![](./pics/custom_rpc_information.png)
 
 
-More information about RPC in [Anonymizing assets]./anonymizing_assets.md)
+More information about RPC in [Anonymizing assets](./anonymizing_assets.md)
