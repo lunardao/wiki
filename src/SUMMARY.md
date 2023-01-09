@@ -40,6 +40,7 @@
 # Crypto
 
 - [Anonymizing assets](./anonymizing_assets.md)
+    - [Changing RPC guide](./change_rpc.md)
 - [Privacy projects](./crypto_privacy_projects.md)
 
 # Tools
