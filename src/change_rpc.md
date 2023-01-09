@@ -27,3 +27,6 @@ and *New RPC URL*. In *New RPC URL* we write the TRUSTED new endpoint. Because w
 the same. Paralelní Polis is offering the community to use their endpoint https://bordel.xyz.
 
 ![](./pics/custom_rpc_information.png)
+
+
+More information about RPC in [Anonymizing assets]./anonymizing_assets.md)
