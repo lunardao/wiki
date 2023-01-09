@@ -40,4 +40,4 @@ Select your custom RPC in the upper right corner. It will show a question mark, 
 ![](./pics/custom_rpc.png)
 
 
-More information about RPC in [**Anonymizing assets**](./anonymizing_assets.md)
+More information about RPC in [**Anonymizing assets**](./anonymizing_assets.md).
