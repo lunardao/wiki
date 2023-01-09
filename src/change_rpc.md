@@ -30,5 +30,9 @@ This need to be a TRUSTED endpoint.
 
 ![](./pics/custom_rpc_information.png)
 
+**5) Save the information and choose your *custom RPC* here:**
+
+![](./pics/custom_rpc.png)
+
 
 More information about RPC in [Anonymizing assets](./anonymizing_assets.md)
