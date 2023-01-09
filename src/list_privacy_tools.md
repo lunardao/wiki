@@ -63,7 +63,7 @@ OpenPGP is end-to-end encryption protocol used for email communication.
 [Documentation](https://www.openpgp.org/software/developer/)
 
 - [**Rage**](https://github.com/str4d/rage)  
-Rage is a rust implementation of age. It features small explicit keys, no config options, and UNIX-style composability. Runs in terminal.
+File encryption to single or multiple recipients. Run in terminal.
 
 ## Email clients
 
@@ -87,6 +87,8 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 ## VPN and Onion routing
 
+VPN just like Tor protects your IP address. You can read more about the difference between Tor and VPN [here](https://www.privacyend.com/difference-between-tor-and-vpn/).
+
 - [**ProtonVPN**](https://protonvpn.com/download)
 
 - [**RiseupVPN**](https://riseup.net/en/vpn)
@@ -101,9 +103,13 @@ A private browser (onion routing) that hides your IP address. It is decentralize
 
 Wi-Fi, Bluetooth, and Ethernet connections all use MAC addresses (Media Access Control Address). MAC addresses are always a 12 digit hexadecimal number, with the numbers separated every two digits by a colon or hyphen. MAC addresses are used to identify which device is which on users local network. Because they’re unique, MAC addresses can be used to track a user. When walking around, a smartphone scans for nearby Wi-Fi networks and broadcasts its MAC address. For better privacy it is good to learn how to change the MAC address. Here are three pages which addresses this issue:
 
-- [Android developers](https://android-developers.googleblog.com/2017/04/changes-to-device-identifiers-in.html)  
-- [GrapheneOS](https://grapheneos.org/usage#updates-security): read more under 'Secure android phone'.  
-- [Cyberithub](https://www.cyberithub.com/how-to-change-the-mac-address-on-ubuntu-20-04-lts-macchanger/): This is a guide on how to install macchanger on Debian based OS and how to change the mac address manually (the random changes during testing didn't work so far, but doing it manually works well).
+- [**Android developers**](https://android-developers.googleblog.com/2017/04/changes-to-device-identifiers-in.html)  
+
+- [**GrapheneOS**](https://grapheneos.org/usage#updates-security)  
+Read more under 'Secure android phone'.  
+
+- [**Cyberithub**](https://www.cyberithub.com/how-to-change-the-mac-address-on-ubuntu-20-04-lts-macchanger/)  
+A guide on how to install macchanger on Debian based OS and how to change the mac address manually (the random changes during testing didn't work so far, but doing it manually works well).
 
 ## IMEI randomization
 
@@ -134,11 +140,12 @@ Graphene OS is completely without Google apps and also automatically randomizes 
 With Onionshare the user can anonymously share files, host websites, and chat with friends using the Tor network.  
 [Documentation](https://docs.onionshare.org/2.6/en/)
 
-- [**Send**](https://github.com/timvisee/send-instances/#instances)
+- [**Send**](https://github.com/timvisee/send-instances/#instances)  
+Private file sharing, easy to use drag-and-drop.
 
 ## Shred/Wipe files
 
-- [**Shred files on linux**](https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/):
+- [**Shred files on linux**](https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/)  
 The shred command helps to overwrite the data of a file or disk several times. This makes it harder for third party software and hardware probing to recover the data, which is supporting users privacy.
 
 - [**Bleachbit**](https://www.bleachbit.org/)  
@@ -146,12 +153,15 @@ Free software to free cache, delete cookies, clear Internet history, shred tempo
 
 ## Public wifi networks
 
-- [Freifunk](https://freifunk.net/en/) is a non-commercial initiative for free wireless networks.  
-- [Wifi Map](https://www.wifimap.io/) is a free wifi search tool. Enter city and receive all free wifi options in ths city.
+- [**Freifunk**](https://freifunk.net/en/)  
+A non-commercial initiative for free wireless networks.  
+
+- [**Wifi Map**](https://www.wifimap.io/)  
+A free wifi search tool. Enter city and receive all free wifi options in ths city.
 
 ## Privacy resources
 
-- [Opt Out Podcast](https://optoutpod.com/)  
+- [**Opt Out Podcast**](https://optoutpod.com/)  
 A podcast abut why privacy matters, as well as a resource to find relevant privacy tools.
 
 - [**Privacy tools**](https://www.privacytools.io/) provides services, tools and privacy guides to counter global mass surveillance.
