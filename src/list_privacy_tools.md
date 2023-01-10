@@ -11,6 +11,11 @@ A private YouTube client.
 Invidious is an open-source alternative to YouTube and is intended as a privacy alternative to the official YouTube website.  
 [Documentation](https://github.com/iv-org/documentation)
 
+## Calls
+
+- [**Jitsi**](https://meet.jit.si/)  
+The calls can be with out without video, there is a texting function that can be used during the call, the chat room have a generated name and can also be used with a password.
+
 ## Messaging apps/clients
 
 For all the private messaging options it is necessary to use an application to hide your IP address, such as [ProtonVPN](https://protonvpn.com/download), [RiseupVPN](https://riseup.net/en/vpn) or [TOR](https://www.torproject.org/download/). If used on phone - do not use a sim-card and set up an automatic reset of the mac address on every re-connection.
@@ -44,6 +49,9 @@ End-to-end encrypted messaging for chat, audio and video with no identifiers ass
 
 - [**Bridgefy**](https://bridgefy.me/)  
 An offline messaging (used with bluetooth) app that works within 100m range.
+
+- [**Threema**](https://threema.ch/en/security)  
+Is an end-toe-nd encrypted messenger for phone and desktop. User don't have to provide a phone number.
 
 ## Virtual machines and Tails
 
@@ -154,7 +162,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 ## Secure android phone
 
 - [**Graphene OS**](https://grapheneos.org/) on a Google pixel phone (from 4 and up, less than are no longer maintained). Note that not all Google pixel  
-Graphene OS is completely without Google apps and also automatically randomizes [**MAC address**](https://en.wikipedia.org/wiki/MAC_address). There is [**F-Droid**](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [**Session**](https://getsession.org/), [**Signal**](https://www.signal.org/), or  [**Element**](https://element.io/) as messenger app, [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [**ProtonVPN**](https://protonvpn.com/download) for VPN services and [**Tor browser**](https://www.torproject.org/download/) for onion routing, [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [**jmp.chat**](https://jmp.chat/).
+Graphene OS is completely without Google apps and also automatically randomizes [**MAC address**](https://en.wikipedia.org/wiki/MAC_address). There is [**F-Droid**](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [**Session**](https://getsession.org/), [**Signal**](https://www.signal.org/), or  [**Element**](https://element.io/) as messenger app, [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [**ProtonVPN**](https://protonvpn.com/download) for VPN services and [**Tor browser**](https://www.torproject.org/download/) for onion routing, [NewPipe](https://newpipe.schabi.org/) as an ad-free youtube-like app, [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [**jmp.chat**](https://jmp.chat/).
 
 ## eSIM cards
 
@@ -221,4 +229,11 @@ Is a tool for co-editing documents (also possible to do in markdown) and provide
 - [**Freenet**](https://freenetproject.org/)  
 Freenet supports file sharing, browsing and publishing of so called "freesites" (web sites accessible only through Freenet). It can be used in "darknet" mode,
 which means that user only connect to their friends. This makes it more difficult for third party to detect. 
+
+## Offline maps
+
+For android phones.
+
+- [**Osmand**](https://osmand.net/)
+- [**maps.me**](https://maps.me/)
 
