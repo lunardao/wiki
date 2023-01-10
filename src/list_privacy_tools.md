@@ -42,7 +42,7 @@ XMPP is a set of open technologies for instant messaging, group chat, voice and 
 End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users.  
 [Documentation](https://github.com/simplex-chat/simplex-chat)
 
-- [Bridgefy](https://bridgefy.me/)  
+- [**Bridgefy**](https://bridgefy.me/)  
 An offline messaging (used with bluetooth) app that works within 100m range.
 
 ## Virtual machines and Tails
@@ -87,7 +87,7 @@ SimpleLogin provides email aliases so the user don't have to give their real ema
 
 ## OTP Authenticator
 
-- [FreeOTP Authenticator](https://freeotp.github.io/)  
+- [**FreeOTP Authenticator**](https://freeotp.github.io/)  
 Generates a one-time passwords on your mobile devices which can be used in conjunction with the regular password to make your login nearly impossible to hack. 
 
 ## Disk encryption
@@ -112,9 +112,15 @@ A private browser which hides your IP address. The project is using onion routin
 - [**Lokinet**](https://lokinet.org/)  
 A private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
 
-- [IVPN](https://ivpn.net)
+- [**IVPN**](https://ivpn.net)
 [Documentation](https://github.com/ivpn)  
 No logs, no user data stored. Protecting IP address from exposure.
+
+## Browsers
+
+- [**Librewolf**](https://librewolf.net/)
+Is a custom version of Firefox which is privacy oriented. It includes search providers like [Duck duck go](https://duckduckgo.com/), [**Block**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
+
 
 ## Private network layer
 
@@ -148,11 +154,11 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 ## Secure android phone
 
 - [**Graphene OS**](https://grapheneos.org/) on a Google pixel phone (from 4 and up, less than are no longer maintained). Note that not all Google pixel  
-Graphene OS is completely without Google apps and also automatically randomizes [MAC address](https://en.wikipedia.org/wiki/MAC_address). There is [F-Droid](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [Session](https://getsession.org/), [Signal](https://www.signal.org/), or  [Element](https://element.io/) as messenger app, [Fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [Bitmask](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [ProtonVPN](https://protonvpn.com/download) for VPN services and [Tor browser](https://www.torproject.org/download/) for onion routing, [Markor](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [Aurora app](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [jmp.chat](https://jmp.chat/).
+Graphene OS is completely without Google apps and also automatically randomizes [**MAC address**](https://en.wikipedia.org/wiki/MAC_address). There is [**F-Droid**](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [**Session**](https://getsession.org/), [**Signal**](https://www.signal.org/), or  [**Element**](https://element.io/) as messenger app, [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [**ProtonVPN**](https://protonvpn.com/download) for VPN services and [**Tor browser**](https://www.torproject.org/download/) for onion routing, [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [**jmp.chat**](https://jmp.chat/).
 
 ## eSIM cards
 
-- [Silent link](https://silent.link/)  
+- [**Silent link**](https://silent.link/)  
 An eSIM that can be acquired with crypto such as Monero. No phone number, data only.
 
 ## Digital photo metadata removal
@@ -188,31 +194,31 @@ A free wifi search tool. Enter city and receive all free wifi options in ths cit
 
 ## Search engines
 
-- [Whoogle](https://github.com/benbusby/whoogle-search)
+- [**Whoogle**](https://github.com/benbusby/whoogle-search)
 [Whoogle instance](https://search.sethforprivacy.com/) via Seth for privacy.  
 Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking
 
-- [Startpage](https://www.startpage.com/)  
+- [**Startpage**](https://www.startpage.com/)  
 Search engine without tracking and search history. Can be used with Anonymous view, which protects your IP address.
 
-- [Duck duck go](https://duckduckgo.com/)  
+- [**Duck duck go**](https://duckduckgo.com/)  
 No tracking, no ads and no storing of personal information.
 
-- [Brave](https://brave.com/)  
+- [**Brave**](https://brave.com/)  
 Blocks trackers and ads. Include VPN.
 
 ## Collaboration tools
 
-- [Nextcloud](https://nextcloud.com)  
+- [**Nextcloud**](https://nextcloud.com)  
 Nextcloud is a  collaboration platform where it is possible to co-edit document, share files, chat, make video calls, manage mail and share calendar. 
 For additional privacy the team can encrypt the files that they want to share with each other on Nextcloud.
 
-- [Cryptpad](cryptpad.fr)  
+- [**Cryptpad**](cryptpad.fr)  
 Is a tool for co-editing documents (also possible to do in markdown) and provide a storage space.
 
 ## Publishing platforms
 
-- [Freenet](https://freenetproject.org/)  
+- [**Freenet**](https://freenetproject.org/)  
 Freenet supports file sharing, browsing and publishing of so called "freesites" (web sites accessible only through Freenet). It can be used in "darknet" mode,
 which means that user only connect to their friends. This makes it more difficult for third party to detect. 
 
