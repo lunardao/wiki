@@ -202,8 +202,8 @@ A free wifi search tool. Enter city and receive all free wifi options in ths cit
 
 ## Search engines
 
-- [**Whoogle**](https://github.com/benbusby/whoogle-search)
-[Whoogle instance](https://search.sethforprivacy.com/) via Seth for privacy.  
+- [**Whoogle**](https://github.com/benbusby/whoogle-search)  
+- [Whoogle instance](https://search.sethforprivacy.com/) via Seth for privacy.  
 Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking
 
 - [**Startpage**](https://www.startpage.com/)  
