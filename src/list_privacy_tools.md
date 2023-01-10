@@ -153,7 +153,7 @@ A guide on how to install macchanger on Debian based OS and how to change the ma
 
 IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity). It is a unique numeric identifier of GSM, or 3GPP and iDEN mobile phones, as well as some satellite phones.
 
-**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [**Wallace Toolbox**](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip).
+**IMEI randomization**: Nokia "Banana" phone (Nokia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [**Wallace Toolbox**](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip).
 
 - [**Random IMEI generator**](https://randommer.io/imei-generator)
 
@@ -203,7 +203,7 @@ A free wifi search tool. Enter city and receive all free wifi options in ths cit
 ## Search engines
 
 - [**Whoogle**](https://github.com/benbusby/whoogle-search) for example [Whoogle instance](https://search.sethforprivacy.com/) via Seth for privacy.  
-Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking
+Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking.
 
 - [**Startpage**](https://www.startpage.com/)  
 Search engine without tracking and search history. Can be used with Anonymous view, which protects your IP address.
