@@ -112,19 +112,19 @@ A private browser which hides your IP address. The project is using onion routin
 - [**Lokinet**](https://lokinet.org/)  
 A private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
 
-- [**IVPN**](https://ivpn.net)
+- [**IVPN**](https://ivpn.net)  
 [Documentation](https://github.com/ivpn)  
 No logs, no user data stored. Protecting IP address from exposure.
 
 ## Browsers
 
-- [**Librewolf**](https://librewolf.net/)
-Is a custom version of Firefox which is privacy oriented. It includes search providers like [Duck duck go](https://duckduckgo.com/), [**Block**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
+- [**Librewolf**](https://librewolf.net/)  
+Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**Block**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
 
 
 ## Private network layer
 
-- [I2P](https://geti2p.net/en/about/intro)  
+- [**I2P**](https://geti2p.net/en/about/intro)  
 Is an encrypted private network layer. The traffic inside I2P does not interact with the internet directly, it is a layer on top of the Internet. I2P protects activity, no one can see the origin, destination, or contents of the data. It is a peer-to-peer network and if the user want to protect their IP address they also need to use a VPN while using I2P.
 
 ## MAC address randomization
@@ -145,7 +145,7 @@ A guide on how to install macchanger on Debian based OS and how to change the ma
 
 IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity). It is a unique numeric identifier of GSM, or 3GPP and iDEN mobile phones, as well as some satellite phones.
 
-**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [Wallace Toolbox](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip).
+**IMEI randomization**: Nokia "Banana" phone (NOkia 8110) has different ways to be hacked for IMEI randomization. The most simple way is to install [**Wallace Toolbox**](https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip).
 
 - [**Random IMEI generator**](https://randommer.io/imei-generator)
 
