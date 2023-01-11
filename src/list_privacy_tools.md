@@ -53,6 +53,9 @@ An offline messaging (used with bluetooth) app that works within 100m range.
 - [**Threema**](https://threema.ch/en/security)  
 Is an end-toe-nd encrypted messenger for phone and desktop. User don't have to provide a phone number.
 
+- [**My Sudo**](https://mysudo.com/features/)  
+End-to-end encrypted messaging with the possibility to create multiple numbers, group chats, disappearing messages.
+
 ## Virtual machines and Tails
 
 - [**Tails**](https://tails.boum.org/)  
