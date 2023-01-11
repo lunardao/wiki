@@ -34,7 +34,7 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 
 - [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship) - Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin)
 
-- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [anonymizing assets](./anonymizing_assets.md) to read more and also check [Aztec user guide](https://docs.aztec.network/zk-money/userguide) for zk.money.  
+- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [**anonymizing assets**](./anonymizing_assets.md) to read more and also check [**Aztec user guide**](https://docs.aztec.network/zk-money/userguide) for zk.money.  
 [Documentation](https://docs.aztec.network/how-aztec-works/faq)
 
 - [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network.
@@ -45,16 +45,22 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 
 ## P2P trading platforms
 
-- [https://hodlhodl.com/](]https://hodlhodl.com/)  
-- [https://agoradesk.com/](]https://agoradesk.com/)  
-- [https://bisq.network/](https://bisq.network/)
+- [**https://hodlhodl.com/**](]https://hodlhodl.com/)  
+
+- [**https://agoradesk.com/**](]https://agoradesk.com/)  
+
+- [**https://bisq.network/**](https://bisq.network/)  
+
+- [**Local Monero**](https://localmonero.co/)  
+A P2P Monero exchange.
+
 
 ## Proxy merchants
 
-- [https://sovereignstack.tools/rerouter/](https://sovereignstack.tools/rerouter/)  
+- [**https://sovereignstack.tools/rerouter/**](https://sovereignstack.tools/rerouter/)  
 Non KYC service paying your online shopping while you pay in crypto.
 
 ## Proxy store
 
-- [https://proxysto.re/](https://proxysto.re/)  
+- [**https://proxysto.re/**](https://proxysto.re/)  
 A non KYC store with for example Banana and Google Pixel phones and faraday bags. Pay in Monero or Bitcoin.
