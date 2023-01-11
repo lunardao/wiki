@@ -96,7 +96,7 @@ These email client are without cost and end-to-end encrypted. For Riseup and Sys
 
 ## Email aliases
 
-- [SimpleLogin](https://simplelogin.io/)  
+- [**SimpleLogin**](https://simplelogin.io/)  
 SimpleLogin provides email aliases so the user don't have to give their real email address. The email sent to the alias address will arrive to the real one.
 
 ## OTP Authenticator
@@ -122,14 +122,14 @@ Free option. The other options can be payed in cash or with Bitcoin.
 - [**RiseupVPN**](https://riseup.net/en/vpn)  
 Free VPN.
 
-- [Mullvad](https://mullvad.net/en/pricing/)  
+- [**Mullvad**](https://mullvad.net/en/pricing/)  
 Can be payed in cash and Monero. No free option.
 
 - [**TOR browser**](https://www.torproject.org/download/)  
 A private browser which hides your IP address. The project is using onion routing; relays which are run by volonteers. The browser stores no data and also block trackers.
 
 - [**Lokinet**](https://lokinet.org/)  
-A private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [Oxen network](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
+A private browser (onion routing) that hides your IP address. It is decentralized and run on nodes in [**Oxen network**](https://oxen.io/). More info about how it works and differences with other options in their [faq](https://lokinet.org/faq).
 
 - [**IVPN**](https://ivpn.net)  
 [Documentation](https://github.com/ivpn)  
@@ -138,7 +138,7 @@ No logs, no user data stored. Protecting IP address from exposure.
 ## Browsers
 
 - [**Librewolf**](https://librewolf.net/)  
-Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**Block**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
+Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**uBlock**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
 
 
 ## Private network layer
