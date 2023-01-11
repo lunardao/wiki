@@ -54,7 +54,7 @@ An offline messaging (used with bluetooth) app that works within 100m range.
 Is an end-toe-nd encrypted messenger for phone and desktop. User don't have to provide a phone number.
 
 - [**My Sudo**](https://mysudo.com/features/)  
-End-to-end encrypted messaging with the possibility to create multiple numbers, group chats, disappearing messages.
+End-to-end encrypted messaging with the possibility to create multiple numbers, group chats, disappearing messages and soon also ability to create virtual cards.
 
 ## Virtual machines and Tails
 
