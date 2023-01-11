@@ -113,9 +113,14 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 VPN just like Tor protects your IP address. You can read more about the difference between Tor and VPN [here](https://www.privacyend.com/difference-between-tor-and-vpn/).
 
-- [**ProtonVPN**](https://protonvpn.com/download)
+- [**ProtonVPN**](https://protonvpn.com/download)  
+Free option. The other options can be payed in cash or with Bitcoin.
 
-- [**RiseupVPN**](https://riseup.net/en/vpn)
+- [**RiseupVPN**](https://riseup.net/en/vpn)  
+Free VPN.
+
+- [Mullvad](https://mullvad.net/en/pricing/)  
+Can be payed in cash and Monero. No free option.
 
 - [**TOR browser**](https://www.torproject.org/download/)  
 A private browser which hides your IP address. The project is using onion routing; relays which are run by volonteers. The browser stores no data and also block trackers.
