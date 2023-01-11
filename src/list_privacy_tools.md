@@ -56,7 +56,7 @@ Is an end-toe-nd encrypted messenger for phone and desktop. User don't have to p
 - [**My Sudo**](https://mysudo.com/features/)  
 End-to-end encrypted messaging with the possibility to create multiple numbers, group chats, disappearing messages and soon also ability to create virtual cards. Available in US.
 
-- [Hushed](https://hushed.com)  
+- [**Hushed**](https://hushed.com)  
 Offers phone number aliases. The user can create multiple phone numbers.
 
 ## Virtual machines and Tails
