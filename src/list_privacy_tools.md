@@ -18,10 +18,10 @@ The calls can be with out without video, there is a texting function that can be
 
 ## Messaging apps/clients
 
-For all the private messaging options it is necessary to use an application to hide your IP address, such as [ProtonVPN](https://protonvpn.com/download), [RiseupVPN](https://riseup.net/en/vpn) or [TOR](https://www.torproject.org/download/). If used on phone - do not use a sim-card and set up an automatic reset of the mac address on every re-connection.
+For all the private messaging options it is necessary to use an application to hide your IP address, such as [**ProtonVPN**](https://protonvpn.com/download), [**RiseupVPN**](https://riseup.net/en/vpn) or [**TOR**](https://www.torproject.org/download/). If used on phone - do not use a sim-card and set up an automatic reset of the mac address on every re-connection.
 
 - [**ircd**](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html)  
-Ircd is a fully anonymous peer-to-peer communication tool developed by DarkFi which can be used encrypted or unencrypted, supports DM and group chats. Works with clients like [Weechat](https://weechat.org/) directly in terminal. No need to create an account, no captchas, no bloated app with extra empty screen space. Fully distributed, runs on tor.
+Ircd is a fully anonymous peer-to-peer communication tool developed by DarkFi which can be used encrypted or unencrypted, supports DM and group chats. Works with clients like [**Weechat**](https://weechat.org/) directly in terminal. No need to create an account, no captchas, no bloated app with extra empty screen space. Fully distributed, runs on tor.
 
 - [**Session**](https://getsession.org/)  
 Session is an open source messenger that supports private and anonymous communications; DM, group chats, and voice calls.  
@@ -39,7 +39,7 @@ Molly is an independent Signal fork for Android. Molly is compatible with Signal
 End-to-end encrypted messenger for DM and group chats, and video. Bridges to other chat app, even commercial/centralized an not private ones, such as Whatsapp and Telegram.  
 [Documentation](https://github.com/vector-im)
 
-- [**XMPP**](https://xmpp.org/) with [Jabber](jabber.org) or [Pidgin](https://pidgin.im/)  
+- [**XMPP**](https://xmpp.org/) with [**Jabber**](jabber.org) or [**Pidgin**](https://pidgin.im/)  
 XMPP is a set of open technologies for instant messaging, group chat, voice and video calls. It is decentralized and open source.  
 [Documentation](https://xmpp.org/about/technology-overview/)
 
@@ -173,7 +173,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 ## Secure android phone
 
 - [**Graphene OS**](https://grapheneos.org/) on a Google pixel phone (from 4 and up, less than are no longer maintained). Note that not all Google pixel  
-Graphene OS is completely without Google apps and also automatically randomizes [**MAC address**](https://en.wikipedia.org/wiki/MAC_address). There is [**F-Droid**](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [**Session**](https://getsession.org/), [**Signal**](https://www.signal.org/), or  [**Element**](https://element.io/) as messenger app, [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [**ProtonVPN**](https://protonvpn.com/download) for VPN services and [**Tor browser**](https://www.torproject.org/download/) for onion routing, [NewPipe](https://newpipe.schabi.org/) as an ad-free youtube-like app, [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [**jmp.chat**](https://jmp.chat/).
+Graphene OS is completely without Google apps and also automatically randomizes [**MAC address**](https://en.wikipedia.org/wiki/MAC_address). There is [**F-Droid**](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [**Session**](https://getsession.org/), [**Signal**](https://www.signal.org/), or  [**Element**](https://element.io/) as messenger app, [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [**ProtonVPN**](https://protonvpn.com/download) for VPN services and [**Tor browser**](https://www.torproject.org/download/) for onion routing, [**NewPipe**](https://newpipe.schabi.org/) as an ad-free youtube-like app, [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [**jmp.chat**](https://jmp.chat/).
 
 ## eSIM cards
 
@@ -213,7 +213,7 @@ A free wifi search tool. Enter city and receive all free wifi options in ths cit
 
 ## Search engines
 
-- [**Whoogle**](https://github.com/benbusby/whoogle-search) for example [Whoogle instance](https://search.sethforprivacy.com/) via Seth for privacy.  
+- [**Whoogle**](https://github.com/benbusby/whoogle-search) for example [**Whoogle instance**](https://search.sethforprivacy.com/) via Seth for privacy.  
 Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking.
 
 - [**Startpage**](https://www.startpage.com/)  
