@@ -30,7 +30,7 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 
 - [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship)  
 Tornado cash is a privacy solution on Ethereum (using a ZK pooling system to mix currencies and obscure their origin).  
-Tornado cash doc page is down, but here is another [**User guide**](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/).  
+Tornado cash doc page is down, but here is another [**User guide**](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/).   <!--- sadar: https://web.archive.org/web/20220409180147/https://docs.tornado.cash/general/readme  Here is an archive.org to the TC docs--->
 Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./anonymizing_assets.md) to learn how to not get doxxed when interacting with TC. 
 
 - [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [**Anonymizing assets**](./anonymizing_assets.md) to read more and also check [**Aztec user guide**](https://docs.aztec.network/zk-money/userguide) for zk.money.  
