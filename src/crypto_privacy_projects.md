@@ -5,62 +5,70 @@ The projects below are all claiming to be privacy oriented, but that doesn't mea
 ### Layer 1
 
 - [**Monero**](https://www.getmonero.org/) is private by default crypto currency.  
-[Documentation](https://monerodocs.org/)
+[*Documentation*](https://monerodocs.org/)
 
 - [**Zcash**](https://z.cash/) is a private crypto currency and also allows for transparent transactions.  
-[Documentation](https://zcash.readthedocs.io/en/latest/)
+[*Documentation*](https://zcash.readthedocs.io/en/latest/)
     
 - [**Oxen**](oxen.io) is a private cryptocurrency, Session, end-to-end encrypted messaging platform, and also includes Lokinet which provides network anonymity.
 
 - [**Anoma**](https://anoma.net/) is a privacy oriented protocol which supports both transparent and shielded transactions. 
-[Whitepaper](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
+[*Whitepaper*](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
 
 - [**NYM**](https://nymtech.net/)  
 Is a decentralized mixnet ensuring data and metadata privacy.  
-[Whitepaper](https://nymtech.net/nym-whitepaper.pdf)
+[*Whitepaper*](https://nymtech.net/nym-whitepaper.pdf)
 
-- [**HPRP**](https://hoprnet.org/protocol)  
+- [**HOPR**](https://hoprnet.org/protocol)  
 Is a decentralized mixnet ensuring data and metadata privacy.  
-[Documentation](https://github.com/hoprnet)
+[*Documentation*](https://github.com/hoprnet)
 
 ### Layer 2
 
+- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
+[*Whitepaper*](https://www.pantherprotocol.io/resources/panther-protocol-v-1-0-1.pdf)
+
+- [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship)  
+Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin).  
+Tornado cash doc page is down, but here is another [**User guide**](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/).  
+Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./anonymizing_assets.md) to learn how to not get doxxed when withdrawing the money from TC. 
+
+- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [**Anonymizing assets**](./anonymizing_assets.md) to read more and also check [**Aztec user guide**](https://docs.aztec.network/zk-money/userguide) for zk.money.  
+[*Documentation*](https://docs.aztec.network/how-aztec-works/faq) and [**User guide**](https://docs.aztec.network/zk-money/userguide).
+
+- [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network. It's possible to acquire the token (*SIENNA*) on Uniswap.
+
+- [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  The token (*RAIL*) can be acquired on Uniswap.
+[*Whitepaper*](https://assets.railgun.org/docs/whitepaper)
+
+
+## Keep a look out for these projects
+
+- [DarkFi](dark.fi)  
+A layer 1, privacy by default lunarpunk project.
 
 - [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBC assets).  
-[Documentation](https://protocol.penumbra.zone/main/index.html)
-
-- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
-[Whitepaper](https://www.pantherprotocol.io/resources/panther-protocol-v-1-0-1.pdf)
-
-- [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship) - Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin)
-
-- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [**anonymizing assets**](./anonymizing_assets.md) to read more and also check [**Aztec user guide**](https://docs.aztec.network/zk-money/userguide) for zk.money.  
-[Documentation](https://docs.aztec.network/how-aztec-works/faq)
-
-- [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network.
-
-- [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  
-[Whitepaper](https://assets.railgun.org/docs/whitepaper)
+[*Documentation*](https://protocol.penumbra.zone/main/index.html)
  	
 
 ## P2P trading platforms
 
-- [**https://hodlhodl.com/**](]https://hodlhodl.com/)  
+- [**Agoradesk**](https://agoradesk.com/)  
+A P2P Bitcoin and Monero exchange. It's possible to buy BTC and XMR with cash.
 
-- [**https://agoradesk.com/**](]https://agoradesk.com/)  
-
-- [**https://bisq.network/**](https://bisq.network/)  
+- [**Bisq**](https://bisq.network/)  
+A P2P trading platform. Diverse ways for payment. Check [*Payment methods*](https://bisq.wiki/Payment_methods).
 
 - [**Local Monero**](https://localmonero.co/)  
-A P2P Monero exchange.
+A P2P Monero exchange. Different payment methods which also includes cash.
 
 
 ## Proxy merchants
 
-- [**https://sovereignstack.tools/rerouter/**](https://sovereignstack.tools/rerouter/)  
+- [**Sovereign Stack**](https://sovereignstack.tools/rerouter/)  
 Non KYC service paying your online shopping while you pay in crypto.
 
 ## Proxy store
 
-- [**https://proxysto.re/**](https://proxysto.re/)  
-A non KYC store with for example Banana and Google Pixel phones and faraday bags. Pay in Monero or Bitcoin.
+- [**ProxyStore**](https://proxysto.re/)  
+A non KYC store with for example Banana and Google Pixel phones and Faraday bags. Pay in Monero or Bitcoin.
