@@ -44,7 +44,7 @@ Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./ano
 
 ## Keep a look out for these projects
 
-- [DarkFi](dark.fi)  
+- [**DarkFi**](dark.fi)  
 A layer 1, privacy by default lunarpunk project.
 
 - [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBC assets).  
