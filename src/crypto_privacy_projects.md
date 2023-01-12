@@ -10,7 +10,7 @@ The projects below are all claiming to be privacy oriented, but that doesn't mea
 - [**Zcash**](https://z.cash/) is a private crypto currency and also allows for transparent transactions.  
 [*Documentation*](https://zcash.readthedocs.io/en/latest/)
     
-- [**Oxen**](oxen.io) is a private cryptocurrency, Session, end-to-end encrypted messaging platform, and also includes Lokinet which provides network anonymity.
+- [**Oxen**](oxen.io) is a private cryptocurrency, Session, an end-to-end encrypted messaging platform, and Lokinet which provides network anonymity are both built atop of Oxen.
 
 - [**Anoma**](https://anoma.net/) is a privacy oriented protocol which supports both transparent and shielded transactions. 
 [*Whitepaper*](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
@@ -25,13 +25,13 @@ Is a decentralized mixnet ensuring data and metadata privacy.
 
 ### Layer 2
 
-- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Etherum (shielding using MASP).  
+- [**Panther protocol**](https://www.pantherprotocol.io) is a privacy solutions for Polygon and Ethereum (shielding using MASP).  
 [*Whitepaper*](https://www.pantherprotocol.io/resources/panther-protocol-v-1-0-1.pdf)
 
 - [**Tornado cash**](https://hackmd.io/@gozzy/tornado-cash-post-censorship)  
-Tornado cash is a privacy solution on Etherum (using a tumbler to mix currencies and obscure their origin).  
+Tornado cash is a privacy solution on Ethereum (using a ZK pooling system to mix currencies and obscure their origin).  
 Tornado cash doc page is down, but here is another [**User guide**](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/).  
-Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./anonymizing_assets.md) to learn how to not get doxxed when withdrawing the money from TC. 
+Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./anonymizing_assets.md) to learn how to not get doxxed when interacting with TC. 
 
 - [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [**Anonymizing assets**](./anonymizing_assets.md) to read more and also check [**Aztec user guide**](https://docs.aztec.network/zk-money/userguide) for zk.money.  
 [*Documentation*](https://docs.aztec.network/how-aztec-works/faq) and [**User guide**](https://docs.aztec.network/zk-money/userguide).
@@ -66,9 +66,9 @@ A P2P Monero exchange. Different payment methods which also includes cash.
 ## Proxy merchants
 
 - [**Sovereign Stack**](https://sovereignstack.tools/rerouter/)  
-Non KYC service paying your online shopping while you pay in crypto.
+Non KYC service paying for your online shopping to preserve your privacy. Pay in Monero or Bitcoin.
 
 ## Proxy store
 
 - [**ProxyStore**](https://proxysto.re/)  
-A non KYC store with for example Banana and Google Pixel phones and Faraday bags. Pay in Monero or Bitcoin.
+A non KYC store paying for your online shopping to preserve your privacy. It also has a storefront that sells physical products such as Banana and Google Pixel phones and faraday bags. Pay in Monero or Bitcoin.
