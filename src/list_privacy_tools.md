@@ -59,6 +59,21 @@ End-to-end encrypted messaging with the possibility to create multiple numbers, 
 - [**Hushed**](https://hushed.com)  
 Offers phone number aliases. The user can create multiple phone numbers.
 
+## Twitter front-end
+
+- [**Nitter**](https://nitter.net/about)  
+Privacy focused alternative to Twitter without JavaScript and ads.  
+[Documentation](https://github.com/zedeus/nitter)
+
+## Reddit front-end
+
+- [**Reddit**](https://teddit.net/)
+
+## Organizer
+
+- [**Logseq**](https://logseq.com/)  
+Functions like mdbook. The user can create their own wiki and to-do lists in markdown. Also check out how to [**build an mdbook**](https://rust-lang.github.io/mdBook/) which can be used locally for own usage only, if that is the rquirement.
+
 ## Virtual machines and Tails
 
 - [**Tails**](https://tails.boum.org/)  
@@ -98,6 +113,22 @@ These email client are without cost and end-to-end encrypted. For Riseup and Sys
 
 - [**SimpleLogin**](https://simplelogin.io/)  
 SimpleLogin provides email aliases so the user don't have to give their real email address. The email sent to the alias address will arrive to the real one.
+
+## PGP
+
+- [**OpenPGP**](https://www.openpgp.org/about/)  
+OpenPGP is used for authenticating or encrypting data, using public key cryptography.
+
+- [**OpenKeyChain**](https://www.openkeychain.org/)  
+OpenKeychain stores and manages your keys, and those of the people you communicate with, on your Android smartphone.
+
+Read more: [**PGP**](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) and [**OpenPGP**](https://www.openpgp.org/about/standard/).
+
+## Password manager
+
+- [**KeepassXC**](https://keepassxc.org/)  
+Is a password manager. Using industry standard database encryption 256-bit AES.  
+[Documentation](https://keepassxc.org/docs/)
 
 ## OTP Authenticator
 
@@ -139,7 +170,6 @@ No logs, no user data stored. Protecting IP address from exposure.
 
 - [**Librewolf**](https://librewolf.net/)  
 Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**uBlock**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
-
 
 ## Private network layer
 
@@ -185,6 +215,9 @@ An eSIM that can be acquired with crypto such as Monero. No phone number, data o
 - [**Exiftool**](https://exiftool.org/)
 
 - [**ExifCleaner**](https://exifcleaner.com/)
+
+- [**ObscuraCam**](https://guardianproject.info/apps/org.witness.sscphase1/)  
+With this app you can blur faces and remove metadata.
 
 ## File sharing tools
 
@@ -245,5 +278,6 @@ which means that user only connect to their friends. This makes it more difficul
 For android phones.
 
 - [**Osmand**](https://osmand.net/)
+
 - [**maps.me**](https://maps.me/)
 
