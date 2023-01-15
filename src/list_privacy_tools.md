@@ -281,3 +281,9 @@ For android phones.
 
 - [**maps.me**](https://maps.me/)
 
+## Virtual payment cards
+
+- [Coinpaycard](https://coinpaycard.net/)
+
+- [Fastcoincard](https://fastcoincard.com/pricing.php)
+
