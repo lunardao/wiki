@@ -283,7 +283,9 @@ For android phones.
 
 ## Virtual payment cards
 
-- [Coinpaycard](https://coinpaycard.net/)
+- [**Coinpaycard**](https://coinpaycard.net/)  
+Is a virtual visa debit card. Supports for example BTC, ETH, USDC. To be anonymous when depositing money to the card, see steps on how to anonymize ETH in [**Anonymizing assets**](https://wiki.lunardao.net/anonymizing_assets.html). Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC, or explore [**Panther protocol**](https://www.pantherprotocol.io) for anonymizing USDC. No KYC.
 
-- [Fastcoincard](https://fastcoincard.com/pricing.php)
+- [**Fastcoincard**](https://fastcoincard.com/pricing.php)  
+Is a virtual Visa card. Can use it on stores and sites that accept Visa for payments. It is possible to deposit with for example BTC and ETH, one time or reloadable card.
 
