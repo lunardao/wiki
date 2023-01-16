@@ -281,6 +281,9 @@ For android phones.
 
 - [**maps.me**](https://maps.me/)
 
+These two applications are very useful as they are offline maps. They also contain ads and asks for some permissions that are not needed for functionality. Check [Privacy setup](./privacy_setup.md) for more information.
+
+
 ## Virtual payment cards
 
 - [**Coinpaycard**](https://coinpaycard.net/)  

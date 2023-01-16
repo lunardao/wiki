@@ -112,7 +112,7 @@ To use Scrambled Exif, you don't need to open the application. Instead, go direc
 - [**Osmand**](https://osmand.net/)  
 - [**maps.me**](https://maps.me/) 
  
-Both of these applications can be used as offline maps. However, they contain ads and asks for some permissions that is not necessary to approve for functionality. Check [Privacy setup](./privacy_setup.md) for more info.
+Both of these applications can be used as offline maps. maps.me asks for a lot of permissions. It is possible to deny all of them for privacy considerations (the request for permissions appear two times). After having denied the requests, go to Settings --> Apps --> All apps --> maps.me/OsmAnd --> Permissions. Disallow *sensors* and allow *folder and media* (so the two allowed are *Network* and *Folder and media* for internet and storage). Both of these apps have anti-features, but offline maps can be handy to have.
 
 **Crypto wallet:** 
 
