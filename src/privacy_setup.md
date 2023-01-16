@@ -38,7 +38,8 @@ If you have difficulties installing, you can ask for support in our [**forum**](
 
 **App store:** 
 
-- [**F-Droid**](https://f-droid.org/en/)  
+- [**F-Droid**](https://f-droid.org/en/)
+  
 - [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/).  
 
 Both function like any app store. F-Droid will mark apps with *Anti-features* if they for example contain ads, not open source or not free.
@@ -52,7 +53,7 @@ Signal will stop requiring phone numbers soon. Signal is widely used and well kn
 
 ***How to get a number from jmp.chat:***
 
-1. Go to [**mov.im**](mov.im) and sign up a new account.  <!---sadar: do we have a guide on getting anon emails, if so it would be good to link that here as well--->
+1. Go to [**mov.im**](mov.im) and sign up a new account. Make sure to use a VPN when you create an account, so that IP address is not leaked.
 2. Make a new account based on the easy steps as it gets you to [movim.eu](movim.eu) or [jappix.com](jappix.com).  
 3. Sign in.  
 4. Go jmp.chat and select a number.  
@@ -73,26 +74,34 @@ One option is to anonymize ETH and then swap to BTC:
 
 BTC can be stored in [**Samuorai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), protects against metadata leakage. The wallet also has an offline mode and can be used as a secure storage. <!---sadar: what do you mean used as a secure storage? --->
 
+**Email:**
+
+- [**Protonmail**](https://proton.me)  
+For phone it can be downloaded in Aurora Store. It is possible to set up a free email and to do it anonymously make sure to use VPN when signing up.
+
 **Browser:**  
 
-- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)  
+- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)
+  
 - [**Tor browser**](https://www.torproject.org/download/). Tor has built in protection of IP address.
 
 **VPN:**  
 
-- [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/), which inlcudes [Calyx](calyx.net) and [RiseupVPN](riseup.net) if you want a free option (does not always work well).  
-- [**ProtonVPN**](https://protonvpn.com/download). The optimal solution is to buy protonVPN, which gives more options and better functionality. protonVPN can be bought with crypto.
+- [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/), which inlcudes [Calyx](calyx.net) and [RiseupVPN](riseup.net) if you want a free option (does not always work well).
+  
+- [**ProtonVPN**](https://protonvpn.com/download), which have a free option. The optimal solution is to buy protonVPN, which gives more options and better functionality. ProtonVPN can be bought with crypto.
 
-<!---sadar: Might be good to add other VPNs that accept cash or Monero --->
+- [**Mullvad**](https://mullvad.net/en/pricing/)  
+Can be payed in cash and Monero. No free option.
 
 
 **Video app (Youtube front-end):**  
 
-- [**NewPipe**](https://newpipe.schabi.org/) is ad free.
+- [**NewPipe**](https://newpipe.schabi.org/) is an ad free YouTube alternative.
 
 **Notes:**  
 
-- [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer. 
+- [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) for writing Markdown docs. The documents because it is md is compatible with usage on computer. 
 
 **Isolation of non-privacy apps:**  
 
@@ -102,7 +111,8 @@ In Insular there is *mainland* and *Island*. These two are separated frome each 
 
 **Remove metadata from pictures:**  
 
-- [**ObscuraCam**](https://guardianproject.info/apps/org.witness.sscphase1/). Blur faces and remove metadata.  
+- [**ObscuraCam**](https://guardianproject.info/apps/org.witness.sscphase1/). Blur faces and remove metadata. 
+ 
 - [**Scrambled Exif**](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif/) to remove metadata.
 
 To use Scrambled Exif, you don't need to open the application. Instead, go directly to the Gallery, select the picture you want to share, click on the *share* icon, select Scrambled Exif. Then choose the app you want to use to send the picture, contact and send. Done.
@@ -110,14 +120,17 @@ To use Scrambled Exif, you don't need to open the application. Instead, go direc
 **Navigation:**  
 
 - [**Osmand**](https://osmand.net/)  
+
 - [**maps.me**](https://maps.me/) 
  
 Both of these applications can be used as offline maps. maps.me asks for a lot of permissions. It is possible to deny all of them for privacy considerations (the request for permissions appear two times). After having denied the requests, go to Settings --> Apps --> All apps --> maps.me/OsmAnd --> Permissions. Disallow *sensors* and allow *folder and media* (so the two allowed are *Network* and *Folder and media* for internet and storage). Both of these apps have anti-features, but offline maps can be handy to have.
 
 **Crypto wallet:** 
 
+- [**Monerujo**](https://www.monerujo.io) is a Monero wallet, which allows you to use Tor Onion nodes when connecting the wallet and is therefore a good privacy option. It's also possible to pay BTC addresses.
+
 - [**Cake wallet**](https://cakewallet.com/). Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet.  It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If everything has been set up in a secure way, then the other transactions are at least anonymous and not doxxed by IP address.  
-- [**Monerujo**](https://www.monerujo.io) is a Monero wallet, but it's also possible to pay BTC addresses.   <!---sadar: I would put Monerujo higher than Cake Wallet, as it allows you to use Tor Onion nodes when connecting the wallt --->
+
 - [**Samuorai wallet**](https://samouraiwallet.com/features) which was mentioned above is a BTC privacy oriented wallet that is based on the Zerolink framework.
 
 
