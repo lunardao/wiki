@@ -219,6 +219,9 @@ An eSIM that can be acquired with crypto such as Monero. No phone number, data o
 - [**ObscuraCam**](https://guardianproject.info/apps/org.witness.sscphase1/)  
 With this app you can blur faces and remove metadata.
 
+- [**Scrambled Exif**](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif/)  
+To use Scrambled Exif, you don't need to open the application. Instead, go directly to the Gallery, select the picture you want to share, click on the *share* icon, select Scrambled Exif. Then choose the app you want to use to send the picture, contact and send. Done.
+
 ## File sharing tools
 
 - [**Onionshare**](https://onionshare.org/)  
