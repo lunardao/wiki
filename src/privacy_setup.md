@@ -31,7 +31,7 @@ If you have difficulties installing, you can ask for support in our [**forum**](
 - After the VPN is installed, go to Settings --> Networks & internet  --> VPN. The installed VPN has a settings option there. Select *'Always-on VPN'* to be sure that the IP address is always protected. Otherwise the VPN can be switched off and on manually.  
 - Go to the preferred VPN app to check that it's on. In the free versions there a few options for IP address (country in protonVPN, city in Bitmask).  
 - Go to [**What is my IP**](https://www.whatismyip.com/) to see if it correlates with the selected VPN.
-- With F-Droid, downlad and install Aurora store (to be able to install apps with security issues on the island for example).  
+- With F-Droid, downlad and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues on the island for example).  
 - When this setup is completed, install other applications.
 
 ### Applications for your Graphene OS phone
@@ -89,7 +89,7 @@ If you wnat to email privately to other addresses, create an encryption key with
 
 - [**Tor browser**](https://www.torproject.org/download/). Tor has built in protection of IP address.
 
-- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)
+- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) is based on the latest Firefox release. This browser blocks trackers and also have a private mode. The private mode means that when selecting the mask in the upper right corner of the browser, a tab with enhanced private properties will open, from which history is cleared when closing the tab or app.
 
 **VPN:**  
 
@@ -101,7 +101,7 @@ Has a free option. The optimal solution is to buy protonVPN, which gives more op
 - [**Mullvad**](https://mullvad.net/en/pricing/)  
 This VPN can be payed in cash and Monero. No free option.
 
-- [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/), inlcudes [Calyx](calyx.net) and [RiseupVPN](riseup.net). Both are free options.
+- [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/), inlcudes [**Calyx**](calyx.net) and [**RiseupVPN**](riseup.net). Both are free options.
 
 **Video app (Youtube front-end):**  
 
@@ -140,7 +140,7 @@ Both of these applications can be used as offline maps. maps.me asks for a lot o
 - [**Cake wallet**](https://cakewallet.com/). Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet.  It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If everything has been set up in a secure way, then the other transactions are at least anonymous and not doxxed by IP address.  
 
 - [**Samuorai wallet**](https://samouraiwallet.com/features)  
-Is a BTC privacy oriented wallet that is based on the [Zerolink framework](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198).
+Is a BTC privacy oriented wallet that is based on the [**Zerolink framework**](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198).
 
 
 
