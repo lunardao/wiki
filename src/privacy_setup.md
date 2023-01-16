@@ -15,7 +15,7 @@ Sometimes it can feel overwhelming with all the information that is out there. T
 - Graphene OS is completely free of Google apps and fully encrypted.  
 - Every time the phone connects to internet, the [**MAC address**](https://en.wikipedia.org/wiki/MAC_address) is changed (randomly).  
 - No sensitive metadata in screenshots and pictures (it only includes the orientation). Note that metadata stripping for videos is not implemented.  
-- PIN scrambling, which means that the numbers on the display change place every time the user enters the PIN, so nobody can figure out the pin from watching the user enter their code.  
+- PIN scrambling, which means that the numbers on the display change place every time the user enters the PIN, so nobody can figure out the PIN from watching the user enter their code.  
 - If the phone has been inactive for a certain period of time (from 10 min as the shortest time to 72h as longest) it will autoreboot.  
 - Sensors permission can be disallowed (ie. in Camera, microphone, body sensor, activity recognition). When access is disabled, apps receive zeroed data when they check for sensor values.  
 - It's possible to create multiple users on one phone. These seaparate users are isolated from each other.
@@ -72,28 +72,36 @@ One option is to anonymize ETH and then swap to BTC:
 
 <!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
 
-BTC can be stored in [**Samuorai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), protects against metadata leakage. The wallet also has an offline mode and can be used as a secure storage. <!---sadar: what do you mean used as a secure storage? --->
+BTC can be stored in [**Samurai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), protects against metadata leakage. The wallet also has an offline mode and can be used as an [**offline storage**](https://samouraiwallet.com/offline) which is proposed to be used together with [**Sentinel**](https://docs.samourai.io/sentinel) which allows you to track the balances and transactions of your offline storage.
 
 **Email:**
 
+- [**Tutanota**](https://tutanota.com/)  
+Is end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar.
+
 - [**Protonmail**](https://proton.me)  
-For phone it can be downloaded in Aurora Store. It is possible to set up a free email and to do it anonymously make sure to use VPN when signing up.
+For phone it can be downloaded in Aurora Store. It is possible to set up a free email and to do it anonymously make sure to use VPN when signing up. It is end-to-end encrypted between protonmail accounts.
+If you wnat to email privately to other addresses, create an encryption key with:
+
+- [OpenKeychain](https://www.openkeychain.org/)With this application it is possible to create or important and encryption key. It is not only the tool to be able to encrypt which is important but also how trusted the device is. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner __> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc.
 
 **Browser:**  
 
-- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)
-  
 - [**Tor browser**](https://www.torproject.org/download/). Tor has built in protection of IP address.
+
+- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)
 
 **VPN:**  
 
-- [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/), which inlcudes [Calyx](calyx.net) and [RiseupVPN](riseup.net) if you want a free option (does not always work well).
-  
-- [**ProtonVPN**](https://protonvpn.com/download), which have a free option. The optimal solution is to buy protonVPN, which gives more options and better functionality. ProtonVPN can be bought with crypto.
+An IP address is a digital address. Every device connected to the internet has one, and someone who looks up your IP address can see your location. Check [**whatismyip.com**](whatismyip.com) to see the information connected to your your IP address. The VPN, such as the ones listed below, is used to protect the IP address. When using a VPN it appears as if you are somewhere else in the world.
+
+- [**ProtonVPN**](https://protonvpn.com/download)  
+Has a free option. The optimal solution is to buy protonVPN, which gives more options for location and better functionality. ProtonVPN can be bought with crypto.
 
 - [**Mullvad**](https://mullvad.net/en/pricing/)  
-Can be payed in cash and Monero. No free option.
+This VPN can be payed in cash and Monero. No free option.
 
+- [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/), inlcudes [Calyx](calyx.net) and [RiseupVPN](riseup.net). Both are free options.
 
 **Video app (Youtube front-end):**  
 
@@ -107,7 +115,7 @@ Can be payed in cash and Monero. No free option.
 
 - [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an *island* and isolates this space from the rest of your phone. On the island you can have apps which have security issues. Such apps can be downloaded in the island via Aurora store. 
 
-In Insular there is *mainland* and *Island*. These two are separated frome each other. Certain applications you use will cause security problems. If you want to prevent the challenges in using these applications, the apps can be stored and used on the Island. For example, When you are in the Mainland section, you can click on Aurora store and when you do you'll see a plus (+) in the lower right corner. When you click on the plus (+), you can select to clone it to the Island. On your main screen there will be two options, *Personal* and *Work*. All applications on the *Island exists on the Work screen. They are visible with a lock on the logo and can be distinguished from other applications. You can move these icons to somewhere else if you desire. If you open Aurora store on the Island, all downloaded applications from the Aurora store will also be stored on the Island.
+In Insular there is *Mainland* and *Island*. These two are separated frome each other. Certain applications you use will cause security problems. If you want to prevent the challenges in using these applications, the apps can be stored and used on the Island. For example, When you are in the Mainland section, you can click on Aurora store and when you do you'll see a plus (+) in the lower right corner. When you click on the plus (+), you can select to clone it to the Island. On your main screen there will be two options, *Personal* and *Work*. All applications on the *Island exists on the Work screen. They are visible with a lock on the logo and can be distinguished from other applications. You can move these icons to somewhere else if you desire. If you open Aurora store on the Island, all downloaded applications from the Aurora store will also be stored on the Island.
 
 **Remove metadata from pictures:**  
 
@@ -131,7 +139,8 @@ Both of these applications can be used as offline maps. maps.me asks for a lot o
 
 - [**Cake wallet**](https://cakewallet.com/). Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet.  It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If everything has been set up in a secure way, then the other transactions are at least anonymous and not doxxed by IP address.  
 
-- [**Samuorai wallet**](https://samouraiwallet.com/features) which was mentioned above is a BTC privacy oriented wallet that is based on the Zerolink framework.
+- [**Samuorai wallet**](https://samouraiwallet.com/features)  
+Is a BTC privacy oriented wallet that is based on the [Zerolink framework](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198).
 
 
 
