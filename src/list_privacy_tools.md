@@ -48,7 +48,7 @@ End-to-end encrypted messaging for chat, audio and video with no identifiers ass
 [Documentation](https://github.com/simplex-chat/simplex-chat)
 
 - [**Threema**](https://threema.ch/en/security)  
-Is an end-toe-nd encrypted messenger for phone and desktop. User don't have to provide a phone number.
+Is an end-to end encrypted messenger for phone and desktop. User don't have to provide a phone number. Costs $6.
 
 - [**My Sudo**](https://mysudo.com/features/)  
 End-to-end encrypted messaging with the possibility to create multiple numbers, group chats, disappearing messages and soon also ability to create virtual cards. Available in US.
