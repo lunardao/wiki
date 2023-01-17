@@ -101,9 +101,10 @@ File encryption to single or multiple recipients. Run in terminal.
 
 These email client are without cost and end-to-end encrypted. For Riseup and Systemli an invite code is required to be able to create a new email.
 
-- [**Tutanota**](https://tutanota.com/)
+- [**Tutanota**](https://tutanota.com/)  
+Is an end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar. It is not possible to set up an account with Tor browser, but it is possible to use a more private browser alternative such as Librewolf together with VPN. After registration it takes 48h before activated as the address need to be approved. 
 
-- [**Protonmail**](https://proton.me/)
+- [**Protonmail**](https://proton.me/)Is an end-to-end encrypted email service between protonmail accounts. It is possible to set up a free email, and the user have instant access. 
 
 - [**Riseup**](https://mail.riseup.net)
 
@@ -200,11 +201,6 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 
 - Installing [**Gerda OS**](https://gerda.tech/#h1.4_install) on Nokia 8110 for improved usability.
 
-## Secure android phone
-
-- [**Graphene OS**](https://grapheneos.org/) on a Google pixel phone (from 4 and up, less than are no longer maintained). Note that not all Google pixel  
-Graphene OS is completely without Google apps and also automatically randomizes [**MAC address**](https://en.wikipedia.org/wiki/MAC_address). There is [**F-Droid**](https://f-droid.org/en/) instead of app store. other useful and secure apps for this set up (some also mentioned in other sections): [**Session**](https://getsession.org/), [**Signal**](https://www.signal.org/), or  [**Element**](https://element.io/) as messenger app, [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) for browsing, [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) or [**ProtonVPN**](https://protonvpn.com/download) for VPN services and [**Tor browser**](https://www.torproject.org/download/) for onion routing, [**NewPipe**](https://newpipe.schabi.org/) as an ad-free youtube-like app, [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) to be able to write Markdown docs which also can be used on computer, [**Insular**](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/), which creates an island and isolates this space from the rest of your phone. On the island you can have apps which have security issues which can be downloaded with [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/) store. It is recommended to not use a SIM card for the phone to be secure. A number can instead be obtained (and payed with crypto) on [**jmp.chat**](https://jmp.chat/).
-
 ## eSIM cards
 
 - [**Silent link**](https://silent.link/)  
@@ -220,7 +216,7 @@ An eSIM that can be acquired with crypto such as Monero. No phone number, data o
 With this app you can blur faces and remove metadata.
 
 - [**Scrambled Exif**](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif/)  
-To use Scrambled Exif, you don't need to open the application. Instead, go directly to the Gallery, select the picture you want to share, click on the *share* icon, select Scrambled Exif. Then choose the app you want to use to send the picture, contact and send. Done.
+To use Scrambled Exif, you don't need to open the application. Instead, go directly to the Gallery, select the picture you want to share --> click on the *share* icon --> select Scrambled Exif --> choose the app you want to use to send the picture --> choose contact and send --> Done.
 
 ## File sharing tools
 
@@ -293,5 +289,5 @@ These two applications are very useful as they are offline maps. They also conta
 Is a virtual visa debit card. Supports for example BTC, ETH, USDC. To be anonymous when depositing money to the card, see steps on how to anonymize ETH in [**Anonymizing assets**](https://wiki.lunardao.net/anonymizing_assets.html). Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC, or explore [**Panther protocol**](https://www.pantherprotocol.io) for anonymizing USDC. No KYC.
 
 - [**Fastcoincard**](https://fastcoincard.com/pricing.php)  
-Is a virtual Visa card. Can use it on stores and sites that accept Visa for payments. It is possible to deposit with for example BTC and ETH, one time or reloadable card.
+Is a virtual Visa card, which can be used in stores and on sites that accept Visa for payments. It is possible to deposit with for example BTC and ETH, one time or reloadable card.
 
