@@ -10,28 +10,28 @@ Sometimes it can feel overwhelming with all the information that is out there. T
 
 - [**Graphene OS**](https://grapheneos.org/install/cli)  
 
-**Here is some of the features of Graphene OS, check their website for more:**
+**Here are some of the features of Graphene OS, check their website for more:**
 
 - Graphene OS is completely free of Google apps and fully encrypted.  
 - Every time the phone connects to internet, the [**MAC address**](https://en.wikipedia.org/wiki/MAC_address) is changed (randomly).  
 - No sensitive metadata in screenshots and pictures (it only includes the orientation). Note that metadata stripping for videos is not implemented.  
-- PIN scrambling, which means that the numbers on the display change place every time the user enters the PIN, so nobody can figure out the PIN from watching the user enter their code.  
+- PIN scrambling, which means that the numbers on the display change place every time the user enters the PIN, so nobody can figure out the PIN from watching the user input their code.  
 - If the phone has been inactive for a certain period of time (from 10 min as the shortest time to 72h as longest) it will autoreboot.  
-- Sensors permission can be disallowed (ie. in Camera, microphone, body sensor, activity recognition). When access is disabled, apps receive zeroed data when they check for sensor values.  
-- It's possible to create multiple users on one phone. These seaparate users are isolated from each other.
+- Sensor permission can be disallowed (ie. in Camera, microphone, body sensor, activity recognition). When access is disabled, apps receive zeroed data when they check for sensor values.  
+- It's possible to create multiple users on one phone. The separate users are isolated from each other.
 
 If you have difficulties installing, you can ask for support in our [**forum**](forum.lunardao.net). Graphene OS also has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element).
 
 ### Steps for installation of applications
 
-- When starting the process of installing applications, the recommendation is to first download [**Tor browser**](https://www.torproject.org/download/) for android. On Graphene there is Vanadium as a default browser, using [**duckduckgo.com**](duckduckgo.com) as search engine. This application can be used.  
+- When starting the process of installing applications, the recommendation is to first download [**Tor browser**](https://www.torproject.org/download/) for android. On Graphene, Vanadium is the pre-installed default browser, using [**duckduckgo.com**](duckduckgo.com) as search engine. This application can be used.  
 - Install Tor browser and open this application.  
 - Go to [**F-Droid**](https://f-droid.org/en/) and download the F-Droid app repository.  
 - Open F-droid, and download [**ProtonVPN**](https://protonvpn.com/download) or [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) and directly set up a VPN.
 - After the VPN is installed, go to Settings --> Networks & internet  --> VPN. The installed VPN has a settings option there. Select *'Always-on VPN'* to be sure that the IP address is always protected. Otherwise the VPN can be switched off and on manually.  
 - Go to the preferred VPN app to check that it's on. In the free versions there a few options for IP address (country in protonVPN, city in Bitmask).  
 - Go to [**What is my IP**](https://www.whatismyip.com/) to see if it correlates with the selected VPN.
-- With F-Droid, downlad and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues on the island for example).  
+- With F-Droid, downlad and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues on an island, using insular, for example).  
 - When this setup is completed, install other applications.
 
 ### Applications for your Graphene OS phone
@@ -42,19 +42,19 @@ If you have difficulties installing, you can ask for support in our [**forum**](
   
 - [**Aurora app**](https://f-droid.org/en/packages/com.aurora.store/).  
 
-Both function like any app store. F-Droid will mark apps with *Anti-features* if they for example contain ads, not open source or not free.
+Both function like any app store. F-Droid will mark apps with *Anti-features* if, for example, they contain ads or not open source or not free.
 
 **Messaging app:**  
 
 - [**Signal**](https://www.signal.org/)  
 - Set it up with [**jmp.chat**](https://jmp.chat/).  
 
-Signal will stop requiring phone numbers soon. Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy.If you don't want to bother with getting a number, in [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) there are some other options to try out instead. 
+Signal will stop requiring phone numbers soon. Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy. If you don't want to bother with getting a number, in [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) there are some other options to try out instead. 
 
 ***How to get a number from jmp.chat:***
 
 1. Go to [**mov.im**](mov.im) and sign up a new account. Make sure to use a VPN when you create an account, so that IP address is not leaked.
-2. Make a new account based on the easy steps as it gets you to [movim.eu](movim.eu) or [jappix.com](jappix.com).  
+2. Make a new account based on the guided steps as it gets you to [movim.eu](movim.eu) or [jappix.com](jappix.com).  
 3. Sign in.  
 4. Go jmp.chat and select a number.  
 5. Add your mov.im account to the prompt.  
@@ -72,7 +72,7 @@ One option is to anonymize ETH and then swap to BTC:
 
 <!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
 
-BTC can be stored in [**Samurai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), protects against metadata leakage. The wallet also has an offline mode and can be used as an [**offline storage**](https://samouraiwallet.com/offline) which is proposed to be used together with [**Sentinel**](https://docs.samourai.io/sentinel) which allows you to track the balances and transactions of your offline storage.
+BTC can be stored in [**Samuorai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), protects against metadata leakage. The wallet also has an offline mode and can be used as [**offline storage**](https://samouraiwallet.com/offline) which is proposed to be used together with [**Sentinel**](https://docs.samourai.io/sentinel) which allows you to track the balances and transactions of your offline storage.
 
 **Email:**
 
@@ -80,16 +80,16 @@ BTC can be stored in [**Samurai wallet**](https://samouraiwallet.com/features) w
 Is end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar.
 
 - [**Protonmail**](https://proton.me)  
-For phone it can be downloaded in Aurora Store. It is possible to set up a free email and to do it anonymously make sure to use VPN when signing up. It is end-to-end encrypted between protonmail accounts.
-If you wnat to email privately to other addresses, create an encryption key with:
+The Protonmail mobile app can be downloaded in the Aurora Store. It is possible to set up a free email. To create the email anonymously, be sure to use a VPN when signing up. It is end-to-end encrypted between protonmail accounts.
+If you want to email other addresses privately, create an encryption key with:
 
-- [OpenKeychain](https://www.openkeychain.org/)With this application it is possible to create or important and encryption key. It is not only the tool to be able to encrypt which is important but also how trusted the device is. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner __> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc.
+- [OpenKeychain](https://www.openkeychain.org/)With this application it is possible to create or import an encryption key. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner __> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc. You can import this .asc file into your Protonmail account.
 
 **Browser:**  
 
 - [**Tor browser**](https://www.torproject.org/download/). Tor has built in protection of IP address.
 
-- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) is based on the latest Firefox release. This browser blocks trackers and also have a private mode. The private mode means that when selecting the mask in the upper right corner of the browser, a tab with enhanced private properties will open, from which history is cleared when closing the tab or app.
+- [**Fennec**](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) is based on the latest Firefox release. This browser blocks trackers and also has a private mode. The private mode means that when selecting the mask in the upper right corner of the browser, a tab with enhanced privacy properties will open, from which history is cleared when closing the tab or app.
 
 **VPN:**  
 
@@ -109,7 +109,7 @@ This VPN can be payed in cash and Monero. No free option.
 
 **Notes:**  
 
-- [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) for writing Markdown docs. The documents because it is md is compatible with usage on computer. 
+- [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) for writing Markdown docs, and because its also compatible with any other plaintext software on any platfrom, it is compatible with usage on computer. <!---sadar: are the files compatible on the computer or the app "Markor" compatible on the computer ---> 
 
 **Isolation of non-privacy apps:**  
 
@@ -135,12 +135,12 @@ Both of these applications can be used as offline maps. maps.me asks for a lot o
 
 **Crypto wallet:** 
 
-- [**Monerujo**](https://www.monerujo.io) is a Monero wallet, which allows you to use Tor Onion nodes when connecting the wallet and is therefore a good privacy option. It's also possible to pay BTC addresses.
+- [**Monerujo**](https://www.monerujo.io) is a Monero wallet, which allows you to use Tor Onion nodes when connecting the wallet and is therefore a good privacy option. 
 
-- [**Cake wallet**](https://cakewallet.com/). Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet.  It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If everything has been set up in a secure way, then the other transactions are at least anonymous and not doxxed by IP address.  
+- [**Cake wallet**](https://cakewallet.com/). Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet.  It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If your device has been set up in a secure way, then other transactions are at least anonymous and not doxxed from your physical IP address.  
 
 - [**Samuorai wallet**](https://samouraiwallet.com/features)  
-Is a BTC privacy oriented wallet that is based on the [**Zerolink framework**](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198).
+Is a BTC privacy oriented wallet that is based on the [**Zerolink framework**](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198). Samourai routes over tor by default, includes coin control, and maintains strong privacy preserving spend tools. 
 
 
 
