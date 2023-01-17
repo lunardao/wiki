@@ -94,9 +94,9 @@ OpenPGP is end-to-end encryption protocol used for email communication.
 - [**Rage**](https://github.com/str4d/rage)  
 File encryption to single or multiple recipients. Run in terminal.
 
-## Email clients
+## Email provider
 
-These email client are without cost and end-to-end encrypted. For Riseup and Systemli an invite code is required to be able to create a new email.
+These email providers are without cost and end-to-end encrypted. For Riseup and Systemli an invite code is required to be able to create a new email.
 
 - [**Tutanota**](https://tutanota.com/)  
 Is an end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar. It is not possible to set up an account with Tor browser, but it is possible to use a more private browser alternative such as [Librewolf](https://librewolf.net/) together with VPN. After registration it takes 48h before activated as the address need to be approved. 
