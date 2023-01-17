@@ -109,7 +109,7 @@ This VPN can be payed in cash and Monero. No free option.
 
 **Notes:**  
 
-- [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) for writing Markdown docs, and because its also compatible with any other plaintext software on any platfrom, it is compatible with usage on computer. <!---sadar: are the files compatible on the computer or the app "Markor" compatible on the computer ---> 
+- [**Markor**](https://f-droid.org/en/packages/net.gsantner.markor/) for writing Markdown docs, and because its also compatible with any other plaintext software on any platfrom, it is compatible with usage on computer.
 
 **Isolation of non-privacy apps:**  
 
