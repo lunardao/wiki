@@ -101,7 +101,8 @@ These email providers are without cost and end-to-end encrypted. For Riseup and 
 - [**Tutanota**](https://tutanota.com/)  
 Is an end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar. It is not possible to set up an account with Tor browser, but it is possible to use a more private browser alternative such as [Librewolf](https://librewolf.net/) together with VPN. After registration it takes 48h before activated as the address need to be approved. 
 
-- [**Protonmail**](https://proton.me/)Is an end-to-end encrypted email service between protonmail accounts. It is possible to set up a free email, and the user have instant access. 
+- [**Protonmail**](https://proton.me/)  
+Is an end-to-end encrypted email service between protonmail accounts. It is possible to set up a free email, and the user have access directly. 
 
 - [**Riseup**](https://mail.riseup.net)
 
@@ -278,7 +279,6 @@ For android phones.
 - [**maps.me**](https://maps.me/)
 
 These two applications are very useful as they are offline maps. They also contain ads and asks for some permissions that are not needed for functionality. Check [Privacy setup](./privacy_setup.md) for more information.
-
 
 ## Virtual payment cards
 
