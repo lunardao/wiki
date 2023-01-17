@@ -47,9 +47,6 @@ XMPP is a set of open technologies for instant messaging, group chat, voice and 
 End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users.  
 [Documentation](https://github.com/simplex-chat/simplex-chat)
 
-- [**Bridgefy**](https://bridgefy.me/)  
-An offline messaging (used with bluetooth) app that works within 100m range.
-
 - [**Threema**](https://threema.ch/en/security)  
 Is an end-toe-nd encrypted messenger for phone and desktop. User don't have to provide a phone number.
 
