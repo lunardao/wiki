@@ -1,4 +1,6 @@
-# LunarDAO manifesto
+# LunarDAO Manifesto
+
+![](pics/landscape4.gif)
 
 ## The Leviathan
 
