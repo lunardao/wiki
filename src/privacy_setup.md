@@ -20,6 +20,8 @@ Sometimes it can feel overwhelming with all the information that is out there. T
 - Sensor permission can be disallowed (ie. in Camera, microphone, body sensor, activity recognition). When access is disabled, apps receive zeroed data when they check for sensor values.  
 - It's possible to create multiple users on one phone. The separate users are isolated from each other.
 
+Here is some information about the lack of privacy with Google and the benefits with Graphene OS. Check out [GrapheneOS; the greatest mobile OS of all time](https://yewtu.be/watch?v=yIZmUINSvQ4), which also include links (in descriptions) to more reading on 'Privacy violations of stock android' and Samsung and Facebook data collection.
+
 If you have difficulties installing, you can ask for support in our [**forum**](forum.lunardao.net). Graphene OS also has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element).
 
 ### Steps for installation of applications
