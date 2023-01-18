@@ -12,7 +12,7 @@ Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/)
 **Graphene OS**
 
 - [**Command line installer**](https://grapheneos.org/install/cli)  
-- [Wenb installer](https://grapheneos.org/install/web)
+- [**Web installer**](https://grapheneos.org/install/web)
 
 **Here are some of the features of Graphene OS, check their website for more:**
 
@@ -24,7 +24,7 @@ Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/)
 - Sensor permission can be disallowed (ie. in Camera, microphone, body sensor, activity recognition). When access is disabled, apps receive zeroed data when they check for sensor values.  
 - It's possible to create multiple users on one phone. The separate users are isolated from each other.
 
-Here is some information about the lack of privacy with Google and the benefits with Graphene OS. Check out [GrapheneOS; the greatest mobile OS of all time](https://yewtu.be/watch?v=yIZmUINSvQ4), which also include links (in descriptions) to more reading on 'Privacy violations of stock android' and Samsung and Facebook data collection.
+Here is some information about the lack of privacy with Google and the benefits with Graphene OS. Check out [**GrapheneOS; the greatest mobile OS of all time**](https://yewtu.be/watch?v=yIZmUINSvQ4), which also include links (in descriptions) to more reading on 'Privacy violations of stock android' and Samsung and Facebook data collection.
 
 If you have difficulties installing, you can ask for support in our [**forum**](forum.lunardao.net). Graphene OS also has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element).
 
@@ -89,7 +89,7 @@ Is end-to-end encrypted mail (between Tutanota email addresses). Tutanota also e
 The Protonmail mobile app can be downloaded in the Aurora Store. It is possible to set up a free email. To create the email anonymously, be sure to use a VPN when signing up. It is end-to-end encrypted between protonmail accounts.
 If you want to email other addresses privately, create an encryption key with:
 
-- [OpenKeychain](https://www.openkeychain.org/)With this application it is possible to create or import an encryption key. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner __> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc. You can import this .asc file into your Protonmail account.
+- [**OpenKeychain**](https://www.openkeychain.org/)With this application it is possible to create or import an encryption key. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner --> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc. You can import this .asc file into your Protonmail account.
 
 **Browser:**  
 
