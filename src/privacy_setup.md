@@ -8,7 +8,10 @@ Sometimes it can feel overwhelming with all the information that is out there. T
 
 - **Google Pixel 4 or higher** (less than 4 is no longer maintained. Check specifics for 6a on Graphene OS web page if you are considering getting one), which can be purchased from [**ProxyStore**](https://proxysto.re/) in a private manner. Some of the Google Pixel phones are carrier locked (OEM locked) and there is no way to know until opening the phone and viewing if the OEM unlock option is disabled. Check with the seller when buying the phone if it is possible to unlock OEM. This OEM unlock is needed to be able to install Graphene OS. You want a device that is OEM unlockable, and not tied to a specific phone carrier. 
 
-- [**Graphene OS**](https://grapheneos.org/install/cli)  
+**Graphene OS**
+
+- [**Command line installer**](https://grapheneos.org/install/cli)  
+- [Wenb installer](https://grapheneos.org/install/web)
 
 **Here are some of the features of Graphene OS, check their website for more:**
 
