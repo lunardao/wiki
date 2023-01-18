@@ -6,7 +6,7 @@ For the purpose of a quick and instant chat or communication which is 100% anony
 
 **Dependencies**
 
-```
+```sh
 sudo apt-get install -y git make jq gcc vim weechat pkg-config libssl-dev
 ```
 
@@ -34,21 +34,29 @@ Run ircd and start weechat:
 Weechat commands are run down in the chat input field
 
 1. Configure weechat, save and quit:
-```
+
+```sh
 /server add darkfi localhost/6667 -autoconnect
 /save
 /quit
 ```
+
 2. `weechat` to restart
 3. To change your nick in weechat, enter:
-`/nick <new_nick>`
+
+```sh
+/nick <new_nick>
+```
+
 4. Change chat rooms by *alt + arrow up/down* **or** *alt + channel_number*
 
 **Join an unencrypted channel**
 
 To add and open a public channel on ircd, such as #new_channel, just add it to autojoin line in the config file:
 
-`autojoin = [....<existing_channels>..., "#new_channel"]`
+```sh
+autojoin = [....<existing_channels>..., "#new_channel"]
+```
 
 Restart ircd (restart ircd after any config changes). The channel shall appear automatically in the weechat.
 
@@ -58,7 +66,7 @@ To add an encrypted channel to ircd:
 
 1. Include the name of the channel and the secret to the config file:
 
-```
+```sh
 [channel."#nameofchannel"]
 secret = "<secret_string>"
 ```
@@ -78,14 +86,20 @@ In case of starting a new private channel, a secret must be generated.
 
 To DM with someone on ircd:
 
-1. Generate a key-pair using `ircd --gen-keypair`. ***NEVER*** share your private key! Possibly keys can be shared to a file using `ircd --gen-keypair -o ~/some_dir/filename`. 
+1. Generate a key-pair using `ircd --gen-keypair`. ***NEVER*** share your private key! Possibly keys can be shared to a file using 
+```sh
+ircd --gen-keypair -o ~/some_dir/filename
+```
+
 2. Add a line to ircd_config.toml: `[private_key."your_newly_generated_private_key"]`
 3. Share your pub key publicly or with others you want to chat with
 4. Add a contact of a user to DM with to the ircd_config.toml:
-```
+
+```sh
 [contact."name_for_contact_of_your_choice"]
 contact_pubkey = "the_pub_key_sent_by_the_contact" 
 ```
+
 5. Save the config and restart ircd
 6. To add this contact in the weechat client, enter `/query <same_name_as_in_the_config>`. Name appears in the contact list.
 	- Note: However users may change their names as often as they wish, the /query <name> command is based on the <name> added per contact to ircd_config.toml as the contact is added based on the *contact_pubkey* (aligning with the counterpartys *private_key* in their config). Can be understood as a contact list in a phone.
