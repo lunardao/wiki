@@ -1,6 +1,6 @@
 # Opt OUT!
 
-![](pics/forest_path.png)
+![](pics/landscape2.gif)
 
 When [Edward Snowden](https://www.whistleblowers.org/whistleblowers/edward-snowden/) was working for NSA he decided to stand against status quo and leak information about global surveillance programs, many which are run by the NSA in cooperation with telecommunication companies and European governments. This is the tip of the iceberg in regards to surveillance measure of governments and Big tech today. Edward Snowden was forced to leave US to avoid imprisonment for sharing this information to people who are the targets of this surveillance. 
 
