@@ -1,11 +1,5 @@
 # Anoma Protocol
 
----
-title: Anoma Protocol
-author: Stellar Magnet, Serinko
-source: nexus.blacksky.network/zine/00000001/anoma-protocol
----
-
 A market researcher [Serinko](https://twitter.com/serinko13), whom you may remember from [HCPP 2022](https://twitter.com/Murdawk_Media/status/1576538737030438915) recently agreed to join LunarDAO research committee as an external. The following report is an illustration of Serinko's past work, done for [Black Sky Nexus](https://nexus.blacksky.network) in collaboration with [Stellar Magnet](https://twitter.com/stellarmagnet). The following report was originally published in the the first issue of [Nexus](https://nexus.blacksky.network/zine/00000001/anoma-protocol) in autumn 2022.
 
 #### Authors: Stellar Magnet, Serinko
