@@ -44,6 +44,10 @@
     - [Changing RPC guide](./change_rpc.md)
 - [Privacy projects](./crypto_privacy_projects.md)
 
+# Research
+
+- [Anoma](./anoma.md)
+
 # Tools
 
 - [ircd](./ircd.md)
