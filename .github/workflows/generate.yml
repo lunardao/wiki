@@ -1,7 +1,4 @@
-on:
-  push:
-    tags:
-      - '*'
+on: [push]
 jobs:
   rsync:
     runs-on: ubuntu-latest
@@ -15,22 +12,20 @@ jobs:
     - name: Install mdbook
       run: |
         mkdir bin
-        curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.14/mdbook-v0.4.14-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+        curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.25/mdbook-v0.4.25-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
         echo "$(pwd)/bin" >> $GITHUB_PATH
     - name: Run tests
-      run: mdbook build #&& mdbook test
+      run: mdbook test && mdbook build 
     - name: Deploy GitHub Pages
       run: |
-        mdbook build
-        git worktree add website
+        git worktree add /tmp/website
+        rm -rf /tmp/website/*
+        cp -rp book/* /tmp/website/
         git config user.name "Deploy from CI"
         git config user.email "git@git"
-        cd website
+        cd /tmp/website
         # Delete the ref to avoid keeping history.
         git update-ref -d refs/heads/website
-        rm -rf *
-        mv ../book/* .
-        git add .
+        git add -A
         git commit -m "Deploy $GITHUB_SHA to website"
-        git push --force --set-upstream origin website
-
+        git push --force origin website
