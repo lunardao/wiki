@@ -4,8 +4,6 @@ A market researcher [Serinko](https://twitter.com/serinko13), whom you may remem
 
 #### Authors: Stellar Magnet, Serinko
 
-[TOC]
-
 ## Project Summary
 
 Anoma is a new privacy-focused protocol that includes native features for counterparty discovery based on matchmaking *intents*, with support for multi-chain atomic settlements [^1]. Anoma is being developed by Heliax AG (Heliax), who are the founding development team funded by the Anoma Foundation, the latter of whom raised a $6.8M seed round in January 2021 and a $26M follow-on round in November 2021, valuing Anoma at $260M. [^2]
