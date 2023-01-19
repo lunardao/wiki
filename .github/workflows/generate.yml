@@ -21,6 +21,7 @@ jobs:
         git worktree add /tmp/website
         rm -rf /tmp/website/*
         rm -r /tmp/website/.github/
+        rm -r /tmp/website/.gitignore
         cp -rp book/* /tmp/website/
         git config user.name "Deploy from CI"
         git config user.email "git@git"
