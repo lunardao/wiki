@@ -173,7 +173,7 @@ Is a custom version of Firefox which is privacy oriented. It includes search pro
 ## Private network layer
 
 - [**I2P**](https://geti2p.net/en/about/intro)  
-Is an encrypted private network layer. The traffic inside I2P does not interact with the internet directly, it is a layer on top of the Internet. I2P protects activity, no one can see the origin, destination, or contents of the data. It is a peer-to-peer network and if the user want to protect their IP address they also need to use a VPN while using I2P.
+Is an encrypted private network layer. The traffic inside I2P does not interact with the internet directly, it is a layer on top of the Internet. I2P protects activity, no one can see the origin, destination, or contents of the data. It is a peer-to-peer network and if the user wants to protect their IP address they also need to use a VPN while using I2P.
 
 ## MAC address randomization
 
