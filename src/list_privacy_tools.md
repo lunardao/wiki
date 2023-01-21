@@ -56,6 +56,14 @@ End-to-end encrypted messaging with the possibility to create multiple numbers, 
 - [**Hushed**](https://hushed.com)  
 Offers phone number aliases. The user can create multiple phone numbers.
 
+## Phone numbers
+
+- [**Crypton**](https://crypton.sh/)  
+This is very useful for anyone who need a phone number for a messaging app such as signal. Crypton encrypt data stored on their servers, but data is not being encrypted when it exits onto the GSM/CMDA network. Currently only number from UK. Possibility to pay in crypt ie. Monero and Zcash.
+
+- [**jmp.chat**](https://jmp.chat/)  
+Provides a phone number, from US, which can be used for other apps. In [**Privacy setup**](./privacy_setup.md) you can go through the steps needed to set it up. Is payed with BTC.
+
 ## Twitter front-end
 
 - [**Nitter**](https://nitter.net/about)  
