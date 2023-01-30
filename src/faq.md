@@ -160,7 +160,7 @@ projects with aim to share knowledge and skills in a decentralized way.
 New Moon Academy will be in the forefront of this work, with online educations in 
 programming, economics and political philosophy. 
 
-- **Sentinels** a group of five multi-sig. Three is needed to execute 
+- **Sentinels** a group of eight multi-sig. Five is needed to execute 
 Lunar Squad decisions. Sentinels also have the possibility to reject malicious proposals.
 
 At any point new committees can be proposed or existing ones can be
