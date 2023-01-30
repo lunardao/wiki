@@ -2,7 +2,7 @@
 # 
 ### Can I contribute to the DAO anonymously?
 Yes. It is recommended. Follow this
-[guide](https://lunardao.net/anonymizing_assets.html)
+[guide](./anonymizing_assets.md)
 
 ### Does it matter whether I'm anonymous or not?
 
