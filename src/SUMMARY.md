@@ -34,6 +34,7 @@
 - [Manuals](./intro.md)
     - [Randomizing IMEI](./imei.md)
         - [IMEI table](./imei_tables/imei_table.md)
+    - [Firejail](./firejail.md)
 - [Privacy tools](./list_privacy_tools.md)
 - [Privacy resources](./privacy_resources.md)  
 - [Privacy setup](./privacy_setup.md)
