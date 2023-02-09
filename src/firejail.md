@@ -1,3 +1,5 @@
+# Firejail
+
 ## What is Firejail  
 [https://firejail.wordpress.com/](https://firejail.wordpress.com/)
 
@@ -38,7 +40,6 @@ sudo firecfg
 - creates new desktop files removing hardcoded paths, to ensure the desktop files will run in a sandbox
 - and adds the running user to the allowed users list.
 
-
 ## Librewolf and Firejail
 
 Download librewolf from [here](https://librewolf.net/).
@@ -54,12 +55,17 @@ After building a librewolf profile, run this command with no further configurati
 ```sh
 firejail librewolf
 ```
-
 Librewolf is now running in a security sandbox.
-
 
 An application can run entirely in memory with this command (specify the path to the process).
 ```sh
 firejail --private /usr/bin/librewolf
 ```
 
+**Check if firejail is working:**
+```sh
+firejail --list
+```
+It will list all applications that are sandboxed.
+
+Firejail configuration wizard gui, which after installation is included in the application menu, can just like the cli also be used to select security settings for application.
