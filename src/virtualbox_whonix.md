@@ -1,5 +1,7 @@
 # Virtualbox and Whonix installation
 
+Virtualbox is a virtual machine (VM). This functions like a computer in the computer, which allows the user to run the regular OS on the computer, while have several entirely different OS in the VM. Some programs might not be accessible with the current setup or there might be privacy reasons for using a VM. A VM is isolated from the rest of the computer, this compartmentalization separates activity, IP address and metadata from the rest of the computer. It allows for testing of applications and making installations instead of risking the regular system to experience errors that are difficult to fix. Tails is a very useful tool, though it is not possible to use alongside the regular OS, and instead the user boot into Tails via a USB at startup. A VM therefore gives the advantage of option to engage in different setups without having to switch in between. 
+
 ## Download and installation
 
 - [Download Virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads)  
