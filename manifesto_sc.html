@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js ayu">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>LunarDAO宣言</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Governance</li><li class="chapter-item expanded "><a href="governance.html"><strong aria-hidden="true">2.</strong> Overview</a></li><li class="chapter-item expanded "><a href="lip-0001.html"><strong aria-hidden="true">3.</strong> LIP</a></li><li class="chapter-item expanded "><a href="grant_application.html"><strong aria-hidden="true">4.</strong> Grant application</a></li><li class="chapter-item expanded affix "><li class="part-title">Token economics</li><li class="chapter-item expanded "><a href="tokens.html"><strong aria-hidden="true">5.</strong> LunarDAO Tokens</a></li><li class="chapter-item expanded "><a href="contracts.html"><strong aria-hidden="true">6.</strong> Smart Contracts</a></li><li class="chapter-item expanded "><a href="mechanics.html"><strong aria-hidden="true">7.</strong> Mechanics</a></li><li class="chapter-item expanded "><a href="distribution.html"><strong aria-hidden="true">8.</strong> Distribution</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="genesis_event.html"><strong aria-hidden="true">8.1.</strong> Genesis event</a></li><li class="chapter-item expanded "><a href="VOX_airdrop.html"><strong aria-hidden="true">8.2.</strong> $VOX Airdrop</a></li><li class="chapter-item expanded "><a href="emissions.html"><strong aria-hidden="true">8.3.</strong> $LUNAR Life cycle</a></li><li class="chapter-item expanded "><a href="total_distribution.html"><strong aria-hidden="true">8.4.</strong> Total distribution</a></li></ol></li><li class="chapter-item expanded "><a href="staking_liquidity_rewards.html"><strong aria-hidden="true">9.</strong> Staking, liquidity & rewards</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lunar_staking.html"><strong aria-hidden="true">9.1.</strong> Staking $LUNAR</a></li><li class="chapter-item expanded "><a href="lunar_lp.html"><strong aria-hidden="true">9.2.</strong> $LUNAR liquidity provider</a></li></ol></li><li class="chapter-item expanded "><a href="raise_investment.html"><strong aria-hidden="true">10.</strong> Raise & project investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="squad_wealth.html"><strong aria-hidden="true">10.1.</strong> Option 1: Squad Wealth</a></li><li class="chapter-item expanded "><a href="launchpad.html"><strong aria-hidden="true">10.2.</strong> Option 2: Launchpad</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">11.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">11.1.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">11.1.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">11.2.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">11.3.</strong> Virtualbox with Whonix</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">12.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">13.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html"><strong aria-hidden="true">14.</strong> Privacy setup</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">15.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">15.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">16.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html"><strong aria-hidden="true">17.</strong> Anoma</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="ircd.html"><strong aria-hidden="true">18.</strong> ircd</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">19.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Education</li><li class="chapter-item expanded "><a href="academy_intro.html"><strong aria-hidden="true">20.</strong> Overview</a></li><li class="chapter-item expanded "><a href="academy.html"><strong aria-hidden="true">21.</strong> Adalan Academy</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">22.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">23.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">24.</strong> Videos</a></li><li class="chapter-item expanded affix "><li class="part-title">Support</li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">25.</strong> FAQ</a></li><li class="chapter-item expanded affix "><li class="part-title">繁體中文</li><li class="chapter-item expanded "><a href="manifesto_tc.html"><strong aria-hidden="true">26.</strong> LunarDAO宣言</a></li><li class="chapter-item expanded "><a href="governance_tc.html"><strong aria-hidden="true">27.</strong> LunarDAO治理規程</a></li><li class="chapter-item expanded "><a href="lip_tc.html"><strong aria-hidden="true">28.</strong> LIP</a></li><li class="chapter-item expanded "><a href="anonymizing_assets_tc.html"><strong aria-hidden="true">29.</strong> 資產匿名化</a></li><li class="chapter-item expanded "><a href="list_privacy_tools_tc.html"><strong aria-hidden="true">30.</strong> 隱私工具清單</a></li><li class="chapter-item expanded affix "><li class="part-title">簡體中文</li><li class="chapter-item expanded "><a href="manifesto_sc.html" class="active"><strong aria-hidden="true">31.</strong> LunarDAO宣言</a></li><li class="chapter-item expanded "><a href="governance_sc.html"><strong aria-hidden="true">32.</strong> LunarDAO治理规程</a></li><li class="chapter-item expanded "><a href="lip_sc.html"><strong aria-hidden="true">33.</strong> LIP</a></li><li class="chapter-item expanded "><a href="anonymizing_assests_sc.html"><strong aria-hidden="true">34.</strong> 资产匿名化</a></li><li class="chapter-item expanded "><a href="list_privacy_tools_sc.html"><strong aria-hidden="true">35.</strong> 隐私工具清单</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="lunardao宣言"><a class="header" href="#lunardao宣言">LunarDAO宣言</a></h1>
+<h2 id="利维坦1"><a class="header" href="#利维坦1">利维坦1</a></h2>
+<p>信息就是权力。在信息世界中，隐私性和透明度是相互对立的。当权者必须被高透明度的问责制度凌驾，使他们的任何阴谋无处藏身并能追究其责任。隐私则是人民的利器，防止着权力代理人侵犯我们作为个体与社会一份子的存在核心。</p>
+<p>监控国家的喉舌声称，我们的庇护所和聚集地便利了犯罪分子贩卖毒品、武器甚至人口。他们以此为借口，妨碍我们使用DeFi和隐私保护工具。与此同时，一帮人脉甚广、受法律保护的人，在各国政府、法院与执法机构的包庇下，正在日复一日、大规模地犯着我们被指控的罪行。他们在这边厢打击赋予人民力量的工具，在那边厢却暗中操控黑市，且通过国际公认的银行洗钱。</p>
+<p>民族国家霸权及其金融机构控制着我们生活的一切。只要一天仍然依赖他们的货币，我们就没有选择，只能在帝国的统治之下残存。银行能追踪并控制资金的流动，而且可以随时冻结所有资产。他们用致富的幻象来迷惑我们，让我们相信我们是这场大游戏的持份者，而实际上我们是被剥夺了。我们就是他们的收益。</p>
+<h2 id="日暮"><a class="header" href="#日暮">日暮</a></h2>
+<p>在几十年前，密码朋克2们就预见到了各种审查及监控制度的兴起。他们明白，为了捍卫自由，密码学和经济主权是少不了的。比特币创造了一个金融霸权之外的经济体系，使人们有可能重新获得能动性。</p>
+<p>然而今天，这已经不足够了。</p>
+<p>因为加密货币难以被束缚使其成为靶标。那些监控国家故此正在进行攻击。我们的软件已经开始被逐步取缔。我们被迫自己制御以求生存。任何落入这个陷阱的人都已经输了。</p>
+<p>多年来，拥护密码朋克使命的声音日渐式微，已经被滚滚不断的快钱所淹没了。加密货币之解放使命的倡导者缺乏团结，也缺乏战略。</p>
+<p>LunarDAO恰恰就是要提供这样一个战略。</p>
+<h2 id="午夜"><a class="header" href="#午夜">午夜</a></h2>
+<p>在这个世界上，没有任何机构可以保证自由。那些试图捍卫自由的往往会被谴责为罪犯和恐怖分子、被收编、被边缘化或被无情地被粉碎。现存的机关只会维持和加剧我们的奴役。我们人民群众，要在自由中生活就必须创造新的世界。</p>
+<p>这就是为什么我们「月球人」(Moonies) 聚集在外围而不是中心的原因。我们安家於在国家掌管范围之外被月光照耀的加密森林𥚃。我們拒絕將我們的安保交給任何政府或科技巨擘。我们相信，自卫是每个人的责任。</p>
+<p>统治者通过令人孤立来维持权威。当我们都是孤身一人时，能改变现实的力量无法被建立起来。这就是为什么月球朋克们3不满足于当今对自由的想像，只着重个人自由的想像。我们组成小队、部落和社群，为集体解放而战。</p>
+<h2 id="月升"><a class="header" href="#月升">月升</a></h2>
+<p>自由只有在支配逻辑之外才能找到。自我防卫需要足够的工具以及植根于解放的哲学来撑持。我们必须绕过那种普遍存在的服从心态。</p>
+<p>一个权力分散、隐私的和匿名的网络是社区自卫的基础。对信息、基础设施和物理资源有所掌握是自卫的基本条件。月球朋克使用零知识密码学来创造一个隐私和匿名的盾牌，使社群能够不受国家迫害地运作。</p>
+<p><strong>LunarDAO的目标是要：</strong></p>
+<ul>
+<li>
+<p>促使实现平行的联邦社会，具有多样性和自主性，但也相互保护，以免受中央权威的侵害。</p>
+</li>
+<li>
+<p>学习、培训和分享知识。在我们争取自由生活、自治与社群的斗争中，教育是根本的要素。</p>
+</li>
+<li>
+<p>发展一个能超越国家的经济和政治基础设施，扩大这个不受制约、独立自主的和匿名的黑暗森林。</p>
+</li>
+</ul>
+<p>LunarDAO为月球朋克社会投资于隐私性的项目以及具备匿名性的工具。我们将卓越技术、实用度和毫不妥协的自由哲学放在首位，藉此创造出价值，从而建立一个能自我维持、反脆弱的生态系统。我们相信，月球朋克并不是什么遥远的东西。任何准备好踏出这一步的人都可以选择：究竟要容让民族国家控制我们的生命，还是要背水为自由而战。</p>
+<p>任何人都可以加入LunarDAO，开展一个新的投资项目或参加任何现有的项目。学习如何使用自由软件和隐私工具，扩大自由的基础设施，远离科技巨擘和监控国家，学习编程，研究经济学，一起建立反经济系统。</p>
+<p>夕阳已过。月夜将临。</p>
+<hr />
+<ol>
+<li>希伯来圣经中的巨兽，喜欢在海上作恶。</li>
+<li>Cypherpunk，强调利用密码学来保护隐私的赛博朋克（Cyberpunk）。</li>
+<li>Lunarpunk，LunarDAO的主导意识形态，与太阳庞克相对（Solarpunk）。</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="list_privacy_tools_tc.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="governance_sc.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="list_privacy_tools_tc.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="governance_sc.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

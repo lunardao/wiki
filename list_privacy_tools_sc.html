@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js ayu">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>隐私工具清单</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Governance</li><li class="chapter-item expanded "><a href="governance.html"><strong aria-hidden="true">2.</strong> Overview</a></li><li class="chapter-item expanded "><a href="lip-0001.html"><strong aria-hidden="true">3.</strong> LIP</a></li><li class="chapter-item expanded "><a href="grant_application.html"><strong aria-hidden="true">4.</strong> Grant application</a></li><li class="chapter-item expanded affix "><li class="part-title">Token economics</li><li class="chapter-item expanded "><a href="tokens.html"><strong aria-hidden="true">5.</strong> LunarDAO Tokens</a></li><li class="chapter-item expanded "><a href="contracts.html"><strong aria-hidden="true">6.</strong> Smart Contracts</a></li><li class="chapter-item expanded "><a href="mechanics.html"><strong aria-hidden="true">7.</strong> Mechanics</a></li><li class="chapter-item expanded "><a href="distribution.html"><strong aria-hidden="true">8.</strong> Distribution</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="genesis_event.html"><strong aria-hidden="true">8.1.</strong> Genesis event</a></li><li class="chapter-item expanded "><a href="VOX_airdrop.html"><strong aria-hidden="true">8.2.</strong> $VOX Airdrop</a></li><li class="chapter-item expanded "><a href="emissions.html"><strong aria-hidden="true">8.3.</strong> $LUNAR Life cycle</a></li><li class="chapter-item expanded "><a href="total_distribution.html"><strong aria-hidden="true">8.4.</strong> Total distribution</a></li></ol></li><li class="chapter-item expanded "><a href="staking_liquidity_rewards.html"><strong aria-hidden="true">9.</strong> Staking, liquidity & rewards</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lunar_staking.html"><strong aria-hidden="true">9.1.</strong> Staking $LUNAR</a></li><li class="chapter-item expanded "><a href="lunar_lp.html"><strong aria-hidden="true">9.2.</strong> $LUNAR liquidity provider</a></li></ol></li><li class="chapter-item expanded "><a href="raise_investment.html"><strong aria-hidden="true">10.</strong> Raise & project investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="squad_wealth.html"><strong aria-hidden="true">10.1.</strong> Option 1: Squad Wealth</a></li><li class="chapter-item expanded "><a href="launchpad.html"><strong aria-hidden="true">10.2.</strong> Option 2: Launchpad</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">11.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">11.1.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">11.1.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">11.2.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">11.3.</strong> Virtualbox with Whonix</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">12.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">13.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html"><strong aria-hidden="true">14.</strong> Privacy setup</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">15.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">15.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">16.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html"><strong aria-hidden="true">17.</strong> Anoma</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="ircd.html"><strong aria-hidden="true">18.</strong> ircd</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">19.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Education</li><li class="chapter-item expanded "><a href="academy_intro.html"><strong aria-hidden="true">20.</strong> Overview</a></li><li class="chapter-item expanded "><a href="academy.html"><strong aria-hidden="true">21.</strong> Adalan Academy</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">22.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">23.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">24.</strong> Videos</a></li><li class="chapter-item expanded affix "><li class="part-title">Support</li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">25.</strong> FAQ</a></li><li class="chapter-item expanded affix "><li class="part-title">繁體中文</li><li class="chapter-item expanded "><a href="manifesto_tc.html"><strong aria-hidden="true">26.</strong> LunarDAO宣言</a></li><li class="chapter-item expanded "><a href="governance_tc.html"><strong aria-hidden="true">27.</strong> LunarDAO治理規程</a></li><li class="chapter-item expanded "><a href="lip_tc.html"><strong aria-hidden="true">28.</strong> LIP</a></li><li class="chapter-item expanded "><a href="anonymizing_assets_tc.html"><strong aria-hidden="true">29.</strong> 資產匿名化</a></li><li class="chapter-item expanded "><a href="list_privacy_tools_tc.html"><strong aria-hidden="true">30.</strong> 隱私工具清單</a></li><li class="chapter-item expanded affix "><li class="part-title">簡體中文</li><li class="chapter-item expanded "><a href="manifesto_sc.html"><strong aria-hidden="true">31.</strong> LunarDAO宣言</a></li><li class="chapter-item expanded "><a href="governance_sc.html"><strong aria-hidden="true">32.</strong> LunarDAO治理规程</a></li><li class="chapter-item expanded "><a href="lip_sc.html"><strong aria-hidden="true">33.</strong> LIP</a></li><li class="chapter-item expanded "><a href="anonymizing_assests_sc.html"><strong aria-hidden="true">34.</strong> 资产匿名化</a></li><li class="chapter-item expanded "><a href="list_privacy_tools_sc.html" class="active"><strong aria-hidden="true">35.</strong> 隐私工具清单</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="隐私工具清单"><a class="header" href="#隐私工具清单">隐私工具清单</a></h1>
+<p>随着去中心化、隐私性的技术和零知识密码学不断地发展，隐私和去中心化的分布不再是一个遥远的未来目标。LunarDAO的目标之一，是要找出此时此刻已有哪些工具和可能性可供我们利用。作为一个Lunarpunks的社群，我们有能力编制出一个坚实的资源库，包括链接和应用手册，并不断地扩展。</p>
+<h2 id="在线视频共享平台"><a class="header" href="#在线视频共享平台">在线视频共享平台</a></h2>
+<p>[<strong>FreeTube</strong>]（https://freetubeapp.io/）：<br>
+一个私人的YouTube客户端。</br></p>
+<p><a href="https://inv.riverside.rocks/"><strong>Invidious</strong></a>:<br>
+Invidious是一个类似YouTube但开源的平台，旨在作为YouTube官方网站的隐私替代。<br></p>
+<ul>
+<li><a href="https://github.com/iv-org/documentation">文档</a></br></li>
+</ul>
+<h2 id="即时通信软件客户端"><a class="header" href="#即时通信软件客户端">即时通信软件/客户端</a></h2>
+<p>在日常私人通信上，你有必要选择一个会隐藏你的IP地址的软件，如 <a href="https://protonvpn.com/download">ProtonVPN</a>、<a href="https://riseup.net/en/vpn">RiseupVPN</a> 或 <a href="https://www.torproject.org/download/">TOR</a>。如果使用手机通讯，不要使用SIM卡，并将手机设置为在每次重新连接时自动重置MAC地址。</p>
+<p><a href="https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html"><strong>ircd</strong></a>:<br>
+ircd是一个完全匿名的点对点通信工具，由DarkFi开发，可以加密或不加密使用，支持私信或群聊。它可以在终端中直接与 <a href="https://weechat.org/">Weechat</a> 等客户端协同工作。没有需要建立一个账户，没有验证码，也没有臃肿的应用程序和多剩的空屏。它是完全分布式的，在TOR上运行。</p>
+<p><a href="https://getsession.org/"><strong>Session</strong></a>:<br>
+Session是一个开源的通信工具，支持私人和匿名通信，私信、群聊和语音通话。</p>
+<ul>
+<li><a href="https://github.com/oxen-io">文档</a><br></li>
+<li><a href="https://arxiv.org/pdf/2002.04609.pdf">白皮书</a></br>。</li>
+</ul>
+<p><a href="https://www.signal.org/"><strong>Signal</strong></a>：<br>
+Signal是一个免费的、端到端的私人通信工具，用于私信、群聊，语音或视像通话。目前，你需要一个电话号码来要设置Signal。</p>
+<ul>
+<li><a href="https://www.signal.org/docs/">文档</a></br></li>
+</ul>
+<p><a href="https://element.io/"><strong>Element</strong></a>：<br>
+端到端的加密通信工具，用于私信、群聊以及视频。可以与其他通信应用程式桥接，甚至例如是 Whatsapp 和 Telegram 等商业、中心化和非隐私的即时通信软件。<br></p>
+<ul>
+<li><a href="https://github.com/vector-im">文档</a></br></li>
+</ul>
+<p><a href="https://xmpp.org/"><strong>XMPP</strong></a> ，以 <a href="jabber.org">Jabber</a> 或 <a href="https://pidgin.im/">Pidgin</a> 来应用：<br>
+XMPP是一套用于即时通讯、群组聊天、语音和视频通话的开放技术。它是分散和开源的。<br></p>
+<ul>
+<li><a href="https://xmpp.org/about/technology-overview/">文档</a></br></li>
+</ul>
+<p><a href="https://simplex.chat/"><strong>Simplex chat</strong></a>：<br>
+用于聊天、音频和视频的端到端加密通讯工具，不会分配识别码给用户。</p>
+<ul>
+<li><a href="https://github.com/simplex-chat/simplex-chat">文档</a></br></li>
+</ul>
+<h2 id="虚拟机和tails"><a class="header" href="#虚拟机和tails">虚拟机和Tails</a></h2>
+<p><a href="https://tails.boum.org/"><strong>Tails</strong></a>：<br>
+Tails是一个防监控、可移植的操作系统。整个操作系统在一个USB闪存盘上，不访问也不存储数据到计算机中（只使用RAM）。关机后不会存储元数据。默认设定下会瞒骗MAC地址，更只会用TOR网络连接到互联网。闪存盘上的数据是加密的。它是基于极简版的Debian – Gnome。默认下具有GPG加密、电子邮件客户端、洋葱文件共享、Pidgin、擦除选项、keepass、元数据清理等工具。它还有一个功能，移除闪存盘会立即关闭计算机。</p>
+<ul>
+<li><a href="https://tails.boum.org/doc/index.en.html">文档</a></br></li>
+</ul>
+<p><a href="https://www.whonix.org/"><strong>Whonix</strong></a>：<br>
+Whonix是一个虚拟机器，会像一个应用程序一样在操作系统内运行，以帮助用户在互联网上保持匿名，例如将IP地址随机化和使用TOR。关闭时没有数据会被存储。</p>
+<ul>
+<li><a href="https://www.whonix.org/wiki/Documentation">文档</a></br></li>
+</ul>
+<p><a href="https://www.qubes-os.org/"><strong>立方体</strong></a>：<br>
+通过虚拟化，在一个安全区隔模型中工作，将硬件和虚拟机（qubes）相互隔离。它不只是一个假设用户会遭受攻击而产生的技术解决方案，而且还是一套思维方式与实践方法。即当恶意链接或文件被打开时，因为是在一次性虚拟机中，用户因此所受的损害将会减低。</p>
+<ul>
+<li><a href="https://www.qubes-os.org/doc/">文档</a></br></li>
+</ul>
+<h2 id="文件加密"><a class="header" href="#文件加密">文件加密</a></h2>
+<p>[<strong>OpenPGP</strong>]（https://www.openpgp.org/）：<br>
+OpenPGP是用于电子邮件通信的端到端加密协议。<br></p>
+<ul>
+<li><a href="https://www.openpgp.org/software/developer/">文档</a></br></li>
+</ul>
+<p><a href="https://github.com/str4d/rage"><strong>Rage</strong></a>:<br>
+Rage是一个以Rust实施的Age（Actual Good Encryption）。它的特点是使用细小的显式密钥，没有配置选项，以及可组合性的UNIX风格。在终端中运作。</br></p>
+<h2 id="电子邮件客户端"><a class="header" href="#电子邮件客户端">电子邮件客户端</a></h2>
+<p><a href="https://tutanota.com/"><strong>Tutanota</strong></a></p>
+<p><a href="https://proton.me/"><strong>Protonmail</strong></a></p>
+<p><a href="https://mail.riseup.net"><strong>Riseup</strong></a></p>
+<p><a href="https://www.systemli.org/service/mail/"><strong>Systemli</strong></a></p>
+<h2 id="硬盘加密"><a class="header" href="#硬盘加密">硬盘加密</a></h2>
+<p><a href="https://www.veracrypt.fr/en/Home.html"><strong>VeraCrypt</strong></a>：<br>
+VeraCrypt是一个免费的开源硬盘加密软件，用于创建加密存储空间、隐藏或可见的分区或装置。</br></p>
+<p><a href="https://docs.fedoraproject.org/en-US/quick-docs/encrypting-drives-using-LUKS/#_overview_of_luks"><strong>LUKS</strong></a>:<br>
+LUKS是linux发行版以及Tails上的一个功能。它用于加密分区，如闪存盘或硬盘。</p>
+<h2 id="vpn和tor"><a class="header" href="#vpn和tor">VPN和TOR</a></h2>
+<p><a href="https://protonvpn.com/download"><strong>ProtonVPN</strong></a></p>
+<p><a href="https://riseup.net/en/vpn"><strong>RiseupVPN</strong></a></p>
+<p><a href="https://www.torproject.org/download/"><strong>TOR浏览器</strong></a></p>
+<h2 id="mac地址随机化"><a class="header" href="#mac地址随机化">MAC地址随机化</a></h2>
+<p>无线网路、蓝牙和以太网连接都使用MAC地址。MAC地址是一组12位的十六进制数字，每两位数字之间用冒号或连字号分开。MAC地址用于识别用户本地网络中的装置。由于每个装置的MAC都是独一无二的，这地址可以用来追踪用户。当走动时，手机会扫描附近的无线网路并广播其MAC地址。为了更好地保护隐私，学习如何改变MAC地址是一件好事。以下有三个涉及这个问题的资源。</p>
+<p><a href="https://android-developers.googleblog.com/2017/04/changes-to-device-identifiers-in.html">Android developers</a>
+<a href="https://grapheneos.org/usage#updates-security">GrapheneOS</a>
+<a href="https://www.cyberithub.com/how-to-change-the-mac-address-on-ubuntu-20-04-lts-macchanger/">Cyberithub</a></p>
+<h2 id="imei随机化"><a class="header" href="#imei随机化">IMEI随机化</a></h2>
+<h3 id="香蕉手机"><a class="header" href="#香蕉手机">「香蕉手机」</a></h3>
+<p>IMEI是 [国际移动设备识别] (https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) 的缩写。它是GSM、或3GPP和iDEN移动电话以及一些卫星电话的数字标识，每组都是独一无二的。</p>
+<p>**IMEI随机化*∶有不同的方法可以破解诺基亚的「香蕉手机」(Nokia 8110)，以实现IMEI随机化。最简单的方法是安装 [华莱士工具箱] (https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip)</p>
+<p><a href="https://randommer.io/imei-generator"><strong>随机IMEI生成器</strong></a></p>
+<ul>
+<li>在诺基亚8110上安装 [<strong>Gerda OS</strong>] (https://gerda.tech/#h1.4_install) 以提高可用性。</li>
+</ul>
+<h2 id="安全的安卓手机"><a class="header" href="#安全的安卓手机">安全的安卓手机</a></h2>
+<p>安装上 [<strong>Grapene OS</strong>] (https://grapheneos.org/)的谷歌Pixel手机（很讽刺地）。</p>
+<h2 id="彻底粉碎擦除文件"><a class="header" href="#彻底粉碎擦除文件">彻底粉碎／擦除文件</a></h2>
+<p><a href="https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/"><strong>Shred files on linux</strong></a>：<br>
+Shred命令会将一份文件或硬盘的数据复盖上几次，这使得第三方软件或硬件探测难以恢复数据。这当然有助保护用户的隐私。</br></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="anonymizing_assests_sc.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="anonymizing_assests_sc.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
