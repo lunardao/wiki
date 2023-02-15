@@ -58,7 +58,7 @@
 # Education
 
 - [Overview](./academy_intro.md)
-- [New Moon Academy](./academy.md)
+- [Adalan Academy](./academy.md)
 
 # Resources
 
