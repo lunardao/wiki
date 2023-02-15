@@ -58,7 +58,7 @@
 # Education
 
 - [Overview](./academy_intro.md)
-- [Adalan Academy](./academy.md)
+- [Adalan Academy](https://adalanacademy.org/why.html)
 
 # Resources
 
