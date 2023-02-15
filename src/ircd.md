@@ -1,6 +1,6 @@
 # Chat - IRC (ircd & weechat)
 
-For the purpose of a quick and instant chat or communication which is 100% anonymous and if chosen private, especially for coordination of smaller groups (or committees - read [governance](./governance.md)), we use ircd - a peer-to-peer chat, build by DarkFi. ircd supports group chats (open and private) as well as DM. Weechat is a client most of the peole use (runs the chat in terminal), other IRC clients will work as well.
+For the purpose of a quick and instant chat or communication which is 100% anonymous and if chosen private, especially for coordination of smaller groups (or committees - read [governance](./governance.md)), we use ircd - a peer-to-peer chat, built by [DarkFi](dark.fi). ircd supports group chats (open and private) as well as DM. Weechat is a client most of the people use (runs the chat in terminal), other IRC clients will work as well.
 
 ## Installation
 
@@ -9,7 +9,13 @@ For the purpose of a quick and instant chat or communication which is 100% anony
 ```sh
 sudo apt-get install -y git make jq gcc vim weechat pkg-config libssl-dev
 ```
+On debian based system, the user can run this to install dependencies:
 
+```sh
+sudo apt-get update
+sudo apt-get install -y git make jq gcc pkg-config libmpg123-dev
+```
+For other os, check [here](https://darkrenaissance.github.io/darkfi/index.html) to see which dependencies are needed. 
 **ircd**
 
 All the steps are in the DarkFi's ircd installation [guide](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html) and in the [ircd config file template](https://github.com/darkrenaissance/darkfi/blob/master/bin/ircd/ircd_config.toml) as comments, this manual shows more explicit steps. 

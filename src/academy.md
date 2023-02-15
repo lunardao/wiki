@@ -1,4 +1,4 @@
-# New Moon Academy
+# Adalan Academy
 
 ### Mission
 

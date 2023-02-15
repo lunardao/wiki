@@ -34,6 +34,8 @@
 - [Manuals](./intro.md)
     - [Randomizing IMEI](./imei.md)
         - [IMEI table](./imei_tables/imei_table.md)
+    - [Firejail](./firejail.md)  
+    - [Virtualbox with Whonix](./virtualbox_whonix.md)
 - [Privacy tools](./list_privacy_tools.md)
 - [Privacy resources](./privacy_resources.md)  
 - [Privacy setup](./privacy_setup.md)
@@ -56,7 +58,7 @@
 # Education
 
 - [Overview](./academy_intro.md)
-- [New Moon Academy](./academy.md)
+- [Adalan Academy](./academy.md)
 
 # Resources
 

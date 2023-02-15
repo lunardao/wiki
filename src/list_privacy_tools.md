@@ -56,6 +56,13 @@ End-to-end encrypted messaging with the possibility to create multiple numbers, 
 - [**Hushed**](https://hushed.com)  
 Offers phone number aliases. The user can create multiple phone numbers.
 
+## Phone numbers
+
+An important note is to use Tor browser or VPN (ideally with a browser which is focused on privacy such as Librewolf) when setting up the number, managing wallet and making transactions. Check [**Anonymizing assets**](./anonymizing_assets.md) for the payment. For jmp.chat use [**Sideshift**](https://sideshift.ai/btc/eth) to exchange to BTC.
+
+- [**jmp.chat**](https://jmp.chat/)  
+Provides a phone number, from US, which can be used for other apps. In [**Privacy setup**](./privacy_setup.md) you can go through the steps needed to set it up. Is payed with BTC.
+
 ## Twitter front-end
 
 - [**Nitter**](https://nitter.net/about)  
@@ -173,7 +180,7 @@ Is a custom version of Firefox which is privacy oriented. It includes search pro
 ## Private network layer
 
 - [**I2P**](https://geti2p.net/en/about/intro)  
-Is an encrypted private network layer. The traffic inside I2P does not interact with the internet directly, it is a layer on top of the Internet. I2P protects activity, no one can see the origin, destination, or contents of the data. It is a peer-to-peer network and if the user want to protect their IP address they also need to use a VPN while using I2P.
+Is an encrypted private network layer. The traffic inside I2P does not interact with the internet directly, it is a layer on top of the Internet. I2P protects activity, no one can see the origin, destination, or contents of the data. It is a peer-to-peer network and if the user wants to protect their IP address they also need to use a VPN while using I2P.
 
 ## MAC address randomization
 

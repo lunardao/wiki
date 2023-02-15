@@ -49,7 +49,7 @@ Education is fundamental in our struggle for free life, autonomy, and community.
 
 ### Sentinels
 
-LunarDAO Sentinels is a committee responsible for executing community decisions in regards to treasury (multi-sig) and consist of six members in total. Sentinels can reject a malicious proposal even if it has been approved by the community. At least four are needed to execute a decision.
+LunarDAO Sentinels is a committee responsible for executing community decisions in regards to treasury (multi-sig) and consist of eight members in total. Sentinels can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
 
 *A malicious proposal can include:*
 

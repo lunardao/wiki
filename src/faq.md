@@ -2,7 +2,7 @@
 # 
 ### Can I contribute to the DAO anonymously?
 Yes. It is recommended. Follow this
-[guide](https://lunardao.net/anonymizing_assets.html)
+[guide](./anonymizing_assets.md).
 
 ### Does it matter whether I'm anonymous or not?
 
@@ -30,7 +30,7 @@ VOX. Proposals are made via LIP (LunarDAO Improvement Proposal). This
 includes investment proposals, new standards, and funding proposals.
 
 Only squad members are eligible to submit a LIP. Read more in [grant
-application](./grant_application.md)
+application](./grant_application.md).
 
 ### What is LunarDAO?
 
@@ -92,20 +92,20 @@ LunarDAO governance tokens:
 
 **LUNAR**
 
-- Everyone who holds $LUNAR is a part of LunarDAO Community
-- You can stake $LUNAR to acquire $VOX, the LunarDAO governance token
+- Everyone who holds $LUNAR is a part of LunarDAO Community.
+- You can stake $LUNAR to acquire $VOX, the LunarDAO governance token.
 - Through staking $LUNAR you can provide liquidity and earn rewards. Read
-more about Lunar staking [here](./lunar_staking.md)
+more about Lunar staking [here](./lunar_staking.md).
 
 **VOX**
 
-- $VOX is LunarDAO's governance token
-- You can only acquire it by staking $LUNAR
-- $VOX is burned when $LUNAR is unstaked
+- $VOX is LunarDAO's governance token.
+- You can only acquire it by staking $LUNAR.
+- $VOX is burned when $LUNAR is unstaked.
 - If you have $100 worth of VOX (calculated in 7 days staking ratio)
 you are a LunarDAO Squad member and can submit LIP's and vote.
 
-You can read more in [LunarDAO token](./tokens.md)
+You can read more in [LunarDAO token](./tokens.md).
 
 ### How do I buy tokens?
 
@@ -118,7 +118,7 @@ trading $LUNAR. More info soon.
 are every 24h divided between all staked LUNAR tokens (their holders
 proportionally).
 * Non-vested staking pool allows for $LUNAR holders to stake and unstake
-at anytime and earn the given APR
+at anytime and earn the given APR.
 * Locked Staking Pools: receive $VOX and a higher APR. $LUNAR tokens
 can be locked in pools from 7 days to 2 years.
 * The longer period of staking, the more $VOX is received, and the
@@ -160,7 +160,7 @@ projects with aim to share knowledge and skills in a decentralized way.
 New Moon Academy will be in the forefront of this work, with online educations in 
 programming, economics and political philosophy. 
 
-- **Sentinels** a group of five multi-sig. Three is needed to execute 
+- **Sentinels** a group of eight multi-sig. Five is needed to execute 
 Lunar Squad decisions. Sentinels also have the possibility to reject malicious proposals.
 
 At any point new committees can be proposed or existing ones can be

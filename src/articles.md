@@ -13,4 +13,5 @@
 - [Declaration of the Independence of Cyberspace](https://nakamotoinstitute.org/cyberspace-independence/)
 - [DarkFi Manifesto](https://dark.fi/manifesto.html)
 - [Silk Road collected quotations](https://www.forbes.com/sites/andygreenberg/2013/04/29/collected-quotations-of-the-dread-pirate-roberts-founder-of-the-drug-site-silk-road-and-radical-libertarian/#196a8231b0c4)
+- [Anarchism and Cryptocurrency](https://theanarchistlibrary.org/library/rai-ling-anarchism-and-cryptocurrency) by Rai Ling
 
