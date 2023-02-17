@@ -14,6 +14,7 @@
 
 # Token economics
 
+- [Current status](./update.md)
 - [LunarDAO Tokens](./tokens.md)
 - [Smart Contracts](./contracts.md)
 - [Mechanics](./mechanics.md)
@@ -58,7 +59,7 @@
 # Education
 
 - [Overview](./academy_intro.md)
-- [Adalan Academy](./academy.md)
+- [Adalan Academy](https://adalanacademy.org/why.html)
 
 # Resources
 
