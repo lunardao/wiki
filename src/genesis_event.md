@@ -1,5 +1,7 @@
 # Genesis Event - $LUNAR Initial Allocation
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 * Genesis supply release = 50%
 * Locked supply = 50%
 

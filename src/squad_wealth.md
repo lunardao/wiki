@@ -1,5 +1,7 @@
 # Option 1: Squad Wealth
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 ***This is a default and prioritized option to support the growth of both: new privacy projects and LunarDAO.***
 
 A project X has a (yet illiquid) token and asks LunarDAO for a support in the project development - a DAO investment.

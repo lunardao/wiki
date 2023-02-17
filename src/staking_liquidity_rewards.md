@@ -1,5 +1,7 @@
 # Staking, liquidity & rewards
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 When analysing a traditional business, it is easier to to count the yield from financial statements. In crypto this is more sophisticated. A list of usual crypto project expences and revenues can help us to evaluate LunarDAO.
 
 *Table 5: LunarDAO token expences and revenues*

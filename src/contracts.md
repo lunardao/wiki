@@ -1,5 +1,7 @@
 # LunarDAO Smart Contracts
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 At the moment LunarDAO testing smart contracts on Goerli Testnet Network.
 
 **Tokens**

@@ -1,5 +1,7 @@
 # Overall $LUNAR Distribution
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 Combining the initial supply allocation and the unlock supply distribution returns the total $LUNAR distribution.
 
 *Table 4: $LUNAR total token distribution*

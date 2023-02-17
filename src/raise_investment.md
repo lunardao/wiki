@@ -1,5 +1,7 @@
 # Raise & project investment
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 To support privacy projects, research and education are the main purposes of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography and knowledge. To choose meaningful projects and help them to grow is vital. As a reward for the LunarDAO community is the shared value of these projects, either in the form of their token, knowledge or tools they build. It is a mutual harmony in which a growth of one empowers the other and vise versa. This symbiotic but diverse nature slowly but steadily replaces the bare desert of surveillance and hegemony.
 
 **LunarDAO Support**

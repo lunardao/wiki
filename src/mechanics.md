@@ -1,5 +1,7 @@
 # Mechanics
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 * $LUNAR can be staked in single asset pools or to provide liquidity (read [staking](./staking_liquidity_rewards.md) below)
 * 50% of $LUNAR emissions after the genesis event are for mining rewards
 * For any $LUNAR staked in a single staking or LP pools, for 7 and more days, $VOX get minted. When $LUNAR is unstaked, $VOX is burned.

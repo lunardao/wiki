@@ -1,4 +1,7 @@
 # $VOX Airdrop
+
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 $VOX token is minted when staking $LUNAR. It allows its holder to submit a LIP and to vote in LunarDAO. $VOX will be airdropped to everyone participating in LunarDAO Genesis Community sale event.
 
 ## Objectives

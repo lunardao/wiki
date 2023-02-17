@@ -1,5 +1,7 @@
 # LUNAR liquidity provider
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 *These protocols can be changed by a LunarDAO Squad decision (LIP + vote)*
 
 Liquidity providing - mechanics and rewards:

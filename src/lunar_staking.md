@@ -1,5 +1,7 @@
 # Staking $LUNAR
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 Simple staking - Mechanics and rewards:
 
 * 50% of all $LUNAR emission are allocated as staking rewards. Those are every 24h divided between all staked $LUNAR tokens (their holders proportionally). 

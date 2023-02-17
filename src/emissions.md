@@ -1,5 +1,7 @@
 # $LUNAR Life Cycle
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 **Unlock Schedule**
 
 Since the Genesis Event, the LunarDAO Life Cycle starts. $LUNAR has a maximal supply. 50% $LUNAR remains locked and will be released, from Day 0. The release schedule starts sharp to bring more liquidity, and gets flatter over time through halving periods.

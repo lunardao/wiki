@@ -1,5 +1,7 @@
 # Option 2: Launchpad
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 ***This option is not preferable as it does not fully align with the mission of LunarDAO, to create squad wealth***
 
 In some cases the Squad may want to protect it's treasury, but still support the project through a raise. There are different possibilities how to execute a community or a squad raise:

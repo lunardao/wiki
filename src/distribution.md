@@ -1,5 +1,7 @@
 # Distribution
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 **Objectives**
 
 1. Build treasury & decentralized community without any VCs

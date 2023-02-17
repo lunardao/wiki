@@ -1,5 +1,7 @@
 # LunarDAO Tokens
 
+*NOTE: Please read [Current state](./update.md) before continuing reading **Tokenomics.***
+
 **LUNAR**
 
 * LunarDAO community token
