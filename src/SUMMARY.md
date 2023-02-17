@@ -14,6 +14,7 @@
 
 # Token economics
 
+- [Current status](./update.md)
 - [LunarDAO Tokens](./tokens.md)
 - [Smart Contracts](./contracts.md)
 - [Mechanics](./mechanics.md)
