@@ -5,4 +5,4 @@ multilingual = false
 src = "src"
 
 [output.html]
-default-theme = "ayu"
+default-theme = "navy"
