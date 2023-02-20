@@ -16,17 +16,22 @@ sudo apt-get update
 sudo apt-get install -y git make jq gcc pkg-config libmpg123-dev
 ```
 For other os, check [here](https://darkrenaissance.github.io/darkfi/index.html) to see which dependencies are needed. 
+
 **ircd**
 
 All the steps are in the DarkFi's ircd installation [guide](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html) and in the [ircd config file template](https://github.com/darkrenaissance/darkfi/blob/master/bin/ircd/ircd_config.toml) as comments, this manual shows more explicit steps. 
 
+**Config Download**
+```sh
+mkdir ~/.config/darkfi
+```
+```sh
+wget -P ~/.config/darkfi https://github.com/lunardao/ircd/blob/master/ircd_config.toml 
+```
 
 To install ircd, and the chat client [Weechat](https://weechat.org/files/doc/stable/weechat_user.en.html) follow DarkFi's [ircd installation guide](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html)
 
 * Make sure to go through the whole installation and set up Weechat.
-* Running ircd for the first time will create a new config file in `~/.config/darkfi/` called `ircd_config.toml`. Always use this particular file to change configuration, not the template in the repository.
-* To change the config file - either run `vim ~/.config/darkfi/ircd_config.toml` click on `i` to insert, make your changes and after press `<esc>` and enter `:w` to save or `:x` to save and exit, or edit the file in another text editor.
-* First add `"#lunardao"` public channel to the autojoin line: `autojoin = [......., "#lunardao"]`
 
 ## Usage
 
