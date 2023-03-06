@@ -8,9 +8,8 @@
 
 # Governance 
 
-- [Overview](./governance.md) 
+- [Overview](https://github.com/lunardao/dao#governance) 
 - [LIP](./lip-0001.md)
-- [Grant application](./grant_application.md)
 
 # Token economics
 
