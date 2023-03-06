@@ -2,31 +2,31 @@
 
 # SUMMARY.md pages which need .html removed
 clean="
-	dao#abstract
-	dao#mission
-	dao#investment-thesis
-	dao#lunardao-architecture
-	dao#fund-management
-	dao#portfolio-investment-club
-	dao#syndicate
-	dao#investment
-	dao#conclusion
-	dao#resources--references
-    dao#governance
-    dao#community
-    dao#squad
-    dao#voting
-    dao#minimum-retention
-    dao#ragequit
-    dao#grace-period
-    dao#guildkick
-    dao#committees
-    dao#stewards
-    dao#media
-    dao#research
-    dao#education
-    dao#sentinels
-    dao#governance-process
+	abstract
+	mission
+	investment-thesis
+	lunardao-architecture
+	fund-management
+	portfolio-investment-club
+	syndicate
+	investment
+	conclusion
+	resources--references
+    governance
+    community
+    squad
+    voting
+    minimum-retention
+    ragequit
+    grace-period
+    guildkick
+    committees
+    stewards
+    media
+    research
+    education
+    sentinels
+    governance-process
 "
 
 mdbook build
