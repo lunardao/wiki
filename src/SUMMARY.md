@@ -28,7 +28,7 @@
 # Token economics
 
 - [Preface](./preface.md)  
-- [Abstract](./abstract.md)  
+- [Abstract](https://github.com/lunardao/dao#abstract)  
 - [Mission](./mission.md)  
 - [Investment thesis](./investment_thesis.md)  
 - [Tokenomics](./dao_architecture.md)  
