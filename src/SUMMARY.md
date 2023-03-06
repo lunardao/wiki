@@ -23,12 +23,14 @@
     - [Education](https://github.com/lunardao/dao#education)  
     - [Sentinels](https://github.com/lunardao/dao#sentinels)
 - [Governance process](https://github.com/lunardao/dao#governance-process)
-- [LIP](./lip-0001.md)
+
+# LIP
+
+- [LIP-0001](./lip-0001.md)
 
 # Token economics
 
-- [Preface](./preface.md)  
-- [Abstract](https://github.com/lunardao/dao#abstract)  
+- [Preface](./preface.md)   
 - [Mission](https://github.com/lunardao/dao#mission)  
 - [Investment thesis](https://github.com/lunardao/dao#investment-thesis)  
 - [Tokenomics](https://github.com/lunardao/dao#dao-architecture)  
@@ -37,7 +39,7 @@
     - [Syndicate](https://github.com/lunardao/dao#syndicate)  
 - [Investment template](https://github.com/lunardao/dao#investment)  
 - [Conclusion](https://github.com/lunardao/dao#conclusion)  
-- [Resources & references](https://github.com/lunardao/dao#resources--references)
+
 
 # Opt out
 

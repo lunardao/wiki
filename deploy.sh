@@ -2,7 +2,6 @@
 
 # SUMMARY.md pages which need .html removed
 clean="
-	abstract
 	mission
 	investment-thesis
 	lunardao-architecture
@@ -11,7 +10,6 @@ clean="
 	syndicate
 	investment
 	conclusion
-	resources--references
     governance
     community
     squad
