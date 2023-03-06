@@ -22,7 +22,7 @@ LunarDAO participants should solve for all of these threats.
 
 ### How do I apply for funding from LunarDAO?
 
-A LunarDAO Squad member is every community member who owns $VOX/Shares. Proposals are made via LIP (LunarDAO Improvement Proposal). This includes investment proposals, new standards, and funding proposals.
+A LunarDAO Squad member is any community member who owns $VOX/Shares. The Squad can submit proposals including ie.investment proposals and changes on gorvernance. These are made via LIP (LunarDAO Improvement Proposal). Road more about this process in [Governance](https://github.com/lunardao/dao#governance) and [LIP-0001](./lip-0001.md).
 
 ### What is LunarDAO?
 
@@ -38,11 +38,11 @@ LunarDAO is an investment fund based on lunarpunk philosophy. By allocating fund
 
 ### How can I join?
 
-A LunarDAO Squad member is every community member who owns $VOX (shares). During fundraising event, anyone who buy $VOX can become a squad member. The minimum tribute is 0.1 ETH. $VOX represent the member's share of the treasury as well as voting power. LunarDAO Squad members can exit the DAO with their funds at any time through ragequit. Read more on governance [here](https://github.com/lunardao/dao#governance).
+During fundraising event, anyone who buy $VOX can become a Squad member. The minimum tribute is 0.1 ETH. $VOX represent the member's share of the treasury as well as voting power. LunarDAO Squad members can exit the DAO with their funds at any time through ragequit. Read more on governance [here](https://github.com/lunardao/dao#governance).
 
 ### How are decisions made in LunarDAO?
 
-LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period, during which squad members can ragequit should they disagree with the result of the voting.
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Squad members can submit and vote on proposals. In [LIP-0001](./lip-0001.md) there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period, during which Squad members can ragequit should they disagree with the result of the voting.
 
 However, LunarDAO governance is not limited to LIPs or 
 voting. Decisions flow upward from the community. Voting in LunarDAO is the practical implementation of the willpower of the community. The decision making process is not something technical and cannot be separated from our communication and interaction on the forum.
@@ -57,12 +57,12 @@ In LunarDAO Shares are represented by the symbol $VOX.
 
 - 1 $VOX is an equivalent to 1 share.  
 - $VOX is LunarDAO governance token.  
-- Minimum of 1 $VOX grants squad membership and voting power.  
+- Minimum of 1 $VOX grants Squad membership and voting power.  
 - $VOX is an account bound, non-transferable token.  
 - Every 0.1 ETH of tribute to treasury mints 10 $VOX to the member (at launch, future entry price may differ based on the previous investments made).  
-- When a member ragequits the, $VOX is burned.  
+- When a member ragequit, $VOX is burned.  
     - $VOX value in the treasury stays the same for remaining members.  
-    - RageQuiting member gets 100% of their funds in the form of loot.
+    - Ragequitting member gets 100% of their funds in the form of loot.
 
 ### How do I buy tokens?
 
