@@ -6,3 +6,5 @@ src = "src"
 
 [output.html]
 default-theme = "navy"
+enable = false
+level = 0
