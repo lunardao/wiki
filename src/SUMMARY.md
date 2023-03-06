@@ -8,7 +8,7 @@
 
 # Governance 
 
-- [Introduction]("https://github.com/lunardao/dao#governance")  
+- [Introduction](https://github.com/lunardao/dao#governance)  
 - [Community](https://github.com/lunardao/dao#community)  
 - [Squad](https://github.com/lunardao/dao#squad)  
 - [Voting](https://github.com/lunardao/dao#voting)  
