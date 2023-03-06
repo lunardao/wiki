@@ -8,7 +8,21 @@
 
 # Governance 
 
-- [Overview](https://github.com/lunardao/dao#governance) 
+- [Introduction]("https://github.com/lunardao/dao#governance")  
+- [Community](https://github.com/lunardao/dao#community)  
+- [Squad](https://github.com/lunardao/dao#squad)  
+- [Voting](https://github.com/lunardao/dao#voting)  
+- [Minimum retention](https://github.com/lunardao/dao#minimum-retention)  
+- [RageQuit](https://github.com/lunardao/dao#ragequit)  
+- [Grace period](https://github.com/lunardao/dao#grace-period)  
+- [GuildKick](https://github.com/lunardao/dao#guildkick)  
+- [Committees](https://github.com/lunardao/dao#committees)  
+    - [Stewards](https://github.com/lunardao/dao#stewards)  
+    - [Media](https://github.com/lunardao/dao#media)  
+    - [Research](https://github.com/lunardao/dao#research)  
+    - [Education](https://github.com/lunardao/dao#education)  
+    - [Sentinels](https://github.com/lunardao/dao#sentinels)
+- [Governance process](https://github.com/lunardao/dao#governance-process)
 - [LIP](./lip-0001.md)
 
 # Token economics
