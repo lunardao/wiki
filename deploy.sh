@@ -2,13 +2,13 @@
 
 # SUMMARY.md pages which need .html removed
 clean="
-	abstract
-	mission
-	investment-thesis
-	lunardao-architecture
-	fund-management
-	portfolio-investment-club
-	syndicate
+	dao#abstract
+	dao#mission
+	dao#investment-thesis
+	dao#lunardao-architecture
+	dao#fund-management
+	dao#portfolio-investment-club
+	dao#syndicate
 	investment
 	conclusion
 	resources--references
