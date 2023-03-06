@@ -1,0 +1,3 @@
+# RageQuit
+
+Ragequit enables squad members to exit with their funds, without penalty, if they do not agree with the result of a vote, or if they no longer want to be a part of the DAO. The designated time period in which members can ragequit after voting is called Grace period. Ragequit is possible no matter what the squad member voted on the proposal. This is an important function against malicious proposals and also a minority protection. With this function, all members are incentivized to bring forward proposals which are aligned with the community sentiment.

@@ -3,4 +3,7 @@ authors = ["LunarDAO Squad"]
 language = "en"
 multilingual = false
 src = "src"
+
+[output.html]
 default-theme = "navy"
+

@@ -1,0 +1,3 @@
+# Introduction
+
+Access to resources is fundamental for everyone. Crypto provides the means for people to have power over their own resources. The concept of a DAO has been battle tested in all kinds of forms. LunarDAO aims to learn from the experiences of those before us. There is no single perfect format and stagnation leads to a dead end. A main limitation when pushing for changes is an inability to imagine the world we want to build. With curiosity, the frame of DAOs offers vast possibilities for progress and expansion. Anyone can join LunarDAO. It is a space where lunarpunks can come together, share ideas and knowledge, initiate and support projects, and build liberating tech in pursuit of autonomy.

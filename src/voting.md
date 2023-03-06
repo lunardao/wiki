@@ -1,0 +1,3 @@
+# Voting
+
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period, during which squad members can ragequit should they disagree with the result of the voting.
