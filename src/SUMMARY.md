@@ -15,20 +15,6 @@
 # Token economics
 
 - [Current status](./update.md)
-- [LunarDAO Tokens](./tokens.md)
-- [Smart Contracts](./contracts.md)
-- [Mechanics](./mechanics.md)
-- [Distribution](./distribution.md)
-    - [Genesis event](./genesis_event.md)
-    - [$VOX Airdrop](./VOX_airdrop.md)
-    - [$LUNAR Life cycle](./emissions.md)
-    - [Total distribution](./total_distribution.md)
-- [Staking, liquidity & rewards](./staking_liquidity_rewards.md)
-    - [Staking $LUNAR](./lunar_staking.md)
-    - [$LUNAR liquidity provider](./lunar_lp.md)
-- [Raise & project investment](./raise_investment.md)
-    - [Option 1: Squad Wealth](./squad_wealth.md)
-    - [Option 2: Launchpad](./launchpad.md)
 
 # Opt out
 
