@@ -14,7 +14,7 @@
 
 # Token economics
 
-- [Current status](./update.md)
+- [Preface](./preface.md)
 
 # Opt out
 
