@@ -14,7 +14,17 @@
 
 # Token economics
 
-- [Preface](./preface.md)
+- [Preface](./preface.md)  
+- [Abstract](https://github.com/lunardao/dao#abstract)  
+- [Mission](https://github.com/lunardao/dao#mission)  
+- [Investment thesis](https://github.com/lunardao/dao#investment-thesis)  
+- [Tokenomics](https://github.com/lunardao/dao#lunardao-architecture)  
+- [Fund management](https://github.com/lunardao/dao#fund-management)  
+    - [Portfolio](https://github.com/lunardao/dao#portfolio-investment-club)  
+    - [Syndicate](https://github.com/lunardao/dao#syndicate)  
+- [Investment template](https://github.com/lunardao/dao#investment)  
+- [Conclusion](https://github.com/lunardao/dao#conclusion)  
+- [Resources & references](https://github.com/lunardao/dao#resources--references)
 
 # Opt out
 
