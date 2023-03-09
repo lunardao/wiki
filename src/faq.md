@@ -40,6 +40,32 @@ LunarDAO is an investment fund based on lunarpunk philosophy. By allocating fund
 
 Yes, you can find it [here](https://github.com/lunardao/dao).
 
+### What is LunarDAOs mission?
+
+LunarDAO mission is the manifestation of lunarpunk vision which enables the forest to expand. In practice LunarDAO: 
+
+- Invest in privacy and anonymity tech and infrastructure
+- Research and share information on privacy projects
+- Support education initiatives aligning with LunarDAO aims
+
+### What problem is LunarDAO solving?
+
+Anonymity and privacy oriented developers will face an increasing difficulty in finding support among traditional VC's and investment funds, because of regulatory measures. This will lead into a dynamic where the developing teams will be forced to sell their work underpriced to counterparties who don't share the same vision. This scenario a portrays privacy as a taboo, developers are under stress and value is extracted from the ecosystem.
+
+We don't accept the future to be so grim. The prospect of privacy is ultimately bullish. LunarDAO offers a solution.
+
+We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) evaluates the teams developing them and the Squad members democratically decide which projects shall be supported.
+
+* The privacy projects will get supported by a decentralized, anonymous organization, aligned with their mission.  
+* The teams will be provided with the needed resources to develop, grow and deliver.  
+* LunarDAO treasury accumulate supported privacy assets and the Squad manages the funds as a common portfolio.  
+* The value is conserved in the ecosystem, both parties profit from the upcoming cycle.  
+* While leveraging collective power, every individual is protected against majority rule and can exit the DAO any time with 100% of their shares (without any fee).
+
+We believe that the loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out in the desert with regressive regFi.
+
+You can find the complete whitepaper [here](https://github.com/lunardao/dao).
+
 ### How can I join?
 
 During fundraising event, anyone who buy $VOX can become a Squad member. The minimum tribute is 0.1 ETH. $VOX represent the member's share of the treasury as well as voting power. LunarDAO Squad members can exit the DAO with their funds at any time through ragequit. Read more on governance [here](https://github.com/lunardao/dao#governance).
