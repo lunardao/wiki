@@ -78,9 +78,9 @@
 - [Books](./books.md)
 - [Videos](./videos.md)
 
-<!--# Support-->
+# Support
 
-<!--[FAQ](./faq.md)-->
+-[FAQ](./faq.md)
 
 # 繁體中文
 - [LunarDAO宣言](./manifesto_tc.md)
