@@ -72,7 +72,7 @@ During fundraising event, anyone who buy $VOX can become a Squad member. The min
 
 ### When is the next fundraising event?
 
-TBA. Tha launch is happening soon. Stay tuned on [LunarDAO twitter](https://twitter.com/lunarpunksquad).
+TBA. The launch is happening soon. For updates, follow [LunarDAO](https://twitter.com/lunarpunksquad) on twitter.
 
 ### How are decisions made in LunarDAO?
 
