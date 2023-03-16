@@ -100,8 +100,7 @@ Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered
 - Enter full name of the recepient (friend or family member).  
 - Enter this persons address.  
 - For *'External reference'* one can write *Private loan* to not get any hustle with sudden money to the account.  
-- If there is a wish to get notified in case of any issues: Do not use a doxxed email. Set up an email account via ie. [Protonmail](proton.me) while on tails, to protect against tracking.
-<!---violet: sometimes proton (happened to me once) asks for some kind of verification through email or phone number to set up an account so it could be useful to list here some ways to do that anon (like temporary email providers)---> 
+- If there is a wish to get notified in case of any issues: Do not use a doxxed email. Set up an email account via ie. [Disroot](https://user.disroot.org/pwm/public/newuser) while on tails, to protect against tracking.
 
 ![](pics/bity/information_needed.png)
 
@@ -113,7 +112,7 @@ For this option it's also possible to go through steps in [Anonymizing assets](h
 2. **Join local crypto communities/chats**  
 See when someone wants to buy XMR and settle with them.
 - **Advantage:** best price, no fees, no %, no hustle, relatively secure.
-- **Reveal:** Amount, time and place of the trade to a person who under pressure can reveal these data.
+- **Reveals:** Amount, time and place of the trade to a person who under pressure can reveal these data.
 - https://juraj.bednar.io/en/blog-en/2022/03/14/how-to-create-your-own-crypto-trading-group/
 
 3. **OTC exchange**  
