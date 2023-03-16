@@ -1,7 +1,5 @@
 # Tails installation and usage
 
-# TAILS INSTALLATION AND USAGE
-
 [Tails](https://tails.boum.org/) is a free and open source portable Debian based operating system that works through a USB stick. It provides a safer environment to work on your own computer or somebody else's as it never accesses the computer's OS. Everything done in Tails disappears when it's shut down, leaving no trace on the computer: Tails always starts from a clean, fresh state and doesn't write anything to the hard drive.
 It's possible to save files and configurations in the Persistent storage, otherwise everything done in Amnesia will be wiped.
 Tails can't be used alongside the regular OS because it needs to be booted from BIOS/UEFI on the computer.
@@ -41,8 +39,8 @@ Links for detailed [instructions](https://tails.boum.org/install/dvd/index.en.ht
 
 See the example of [Virtualbox](https://wiki.lunardao.net/virtualbox_whonix.html). 
 **Security concerns:** Running Tails in parallel to the regular OS can be useful and more comfortable but may bring some security concerns:.
-* both the host OS and the virtualization sotware are able to monitor what is being done in Tails, hence use trustworthy ones - always at least open-source. Be mindful that if the host OS has been tampered with, it can break Tails' security guarantees.
-* traces of the session may be left on the hard disk.
+* Both the host OS and the virtualization sotware are able to monitor what is being done in Tails, hence use trustworthy ones - always at least open-source. Be mindful that if the host OS has been tampered with, it can break Tails' security guarantees.
+* Traces of the session may be left on the hard disk.
 * Tails' default MAC address anonymization doesn't affect the settings of the host OS. The MAC address anonymization only affects the Tails instance.
 Here's more content and [virtualization solutions](https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html)
 
