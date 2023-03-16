@@ -19,4 +19,5 @@
 - [Revolution in Rojava: Democratic Autonomy and Women’s Liberation in Syrian Kurdistan](https://libgen.is/book/index.php?md5=DC137DCFE5B717BD07B0B06655C088E3), by Michael Knapp, Anja Flach, Ercan Ayboğa, Janet Biehl (trans.)
 - [My whole life was a struggle](https://annas-archive.org/md5/e96a51a5bbbf91082821c5120e209fc6), by Sakine Cansiz
 - [How to Opt-Out of the Technocratic State](https://annas-archive.org/md5/056e4a80fe37fa5243bc45076c6eeead), by Derrick Broze
-- [Agorism in the 21st Century](https://agorist.xyz/)
+- [Agorism in the 21st Century](https://agorist.xyz/)  
+- [Extreme privacy: What it takes to disappear](https://library.lol/main/4B7C8EA0859310170FF4E742B940AFEA) by Michael Bazzell
