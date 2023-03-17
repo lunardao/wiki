@@ -15,7 +15,7 @@ Here are some things to keep in mind before starting.
 - It is preferred to start these operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html). If so, the second point below is not needed.
 - If using a regular OS --> Do not operate without hiding IP address and metadata. Use for example [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/) or [Lokinet](https://lokinet.org/).
 - If nothing else, use VPN, such as [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (remember that VPNs hides location, but not necessarily metadata. The VPN provider can observe your origination point) or use [Tor browser](https://www.torproject.org/download/).
-- Do not use same wallet which you have used for doxxed crypto and do no not use this wallet going forward with doxxed crypto. This wallet should be completely separate from any other activity you've done on-chain or off. 
+- Do not use same wallet which you have used for doxxed crypto and do no not use this wallet going forward with doxxed crypto. This wallet should be completely separate from any other activity you've done on-chain or off. Check [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) for more information.
 - If applications are used on a phone, such as [Cake wallet](https://cakewallet.com/), the privacy of the phone matters. Take a look at [Privacy setup](https://wiki.lunardao.net/privacy_setup.html) for a more secure phone setup.
 
 Every withdrawal to fiat which is not OTC (to paper cash) or non-KYC ATM (to paper cash) is one way or the other KYCed or traceable. The credit card/bank account to which you are withdrawing is assigned to a real identity and on-chain data is accessible to anyone.
@@ -64,7 +64,7 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 - [Trocador](trocador.app)  
 - [Fixed float](fixedfloat.com)  
 - [Stealthex](https://stealthex.io/)
-2. Withdraw via non-KYC ATMs for BTC (most are KYC, so check carefully). [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros. Come prepared with the BTC deposit address and qr-code.
+2. Withdraw via non-KYC ATMs for BTC (most are KYC, so check carefully). [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros.
 
 **Possibilities:**
 
@@ -148,4 +148,4 @@ In this example we aim to get 900 Euros out from an ATM in a private way, starti
 
 - See [**Privacy projects**](https://wiki.lunardao.net/crypto_privacy_projects.html) section on *P2P Trading platforms* about local BTC and Monero exchanges.
 
-- [List of BTC ATMs](https://coinatmradar.com/countries/)
+- [**List of BTC ATMs**](https://coinatmradar.com/countries/)
