@@ -6,7 +6,7 @@ This guide is focused on how to withdraw crypto to cash in an anonymous way, whi
 
 Banks are fundamental for economic surveillance. Payment cards track purchases and map out our lives. Not our keys, not our cash - which means that money in the bank are imaginary funds which can be frozen or taken away. This compromises our privacy as well as our autonomy. 
 
-There are grey zones in regards to withdrawals, ie. ways to use a CEX like Kucoin in an anonymous way. These are not included in this guide as the aim is to improve our knowledge and skills for privacy solutions and a CEX is centralized, non reliable and counter-intuitive to anyone who seeks to develop sovereignty.
+There are grey zones in regards to withdrawals, ie. ways to use a fully centralized exchange (CEX) like Kucoin in an anonymous way. These are not included in this guide as the aim is to improve our knowledge and skills for privacy solutions and a CEX is centralized, non reliable and counter-intuitive to anyone who seeks to develop sovereignty.
 
 ## Considerations 
 
