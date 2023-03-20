@@ -52,7 +52,8 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 1. Swap your coin to XMR. Use:  
 - [Trocador](trocador.app)  
 - [Fixed float](fixedfloat.com)  
-- [Stealthex](https://stealthex.io/)
+- [Stealthex](https://stealthex.io/)  
+- [Sideshift](https://sideshift.ai/)
 2. Send to another XMR wallet that is not connected to the same node, or to a XMR wallet that is running on own XMR node. You can use [Cake Wallet](https://cakewallet.com/) for this. This adds complexity in case you are being tracked by any of the services you've used so far. Here is more info on how to [run a node](https://www.monero.how/how-to-run-monero-node). 
 3. Swap to BTC in [Cake Wallet](https://cakewallet.com/) using Cake Wallet's exchange feature. Use Cake wallet with [tor](https://guides.cakewallet.com/docs/advanced-features/tor-with-orbot/).
 
@@ -63,7 +64,8 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 1. Swap your coin to XMR. Use:  
 - [Trocador](trocador.app)  
 - [Fixed float](fixedfloat.com)  
-- [Stealthex](https://stealthex.io/)
+- [Stealthex](https://stealthex.io/)  
+- [Sideshift](https://sideshift.ai/)
 2. Withdraw via non-KYC ATMs for BTC (most are KYC, so check carefully). [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros.
 
 **Possibilities:**
@@ -127,9 +129,9 @@ In this example we aim to get 900 Euros out from an ATM in a private way, starti
 3. Install new [Cake wallet](https://cakewallet.com/) or [Monerujo](https://www.monerujo.io/) on phone and [Monero cli](https://www.getmonero.org/downloads/#cli) (or [GUI wallet](https://www.getmonero.org/downloads/)) on Linux (preferably on TAILS), or make two [Cake wallets](https://cakewallet.com/).
 4. Calculate 900E into USD, add all the fees on the way (ATM, swaps, transactions)
 5. Add at least 1% for volatily (price changes) on top and calculate how much BTC that will be. 
-6. Swap that BTC to XMR using [Trocador](trocador.app) or [Majestic bank](majesticbank.sc).
+6. Swap that BTC to XMR using [Trocador](trocador.app),  [Majestic bank](majesticbank.sc) or [Sideshift](https://sideshift.ai/).
 7. Send XMR to another [Cake wallet](https://cakewallet.com/) (CLEAN!!! --> this means that the wallet has been set up while protecting IP address and metadata).
-8. Swap back to BTC using [Trocador](trocador.app) or [Majestic bank](majesticbank.sc). Use a different swap service to prevent the services from performing correlation attacks.
+8. Swap back to BTC using [Trocador](trocador.app), [Majestic bank](majesticbank.sc) or [Sideshift](https://sideshift.ai/). Use a different swap service to prevent the services from performing correlation attacks.
 9. Withdraw from non-KYC ATM, be as inconspicuous as possible (read notes on privacy).
 
 # Note on Privacy
