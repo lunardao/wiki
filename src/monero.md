@@ -6,7 +6,7 @@ This is an advanced privacy guide for Monero to inform users with extreme threat
 
 *General description of Monero's consensus, security and UTXO based model*  
 
-- Monero follows a UTXO-based model that Bitcoin pioneered and includes privacy technologies (listed below) implemented directly into the core protocol.  Monero is built on top of the CryptoNote protocol. There are 0.3 XMR mined per minute. The block subsidy is 0.6 XMR, and the block time between Monero blocks is 2 minutes. Monero has a dynamic block size and a tail emission of 0.6 XMR per block forever. The Monero supply is deflationary.
+Monero follows a UTXO-based model that Bitcoin pioneered and includes privacy technologies (listed below) implemented directly into the core protocol.  Monero is built on top of the CryptoNote protocol. There are 0.3 XMR mined per minute. The block subsidy is 0.6 XMR, and the block time between Monero blocks is 2 minutes. Monero has a dynamic block size and a tail emission of 0.6 XMR per block forever. The Monero supply is deflationary.
 
 A Monero transaction occurs by a sum of inputs being consumed and creating an equal sum amount of outputs. During an XMR transaction inputs are destroyed and 16 outputs are utilized. This is called the ring signature. The outputs created from the transaction include one real output and 15 decoy outputs. The decoy outputs are arbitrarily picked from previous transactions on the blockchain. Each of these outputs look valid to an outside observer. The current default ring size is 16 which makes up your anonymity set.
 
@@ -23,7 +23,7 @@ Monero is one of the most private cryptocurrencies currently available along wit
 
 ## Spending Best Practices
 
-- **Basic Users:** Most users of Monero don't need to take considerations when using Monero. It works for every day purchases. If there are larger threats to consider such as avoiding sanctions, totalitarian governments, and risk of physical harm, a user should consider these before utilizing Monero. These kinds of attacks are specific in nature and as mentioned previously, do not affect most users. 
+**Basic Users:** Most users of Monero don't need to take considerations when using Monero. It works for every day purchases. If there are larger threats to consider such as avoiding sanctions, totalitarian governments, and risk of physical harm, a user should consider these before utilizing Monero. These kinds of attacks are specific in nature and as mentioned previously, do not affect most users. 
 
 ## Advanced attacks
 
@@ -63,13 +63,11 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 
 - **Further Developments & Analysis:** Technologicial developments and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward. This includes increasing the ring size while also providing scalability. Monero maintains a strong market share because it accomplishes what it sets out to do in the current environment. See also *Monero project research-lab*
 
-
 ## Wallets
 
 ### Desktop Wallet
 
 - [Feather Wallet](https://featherwallet.org/): Is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. It ships with strong defaults for normal users but can be configured for high or uncommon threat models.
-
 
 ### Mobile Wallet
 
@@ -86,10 +84,11 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 ## Obtaining Monero
 
 - [LocalMonero](https://localmonero.co/) & [AgoraDesk](https://agoradesk.com/).
-- [Mining](https://p2pool.io/) - Decentralized Monero mining.
-- [TradeOgre](https://tradeogre.com/) - Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
+- [Mining](https://p2pool.io/): Decentralized Monero mining.
+- [TradeOgre](https://tradeogre.com/): Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
 - [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
 - [Trocador](https://trocador.app) via onion link: [http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion). Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
+- [Bisq](https://bisq.network): Decentralized exchange built into an open source desktop application. Bisq routes over Tor by default.  Bitcoin is the base currency but Monero has the largest alt-coin volume traded on Bisq. 
 
 ## Atomic Swaps
 
@@ -117,5 +116,4 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 - [Monero Stack Exchange](https://monero.stackexchange.com/)
 - [Zero to Monero: Second Edition](https://www.getmonero.org/library/Zero-to-Monero-2-0-0.pdf)
 - [MoneroResearch.info](https://moneroresearch.info/)
-
 
