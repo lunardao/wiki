@@ -1,3 +1,6 @@
+
+![](./pics/landscape02.jpg)
+
 # Mission
 
 LunarDAO mission is the manifestation of lunarpunk vision which enables the forest to expand. In practice LunarDAO: 

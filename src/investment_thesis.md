@@ -30,4 +30,4 @@ The privacy investment sphere is LunarDAO's main focus. At the same time we see 
 
 The DAO creates possibilities for technical literacy by building [research](https://wiki.lunardao.net/anoma.html) and [wiki](https://wiki.lunardao.net/intro.html) and supporting [educational](https://wiki.lunardao.net/academy_intro.html) structures such as the partnering project [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem. Such education empowers the community and shape thinkers, who bring value back to the ecosystem. Education is a long-term investment.
 
-![](https://github.com/lunardao/dao/blob/master/pic/landscape01.jpg)
+![](./pics/landscape01.jpg)
