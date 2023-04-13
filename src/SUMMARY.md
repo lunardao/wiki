@@ -8,37 +8,29 @@
 
 # Governance 
 
-- [Introduction](./introduction.md)  
-- [Community](https://github.com/lunardao/dao#community)  
-- [Squad](https://github.com/lunardao/dao#squad)  
-- [Voting](https://github.com/lunardao/dao#voting)  
-- [Minimum retention](https://github.com/lunardao/dao#minimum-retention)  
-- [RageQuit](https://github.com/lunardao/dao#ragequit)  
-- [Grace period](https://github.com/lunardao/dao#grace-period)  
-- [GuildKick](https://github.com/lunardao/dao#guildkick)  
-- [Committees](https://github.com/lunardao/dao#committees)  
-    - [Stewards](https://github.com/lunardao/dao#stewards)  
-    - [Media](https://github.com/lunardao/dao#media)  
-    - [Research](https://github.com/lunardao/dao#research)  
-    - [Education](https://github.com/lunardao/dao#education)  
-    - [Sentinels](https://github.com/lunardao/dao#sentinels)
-- [Governance process](https://github.com/lunardao/dao#governance-process)
+- [Overview](./overview.md)  
+- [Committees](./committees.md)  
+- [Governance process](./process.md)
 
 # LIP
 
 - [LIP-0001](./lip-0001.md)
 
-# Token economics
+# Venture
 
 - [Preface](./preface.md)   
-- [Mission](https://github.com/lunardao/dao#mission)  
-- [Investment thesis](https://github.com/lunardao/dao#investment-thesis)  
-- [Tokenomics](https://github.com/lunardao/dao#dao-architecture)  
-- [Fund management](https://github.com/lunardao/dao#fund-management)  
-    - [Portfolio](https://github.com/lunardao/dao#portfolio)  
-    - [Syndicate](https://github.com/lunardao/dao#syndicate)  
-- [Investment template](https://github.com/lunardao/dao#investment)  
-- [Conclusion](https://github.com/lunardao/dao#conclusion)  
+- [Mission](./mission.md)
+- [Investment thesis](./investment_thesis.md)
+
+# DAO Architecture
+
+- [Moloch V3](./moloch_v3.md)
+- [Tokenomics](./tokenomics.md)  
+- [Fund management](./fund_management.md)  
+    - [Portfolio](./portfolio.md)  
+    - [Syndicate](./syndicate.md)  
+- [Investment template](./investment_template.md)  
+- [Conclusion](./conclusion.md)  
 
 
 # Opt out
