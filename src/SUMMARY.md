@@ -32,6 +32,19 @@
 - [Investment template](./investment_template.md)  
 - [Conclusion](./conclusion.md)  
 
+# Surveillance
+
+- [European union chat surveillance](./chat.md)  
+- [Schengen information system](./sis.md)  
+- [Data rentention initiative](./data_retention_initiative.md)  
+- [Echelon](./echelon.md)  
+- [Facebook selling user data](./facebook.md)  
+- [Google tracking users](./google.md)  
+- [Tik tok selling user data to Chinese government](./tiktok.md)  
+- [Wikileaks publications](./wikileaks.md)  
+- [Pegasus](./pegasus.md)  
+- [Surveillance in China](./china.md)  
+- [Government request of Big tech account data](./bigtech.md)
 
 # Opt out
 

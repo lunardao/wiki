@@ -1,0 +1,3 @@
+# Data rentention initiative
+
+From 2006 [EU member states had to store information](https://en.wikipedia.org/wiki/Data_Retention_Directive) on all citizens' phone and internet connections for a minimum of six months and at most twenty-four months. If the police in the member states demanded it, the information had to be shared. The court of justice of the European Union declared the directive invalid for violating fundamental rights.

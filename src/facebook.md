@@ -1,0 +1,3 @@
+# Facebook selling user data
+
+[In 2018 it was revealed](https://www.nytimes.com/2018/04/04/us/politics/cambridge-analytica-scandal-fallout.html) that Facebook had previously allowed the political consulting firm Cambridge Analytica to access the personal data of tens of millions of its users - around 87 million people- without their knowledge or consent. This data was then used to target specific groups of users with political ads during the 2016 US presidential election. CA's executives declared in 2018 they had worked in 200 elections around the world.
