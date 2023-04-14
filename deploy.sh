@@ -1,31 +1,31 @@
 #!/bin/bash
 
 # SUMMARY.md pages which need .html removed
-clean="
-	mission
-	investment-thesis
-	lunardao-architecture
-	fund-management
-	portfolio-investment-club
-	syndicate
-	investment
-	conclusion
-    governance
-    community
-    squad
-    voting
-    minimum-retention
-    ragequit
-    grace-period
-    guildkick
-    committees
-    stewards
-    media
-    research
-    education
-    sentinels
-    governance-process
-"
+# clean="
+# 	mission
+# 	investment-thesis
+# 	lunardao-architecture
+# 	fund-management
+# 	portfolio-investment-club
+# 	syndicate
+# 	investment
+# 	conclusion
+#     governance
+#     community
+#     squad
+#     voting
+#     minimum-retention
+#     ragequit
+#     grace-period
+#     guildkick
+#     committees
+#     stewards
+#     media
+#     research
+#     education
+#     sentinels
+#     governance-process
+# "
 
 mdbook build
 
@@ -36,7 +36,8 @@ find book -type f -name '*.html' | while read -r html_file; do
 	done
 done
 
-#rsync -r -v book/ seed@lunardao.net:/home/seed/mdwiki
+
+rsync -r -v book/ seed@lunardao.net:/home/seed/mdwiki
 
 
 

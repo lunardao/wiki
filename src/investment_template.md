@@ -1,28 +1,20 @@
-# Investment template
+# Investments
 
-To support privacy projects, research and education are the main purposes of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography and knowledge. To choose meaningful projects and help them to grow is vital. As a reward for the LunarDAO community is the shared value of these projects in the form of their token and or knowledge and tools they build. It is a mutual harmony in which a growth of one empowers the other and vise versa. This symbiotic but diverse nature slowly but steadily replaces the bare desert of surveillance and hegemony.
+*See LunarDAO [Investment portal](https://github.com/lunardao/research/tree/master/investment_portal) for current updates related to investments.*
+
+To support privacy projects by investing in them is the main purpose of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography, autonomy and users' knowledge. To choose meaningful projects and help them grow is vital. A reward for the LunarDAO community is the shared value of these projects in the form of their token and the knowledge and tools they build. It is a mutual harmony in which the growth of one empowers the other and vice versa. This symbiotic relationship slowly but steadily replaces the bare desert of surveillance and hegemony.
 
 ### Investment Flow
 
-*In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
+*Note: We use place holders X for the supported project and Tx for their token.*
 
-Project X offers a ticket of # of T tokens or any other value to the ecosystem in exchange for LunarDAO financial support (investment). After a community discussion, the project is evaluated by the research team and proposed to submit an invetment LIP in which it must be clearly defined:
-
-
-* Problem solving: Project X value for the ecosystem (knowledge, tools etc)
-* Requested size of support in USD terms
-* Offered amount of tokens Tx and the price valuation(if the project is monetary based)
-* Trigger event: Time period needed for execution or expected time of launch (when Tx becomes liquid)
-* Is the team X supported by private investors or VCs, other DAOs (or plans to) or just LunarDAO?
-* If yes: In which size and what is the price of token Tx to other supporting subjects?
-* If project X is token based: Tx tokenomics
-* Wallet address to recieve the support
+Project X is proposed to be financially supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://wiki.lunardao.net/lip-0001.html#lip-categories--types) is submitted. In this LIP must be clearly defined:
 
 
 ```yaml
 1. Name of the project
 2. Date
-3. Problem solving/Project X's value for to the ecosystem (new primitives, tools, knowledge, monetary etc)
+3. Project X's value to the ecosystem (problem solving, new primitives, tools, knowledge, monetary etc)
 4. Requested size of support in USD terms
 5. Offered amount of Project X tokens Tx and price per USD (if the project is monetary based)
 6. Trigger event: Tokens Tx will be send to LunarDAO treasury/Time period needed for execution or expected time of launch (when Tx becomes liquid)
@@ -30,7 +22,8 @@ Project X offers a ticket of # of T tokens or any other value to the ecosystem i
 8. If yes: In which size and what is the price of token Tx to other supporting subjects?
 9. If project X is token based: Tx tokenomics/release schedule
 10. Project X's wallet address to recieve the support
-11. LunarDAO treasury wallet address to recieve token Tx in agreed time, amount and price: lunarpunksquad.eth
-```
+11. LunarDAO treasury address to recieve token Tx in agreed time, amount and price: 0x59f77dc848c2e45b5954975ee1969e7a22fa25f6
 
-LunarDAO Squad will vote on the proposal of investment (see Governance chapter above). Project X sends the promissed tokens to LunarDAO treasury or in case of an illiquid (yet) state, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in excahnge for the support sent to the project X's address.
+```
+LunarDAO Squad votes on the proposal of investment (see [Governance](https://github.com/lunardao/dao#voting) for more details). Project X escrows the promised tokens to LunarDAO treasury as a part of the on-chain proposal, or in case of an illiquid (yet) token Tx, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in exchange for the support sent to the project X's wallet address.
+
