@@ -12,5 +12,7 @@ Google holds over 70% of the browser market and through IP addresses tracks what
 To develop open source software which aims to bring privacy solutions to users is becoming criminalized. When [Tornado cash](tornado.cash) developer [Alex pertsev](https://www.freealex.nl/) was arrested in Amsterdam, US government publicly tagged all Tornado cash users. The current push to regulate crypto including imposing CBDC (Central Bank Digital Currency) is a way for nation-states to co-opt crypto, control people and money flow.
 
 If we want to opt out of the surveillance system, we need to build privacy tools, share knowledge and resources on what is already existing. 
+  
+<!---.. Add this comment at the bottom: "Refer to our Surveillance document for further materials concerning state and corporate surveillance"  and drop a link to the surveillance doc--->
 
 
