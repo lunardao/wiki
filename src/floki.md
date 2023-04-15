@@ -1,5 +1,15 @@
 # Flokinet VPS with git, ircd and tau deployment
 
+**Flokinet**
+
+- Is focused on supporting freedom of speech, free press and whistleblower projects.  
+- Do not ask for personal information and will never give third parties access to any data.  
+- Flokinet provide free whois protection for user domains (with exception of some domains where it is not possible, .de for example).  
+- Is encouraging the development of websites for whistleblowers.  
+- they are running several TOR nodes (exit and relay) to donate bandwidth and sugegsts that users should use Tor to anonymously get in contact. 
+
+**Buy VPS service on Flokinet**
+
 1) Register at [Flokinet](https://billing.flokinet.is/register.php).  
 2) Go to *Services* --> *Order new services*  
 3) Select *Virtual private serve* (There are options Iceland, Romania, Finland & Netherlands)  
