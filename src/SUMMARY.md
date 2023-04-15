@@ -68,10 +68,6 @@
     - [Changing RPC guide](./change_rpc.md)
 - [Privacy projects](./crypto_privacy_projects.md)
 
-# Sovereigny
-
-- [Floki VPS with git, ircd & tau](./floki.md)
-
 # Research
 
 - [Anoma](./anoma.md)
