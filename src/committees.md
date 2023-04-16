@@ -74,7 +74,7 @@ To build trust, and decentralize, the DAO is collborating with six Sentinels who
 
 5. [bZ](https://twitter.com/bZ404); [AssangeDAO](https://twitter.com/AssangeDAO).
 
-6. [Yves Edwards](https://twitter.com/yvesedwards); [Fiat Lux Podcast](https://inv.riverside.rocks/channel/UCbZFDgaRe-tEkE77aDQJuvQ).
+6. [Yves Edwards](https://twitter.com/yvesedwards); [FIAT LUX Podcast](https://inv.riverside.rocks/channel/UCbZFDgaRe-tEkE77aDQJuvQ).
 
 7. [Steward Anon 1](https://twitter.com/lunarpunksquad); [LunarDAO](https://lunardao.net/).
 
