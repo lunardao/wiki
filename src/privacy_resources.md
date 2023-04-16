@@ -16,6 +16,8 @@ Also check [**https://anarkio.codeberg.page/agorism/**](https://anarkio.codeberg
 
 - [**Web3 privacy now**](https://github.com/Msiusko/web3privacy) is a research project aimed at building a culture of privacy in web3.
 
-- [**Awesome privacy**](https://github.com/pluja/awesome-privacy) is a list of free, open source and privacy oriented tools. 
+- [**Awesome privacy**](https://github.com/pluja/awesome-privacy) is a list of free, open source and privacy oriented tools.  
+
+- [**kycnot.me**](https://kycnot.me/) is gathering crypto projects where the user do not need to identify themselves.
 
 
