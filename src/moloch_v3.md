@@ -11,7 +11,8 @@ Moloch V3 DAO (LunarDAO Governance): [0x747DA68Facd1459E9D9b8f928418DA30769D3Ba1
 Sentinels' Safe (5/8 multi-sig): [0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef](https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef) \
 LunarDAO Stewards' Safe (core-team, founders): [0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD](https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD) \
 $VOX (voting token/treasury shares): [0x33e6ded5073f512475e17b5f19dda90d9a782478](https://etherscan.io/address/0x33e6ded5073f512475e17b5f19dda90d9a782478) \
-$VOX-LOOT (non-voting token/shares): [0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7](https://etherscan.io/address/0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7)
+$VOX-LOOT (non-voting token/shares): [0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7](https://etherscan.io/address/0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7)  
+Genesis Event Onboarder Shaman: [0xFd7f0D849c1820F066aD1DEa8c8B90A59cA51Ef0](0xFd7f0D849c1820F066aD1DEa8c8B90A59cA51Ef0)
 
 ## On-chain vs Multi-sig
 
