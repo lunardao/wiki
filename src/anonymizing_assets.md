@@ -16,7 +16,7 @@ LunarDAO participants should solve for all of these threats.
 
 ## Resources:
 
-If you are looking to participate in the DAO, a user should use anonmyzing privacy techniques BEFORE particpating in the DAO. Here are two guides that give information about how to best anonymize your ETH using tools like zk.money and off-chain strategies. Consider using [NYM mixnet](nymtech.net) to protect your IP address and metadata or your own private node to submit transactions.
+If you are looking to participate in the DAO, a user should use anonmyzing privacy techniques BEFORE particpating in the DAO. Here are two guides that give information about how to best anonymize your ETH using tools like zk.money and off-chain strategies. Consider using [NYM mixnet](nymtech.net) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (note that VPNs change location, but doesn't necessarily protect metadata) or run your own private node to submit transactions. 
 - [Nexus, Black Sky](https://nexus.blacksky.network/zine/00000000/how-to-anonymize-eth)
 - [xanny.eth](https://mirror.xyz/xanny.eth/SGxwfVQ75831z5vFaS1LrlatUJEhxBvZ2cyTvAdCD0k)
 
