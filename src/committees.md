@@ -74,10 +74,10 @@ To build trust, and decentralize, the DAO is collborating with six Sentinels who
 
 5. [bZ](https://twitter.com/bZ404); [AssangeDAO](https://twitter.com/AssangeDAO).
 
-6. [Dr Paul Dylan-Ennis](https://twitter.com/polarpunklabs); [Academic & writer](https://scholar.google.com/citations?user=rbkT1JgAAAAJ&hl=en)
+6. [Yves Edwards](https://twitter.com/yvesedwards); [Fiat Lux Podcast](https://inv.riverside.rocks/channel/UCbZFDgaRe-tEkE77aDQJuvQ).
 
-7. [Steward Anon 1](https://twitter.com/lunarpunksquad); [LunarDAO](https://lunardao.net/)
+7. [Steward Anon 1](https://twitter.com/lunarpunksquad); [LunarDAO](https://lunardao.net/).
 
-8. [Steward Anon 2](https://twitter.com/lunarpunksquad); [LunarDAO](https://lunardao.net/)
+8. [Steward Anon 2](https://twitter.com/lunarpunksquad); [LunarDAO](https://lunardao.net/).
 
 These are guidelines to support Sentinels in their responsibility. It is the responsibility of the whole community to support the governance process, in which the forum discussion is an essential part. This ensures democratic governance and gives opportunities for feedback on proposals before initiating voting. Through the LIP process, if LunarDAO Community and Squad members have expressed criticisms and evaluated a proposal to be non-aligned with community sentiment or otherwise unsupported, the author should consider re-writing the LIP or decide to not proceed with voting.
