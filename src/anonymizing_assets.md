@@ -54,7 +54,7 @@ Of course aim to use a provider you can trust. The endpoint maintained by Parale
 - Add Metamask extension/add-on to Tor Browser (it will say it's for Firefox, but it will work anyway).
 - Create a new Metamask account.
 - Only use this account with Tor browser which means that you'll have to set up the add-on every time as Tor browser won't save any data (which is the privacy consideration we are looking for).
-- Anonymize your assets by using Tornado cash and send to your new account.
+- Anonymize your assets by using [Tornado cash](https://forums.tornadocash.community/t/post-censorship-guide/43) and send to your new account.
 
 More info in [Privacy tools](./list_privacy_tools.md).
 
