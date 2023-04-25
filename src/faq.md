@@ -1,5 +1,17 @@
 # 
 # 
+### How can I join?
+
+The [Genesis event](https://lunardao.net/app.html) is open until April 30th, 17:00 UTC. After this it is not possible to join until the next fundraising event. 
+
+- It is recommended to anonymize your assets before joining the DAO.  
+- Go to the [Staking page](https://join.lunardao.net). The entry is permissionless. 
+- $VOX represent the members share of the treasury as well as their voting power (voting power can be delegated as well).  
+- $VOX (shares) are non-transferable.  
+- Everyone's entry price is the same: 1 ETH = 100 $VOX (- 0.25% admin fees).  
+- The minimum tribute in order to join the DAO as a Squad member is 0.1 ETH which equals 10 $VOX (shares).  
+- Admin/management fee on entry of 0.25% is paid to the Stewards' (core-team) account from every tribute in the form of $VOX for the DAO operations.
+
 ### Can I contribute to the DAO anonymously?
 Yes. It is recommended. Follow this
 [guide](./anonymizing_assets.md).
@@ -17,12 +29,13 @@ LunarDAO participants should solve for all of these threats.
 
 ### I have nothing to hide.
 
->*“Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say."*
-<br>- Edward Snowden</br> 
+>*“Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say."* - Edward Snowden
 
 ### How do I apply for funding from LunarDAO?
 
-A LunarDAO Squad member is any community member who owns $VOX/Shares. The Squad can submit proposals including ie.investment proposals and changes in regards to governance. These are made via LIP (LunarDAO Improvement Proposal). Read more about this process in [Governance](https://github.com/lunardao/dao#governance) and [LIP-0001](./lip-0001.md).
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md) there is a template and further information on the expected content and process. 
+
+The sponsorship threshold is a minimum number of $VOX (10 $VOX which equals 0.1 ETH at launch) which is required to submit a proposal. This deposit is returned when the proposal have been accepted or rejected. Anyone else can submit a proposal by acquiring a sponsorship by offering a fee of 0.2 ETH which is non refundable and will be sent to the DAO treasury.
 
 ### What is LunarDAO?
 
@@ -66,22 +79,24 @@ We believe that the loop of tightening regulations and growing demand for privac
 
 You can find the complete whitepaper [here](https://github.com/lunardao/dao).
 
-### How can I join?
+### What are the investment proposals?
 
-During fundraising event, anyone who buy $VOX can become a Squad member. The minimum tribute is 0.1 ETH. $VOX represent the member's share of the treasury as well as voting power. LunarDAO Squad members can exit the DAO with their funds at any time through ragequit. Read more on governance [here](https://github.com/lunardao/dao#governance).
+To support privacy projects by investing in them is the main purpose of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography, autonomy and users' knowledge. To choose meaningful projects and help them grow is vital. A reward for the LunarDAO community is the shared value of these projects in the form of their token and the knowledge and tools they build. It is a mutual harmony in which the growth of one empowers the other and vice versa. This symbiotic relationship slowly but steadily replaces the bare desert of surveillance and hegemony.
 
-### When is the next fundraising event?
-
-TBA. The launch is happening soon. For updates, follow [LunarDAO](https://twitter.com/lunarpunksquad) on twitter.
+On the [Investment portal](https://github.com/lunardao/research/tree/master/investment_portal#primitives) research about privacy projects are shared as well as proposals for investment after the raise. There are ongoing discussions about the possibility of an Aztec fork for zk.money as well as [Mel](https://github.com/lunardao/research/blob/master/investment_portal/mel_project.md), a project aiming to build off-chain composable apps with a minimal on-chain interaction to achieve censorship resistance and decentralization. Eric from Mel, participated in [Lunarpunk Future](https://twitter.com/lunarpunksquad/status/1650107318283927552) twitter space and shared more information about the current development. This was summarized in [TL;DR](https://forum.lunardao.net/t/investment-proposal-mel-project/133).
 
 ### How are decisions made in LunarDAO?
 
-LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Squad members can submit and vote on proposals. In [LIP-0001](./lip-0001.md) there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. 
+LunarDAO governance is primarily based on LIP (LunarDAO Improvement Proposal). Anyone can write an LIP and share with the community. Squad members can submit and vote on proposals. If a community member want a proposal to be submmitted, it is possible to maker an offering of 0.2 ETH to the treasury, which is non-refundable. 
+
+In [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md) there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. 
 Read the criteria for what is deemed malicious proposals [here](https://github.com/lunardao/dao#sentinels).
 
 Voting is followed by the Grace period, during which Squad members can ragequit should they disagree with the result of the voting.
 
-However, LunarDAO governance is not limited to LIPs or voting. Decisions flow upward from the community. Voting in LunarDAO is the practical implementation of the willpower of the community. The decision making process is not something technical and cannot be separated from our communication and interaction on the forum.
+LunarDAO governance is not limited to LIPs or voting. The committees, Stewards, Media, Sentinels, Research and Education, organize their work autonomously. Decisions flow upward from the community. To become a Steward any member can write an LIP and propose to join. To join Media or Research, any member can make a request on the [forum](forum.lunardao.net). The suggested time frame to be a multi-sig participant is two years. However, it is also on the [roadmap](https://lunardao.net/roadmap.html) for the squad to vote if to continue to have a multi-sig based treasury or move to a complete trustless setup after the DAO launches.
+
+Voting in LunarDAO is the practical implementation of the willpower of the community. The decision making process is not something technical and cannot be separated from our communication and interaction on the forum.
 
 LunarDAO values discussion and diversity of opinions. We believe this will aid the development of a truly decentralized, anonymous and anti-fragile organization.
 
@@ -100,24 +115,17 @@ In LunarDAO Shares are represented by the symbol $VOX.
     - $VOX value in the treasury stays the same for remaining members.  
     - Ragequitting member gets 100% of their funds in the form of $VOX-loot.
 
-### How do I buy tokens?
-
-- A fundraising event is proposed to take place 4x in the first year. (every third month).*  
-- An investment deal is expected to happen at least once before between each fundraisiong event.*  
-- If there are still unused ETH (or DAI) from the previous raise, the number of fundraising events or max cap of such event will be adjusted to this reality. *  
-- The fundraising is open two weeks the first time, and thereafter a week on each occation.*  
-During this time anyone can become a Squad member by tributing ETH to the treasury.*  
--  Minimum tribute is 0.1 ETH.
-
 ### What are the committees?
 
-Committees in LunarDAO are groups within the community that aim to facilitate and coordinate the works of the DAO according to their specific focus. The committees presented below were chosen during the intial development because they are fundamental to the DAO. At any point, after the launch, new committees can be proposed or an existing one can be archived if the community deems it's needed (this operation is also done through LIP and voting).
-
-The committees autonomously decide who can join. In every committee there is one person responsible for communication, who can be contacted if a member wants to get engaged. The committees decide their own work flow and formulate expectations, objectives and key results within the committee.
+Committees in LunarDAO are groups within the community that aim to facilitate and coordinate the works of the DAO according to their specific focus. The committees presented below were chosen during the intial development because they are fundamental to the DAO. At any point, after the launch, new committees can be proposed or an existing one can be archived if the community deems it's needed (this operation is also done through LIP and voting). The committees decide their own work flow and formulate expectations, objectives and key results within the committee.
 
 All committees give information about the ongoing works in the community meetings and are receptive to input and criticisms. Every three months each committee will submit a report to the community about the ongoing works.
 
 Read more about committees [here](https://github.com/lunardao/dao#committees).
+
+### How do I set up ircd?
+
+ircd is developed by [DarkFi](dark.fi). On LunarDAO wiki, there is an [installation guide](https://wiki.lunardao.net/ircd.html). the community channel is '#lunardao' which is public (no encryption) but anonymous. [Here](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html) is DarkFi's documentation for ircd.
 
 
 
