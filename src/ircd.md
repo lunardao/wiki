@@ -63,10 +63,10 @@ Weechat commands are run down in the chat input field
 
 **Join an unencrypted channel**
 
-To add and open a public channel on ircd, such as #new_channel, just add it to autojoin line in the config file:
+To add and open a public channel on ircd, such as #new_channel, just add it to autojoin line in the config file. LunarDAOs public channel is '#lunardao'.
 
 ```sh
-autojoin = [....<existing_channels>..., "#new_channel"]
+autojoin = [....<existing_channels>..., "#lunardao"]
 ```
 
 Restart ircd (restart ircd after any config changes). The channel shall appear automatically in the weechat.
