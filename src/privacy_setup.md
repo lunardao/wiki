@@ -33,11 +33,11 @@ If you have difficulties installing, you can ask for support in our [**forum**](
 - When starting the process of installing applications, the recommendation is to first download [**Tor browser**](https://www.torproject.org/download/) for android. On Graphene, Vanadium is the pre-installed default browser, using [**duckduckgo.com**](duckduckgo.com) as search engine. This application can be used.  
 - Install Tor browser and open this application.  
 - Go to [**F-Droid**](https://f-droid.org/en/) and download the F-Droid app repository.  
-- Open F-droid, and download [**ProtonVPN**](https://protonvpn.com/download) or [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) and directly set up a VPN.
+- With F-Droid, downlad and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues on an island (using ie.insular) or apps which is not existing in f-droid).   
+- Download [**Geph**](https://geph.io/en) (from Aurora store), [**ProtonVPN**](https://protonvpn.com/download) or [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) from f-droid and directly set up a VPN.
 - After the VPN is installed, go to Settings --> Networks & internet  --> VPN. The installed VPN has a settings option there. Select *'Always-on VPN'* to be sure that the IP address is always protected. Otherwise the VPN can be switched off and on manually.  
 - Go to the preferred VPN app to check that it's on. In the free versions there a few options for IP address (country in protonVPN, city in Bitmask).  
 - Go to [**What is my IP**](https://www.whatismyip.com/) to see if it correlates with the selected VPN.
-- With F-Droid, downlad and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues on an island, using insular, for example).  
 - When this setup is completed, install other applications.
 
 ### Applications for your Graphene OS phone
