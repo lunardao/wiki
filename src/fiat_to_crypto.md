@@ -1,5 +1,7 @@
 # Fiat to crypto
 
+When using a regular os (instead of ie. tails), make sure to protect network privacy by using ie. mixnet or VPN such as [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/), [Lokinet](https://lokinet.org/), [Geph](https://geph.io/en) or [ProtonVPN](https://protonvpn.com/download).
+
 ## Set up a metamask wallet
 
 A Metamask wallet can be set up on virtual machine, Tails or Tor browser on regular OS (read Linux).
