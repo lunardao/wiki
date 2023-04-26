@@ -55,6 +55,7 @@
     - [Firejail](./firejail.md)  
     - [Virtualbox with Whonix](./virtualbox_whonix.md)  
     - [Tails](./tails_guide.md)  
+    - [Fiat to crypto](./fiat_to_crypto.md)  
     - [Crypto to fiat](./crypto_to_fiat.md)  
     - [LUKS disk encryption](./luks.md)  
     - [Monero privacy guide](./monero.md)
