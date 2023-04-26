@@ -44,7 +44,7 @@ A Metamask wallet can be set up on virtual machine, Tails or Tor browser on regu
 
 ![](pics/bity/from_fiat/5.png)
 
-## Clean ETH via Tornado cash
+## Anonymize ETH via Tornado cash
 
 The ETH that is now in the Metamask wallet is kyc (know your customer) money because they were sent from a bank account connected to an identity. To move towards the dark forest there is a need to anonymize the money, for example via [Tornado cash](https://tornadocash.3th.ws/) (*Note: Tornado cash has deposits and withdrawals in 0.1, 1, 10 and 100 ETH, which is to strengthen the anonymity set as arbitrary number will be revealing).  
 - Here is a [user guide](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/) for Tornado cash deposits and withdrawals.  
