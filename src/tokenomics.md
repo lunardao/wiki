@@ -32,9 +32,18 @@ LunarDAO Shares are represented by the symbol $VOX.
 
 Loot represents members' value of shares in a non-voting form. 
 
+- 1 $VOX-loot monetary value = 1 $VOX (as both are shares of the DAO treasury)
 - Symbol $VOX-loot represents loot.\*  
 - $VOX-loot does not grant voting power.
 - $LUNAR (community) token is not introduced at launch. It will be designed and introduced as part of the roadmap.\*  
+
+**Token Value**
+
+* $VOX and $VOX-loot monetary value is equal. They both represent 1 share of the DAO treasury.
+* **1 $VOX (or $VOX-loot) = NET TREASURY VALUE / TOTAL AMOUNT OF $VOX (or $VOX-loot)**
+* The assets in treasury or existing amount of shares changes according to:
+    - Investment proposals voted upon by LunarDAO [Squad](https://wiki.lunardao.net/overview.html#squad) (the DAO members) \*
+    - Future fundraising events (The initial entry price is 1 ETH = 100 $VOX (shares), the future ones will be decided by LunarDAO [Squad](https://wiki.lunardao.net/overview.html#squad)) \*
 
 **Fundraising Events**
 
@@ -50,5 +59,5 @@ Loot represents members' value of shares in a non-voting form.
 - Several externals are supporting with design, administration, legal questions, web3 development and translations.
 - A management/admin/dev fee is sent to core-team multi-sig wallet (ETH: 0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD). Management fee calculation:  
     a) Entry: 0.25% from the initial tribute of every new member.  
-    b) Investment: 0.5% of every investment execution (after vote + grace period).
+    b) Investment: 0.5% of every investment execution (after vote + grace period). \*
 - To fund further expences and costs an LIP is submitted and voted upon.
