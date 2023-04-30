@@ -71,15 +71,15 @@ When starting with ETH/BTC/USDT/LTC/USDC (and many more options) on non-anon wal
 
 1) Set up a Monero wallet on desktop or in a Virtual machine.  
 
-2) [Set up Metamask wallet](fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
-
-5) Swap ETH/BTC/USDT/LTC/USDC (etcetera) to Monero (XMR) from non-anon wallet with:  
+2) Swap ETH/BTC/USDT/LTC/USDC (etcetera) to Monero (XMR) from non-anon wallet with:  
 
 - [Fixed float](https://fixedfloat.com)  
 - [Trocador](https://trocador.app/en)  
 - [Change now](https://changenow.io)  
 - [Sideshift](https://sideshift.ai)    
 
-6) Send XMR to your new Monero wallet.
+3) Send XMR to your new Monero wallet.
 
-7) Swap back to ETH from XMR using options in step 5 and sent asset to the new wallet which was set up in step 2.
+4) [Set up Metamask wallet](fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
+
+5) Swap back to ETH from XMR using options in step 5 and sent asset to the new wallet which was set up in step 2.
