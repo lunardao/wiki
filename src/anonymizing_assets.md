@@ -14,7 +14,7 @@ Privacy degradation stems from:
 
 LunarDAO participants should solve for all of these threats.
 
-## Resources:
+## Resources
 
 If you are looking to participate in the DAO, a user should use anonmyzing privacy techniques BEFORE particpating in the DAO. Here are two guides that give information about how to best anonymize your ETH using tools like Tornado cash and off-chain strategies. 
 
@@ -80,6 +80,6 @@ When starting with ETH/BTC/USDT/LTC/USDC (and many more options) on non-anon wal
 
 3) Send XMR to your new Monero wallet.
 
-4) [Set up Metamask wallet](fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
+4) [Set up Metamask wallet](./fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
 
 5) Swap back to ETH from XMR using options in step 2 and sent asset to the new wallet which was set up in step 4.
