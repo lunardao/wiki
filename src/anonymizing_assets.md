@@ -20,7 +20,7 @@ If you are looking to participate in the DAO, a user should use anonmyzing priva
 
 ### Protect network pivacy and metadata
 
-Consider using [NYM mixnet](nymtech.net) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [Geph](https://geph.io/en), [Proton VPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (note that VPNs change location, but doesn't necessarily protect metadata. DYOR) or run your own private node to submit transactions. Another option is to run operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html).
+Consider using [NYM mixnet](https://nymtech.net/) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [Geph](https://geph.io/en), [Proton VPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (note that VPNs change location, but doesn't necessarily protect metadata. DYOR) or run your own private node to submit transactions. Another option is to run operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html).
 
 Your IP address and the wallet software has the ability to de-anonymize a user. If the software or software provider can collect the information, assume it **is** collecting the information. 
 
