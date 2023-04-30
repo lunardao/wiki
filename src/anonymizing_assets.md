@@ -1,6 +1,6 @@
 # Anonymizing assets
 
-LunarDAO is focused on privacy-preserving projects. This ethos permeates how you should participate in the DAO. Privacy techniques are strongly encouraged when interacting with the DAO. 
+LunarDAO is focused on privacy oriented projects. This ethos permeates how you should participate in the DAO. Privacy techniques are strongly encouraged when interacting with the DAO. 
 
 **Privacy leaks**
 
@@ -16,9 +16,11 @@ LunarDAO participants should solve for all of these threats.
 
 ## Resources:
 
-If you are looking to participate in the DAO, a user should use anonmyzing privacy techniques BEFORE particpating in the DAO. Here are two guides that give information about how to best anonymize your ETH using tools like zk.money and off-chain strategies. Consider using [NYM mixnet](nymtech.net) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [Proton VPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (note that VPNs change location, but doesn't necessarily protect metadata) or run your own private node to submit transactions. 
-- [Nexus, Black Sky](https://nexus.blacksky.network/zine/00000000/how-to-anonymize-eth)
-- [xanny.eth](https://mirror.xyz/xanny.eth/SGxwfVQ75831z5vFaS1LrlatUJEhxBvZ2cyTvAdCD0k)
+If you are looking to participate in the DAO, a user should use anonmyzing privacy techniques BEFORE particpating in the DAO. Here are two guides that give information about how to best anonymize your ETH using tools like Tornado cash and off-chain strategies. 
+
+### Protect network pivacy and metadata
+
+Consider using [NYM mixnet](nymtech.net) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [Geph](https://geph.io/en), [Proton VPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (note that VPNs change location, but doesn't necessarily protect metadata. DYOR) or run your own private node to submit transactions. Another option is to run operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html).
 
 Your IP address and the wallet software has the ability to de-anonymize a user. If the software or software provider can collect the information, assume it **is** collecting the information. 
 
@@ -36,10 +38,7 @@ Running a node:
 
 If you don't run a node, you should still change your RPC to a more private option.
 
-How to change your RPC in wallet software: 
-
-- [How to change Ethereum's RPC](https://docs.llama.fi/chainlist/how-to-change-ethereums-rpc)
-- [How to add a custom network RPC](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
+- How to [change your RPC](https://wiki.lunardao.net/change_rpc.html) in Metamask.
 
 Potential RPC options:
 
@@ -48,14 +47,18 @@ Potential RPC options:
 
 Of course aim to use a provider you can trust. The endpoint maintained by Paralelní Polis community is free for anyone to use: `https://bordel.xyz`.
 
+## Steps to anonymize while using ETH
 
-**Steps to anonymize while using eth**:
+1) Add Metamask extension/add-on to Tor Browser (it will say it's for Firefox, but it will work anyway).  
+*Note: always protect your network privacy. See above.*
 
-- Add Metamask extension/add-on to Tor Browser (it will say it's for Firefox, but it will work anyway).
-- Create a new Metamask account.
-- Only use this account with Tor browser which means that you'll have to set up the add-on every time as Tor browser won't save any data (which is the privacy consideration we are looking for).
-- Anonymize your assets by using [Tornado cash](https://forums.tornadocash.community/t/post-censorship-guide/43) and send to your new account.
+- NEVER use same wallet which you have used for doxxed crypto and do no not use this wallet going forward with doxxed crypto. This wallet should be completely separate from any other activity you've done on-chain or off. 
 
-More info in [Privacy tools](./list_privacy_tools.md).
+2) Create a new Metamask accounts on Tor browser. Only use these accounts with Tor browser. See steps in [Fiat to crypto](./fiat_to_crypto.md) 'Set up metamask wallet'.
 
+3) Anonymize your assets by using [Tornado cash](https://forums.tornadocash.community/t/post-censorship-guide/43) and send to your new account.
 
+To move towards the dark forest there is a need to anonymize assets (*Note: Tornado cash has deposits and withdrawals in 0.1, 1, 10 and 100 ETH, which is to strengthen the anonymity set as arbitrary number will be revealing*).  
+- Here is a [user guide](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/) for Tornado cash deposits and withdrawals.  
+- More post censorship info about Tornado cash [here](https://hackmd.io/@gozzy/tornado-cash-post-censorship#RPC).  
+- Wait at least 24h before withdrawing funds to the new wallet set up on Tor browser as described in []'Set up metamask wallet'](fiat_to_crypto.md).
