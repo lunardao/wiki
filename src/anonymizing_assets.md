@@ -65,13 +65,15 @@ To move towards the dark forest there is a need to anonymize assets (*Note: Torn
 
 ## Anonymizing assets using XMR
 
-When starting with ETH on non-anon wallet.
+*Note: As shared above, network privacy is an important part of remaining undoxxed.*
+
+When starting with ETH/BTC/USDT/LTC/USDC (and many more options) on non-anon wallet.
 
 1) Set up a Monero wallet on desktop or in a Virtual machine.  
 
-2) [Set up metamask wallet](fiat_to_crypto.md) on Tor browser.
+2) [Set up Metamask wallet](fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
 
-5) Swap ETH to Monero (XMR) from non-anon wallet with:  
+5) Swap ETH/BTC/USDT/LTC/USDC (etcetera) to Monero (XMR) from non-anon wallet with:  
 
 - [Fixed float](https://fixedfloat.com)  
 - [Trocador](https://trocador.app/en)  
