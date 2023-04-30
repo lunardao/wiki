@@ -63,18 +63,20 @@ To move towards the dark forest there is a need to anonymize assets (*Note: Torn
 - More post censorship info about Tornado cash [here](https://hackmd.io/@gozzy/tornado-cash-post-censorship#RPC).  
 - Wait at least 24h before withdrawing funds to the new wallet set up on Tor browser as described in ['Set up metamask wallet'](fiat_to_crypto.md).
 
-## Additional anonymizing steps using XMR
+## Anonymizing assets using XMR
 
-4) Set up two Monero wallet on desktop or in a Virtual machine.
+When starting with ETH on non-anon wallet.
 
-5) Swap ETH to Monero (XMR):  
+1) Set up a Monero wallet on desktop or in a Virtual machine.  
+
+2) [Set up metamask wallet](fiat_to_crypto.md) on Tor browser.
+
+5) Swap ETH to Monero (XMR) from non-anon wallet with:  
 
 - [Fixed float](https://fixedfloat.com)  
 - [Trocador](https://trocador.app/en)  
-- [Change now](https://changenow.io)  
+- [Change now](https://changenow.io)    
 
 6) Send XMR to your new Monero wallet.
 
-7) Send XMR from this wallet to the second Monero wallet.
-
-8) Swap back to ETH using options in step 5.
+7) Swap back to ETH from XMR using options in step 5 and sent asset to the new wallet which was set up in step 2.
