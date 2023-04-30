@@ -77,7 +77,8 @@ When starting with ETH/BTC/USDT/LTC/USDC (and many more options) on non-anon wal
 
 - [Fixed float](https://fixedfloat.com)  
 - [Trocador](https://trocador.app/en)  
-- [Change now](https://changenow.io)    
+- [Change now](https://changenow.io)  
+- [Sideshift](https://sideshift.ai)    
 
 6) Send XMR to your new Monero wallet.
 
