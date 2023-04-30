@@ -47,7 +47,7 @@ Potential RPC options:
 
 Of course aim to use a provider you can trust. The endpoint maintained by Paralelní Polis community is free for anyone to use: `https://bordel.xyz`.
 
-## Steps to anonymize while using ETH
+## Anonymize assets using ETH
 
 1) Add Metamask extension/add-on to Tor Browser (it will say it's for Firefox, but it will work anyway).  
 *Note: always protect your network privacy. See above.*
@@ -63,7 +63,7 @@ To move towards the dark forest there is a need to anonymize assets (*Note: Torn
 - More post censorship info about Tornado cash [here](https://hackmd.io/@gozzy/tornado-cash-post-censorship#RPC).  
 - Wait at least 24h before withdrawing funds to the new wallet set up on Tor browser as described in ['Set up metamask wallet'](fiat_to_crypto.md).
 
-## Anonymizing assets using XMR
+## Anonymize assets using XMR
 
 *Note: As shared above, network privacy is an important part of remaining undoxxed.*
 
