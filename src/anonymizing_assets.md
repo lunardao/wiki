@@ -54,11 +54,27 @@ Of course aim to use a provider you can trust. The endpoint maintained by Parale
 
 - NEVER use same wallet which you have used for doxxed crypto and do no not use this wallet going forward with doxxed crypto. This wallet should be completely separate from any other activity you've done on-chain or off. 
 
-2) Create a new Metamask accounts on Tor browser. Only use these accounts with Tor browser. See steps in [Fiat to crypto](./fiat_to_crypto.md) 'Set up metamask wallet'.
+2) Create two new Metamask accounts on Tor browser. Only use these accounts with Tor browser. See steps in [Fiat to crypto](./fiat_to_crypto.md) 'Set up metamask wallet'.
 
 3) Anonymize your assets by using [Tornado cash](https://forums.tornadocash.community/t/post-censorship-guide/43) and send to your new account.
 
 To move towards the dark forest there is a need to anonymize assets (*Note: Tornado cash has deposits and withdrawals in 0.1, 1, 10 and 100 ETH, which is to strengthen the anonymity set as arbitrary number will be revealing*).  
 - Here is a [user guide](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/) for Tornado cash deposits and withdrawals.  
 - More post censorship info about Tornado cash [here](https://hackmd.io/@gozzy/tornado-cash-post-censorship#RPC).  
-- Wait at least 24h before withdrawing funds to the new wallet set up on Tor browser as described in []'Set up metamask wallet'](fiat_to_crypto.md).
+- Wait at least 24h before withdrawing funds to the new wallet set up on Tor browser as described in ['Set up metamask wallet'](fiat_to_crypto.md).
+
+## Additional anonymizing steps using XMR
+
+4) Set up two Monero wallet on desktop or in a Virtual machine.
+
+5) Swap ETH to Monero (XMR):  
+
+- [Fixed float](https://fixedfloat.com)  
+- [Trocador](https://trocador.app/en)  
+- [Change now](https://changenow.io)  
+
+6) Send XMR to your new Monero wallet.
+
+7) Send XMR from this wallet to the second Monero wallet.
+
+8) Swap back to ETH using options in step 5.
