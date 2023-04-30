@@ -33,9 +33,6 @@ Tornado cash is a privacy solution on Ethereum (using a ZK pooling system to mix
 Tornado cash doc page is down, but here is another [**User guide**](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/). Also check out the [**archive for TC docs**](https://web.archive.org/web/20220409180147/https://docs.tornado.cash/general/readme).
 Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./anonymizing_assets.md) to learn how to not get doxxed when interacting with TC. 
 
-- [**Aztec**](https://zk.money/) - privacy solution for Ethereum, by shielding assets. Important to remember: after the resources have been shielded, never send to a doxxed address. In [**Anonymizing assets**](./anonymizing_assets.md) to read more and also check [**Aztec user guide**](https://docs.aztec.network/zk-money/userguide) for zk.money.  
-[*Documentation*](https://docs.aztec.network/how-aztec-works/faq) and [**User guide**](https://docs.aztec.network/zk-money/userguide).
-
 - [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network. It's possible to acquire the token (*SIENNA*) on Uniswap.
 
 - [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  The token (*RAIL*) can be acquired on Uniswap.
