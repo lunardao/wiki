@@ -44,7 +44,7 @@ XMPP is a set of open technologies for instant messaging, group chat, voice and 
 [Documentation](https://xmpp.org/about/technology-overview/)
 
 - [**Simplex chat**](https://simplex.chat/)  
-End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users.  
+End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users. Can be set up for terminal usage. 
 [Documentation](https://github.com/simplex-chat/simplex-chat)
 
 - [**Threema**](https://threema.ch/en/security)  
@@ -153,6 +153,10 @@ LUKS is a feature in linux distributions as well as on Tails. It is used for enc
 
 VPN just like Tor protects your IP address. You can read more about the difference between Tor and VPN [here](https://www.privacyend.com/difference-between-tor-and-vpn/).
 
+- [**Geph**](https://geph.io/en)  
+Free VPN. Can be used on Windows, Mac, Linux and android.  
+[Documentation](https://github.com/geph-official)
+
 - [**ProtonVPN**](https://protonvpn.com/download)  
 Free option. The other options can be payed in cash or with Bitcoin.
 
@@ -162,7 +166,7 @@ Free VPN.
 - [**Mullvad**](https://mullvad.net/en/pricing/)  
 Can be payed in cash and Monero. No free option.
 
-- [**TOR browser**](https://www.torproject.org/download/)  
+- [**Tor browser**](https://www.torproject.org/download/)  
 A private browser which hides your IP address. The project is using onion routing; relays which are run by volonteers. The browser stores no data and also block trackers.
 
 - [**Lokinet**](https://lokinet.org/)  
@@ -291,5 +295,8 @@ These two applications are very useful as they are offline maps. They also conta
 
 - [**Fastcoincard**](https://fastcoincard.com/pricing.php)  
 Is a virtual Visa card, which can be used in stores and on sites that accept Visa for payments. It is possible to deposit with for example BTC and ETH, one time or reloadable card.
+
+- [**Coincards**](https://coincards.com/)  
+Gift cards, mobile top-ups, and prepaid Vouchers. Can be used in Canada, USA, and UK. Australia and Europe is said to be coming soon.
 
 To be anonymous when depositing money to the card, see steps on how to anonymize ETH in [**Anonymizing assets**](https://wiki.lunardao.net/anonymizing_assets.html). Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC, or explore [**Panther protocol**](https://www.pantherprotocol.io) for anonymizing USDC. No KYC.
