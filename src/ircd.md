@@ -31,7 +31,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup target add wasm32-unknown-unknown
 ```
 
-**Clone DarkFi % Install ircd**
+**Clone DarkFi & Install ircd**
 
 ```sh
 git clone https://github.com/darkrenaissance/darkfi/
@@ -65,7 +65,7 @@ Open a new terminal window and start weechat:
 weechat
 ```
 
-Configure weechat to connect to the ircd daemon, save and restart the client. In Weechat prompt line enter these commands:
+Connect weechat to the ircd daemon, save and restart the client. In Weechat prompt line enter these commands:
 
 ```sh
 /server add darkfi localhost/6667 -autoconnect
@@ -142,7 +142,7 @@ Move to the next topic
 
 End meeting.
 ```sh
-end
+!end
 ```
 
 ## New Rooms Configuration
@@ -182,7 +182,7 @@ secret = "{secret_string}"
 2. add the "#nameofthesecretchannel" to the autojoin `[]` line just like with public channels above. 
 3. Save the config file and restart ircd - the channels will appear in the weechat client.
 
-### Direct Messages
+## Direct Messages
 
 To DM with someone on ircd:
 
