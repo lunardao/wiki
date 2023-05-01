@@ -1,108 +1,202 @@
-# Chat - IRC (ircd & weechat)
+# Chat - p2p IRC (ircd & weechat)
 
-For the purpose of a quick and instant chat or communication which is 100% anonymous and if chosen private, especially for coordination of smaller groups (or committees - read [governance](./governance.md)), we use ircd - a peer-to-peer chat, built by [DarkFi](dark.fi). ircd supports group chats (open and private) as well as DM. Weechat is a client most of the people use (runs the chat in terminal), other IRC clients will work as well.
+* ircd repository: https://github.com/darkrenaissance/darkfi/tree/master/bin/ircd
+
+For the purpose of a quick and instant chat or communication which is 100% anonymous and if chosen private, especially for coordination of smaller groups (or committees - read [governance](./governance.md)), we use ircd - a peer-to-peer IRC chat, built by [DarkFi](dark.fi). ircd supports group chats (open and private) as well as DMs. 
+
+Weechat is a client most of the people use (runs the chat in terminal), other IRC clients will work as well.
 
 ## Installation
+
+***Note:*** This installation guide is for Linux based on Debian. For other OS, check [here](https://darkrenaissance.github.io/darkfi/index.html) to see which dependencies are needed.
+
+**Open your terminal and navigate to the directory where you want to have Darkfi repository downloaded and follow the steps below.**
 
 **Dependencies**
 
 ```sh
 sudo apt-get install -y git make jq gcc vim weechat pkg-config libssl-dev
+sudo apt-get install weechat-curses weechat-plugins
 ```
-On debian based system, the user can run this to install dependencies:
+In case `libssl-dev` returned error run:
 
 ```sh
-sudo apt-get update
-sudo apt-get install -y git make jq gcc pkg-config libmpg123-dev
+sudo apt-get install libmpg123-dev
 ```
-For other os, check [here](https://darkrenaissance.github.io/darkfi/index.html) to see which dependencies are needed. 
+
+Install Rust & Cargo
+
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup target add wasm32-unknown-unknown
+```
+
+**Clone DarkFi % Install ircd**
+
+```sh
+git clone https://github.com/darkrenaissance/darkfi/
+cd darkfi
+make BINS=ircd
+sudo make install BINS=ircd
+```
 
 **Config Download**
+
+To make it easier, LunarDAO made a custom ircd configuration.
+
 ```sh
 mkdir ~/.config/darkfi
-```
-```sh
 wget -P ~/.config/darkfi https://raw.githubusercontent.com/lunardao/ircd/master/ircd_config.toml
 ```
 
-**ircd**
+**Run ircd**
 
-All the steps are in the DarkFi's ircd installation [guide](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html) and in the [ircd config file template](https://github.com/darkrenaissance/darkfi/blob/master/bin/ircd/ircd_config.toml) as comments, this manual shows more explicit steps. 
+The following command starts ircd daemon, the chat works only when this daemon is running, don't turn it off.
 
-To install ircd, and the chat client [Weechat](https://weechat.org/files/doc/stable/weechat_user.en.html) follow DarkFi's [ircd installation guide](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html)
+```sh
+ircd
+```
 
-* Make sure to go through the whole installation and set up Weechat.
+**Start & Configure Weechat**
 
-## Usage
+Open a new terminal window and start weechat:
 
-Run ircd and start weechat:
+```sh
+weechat
+```
 
-* ircd daemon must be running in a terminal window for weechat to work. To start ircd, enter: `ircd`
-* in another window run weechat: `weechat`
-
-**Weechat tips**
-
-Weechat commands are run down in the chat input field
-
-1. Configure weechat, save and quit:
+Configure weechat to connect to the ircd daemon, save and restart the client. In Weechat prompt line enter these commands:
 
 ```sh
 /server add darkfi localhost/6667 -autoconnect
 /save
 /quit
 ```
+## Usage
 
-2. `weechat` to restart
-3. To change your nick in weechat, enter:
+**ircd**
 
-```sh
-/nick <new_nick>
-```
-
-4. Change chat rooms by *alt + arrow up/down* **or** *alt + channel_number*
-
-**Join an unencrypted channel**
-
-To add and open a public channel on ircd, such as #new_channel, just add it to autojoin line in the config file. LunarDAOs public channel is '#lunardao'.
+In case you restarted computer or lost connection, restart ircd, entering:
 
 ```sh
-autojoin = [....<existing_channels>..., "#lunardao"]
+ircd
 ```
 
-Restart ircd (restart ircd after any config changes). The channel shall appear automatically in the weechat.
+Keep the daemon running and open a new window to run the Weechat client.
 
-**Join an encrypted channel**
-
-To add an encrypted channel to ircd:
-
-1. Include the name of the channel and the secret to the config file:
+**Start Weechat & Chat**
 
 ```sh
-[channel."#nameofchannel"]
-secret = "<secret_string>"
+weechat
 ```
 
-2. add the "#nameofchannel" to the autojoin `[]` line just like with public channels above. 
-3. Save the config file and restart ircd - the channels will appear in the weechat client.
+**Weechat Commands**
 
-**Generate secret for channel**
+Weechat allows for a wide range of custom configuration, see [Weechat documentation](https://weechat.org/files/doc/stable/weechat_quickstart.en.html). Few useful commands are listed below.
+
+Change nick:
+```sh
+/nick {NEW_NAME}
+```
+Quit chat room
+
+```sh
+/quit
+```
+
+Quit Weechat
+
+```sh
+/exit
+```
+
+See help
+```sh
+/help
+```
+Change chat rooms by *alt + arrow up/down* **or** *alt + channel_number*
+
+### Meeting Bot
+
+LunarDAO deployed [the meetbot.py](https://github.com/darkrenaissance/darkfi/tree/master/bin/ircd/script/bots/meetbot) to moderate the community meetings. Type following commands to use the bot.
+
+See the meeting agenda.
+```sh
+!list
+```
+
+Add a topic to the agenda.
+```sh
+!topic {YOUR TOPIC}
+```
+
+Start a meeting
+```sh
+!start
+```
+
+Move to the next topic
+```sh
+!next
+```
+
+End meeting.
+```sh
+end
+```
+
+## New Rooms Configuration
+
+All the steps are in the ircd config file in `~/.config/darkfi/ircd_config.toml` or in [ircd config file template](https://raw.githubusercontent.com/lunardao/ircd/master/ircd_config.toml) as comments, this manual shows more explicit steps.
+
+### Join an unencrypted channel
+
+To add and open a public channel on ircd, such as #new_channel, just add it to autojoin line in the config file. LunarDAOs public channel is '#lunardao'. An example would be adding a channel called "#lunardao-support" to your config"
+
+```sh
+autojoin = [....<existing_channels>..., "#lunardao-support"]
+```
+
+Restart ircd daemon (restart ircd after any config changes). The channel shall appear automatically in the weechat.
+
+
+### Join an encrypted channel
+
+**Generate secret for a new channel**
 
 In case of starting a new private channel, a secret must be generated.
 
 1. Generate a secret for a new secret channel, enter in terminal: `ircd --gen-secret`
-2. Add the secret and a name of channel of your choice to your config file (like in the previous step).
-3. Share this secret and the exact name of the channel **PRIVATELY** with others who are to be included in the channel (like in the previous steps).
+2. Add the secret and a name of channel of your choice to your config file (read below).
+3. Share this secret and the exact name of the channel **PRIVATELY** with others who are to be included in the channel.
 
-**Direct Messages**
+**Add an encrypted channel to ircd**
+
+1. Include the name of the channel and the secret to the config file (~/.config/darkfi/ircd_config.toml):
+
+```sh
+[channel."#nameofthesecretchannel"]
+secret = "{secret_string}"
+```
+
+2. add the "#nameofthesecretchannel" to the autojoin `[]` line just like with public channels above. 
+3. Save the config file and restart ircd - the channels will appear in the weechat client.
+
+### Direct Messages
 
 To DM with someone on ircd:
 
-1. Generate a key-pair using `ircd --gen-keypair`. ***NEVER*** share your private key! Possibly keys can be shared to a file using 
+1. Generate a key-pair using `ircd --gen-keypair`. ***NEVER*** share your private key! 
+
+Possibly keys can be shared to a file using 
 ```sh
 ircd --gen-keypair -o ~/some_dir/filename
 ```
 
-2. Add a line to ircd_config.toml: `[private_key."your_newly_generated_private_key"]`
+2. Add a line to ircd_config.toml: 
+```sh
+[private_key."your_newly_generated_private_key"]
+```
 3. Share your pub key publicly or with others you want to chat with
 4. Add a contact of a user to DM with to the ircd_config.toml:
 
@@ -112,6 +206,7 @@ contact_pubkey = "the_pub_key_sent_by_the_contact"
 ```
 
 5. Save the config and restart ircd
-6. To add this contact in the weechat client, enter `/query <same_name_as_in_the_config>`. Name appears in the contact list.
-	- Note: However users may change their names as often as they wish, the /query <name> command is based on the <name> added per contact to ircd_config.toml as the contact is added based on the *contact_pubkey* (aligning with the counterpartys *private_key* in their config). Can be understood as a contact list in a phone.
-7. Both of the users interested to DM must have add the other ones pub key to the config as a contact, save and restart ircd.
+6. To add this contact in the weechat client, enter `/query {same_name_as_in_the_config}`. Name appears in the contact list.
+	- Note: However users may change their nicks often, the `/query {name}` command reads the `{name}` added per contact to ircd_config.toml. The daemon reads the pub_key associated with the `{name}` saved (aligning with the counterpartys *private_key* in their config). *(Can be understood as a contact list in a phone.)*
+7. Both of the users interested to DM must add the other ones pub key to the config as a contact, save and restart ircd.
+
