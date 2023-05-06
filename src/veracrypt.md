@@ -18,8 +18,8 @@ sudo dpkg -i filename
 
 ***Note***
 
-- Check if there are dependecies missing. This information will be shared if the installation is unsuccessful.
-'libwxgtk3.0-gtk3-0v5' is a common dependency that might be missing. If so, install it like this:
+- If there are dependecies missing there will be information given.
+If 'libwxgtk3.0-gtk3-0v5' is missing, install it like this:
 
 ```sh
 sudo apt-get install libwxgtk3.0-gtk3-0v5
@@ -32,7 +32,7 @@ Could for example be 'Unmet dependencies. Try 'apt --fix-broken install'.
 sudo apt --fix-broken install
 ```
 
-- When installed, VerCrypt appears in the menu and is a GUI.
+- When installed, VerCrypt appears in the menu (GUI).
 
 - Open VeraCrypt and follow the [*Beginner tutorial*](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html) to create a regular encrypted volume.
 
@@ -61,12 +61,15 @@ Within this encrypted folder there is a hidden folder which is not possible to d
 
 - After this, follow the steps in VeraCrypt [*Beginner tutorial*](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html) **Step 8**.
 
-- Note that after **step 11**, the encrypted folder will be opened and the user can move the 'sensitive' files there which are okey to show on request.When this is done there will be a setup of a second password which is for the hidden folder. VeraCrypt calculates how much space that can be used for the hidden folder.
+- After **step 11** in the beginners tutorial, the encrypted folder will be opened so the user can move the 'sensitive' files there (those which are okey to show on request).When this is done there will be a setup of a second password which is for the hidden folder. VeraCrypt calculates how much space that can be used for the hidden folder.
 
 - For maximum encryption strenght it is important to move the mouse (on request) for as long as possible before selecting *Format*.
 
+- When everything is completed, select *Exit*.
+
 **Mounting the volume**
 
+- Open VeraCrypt
 - Select a slot.  
 - Click on *Select File*.  
 - Find the encrypted folder.
