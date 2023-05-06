@@ -69,7 +69,7 @@ Within this encrypted folder there is a hidden folder which is not possible to d
 
 **Mounting the volume**
 
-- Open VeraCrypt
+- Open VeraCrypt.
 - Select a slot.  
 - Click on *Select File*.  
 - Find the encrypted folder.
