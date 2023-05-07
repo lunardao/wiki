@@ -71,4 +71,7 @@ Within this encrypted folder there is a hidden folder which is not possible to d
 - To open the out volume (which is okey to show on request) enter the first password.  
 - To open the hidden volume instead, enter the second password.
 
+**Additional information**
+
+For those who cannot install VeraCrypt on their device because of possible repressive consequences can use *Portable mode*. Read more about this [here](https://www.veracrypt.fr/en/Portable%20Mode.html).
 
