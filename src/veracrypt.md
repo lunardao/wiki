@@ -45,23 +45,17 @@ Within this encrypted folder there is a hidden folder which is not possible to d
 
 - Select *Create an ecrypted file container*.
 
-![](pics/veracrypt/1.png)
-
 **Step 2**
 
 - Choose *Hidden VeraCrypt volume*.
 
-![](pics/veracrypt/2.png)
-
 **Step 3**
 
-- Write the whole path (DON'T use '~/') and add the name and file ending for the encrypted folder to create.
+- Write absolute path (DON'T use '~/') and add the name and file ending for the encrypted folder to create.
 
-![](pics/veracrypt/3.png)
+- After this, follow the steps in VeraCrypt [*Beginner tutorial*](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html) from **Step 8**.
 
-- After this, follow the steps in VeraCrypt [*Beginner tutorial*](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html) **Step 8**.
-
-- After **step 11** in the beginners tutorial, the encrypted folder will be opened so the user can move the 'sensitive' files there (those which are okey to show on request).When this is done there will be a setup of a second password which is for the hidden folder. VeraCrypt calculates how much space that can be used for the hidden folder.
+- After **step 11** in the beginners tutorial, the encrypted folder will be opened so the user can move the 'sensitive' files there (those which are okey to show on request). When this is done there will be a setup of a second password which is for the hidden folder. VeraCrypt calculates how much space that can be used for the hidden folder.
 
 - For maximum encryption strenght it is important to move the mouse (on request) for as long as possible before selecting *Format*.
 
@@ -76,7 +70,5 @@ Within this encrypted folder there is a hidden folder which is not possible to d
 - Select *Mount*.  
 - To open the out volume (which is okey to show on request) enter the first password.  
 - To open the hidden volume instead, enter the second password.
-
-![](pics/veracrypt/4.png)
 
 
