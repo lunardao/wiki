@@ -148,6 +148,20 @@ Both of these applications can be used as offline maps. maps.me asks for a lot o
 - [**Samuorai wallet**](https://samouraiwallet.com/features)  
 Is a BTC privacy oriented wallet that is based on the [**Zerolink framework**](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198). Samourai routes over tor by default, includes coin control, and maintains strong privacy preserving spend tools. 
 
+## User profiles on Graphene OS
 
+Graphene OS *User profiles* are isolated workspaces that has it's own set of encryption keys. It functions as setting up a completely new phone and each profile have their own instances of apps, app data and profile data (contacts, media store, home directory and so on). Apps can't see the apps running on other user profiles and can only communicate with apps within the same profile. The profiles have separate passwords. It is possible to have 31 (+1 guest) profiles.
+
+If holding the power button (as if wanting to reboot phone), select *End session* and everything that was running on the profile has been terminated (not deleted, just shut down). This avoid leakage of metadata when not actively using that profile and also ensures no apps running in the background.
+
+To set up a new *User profile*, go to:  
+- *Settings* --> *System* --> *Multiple users*.  
+- Toggle *Allow Multiple users*  
+- Select *Add user*, chose name etcetera. 
+*Note: Everything need to be set up from scratch.*
+
+**Sources:**  
+- [https://grapheneos.org/features#more-user-profiles](https://grapheneos.org/features#more-user-profiles)  
+- [https://inv.riverside.rocks/watch?v=20C0FD7mGDY](https://inv.riverside.rocks/watch?v=20C0FD7mGDY)
 
 
