@@ -57,6 +57,30 @@ sudo apt-get-update-plus dist-upgrade
 - Select *Whonix/GNU* + Enter.
 - Now everything is set up and ready to use.
 
+**Virtualbox disk encryption**
+
+It's possible to set a password that the user must enter to start Whonix.
+
+- Go to [https://www.virtualbox.org/wiki/Downloads?ref=infosecarticles.com](https://www.virtualbox.org/wiki/Downloads?ref=infosecarticles.com) and download the extention package.  
+- In terminal, go to folder where the package was downloaded.  
+- Enter (replace the file name with thename of the downloaded file):
+
+```sh
+sudo VBoxManage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack
+```
+
+- Open Virtualbox.
+
+```sh
+virtualbox
+```
+
+- Select the instance and click on *Setting*.  
+- In *General, go to *Disk encryption*.  
+- Toggle *Enable disk encryption*.  
+- Set *Disk encryption cipher* to AES-XTS256-PLAIN64.  
+- Enter password and OK.
+
 **Check IP address**
 
 - To check the IP address:
