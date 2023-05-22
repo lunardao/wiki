@@ -49,6 +49,7 @@
 
 # Opt out
 
+- [Fingerprinting & Tracking](./fingerprinting_tracking.md)
 - [Manuals](./intro.md)
     - [Randomizing IMEI](./imei.md)
         - [IMEI table](./imei_tables/imei_table.md)
