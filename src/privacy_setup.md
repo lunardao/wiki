@@ -73,7 +73,7 @@ One option is to anonymize ETH and then swap to BTC:
 - Create a new Metamask account.  
 - Only use this account with Tor browser which means setting up the add-on every time as Tor browser don't save any data (which is the privacy consideration we are looking for).  
 - [**Change RPC**](https://wiki.lunardao.net/change_rpc.html).  
-- Anonymize assets by using [**zk.money**](https://docs.aztec.network/zk-money/userguide) (or [**Tornado cash**](https://tornadocash.3th.ws/), also check out this [**user guide**](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/)) and send to the new account.  
+- Check this guide on [how to anonymize assets](https://wiki.lunardao.net/anonymizing_assets.html). 
 - Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC.
 
 <!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
@@ -89,7 +89,7 @@ Is end-to-end encrypted mail (between Tutanota email addresses). Tutanota also e
 The Protonmail mobile app can be downloaded in the Aurora Store. It is possible to set up a free email. To create the email anonymously, be sure to use a VPN when signing up. It is end-to-end encrypted between protonmail accounts.
 If you want to email other addresses privately, create an encryption key with:
 
-- [**OpenKeychain**](https://www.openkeychain.org/)With this application it is possible to create or import an encryption key. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner --> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc. You can import this .asc file into your Protonmail account.
+- [**OpenKeychain**](https://www.openkeychain.org/). With this application it is possible to create or import an encryption key. To set up, write a nick and an email and a key will be generated. To share the *Public key*, select the entry that was just made --> click on the three dots in the upper right corner --> choose *Advanced* --> *Share* --> *Share with* and share icon --> the application to use in order to send the key --> Send. The format will be .asc. You can import this .asc file into your Protonmail account.
 
 **Browser:**  
 
@@ -100,6 +100,8 @@ If you want to email other addresses privately, create an encryption key with:
 **VPN:**  
 
 An IP address is a digital address. Every device connected to the internet has one, and someone who looks up your IP address can see your location. Check [**whatismyip.com**](whatismyip.com) to see the information connected to your your IP address. The VPN, such as the ones listed below, is used to protect the IP address. When using a VPN it appears as if you are somewhere else in the world.
+
+- [**Geph**](https://geph.io/en) is a VPN based on zero-knowledge authentication.
 
 - [**ProtonVPN**](https://protonvpn.com/download)  
 Has a free option. The optimal solution is to buy protonVPN, which gives more options for location and better functionality. ProtonVPN can be bought with crypto.
@@ -164,4 +166,7 @@ To set up a new *User profile*, go to:
 - [https://grapheneos.org/features#more-user-profiles](https://grapheneos.org/features#more-user-profiles)  
 - [https://inv.riverside.rocks/watch?v=20C0FD7mGDY](https://inv.riverside.rocks/watch?v=20C0FD7mGDY)
 
+## Wifi from 
 
+- Read [**SIM card data collection**] to have a background for the suggestion to not use a SIM card in this set up.  
+- Read [**Nokia "Banana" jailbreak**] on how to set up a Nokia 8110, to use as a hotspot for the Graphene phone, and be able to randomize IMEI number.

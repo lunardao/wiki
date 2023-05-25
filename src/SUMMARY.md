@@ -49,7 +49,8 @@
 
 # Opt out
 
-- [Fingerprinting & Tracking](./fingerprinting_tracking.md)
+- [Fingerprinting & Tracking](./fingerprinting_tracking.md)  
+- [SIM card data collection](./simdata.md)
 - [Manuals](./intro.md)
     - [Nokia "Banana" jailbreak](./bananahack.md)
     - [Randomizing IMEI](./imei.md)
