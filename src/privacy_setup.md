@@ -1,4 +1,4 @@
-# Privacy setup
+# Privacy setup: Graphene OS & Banana phone
 
 Sometimes it can feel overwhelming with all the information that is out there. This privacy setup guide's aim is to support those interested in getting started with digital privacy practices, but might also provide something new to those who are more experienced. It is important to remember that even if personal privacy is paramount, one of the main reasons for compromised privacy is that those we communicate with are not thinking about privacy. That's why it is important to share existing resources with each other as well as understanding how to use them. Check out [**Privacy resources**](https://wiki.lunardao.net/privacy_resources.html) for more projects.
 
