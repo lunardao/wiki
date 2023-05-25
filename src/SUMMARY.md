@@ -65,7 +65,7 @@
     - [VeraCrypt](./veracrypt.md)
 - [Privacy tools](./list_privacy_tools.md)
 - [Privacy resources](./privacy_resources.md)  
-- [Privacy setup](./privacy_setup.md)
+- [Privacy setup for android with Graphene OS](./privacy_setup.md)
 
 # Crypto
 

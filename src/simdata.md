@@ -1,6 +1,6 @@
 # SIM card data collection
 
-SIM card providers are centralized entities. The data collected on SIM cards is not controlled by the user. It is transparent and a liability for anyone concerned with privacy. See [Privacy setup](./privacy_setup.md) on private alternatives to android phones which are based on Google services.
+SIM card providers are centralized entities. The data collected on SIM cards is not controlled by the user. It is transparent and a liability for anyone concerned with privacy. See [**Privacy setup for android with Graphene OS**](./privacy_setup.md) on private alternatives to android phones which are based on Google services.
 
 - **Integrated circuit card identifier (ICCID):**  
 ICCID is a unique number assigned to a SIM card and internationally a standard way to identify SIM cards.

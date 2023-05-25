@@ -166,7 +166,7 @@ To set up a new *User profile*, go to:
 - [https://grapheneos.org/features#more-user-profiles](https://grapheneos.org/features#more-user-profiles)  
 - [https://inv.riverside.rocks/watch?v=20C0FD7mGDY](https://inv.riverside.rocks/watch?v=20C0FD7mGDY)
 
-## Wifi from 
+## Banana phone as hotspot
 
-- Read [**SIM card data collection**] to have a background for the suggestion to not use a SIM card in this set up.  
-- Read [**Nokia "Banana" jailbreak**] on how to set up a Nokia 8110, to use as a hotspot for the Graphene phone, and be able to randomize IMEI number.
+- Read [**SIM card data collection**](./simdata.md) to have a background for the suggestion to not use a SIM card in this set up.  
+- Read [**Nokia "Banana" jailbreak**](./bananahack.md) on how to set up a Nokia 8110, to use as a hotspot for the Graphene phone, and be able to randomize IMEI number.
