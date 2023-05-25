@@ -1,6 +1,6 @@
 # Anonymizing assets
 
-LunarDAO is focused on privacy oriented projects. This ethos permeates how you should participate in the DAO. Privacy techniques are strongly encouraged when interacting with the DAO. 
+LunarDAO is focused on privacy oriented projects. This ethos permeates how you should participate in the DAO. Privacy techniques are strongly encouraged when interacting with the DAO. Make sure to also DYOR. 
 
 **Privacy leaks**
 
@@ -56,12 +56,14 @@ Of course aim to use a provider you can trust. The endpoint maintained by Parale
 
 2) Create two new Metamask accounts on Tor browser. Only use these accounts with Tor browser. See steps in [Fiat to crypto](./fiat_to_crypto.md) 'Set up metamask wallet'.
 
-3) Anonymize your assets by using [Tornado cash](https://forums.tornadocash.community/t/post-censorship-guide/43) and send to your new account.
+3) Anonymize your assets by using [Firn](https://app.firn.cash/) and send to your new account.
 
-To move towards the dark forest there is a need to anonymize assets (*Note: Tornado cash has deposits and withdrawals in 0.1, 1, 10 and 100 ETH, which is to strengthen the anonymity set as arbitrary number will be revealing*).  
-- Here is a [user guide](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/) for Tornado cash deposits and withdrawals.  
-- More post censorship info about Tornado cash [here](https://hackmd.io/@gozzy/tornado-cash-post-censorship#RPC).  
-- Wait at least 24h before withdrawing funds to the new wallet set up on Tor browser as described in ['Set up metamask wallet'](fiat_to_crypto.md).
+Remember:  
+- Don't withdraw immediately after depositing.  
+- Don't withdraw the exact same amount you deposited.  
+- Don't withdraw to a previously used address.
+
+- [Here](https://docs.firn.cash/overview/using-firn) is a user guide.  
 
 ## Anonymize assets using XMR
 
