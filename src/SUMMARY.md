@@ -97,19 +97,4 @@
 
 - [FAQ](./faq.md)
 
-# 繁體中文
-- [LunarDAO宣言](./manifesto_tc.md)
-- [LunarDAO治理規程](./governance_tc.md)
-- [LIP](./lip_tc.md)
-- [資產匿名化](./anonymizing_assets_tc.md)
-- [隱私工具清單](./list_privacy_tools_tc.md)
-
-# 簡體中文
-
-- [LunarDAO宣言](./manifesto_sc.md)
-- [LunarDAO治理规程](./governance_sc.md)
-- [LIP](./lip_sc.md)
-- [资产匿名化](./anonymizing_assests_sc.md)
-- [隐私工具清单](./list_privacy_tools_sc.md)
-
  
