@@ -75,7 +75,8 @@
 
 # Research
 
-- [Anoma](./anoma.md)
+- [Anoma](./anoma.md)  
+- [Penumbra](./penumbra.md)
 
 # Tools
 
