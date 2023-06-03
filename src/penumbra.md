@@ -1,5 +1,7 @@
 # Penumbra protocol
 
+The following report was originally published in the the second issue of [Nexus](https://nexus.blacksky.network/zine/00000001/penumbra-protocol) in May 2023.
+
 #### Authors: Stellar Magnet, Saliveja
 
 ## Project Summary
