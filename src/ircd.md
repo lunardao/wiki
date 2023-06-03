@@ -210,3 +210,18 @@ contact_pubkey = "the_pub_key_sent_by_the_contact"
 	- Note: However users may change their nicks often, the `/query {name}` command reads the `{name}` added per contact to ircd_config.toml. The daemon reads the pub_key associated with the `{name}` saved (aligning with the counterpartys *private_key* in their config). *(Can be understood as a contact list in a phone.)*
 7. Both of the users interested to DM must add the other ones pub key to the config as a contact, save and restart ircd.
 
+## ircd on tor
+
+This is what to do in order to route ircd traffic through tor.
+
+- Run tor daemon in background or in a terminal using:
+
+```sh
+sudo tor
+```
+
+- Start ircd like this:
+
+```sh
+torify ./ircd 
+```
