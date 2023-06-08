@@ -4,10 +4,10 @@ This privacy setup guide's aim is to support those interested in getting started
 
 ## Secure Android phone
 
-### What you need
+### What is needed
 
-**Google Pixel 4 or higher** (less than 4 is no longer maintained. Check specifics for 6a on Graphene OS web page if you are considering getting one)  
-Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/) in a private manner. Some of the Google Pixel phones are carrier locked (OEM locked) and there is no way to know until opening the phone and viewing if the OEM unlock option is disabled. This OEM unlock is needed to be able to install Graphene OS. You want a device that is OEM unlockable, and not tied to a specific phone carrier. Check with the seller when buying the phone if it is possible to unlock OEM.
+**Google Pixel 4 or higher** (less than 4 is no longer maintained. Check specifics for 6a on Graphene OS web page if considering getting this one specifically)  
+Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/) in a private manner. Some of the Google Pixel phones are carrier locked (OEM locked) and there is no way to know until opening the phone and viewing if the OEM unlock option is disabled. This OEM is an option in the developer options section which need to be unlocked in order to install Graphene OS. Check with the seller when buying the phone if it is possible to unlock OEM.
 
 **Graphene OS**
 
@@ -26,7 +26,7 @@ Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/)
 
 Here is some information about the lack of privacy with Google and the benefits with Graphene OS. Check out [**GrapheneOS; the greatest mobile OS of all time**](https://yewtu.be/watch?v=yIZmUINSvQ4), which also include links (in descriptions) to more reading on 'Privacy violations of stock android' and Samsung and Facebook data collection.
 
-If you have difficulties installing, you can ask for support in our [**forum**](forum.lunardao.net). Graphene OS also has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element).
+If there are any difficulties with the installation, it is possible to ask for support in our [**forum**](forum.lunardao.net). Graphene OS also has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element).
 
 ### Steps for installation of applications
 
