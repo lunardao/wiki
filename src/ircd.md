@@ -225,3 +225,9 @@ sudo tor
 ```sh
 torify ./ircd 
 ```
+
+## ircd with NYM
+
+DarkFi offers a guide on how to use Nym's mixnet to anonymously connect to other peers in the network when using ircd.
+
+[https://darkrenaissance.github.io/darkfi/clients/nym_outbound.html#anonymous-outbound-connection](https://darkrenaissance.github.io/darkfi/clients/nym_outbound.html#anonymous-outbound-connection)
