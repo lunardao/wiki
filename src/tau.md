@@ -6,7 +6,8 @@ Searching for task manager that fits these parameters within lunarpunk movement 
 
 ## Installation & configuration
 
-- Open terminal and navigate to where the repository will be cloned. If there is a need to install git --> check [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).  
+- Open terminal and navigate to where the repository will be cloned. If there is a need to install git --> check [this guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).  
+
 - Clone repository.
 
 ```sh
@@ -26,13 +27,13 @@ make BINS="taud tau"
 sudo make install "BINS=taud tau"
 ```
 
-- Run taud (should work with just taud, but id it doesn't, in darkfi folder, run './taud').
+- Run taud (should work with just taud, but if it doesn't, in darkfi folder, run './taud').
 
 ```sh
 taud
 ```
 
-- The first time it's run, a config file is creates. This file can be founds in '.config/darkfi' and is called taud_config.toml
+- The first time it's run, a config file is creates. This file can be founds in '.config/darkfi' and is called taud_config.toml.
 
 ```sh
 cd ~/.config/darkfi
@@ -62,13 +63,13 @@ cd ~/.config/darkfi
 
     - Remember that when changed have been made to configuration, start a new terminal window for the changes to take effect or use `yaml source <file>`.
 
-- Run taud deamon as written below or ~/darkfi/.taud (whatever the correct path is) if it's not working.
+- Run taud deamon as written below (or ~/darkfi/.taud whatever the correct path is).
 
 ```sh
 taud
 ```
 
-- In another window run tau or ~/darkfi/.tau if it's not working.
+- In another window run tau (or ~/darkfi/.tau, check path).
 
 ```sh
 tau
@@ -123,6 +124,7 @@ parser.add_argument('--channel', default="#this is where the ircd channel name i
 ```
 
 **The following need to be running**
+
 Make sure to restart everything after having made changes.
 
 - ircd deamon  (if in darkfi folder --> ./ircd)
