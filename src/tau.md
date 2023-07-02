@@ -1,8 +1,8 @@
 # tau
 
-There are plenty of task manager apps running in the web-browser, on Android etc. LunarDAO seeks for solutions which are open-source (GPL), distributed, working and preferably minimalistic.
+There are plenty of task manager apps running in the web-browser, on Android etc. LunarDAO seeks for solutions which are open-source (GPL), distributed, working and minimalistic.
 
-Searching for task manager that fits these parameters within lunarpunk movement we found tau. The first version of tau was centralized and DarkFi has now developed a [decentralized tau](https://darkrenaissance.github.io/darkfi/misc/tau.html).
+While searching for a task manager that fits these parameters within lunarpunk movement we found tau. The first version of tau was a centralized solution and DarkFi has now developed a [decentralized tau](https://darkrenaissance.github.io/darkfi/misc/tau.html).
 
 ## Installation & configuration
 
@@ -41,7 +41,7 @@ cd ~/.config/darkfi
 
 - The original .toml file (which comes with cloning the repo) looks like [this](https://github.com/darkrenaissance/darkfi/blob/master/bin/tau/taud_config.toml).
 
-- There are a couple of things that needs to be changed:
+- There are a couple of things that need to be changed:
     - Seeds should be uncommented and this is the needed string:  
     `yaml
     seeds=["tls://dasman.xyz:24441"]
@@ -61,7 +61,7 @@ cd ~/.config/darkfi
 
       ```yaml rpc_listen, datastore, nickname & transports ```
 
-    - Remember that when changed have been made to configuration, start a new terminal window for the changes to take effect or use `yaml source <file>`.
+    - Remember that when changes have been made to the configuration, start a new terminal window for the changes to take effect or use `yaml source <file>`.
 
 - Run taud deamon as written below (or ~/darkfi/.taud whatever the correct path is).
 
@@ -81,7 +81,7 @@ Workspace: <name of workspace>
 ---------------
 ```
 
-- It is possible to generate an many workspaces as wanted as described above.  
+- It is possible to generate as many workspaces as wanted as described above.  
 - The workspaces will have separated task lists, which is convienient if working on several projects. 
 
 ## Usage
@@ -96,7 +96,7 @@ tau switch <name of workspace>
 
 ## tau bot
 
-tau as a task manager work well with ircd. The tau bot norifies on the creation of tasks as well as submitted comments, when started, paused or stopped.
+tau as a task manager works well with ircd. The tau bot notifies on the creation of tasks as well as submitted comments, when started, paused or stopped.
 
 The code for the new tau-bot is in: [darkfi/bin/darkirc/script/bots/taubot.py](darkfi/bin/darkirc/script/bots/taubot.py)
 
@@ -123,7 +123,7 @@ parser.add_argument('--nickname', default="this is where the nickname is entered
 parser.add_argument('--channel', default="#this is where the ircd channel name is entered", action='append', help='channel to join')
 ```
 
-**The following need to be running**
+**The following needs to be running**
 
 Make sure to restart everything after having made changes.
 
