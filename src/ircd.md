@@ -10,12 +10,29 @@ Weechat is a client most of the people use (runs the chat in terminal), other IR
 
 ***Note:*** This installation guide is for Linux based on Debian. For other OS, check [here](https://darkrenaissance.github.io/darkfi/index.html) to see which dependencies are needed.
 
+- ircd runs on v0.4.1 (tag) for now while tau for example run on master (branch). On master default is rustup nightly while on v0.4.1 default is rustup stable. [Here](https://hackernoon.com/top-differences-between-tags-and-branches-in-git-you-must-know-49m33jk) is more info on the difference between branches and tags.  
+
 **Open your terminal and navigate to the directory where you want to have Darkfi repository downloaded and follow the steps below.**
 
-**Dependencies**
+- Begin by installing [rustup](https://rustup.rs/) & cargo.
 
 ```sh
-sudo apt-get install -y git make jq gcc vim weechat pkg-config libssl-dev
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+- Follow these steps provided in [DarkFi's installation guide](https://darkrenaissance.github.io/darkfi/index.html#build).
+
+- *Note:* `yaml git checkout v0.4.1` mean that currently it's on v0.4.1, so if it would be `yaml git checkout master` would then mean it's on master. `yaml install rustup target add wasm32-unknown-unknown` (as notes in DarkFi's installation guide above) will need to be installed twice, one for v0.4.1 and one for master.
+
+- Set rustup to stable by default (in v0.4.1).
+
+```sh
+rustup default stable
+```
+- Install weechat & dependencies.
+
+```sh
+sudo apt-get install -y git make jq vim weechat libssl-dev
 sudo apt-get install weechat-curses weechat-plugins
 ```
 In case `libssl-dev` returned error run:
@@ -24,42 +41,44 @@ In case `libssl-dev` returned error run:
 sudo apt-get install libmpg123-dev
 ```
 
-Install Rust & Cargo
+**Compile & install darkirc**
+
+- Go to darkfi folder.
 
 ```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-rustup target add wasm32-unknown-unknown
-```
+ cd darkfi
+ ```
 
-**Clone DarkFi & Install ircd**
+- Compile darkirc.
 
 ```sh
-git clone https://github.com/darkrenaissance/darkfi/
-cd darkfi
 make BINS=ircd
-sudo make install BINS=ircd
 ```
 
-**Config Download**
-
-To make it easier, LunarDAO made a custom ircd configuration.
+- Install.
 
 ```sh
-mkdir ~/.config/darkfi
-wget -P ~/.config/darkfi https://raw.githubusercontent.com/lunardao/ircd/master/ircd_config.toml
+sudo make install BINS=ircd
 ```
 
 **Run ircd**
 
-The following command starts ircd daemon, the chat works only when this daemon is running, don't turn it off.
+- While in darkfi folder --> The following command starts ircd daemon, the chat works only when this daemon is running, don't turn it off.
 
 ```sh
-ircd
+./ircd
 ```
+
+- The first time runnning `yaml ./ircd` a configuration file will be created. It is located in .config/darkfi. Open it ie. with im in terminal.
+
+```sh
+vim .config/darkfi/ircd_config.toml
+```
+- Read from 'New Rooms Configuration' to see what & how to add information in the configuration file to join chat rooms, generate secrets for new ones etcetera.
 
 **Start & Configure Weechat**
 
-Open a new terminal window and start weechat:
+Open a new terminal window and start Weechat:
 
 ```sh
 weechat
@@ -76,10 +95,10 @@ Connect weechat to the ircd daemon, save and restart the client. In Weechat prom
 
 **ircd**
 
-In case you restarted computer or lost connection, restart ircd, entering:
+In case the computer was restarted or connection lost, in darkfi folder enter:
 
 ```sh
-ircd
+./ircd
 ```
 
 Keep the daemon running and open a new window to run the Weechat client.
@@ -147,7 +166,7 @@ End meeting.
 
 ## New Rooms Configuration
 
-All the steps are in the ircd config file in `~/.config/darkfi/ircd_config.toml` or in [ircd config file template](https://raw.githubusercontent.com/lunardao/ircd/master/ircd_config.toml) as comments, this manual shows more explicit steps.
+The information on how to join chat rooms or create new is included in the ircd config file in `~/.config/darkfi/ircd_config.toml` as comments or in [specification in DarkFi wiki](https://darkrenaissance.github.io/darkfi/misc/ircd/specification.html). This manual shows more explicit steps.
 
 ### Join an unencrypted channel
 
@@ -157,7 +176,7 @@ To add and open a public channel on ircd, such as #new_channel, just add it to a
 autojoin = [....<existing_channels>..., "#lunardao-support"]
 ```
 
-Restart ircd daemon (restart ircd after any config changes). The channel shall appear automatically in the weechat.
+Restart ircd daemon (restart ircd after any config changes). The channel shall appear automatically in the weechat. Without a secret, the channel is unencrypted and anyone can join and see the content.
 
 
 ### Join an encrypted channel
@@ -176,7 +195,8 @@ In case of starting a new private channel, a secret must be generated.
 
 ```sh
 [channel."#nameofthesecretchannel"]
-secret = "{secret_string}"
+secret = "{secret_string}"  
+topic = "the purpose of the channel
 ```
 
 2. add the "#nameofthesecretchannel" to the autojoin `[]` line just like with public channels above. 
@@ -197,7 +217,7 @@ ircd --gen-keypair -o ~/some_dir/filename
 ```sh
 [private_key."your_newly_generated_private_key"]
 ```
-3. Share your pub key publicly or with others you want to chat with
+3. Share the pub key publicly or with others you want to chat with
 4. Add a contact of a user to DM with to the ircd_config.toml:
 
 ```sh
@@ -230,4 +250,4 @@ torify ./ircd
 
 DarkFi offers a guide on how to use Nym's mixnet to anonymously connect to other peers in the network when using ircd.
 
-[https://darkrenaissance.github.io/darkfi/clients/nym_outbound.html#anonymous-outbound-connection](https://darkrenaissance.github.io/darkfi/clients/nym_outbound.html#anonymous-outbound-connection)
+- [https://darkrenaissance.github.io/darkfi/clients/nym_outbound.html#anonymous-outbound-connection](https://darkrenaissance.github.io/darkfi/clients/nym_outbound.html#anonymous-outbound-connection)
