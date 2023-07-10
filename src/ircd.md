@@ -10,7 +10,7 @@ Weechat is a client most of the people use (runs the chat in terminal), other IR
 
 ***Note:*** This installation guide is for Linux based on Debian. For other OS, check [here](https://darkrenaissance.github.io/darkfi/index.html) to see which dependencies are needed.
 
-- ircd runs on v0.4.1 (tag) for now while tau for example run on master (branch). On master default is rustup nightly while on v0.4.1 default is rustup stable. [Here](https://hackernoon.com/top-differences-between-tags-and-branches-in-git-you-must-know-49m33jk) is more info on the difference between branches and tags.  
+- ircd runs on v0.4.1 (tag) for now while tau for example run on master (branch). On master default is rustup nightly while on v0.4.1 default is rustup stable. [Here](https://hackernoon.com/ top-differences-between-tags-and-branches-in-git-you-must-know-49m33jk) is more info on the difference between branches and tags.  
 
 **Open your terminal and navigate to the directory where you want to have Darkfi repository downloaded and follow the steps below.**
 
