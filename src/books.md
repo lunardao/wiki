@@ -21,3 +21,4 @@
 - [How to Opt-Out of the Technocratic State](https://annas-archive.org/md5/056e4a80fe37fa5243bc45076c6eeead), by Derrick Broze
 - [Agorism in the 21st Century](https://agorist.xyz/)  
 - [Extreme privacy: What it takes to disappear](https://library.lol/main/4B7C8EA0859310170FF4E742B940AFEA) by Michael Bazzell
+- [	The Second Realm: Book on Strategy](https://library.lol/main/1EAE9327B90F560028A497F68C1D6953) by Smuggler and XYZ
