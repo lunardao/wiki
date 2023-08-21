@@ -31,7 +31,7 @@ To exchange from fiat money (paper money) to crypto assets, see [Fiat to crypto]
 
 ## cake wallet setup
 
-BTC can be stored in [**Cake wallet**](https://cakewallet.com/) on ie. Android.
+BTC can be stored in ie. [**Cake wallet**](https://cakewallet.com/).
 
 When setting up cake wallet for the first time there are privacy-enhancing selection which can be made.
 
