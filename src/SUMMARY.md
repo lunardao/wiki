@@ -66,7 +66,7 @@
     - [SimpleX chat](./simplexchat.md)  
     - [BTC --> XMR atomic swap](./atomicswap.md)  
     - [SIP calls with jmp.chat & csip](./sip_calls.md)  
-    - [Signal privacy guide](./signal_guide.md)
+    - [Signal privacy guide](./signal_privacy_guide.md)
 - [Privacy tools](./list_privacy_tools.md)
 - [Privacy resources](./privacy_resources.md)  
 - [Privacy setup for android with Graphene OS](./privacy_setup.md)
