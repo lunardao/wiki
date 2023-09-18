@@ -30,19 +30,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 - Install dependencies & update.
 
-1) `rustup toolchain install nightly`
+1) `rustup target add wasm32-unknown-unknown`
 
-2) `rustup target add wasm32-unknown-unknown`
+2) `sudo apt-get update`
 
-3) `rustup target add wasm32-unknown-unknown --toolchain nightly`
-
-4) `sudo apt-get update`
-
-5) `sh contrib/dependency_setup.sh`
+3) `sh contrib/dependency_setup.sh`
 
 - The most updated information can be found in [DarkFi's installation guide](https://darkrenaissance.github.io/darkfi/index.html#build). *Note:* `git checkout v0.4.1` mean that currently it's on v0.4.1, which is a tag and `git checkout master` mean it's on master. 
-Steps 1-3 (above) will need to be installed twice, one for v0.4.1 and one for master.  
-- Switch to tag and go through step 1-3 again.
 
 `git checkout v0.4.1`
 
