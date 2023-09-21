@@ -30,33 +30,24 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 - Install dependencies & update.
 
-1) `rustup target add wasm32-unknown-unknown`
+1) `sudo apt-get update`
 
-2) `sudo apt-get update`
+2) `sh contrib/dependency_setup.sh`
 
-3) `sh contrib/dependency_setup.sh`
-
-- The most updated information can be found in [DarkFi's installation guide](https://darkrenaissance.github.io/darkfi/index.html#build). *Note:* `git checkout v0.4.1` mean that currently it's on v0.4.1, which is a tag and `git checkout master` mean it's on master. 
+- The most updated information can be found in [DarkFi's installation guide](https://darkrenaissance.github.io/darkfi/index.html#build).  
+*Note:* `git checkout v0.4.1` mean that currently it's on v0.4.1, which is a tag and `git checkout master` mean it's on master. 
 
 `git checkout v0.4.1`
 
-- Set rustup to stable by default (in v0.4.1).
-
-```sh
-rustup default stable
-```
+`rustup target add wasm32-unknown-unknown`
 
 **Compile & install ircd**
 
 - In DarkFi folder, compile ircd.
 
-`make BINS=ircd`
+`make ircd`
 
-- Install ircd.
-
-```sh
-sudo make install BINS=ircd
-```
+*Note:* If there is an error when compiling, it's likely because dependecies are missing. The cmd above should install everything. However, sometimes troubleshooting through manual installations is necessary. Go to [DarkFi docs](https://darkrenaissance.github.io/darkfi/index.html#build) and install each separately like so "sudo apt install make", "sudo apt install gcc" etcetera.
 
 **Run ircd**
 
