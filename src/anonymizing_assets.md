@@ -84,4 +84,18 @@ When starting with ETH/BTC/USDT/LTC/USDC (and many more options) on non-anon wal
 
 4) [Set up Metamask wallet](./fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
 
-5) Swap back to ETH from XMR using options in step 2 and sent asset to the new wallet which was set up in step 4.
+5) Swap back to ETH from XMR using options in step 2 and sent asset to the new wallet which was set up in step 4.  
+  
+## Anonymize assets using BTC    
+  
+*Note: Bitcoin is a transparent UTXO based chain. Any privacy obfuscation you've performed is visible on-chain. The process described below provides plausible deniability for the user.
+  
+If you want to keep your assets in BTC, you can use coinjoin to break the previous bitcoin on-chain history.  
+  
+1) Setup a Samourai wallet. The best practice is that you should use your own node for this practice. Ronindojo is a node package that has great compatibility with Samourai wallet.  
+  
+2) Send BTC to your samourai wallet and coinjoin your BTC. The user has a variety of UTXO denominations to choose from.  You can obtain a larger anonymity-set by keeping your BTC coinjoining for more rounds.  
+  
+3) If you are spending, you have the ability to perform a 2-person collaborative coinjoin with another user via their spend tool called Stonewall2x. This makes the spend transaction look more confusing on-chain.
+
+4) If looking to receive donations or publicly post a static bitcoin address, consider using the samourai wallet feature called paynym. The sending/receiving wallet must be compatible with the Paynym standard. Paynyms are a stealth address built on bitcoin.
