@@ -96,6 +96,6 @@ If you want to keep your assets in BTC, you can use coinjoin to break the previo
   
 2) Send BTC to your samourai wallet and coinjoin your BTC. The user has a variety of UTXO denominations to choose from.  You can obtain a larger anonymity-set by keeping your BTC coinjoining for more rounds.  
   
-3) If you are spending, you have the ability to perform a 2-person collaborative coinjoin with another user via their spend tool called Stonewall2x. This makes the spend transaction look more confusing on-chain.
+3) If you are spending, you have the ability to perform a 2-person collaborative coinjoin with another user via their spend tool called [Stonewall2x](https://docs.samourai.io/en/spend-tools). This makes the spend transaction look more confusing on-chain.
 
-4) If looking to receive donations or publicly post a static bitcoin address, consider using the samourai wallet feature called paynym. The sending/receiving wallet must be compatible with the Paynym standard. Paynyms are a stealth address built on bitcoin.
+4) If looking to receive donations or publicly post a static bitcoin address, consider using the samourai wallet feature called [paynym](https://docs.samourai.io/wallet/paynyms). The sending/receiving wallet must be compatible with the Paynym standard. Paynyms are a stealth address built on bitcoin.
