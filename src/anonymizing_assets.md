@@ -92,7 +92,7 @@ When starting with ETH/BTC/USDT/LTC/USDC (and many more options) on non-anon wal
   
 If you want to keep your assets in BTC, you can use coinjoin to break the previous bitcoin on-chain history.  
   
-1) Setup a Samourai wallet. The best practice is that you should use your own node for this practice. Ronindojo is a node package that has great compatibility with Samourai wallet.  
+1) Setup a [Samourai wallet](https://samouraiwallet.com/). The best practice is that you should use your own node for this practice. [Ronindojo](https://ronindojo.io/) is a node package that has great compatibility with Samourai wallet.  
   
 2) Send BTC to your samourai wallet and coinjoin your BTC. The user has a variety of UTXO denominations to choose from.  You can obtain a larger anonymity-set by keeping your BTC coinjoining for more rounds.  
   
