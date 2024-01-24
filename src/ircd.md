@@ -145,8 +145,9 @@ The information on how to join chat rooms or create new is included in the ircd 
 To add and open a public channel on ircd, such as #new_channel, just add it to autojoin line in the config file. LunarDAOs public channel is '#lunardao'. An example would be adding a channel called "#lunardao-support" to your config"
 
 ```sh
-autojoin = [....<existing_channels>..., "#lunardao-support"]
-```
+autojoin = [....<existing_channels>..., "#lunardao"]
+```  
+- `#lunardao` is a public channel, which means it is unencrypted and therefore no secret is needed. Adding the channel like this is enough.
 
 Restart ircd daemon (restart ircd after any config changes). The channel shall appear automatically in the weechat. Without a secret, the channel is unencrypted and anyone can join and see the content.
 
