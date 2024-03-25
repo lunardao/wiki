@@ -2,7 +2,7 @@
 
 LunarDAO is an investment fund based on lunarpunk philosophy. By allocating funds in privacy projects & anonymity tooling we aim to expand freedom and ensure sovereignty. Squad wealth leverages collective strength and capture value in the ecosystem by building a portfolio of privacy assets. Anyone can exit at any time. Members are anonymous hence can participate in building this vision without fear of frozen funds, legal implications or any kind of repression. We aim to move to a full anon setup and develop infrastructure for a parallel economy outside of control and centralization.
 
-LunarDAO's supports research on privacy technologies, listed in the [wiki](https://wiki.lunardao.net), and education structures such as [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem.
+LunarDAO's supports research on privacy technologies, listed in the [wiki](https://wiki.lunardao.net), and education structures such as Adalan Academy, where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem.
 
 # Preface
 
