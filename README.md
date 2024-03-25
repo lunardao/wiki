@@ -17,3 +17,5 @@ Use `/src` folder for proposed edits.
 - when changes are done run `mdbook test` to check if all syntax is correct
 - git add, commit etc whatever applies and push
 - don't git pull when git serve is running
+
+
