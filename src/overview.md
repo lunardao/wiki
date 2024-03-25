@@ -4,7 +4,7 @@ Access to resources is fundamental for everyone. Crypto provides the means for p
 
 ## Community
 
-A Community member is anyone who sees themselves as a part of the DAO mission; participates on the [forum](forum.lunardao.net), [ircd](https://wiki.lunardao.net/ircd.html), [telegram](https://t.me/LunarDAO_Official) and contributes to the development of the DAO through work or by sharing experiences, resources and proposals. No token is required to be a part of the community. Community members have no voting power.
+A Community member is anyone who sees themselves as a part of the DAO mission; participates on the [forum](https://forum.lunardao.net/), [ircd](https://wiki.lunardao.net/ircd.html), [telegram](https://t.me/LunarDAO_Official) and contributes to the development of the DAO through work or by sharing experiences, resources and proposals. No token is required to be a part of the community. Community members have no voting power.
 
 ## Squad
 
@@ -12,7 +12,7 @@ A LunarDAO Squad member is every community member who owns $VOX (shares). During
 
 ## Voting
 
-LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md) there is a template and further information on the expected content and process. 
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](https://forum.lunardao.net/). Only Squad members can submit and vote on proposals. In [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md) there is a template and further information on the expected content and process. 
 
 The sponsorship threshold is a minimum number of $VOX (10 $VOX which equals 0.1 ETH at launch) which is required to submit a proposal. This deposit is returned when the proposal have been accepted or rejected. Anyone else can submit a proposal by acquiring a sponsorship by offering a fee of 0.2 ETH which is non refundable and will be sent to the DAO treasury.
 
