@@ -32,6 +32,10 @@
 - [Investment template](./investment_template.md)  
 - [Conclusion](./conclusion.md)  
 
+# Infrastructure
+
+- [Nym exit gateways](./gateways.md)
+
 # Surveillance
 
 - [Introduction](./surveillance_intro.md)
