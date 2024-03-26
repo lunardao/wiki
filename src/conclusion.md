@@ -12,17 +12,20 @@ We would like to remind all the participants to protect themselves and read our 
 
 ## Resources & References
 
-* [LunarDAO web](https://lunardao.net)
-* [LunarDAO wiki & full manifesto](https://wiki.lunardao.net)
-* [LunarDAO architecture discussion](https://forum.lunardao.net/t/tokenomics-lunar-vox/89/45)  
+* [LunarDAO web](https://lunardao.net)  
+* [LunarDAO wiki & full manifesto](https://wiki.lunardao.net)  
+* [LunarDAO: Why are we anonymous](https://lunardao.net/why-anon.html) 
+* [LunarDAO: Roadmap](https://lunardao.net/roadmap.html)  
+* [LunarDAO: Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)  
 * [LunarDAO: Investment portal](https://github.com/lunardao/research/tree/master/investment_portal)
+* [LunarDAO architecture discussion](https://forum.lunardao.net/t/tokenomics-lunar-vox/89/45)  
 * [DAOhaus Moloch 3 infrastructure](https://daohaus.club/moloch)
 * [DaoHaus Baal Github - Moloch V3](https://github.com/HausDAO/Baal/tree/feat/baalZodiac/contracts)  
 * [Baal docs - Moloch V3](https://moloch.daohaus.fun/)
 * [Moloch Baal - V3](https://github.com/Moloch-Mystics/Baal)
 * [DaoHaus](https://daohaus.club/docs/handbook/)
 * [Summon a DAO](https://summon.daohaus.fun/)
-* [LunarDAO: Why are we anonymous](https://lunardao.net/why-anon.html)
-* [LunarDAO: Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)
-* [LunarDAO: Roadmap](https://lunardao.net/roadmap.html)
+
+
+
 
