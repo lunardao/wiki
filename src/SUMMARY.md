@@ -34,7 +34,8 @@
 
 # Infrastructure
 
-- [Nym exit gateways](./gateways.md)
+- [Nym exit gateways](./gateways.md)  
+- [DarkFi ircd behind Nym Mixnet](./mixnetircd.md)
 
 # Surveillance
 

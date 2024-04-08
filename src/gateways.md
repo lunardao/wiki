@@ -6,6 +6,7 @@ As a part of [our mission](https://lunardao.net/manifesto.html) LunarDAO aims to
 
 To walk the talk, we lead by an example. Our first milestone to establish such infrastructure in an anonymous and distributed fashion is to run [Nym Exit Gateways](https://gateway1.lunardao.net).
 
+
 ## LunarDAO Gateways
 
 LunarDAO currently operates 15 Nym Exit Gateways.
@@ -29,6 +30,8 @@ LunarDAO currently operates 15 Nym Exit Gateways.
 | [gateway15.lunardao.net](https://gateway15.lunardao.net/) | India                                | Ca4bbfxVGtuGuiYvH7V5jSnj9Jp4VJa4Sznu2doZD5np | 6J4NJJTGJNT4BeYgeGnm3wMRzzKH1LFFPCZjoeAoRpCB.9d8fYTwxXf3QmFyqVCxjezGSg7bwSMBBaPmRrsJHUCE6@Ca4bbfxVGtuGuiYvH7V5jSnj9Jp4VJa4Sznu2doZD5np |
 
 ## Nym Mixnet Routing with Socks5 Client
+
+> Run `ircd` over the mixnet using LunarDAO gateways for max anonymity. Follow the guide [here](./mixnetircd.md).
 
 Nym has been developing an app to channel all users' traffic through the mixnet. Now users can use a client to run any SOCKS5 proxy traffic through. Many older version of Nym Network Requesters are limited by the outdated *allowed.list* and users had to run their own with a custom list of whitelisted services. LunarDAO Nym Gateways have Network Requester (NR) and Internet Pacet Router (IPR) embedded and they run according to the new Nym exit policy - a combination of Tornull and Tor reduced policy - a default filter allowing users to connect to any but blacklisted IPs and ports.
 
