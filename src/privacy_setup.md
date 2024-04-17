@@ -68,7 +68,7 @@ Signal is widely used and well known, but it isn't the only messaging app that f
 ***How to get a number from jmp.chat:***
 
 1. Go to [**mov.im**](mov.im) and sign up a new account. Make sure to use a VPN when you create an account, so that IP address is not leaked.
-2. Make a new account based on the guided steps as it gets you to [movim.eu](movim.eu) or [jappix.com](jappix.com).  
+2. Make a new account based on the guided steps as it gets you to [**movim.eu**](movim.eu) or [**jappix.com**](jappix.com).  
 3. Sign in.  
 4. Go jmp.chat and select a number.  
 5. Add your mov.im account to the prompt.  
@@ -87,7 +87,7 @@ To exchange from fiat money (paper money) to crypto assets, see [**Fiat to crypt
 
 <!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
 
-BTC can be stored in [**Samuorai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), and protect  against [metadata](https://www.howtogeek.com/815069/what-is-metadata/) leakage. The wallet also has an offline mode and can be used as [**offline storage**](https://samouraiwallet.com/offline). It is proposed to be used together with [**Sentinel**](https://docs.samourai.io/sentinel) which allows you to track the balances and transactions of your offline storage.
+BTC can be stored in [**Samuorai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), and protect  against [**metadata**](https://www.howtogeek.com/815069/what-is-metadata/) leakage. The wallet also has an offline mode and can be used as [**offline storage**](https://samouraiwallet.com/offline). It is proposed to be used together with [**Sentinel**](https://docs.samourai.io/sentinel) which allows you to track the balances and transactions of your offline storage.
 
 **Email:**
 
@@ -127,6 +127,8 @@ In Insular: In the Mainland section, click on an application, ie. Aurora store. 
 
  If Aurora store is opened on the Island, all downloaded applications from Aurora store will be directly stored on the Island.
 
+ Also see the option of [*User profiles on Graphene OS*](https://wiki.lunardao.net/privacy_setup.html#user-profiles-on-graphene-os) below.
+
 **Remove metadata from pictures:**  
 
 - [**ObscuraCam**](https://guardianproject.info/apps/org.witness.sscphase1/). Blur faces and remove metadata. 
@@ -165,8 +167,8 @@ To set up a new *User profile*, go to:
 *Note: Everything need to be set up from scratch.*
 
 **Sources:**  
-- [https://grapheneos.org/features#more-user-profiles](https://grapheneos.org/features#more-user-profiles)  
-- [https://inv.riverside.rocks/watch?v=20C0FD7mGDY](https://inv.riverside.rocks/watch?v=20C0FD7mGDY)
+- [**https://grapheneos.org/features#more-user-profiles**](https://grapheneos.org/features#more-user-profiles)  
+- [**https://inv.riverside.rocks/watch?v=20C0FD7mGDY**](https://inv.riverside.rocks/watch?v=20C0FD7mGDY)
 
 ## Banana phone as hotspot
 
