@@ -80,10 +80,10 @@ Make sure to stay anonymous when paying for the new number with Bitcoin. One opt
 - Create a new Metamask account.  
 - Only use this account with Tor browser which means setting up the add-on every time as Tor browser don't save any data (which is the privacy consideration we are looking for).  
 - [**Change RPC**](https://wiki.lunardao.net/change_rpc.html).  
-- Check this guide on [how to anonymize assets](https://wiki.lunardao.net/anonymizing_assets.html). 
+- Check this guide on [**how to anonymize assets**](https://wiki.lunardao.net/anonymizing_assets.html). 
 - Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC.
 
-To exchange from fiat money (paper money) to crypto assets, see [Fiat to crypto](./fiat_to_crypto.md) guide.
+To exchange from fiat money (paper money) to crypto assets, see [**Fiat to crypto**](./fiat_to_crypto.md) guide.
 
 <!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
 
@@ -109,7 +109,7 @@ To email other addresses securely, create an encryption key with:
 
 **Video app (Youtube front-end):**  
 
-- [**NewPipe**](https://newpipe.schabi.org/) is an ad free YouTube alternative.
+- [**PipePipe**](https://f-droid.org/en/packages/InfinityLoop1309.NewPipeEnhanced/) is an ad free YouTube alternative.
 
 **Notes:**  
 
