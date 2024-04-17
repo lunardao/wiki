@@ -34,16 +34,18 @@ If there are any difficulties with the installation, it is possible to ask for s
 - Install Tor browser via Vanadium and then open the application.
 - Go to [**F-Droid**](https://f-droid.org/en/) and download the F-Droid app.  
 - With F-Droid, download and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues preferrably on an island (using ie.insular) or apps which is not existing in f-droid).   
-- Download [**Geph**](https://geph.io/en) (from Aurora store), [**ProtonVPN**](https://protonvpn.com/download) or [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) from f-droid and directly set up a VPN. Check [Privacy tools](./list_privacy_tools.md) for more options.
+- Download [**Geph**](https://geph.io/en) (from Aurora store), [**ProtonVPN**](https://protonvpn.com/download) or [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) from f-droid and directly set up a VPN. Check [**Privacy tools**](./list_privacy_tools.md) for more options.
 
 **VPN:**  
 
-An IP address is a digital address. Every device connected to the internet has one, and someone who looks up your IP address can see your location. The VPN, such as the ones mentioned above, are used to protect the IP address. When using a VPN it appears as if ths user is somewhere else in the world.
+An IP address is a digital address. Every device connected to the internet has one, and someone who looks up your IP address can see your location. The VPN, such as the ones mentioned above, are used to protect the IP address. When using a VPN it appears as if ths user is somewhere else in the world. 
 
 - After the VPN is installed, go to Settings --> Networks & internet  --> VPN. The installed VPN has a settings option there. Select *'Always-on VPN'* to be sure that the IP address is always protected. The VPN can also be switched off and on manually.  
 - Go to the downloaded VPN app to check that it's on. In the free versions there only a few options for IP address (it's possible to select by country in protonVPN, and by city in Bitmask).  
 - Go to [**What is my IP**](https://www.whatismyip.com/) to see if it correlates with the selected VPN.
 - When this setup is completed, install other applications.
+
+The VPN solutions that exist today route traffic through proxies. Any adversary that surveils the traffic can view the size of data packets entering and leaving the VPN service. With internet traffic surveillance, an adversary can see who, when, and how often you communicate with someone. The paid ProtonVPN option provides the possibility of *secure core* which means two hops. There is also the option of [**Orbot**](https://support.torproject.org/glossary/orbot/) which is developed by Tor project. To ensure network privacy VPNs are incomplete as a solution and something to keep in mind.
 
 ### Applications for your Graphene OS phone
 
@@ -57,10 +59,11 @@ Both function like any app store. F-Droid will mark apps with *Anti-features* if
 
 **Messaging app:** 
 
-- [**Signal**](https://www.signal.org/) - Signal still requires a phone number. There are other applications that do not ask for any such identifiers, such as [**Simplex chat**](https://simplex.chat/) but of course the choice also depends on what those we communicate with are using.    
-- If using signal, a phone number can be acquired via [**jmp.chat**](https://jmp.chat/).  
+- [**Simplex chat**](https://simplex.chat/) is an end-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users. The username can be changed, random names can be generated for new chats and subaccount can be created for different communication needs.
 
-Signal will stop requiring phone numbers soon. Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy. Also check [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) for more options.
+- Many still use [**Signal**](https://www.signal.org/), which unfortunately requires a phone number. If using signal, a phone number can be acquired via [**jmp.chat**](https://jmp.chat/) or [**Crypton**](https://crypton.sh).    
+
+Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy. Also check [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) for more options.
 
 ***How to get a number from jmp.chat:***
 
