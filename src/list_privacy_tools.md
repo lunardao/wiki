@@ -61,7 +61,10 @@ Offers phone number aliases. The user can create multiple phone numbers.
 An important note is to use Tor browser or VPN (ideally with a browser which is focused on privacy such as Librewolf) when setting up the number, managing wallet and making transactions. Check [**Anonymizing assets**](./anonymizing_assets.md) for the payment. For jmp.chat use [**Sideshift**](https://sideshift.ai/btc/eth) to exchange to BTC.
 
 - [**jmp.chat**](https://jmp.chat/)  
-Provides a phone number, from US, which can be used for other apps. In [**Privacy setup**](./privacy_setup.md) you can go through the steps needed to set it up. Is payed with BTC.
+Provides a phone number, from US, which can be used for other apps. In [**Privacy setup**](./privacy_setup.md) you can go through the steps needed to set it up. Is payed with BTC.  
+
+- [**Crypton**](https://crypton.sh)  
+Provide UK SIMs. The data is stored encrypted on their server which is located on Iceland. To sign up username and password is needed (email is optional). It's possible to pay with crypto, ie. Monero or Bitcoin. 
 
 ## Twitter front-end
 

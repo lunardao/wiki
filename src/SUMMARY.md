@@ -50,12 +50,11 @@
 - [Wikileaks publications](./wikileaks.md)  
 - [Pegasus](./pegasus.md)  
 - [Surveillance in China](./china.md)  
-- [Government requesting Big tech data](./bigtech.md)
-
-# Opt out
-
+- [Government requesting Big tech data](./bigtech.md)  
 - [Fingerprinting & Tracking](./fingerprinting_tracking.md)  
 - [SIM card data collection](./simdata.md)
+
+# Opt out
 - [Manuals](./intro.md)
     - [Nokia "Banana" jailbreak](./bananahack.md)
     - [Randomizing IMEI](./imei.md)
