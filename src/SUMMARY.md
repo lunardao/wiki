@@ -95,7 +95,7 @@
 # Education
 
 - [Overview](./academy_intro.md)
-- [Adalan Academy](https://adalanacademy.org/why.html)
+- [Adalan Academy](https://t.me/adalancommunity)
 
 # Resources
 
