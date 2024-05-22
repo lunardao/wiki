@@ -89,7 +89,7 @@
 
 # Tools
 
-- [ircd](./ircd.md)
+- [darkirc](./darkirc.md)
 - [tau](./tau.md)
 
 # Education
