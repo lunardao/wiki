@@ -48,7 +48,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 - The first time runnning `./darkirc` a configuration file will be created. It is located in '.config/darkfi'. Open it ie. with vim in terminal.
 
 ```sh
-vim .config/darkfi/ircd_config.toml
+vim .config/darkfi/darkirc_config.toml
 ```
 - In the configuration file there is also information how to generate secrets for new chat room ("IRC channel settings") and create key for dm's ("Contact settings"). After changes have been made in the configuration file, darkirc deamon need to be restarted.
 
