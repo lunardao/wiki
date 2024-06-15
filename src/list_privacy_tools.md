@@ -212,7 +212,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 ## eSIM cards/virtual numbers
 
 - [**Silent link**](https://silent.link/)  
-An eSIM that can be acquired with crypto such as Monero. No phone number, data only.
+An eSIM that can be acquired with crypto such as Monero. US number, UK number or data only.
 
 - [**Crypton**](https://crypton.sh/)  
 Virtual SIM which can be paid in crypto. Data is encrypted with user key (though note that some metadata, such as dates remain unencrypted).
