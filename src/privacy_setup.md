@@ -151,9 +151,6 @@ Both of these applications can be used as offline maps. maps.me asks for a lot o
 
 - [**Cake wallet**](https://cakewallet.com/). Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet. It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If the device has been set up in a secure way (using VPN or tor), then other transactions are not connected to a IP address which is also connected to the real address.  
 
-- [**Samuorai wallet**](https://samouraiwallet.com/features)  
-Is a BTC privacy oriented wallet that is based on the [**Zerolink framework**](https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198). Samourai routes over tor by default.
-
 ## User profiles on Graphene OS
 
 Graphene OS *User profiles* are isolated workspaces that has it's own set of encryption keys. It functions as setting up a completely new phone and each profile have their own instances of apps, app data and profile data (contacts, media store, home directory and so on). Apps can't see the apps running on other user profiles and can only communicate with apps within the same profile. The profiles have separate passwords. It is possible to have 31 (+1 guest) profiles.
