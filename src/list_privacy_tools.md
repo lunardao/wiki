@@ -20,8 +20,12 @@ The calls can be with out without video, there is a texting function that can be
 
 For all the private messaging options it is necessary to use an application to hide your IP address, such as [**ProtonVPN**](https://protonvpn.com/download), [**RiseupVPN**](https://riseup.net/en/vpn) or [**TOR**](https://www.torproject.org/download/). If used on phone - do not use a sim-card and set up an automatic reset of the mac address on every re-connection.
 
-- [**ircd**](https://darkrenaissance.github.io/darkfi/misc/ircd/ircd.html)  
-Ircd is a fully anonymous peer-to-peer communication tool developed by DarkFi which can be used encrypted or unencrypted, supports DM and group chats. Works with clients like [**Weechat**](https://weechat.org/) directly in terminal. No need to create an account, no captchas, no bloated app with extra empty screen space. Fully distributed, runs on tor.
+- [**Darkirc**](https://darkrenaissance.github.io/darkfi/misc/darkirc/darkirc.html)  
+Darkirc is a fully anonymous peer-to-peer communication tool developed by DarkFi which can be used encrypted or unencrypted, supports DM and group chats. Works with clients like [**Weechat**](https://weechat.org/) directly in terminal. No need to create an account, no captchas, no bloated app with extra empty screen space. Fully distributed, runs on tor.
+
+- [**Simplex chat**](https://simplex.chat/)  
+End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users. Can be set up for terminal usage. 
+[Documentation](https://github.com/simplex-chat/simplex-chat)
 
 - [**Session**](https://getsession.org/)  
 Session is an open source messenger that supports private and anonymous communications; DM, group chats, and voice calls.  
@@ -42,10 +46,6 @@ End-to-end encrypted messenger for DM and group chats, and video. Bridges to oth
 - [**XMPP**](https://xmpp.org/) with [**Jabber**](jabber.org) or [**Pidgin**](https://pidgin.im/)  
 XMPP is a set of open technologies for instant messaging, group chat, voice and video calls. It is decentralized and open source.  
 [Documentation](https://xmpp.org/about/technology-overview/)
-
-- [**Simplex chat**](https://simplex.chat/)  
-End-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users. Can be set up for terminal usage. 
-[Documentation](https://github.com/simplex-chat/simplex-chat)
 
 - [**Threema**](https://threema.ch/en/security)  
 Is an end-to end encrypted messenger for phone and desktop. User don't have to provide a phone number. Costs $6.
