@@ -81,13 +81,12 @@ Make sure to stay anonymous when paying for the new number with Bitcoin. One opt
 - Only use this account with Tor browser which means setting up the add-on every time as Tor browser don't save any data (which is the privacy consideration we are looking for).  
 - [**Change RPC**](https://wiki.lunardao.net/change_rpc.html).  
 - Check this guide on [**how to anonymize assets**](https://wiki.lunardao.net/anonymizing_assets.html). 
-- Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC.
+- Use [**Sideshift**](https://sideshift.ai/btc/eth) to swap from ETH to BTC.  
+- One can for example use [**Electrum**](https://electrum.org/) wallet to for BTC. Make sure to use tor or VPN. 
 
 To exchange from fiat money (paper money) to crypto assets, see [**Fiat to crypto**](./fiat_to_crypto.md) guide.
 
 <!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
-
-BTC can be stored in [**Samuorai wallet**](https://samouraiwallet.com/features) which is a privacy wallet for Bitcoin. Samuorai can be used in stealth mode (which means that it is not visible on the phone until dialling a secret code), and protect  against [**metadata**](https://www.howtogeek.com/815069/what-is-metadata/) leakage. The wallet also has an offline mode and can be used as [**offline storage**](https://samouraiwallet.com/offline). It is proposed to be used together with [**Sentinel**](https://docs.samourai.io/sentinel) which allows you to track the balances and transactions of your offline storage.
 
 **Email:**
 
