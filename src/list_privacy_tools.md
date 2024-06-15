@@ -68,13 +68,9 @@ Provide UK SIMs. The data is stored encrypted on their server which is located o
 
 ## Twitter front-end
 
-- [**Nitter**](https://nitter.net/about)  
+- [**Nitter**](https://nitter.io.lol/about)  
 Privacy focused alternative to Twitter without JavaScript and ads.  
 [Documentation](https://github.com/zedeus/nitter)
-
-## Reddit front-end
-
-- [**Reddit**](https://teddit.net/)
 
 ## Organizer
 
