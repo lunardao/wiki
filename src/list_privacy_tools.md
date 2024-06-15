@@ -265,9 +265,6 @@ Search engine without tracking and search history. Can be used with Anonymous vi
 - [**Duck duck go**](https://duckduckgo.com/)  
 No tracking, no ads and no storing of personal information.
 
-- [**Brave**](https://brave.com/)  
-Blocks trackers and ads. Include VPN.
-
 ## Collaboration tools
 
 - [**Hedgedoc**](https://hedgedoc.org/)  
