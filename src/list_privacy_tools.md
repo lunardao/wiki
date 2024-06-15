@@ -270,6 +270,9 @@ Blocks trackers and ads. Include VPN.
 
 ## Collaboration tools
 
+- [**Hedgedoc**](https://hedgedoc.org/)  
+Hedgedoc is a collaboration tool which can also be self hosted without needing a lot of resources (can ie. run on rasperry pi). In Hedgedoc it's possible to write documents in Markdown with immediate rendering or even make markdown slides. 
+
 - [**Nextcloud**](https://nextcloud.com)  
 Nextcloud is a  collaboration platform where it is possible to co-edit document, share files, chat, make video calls, manage mail and share calendar. 
 For additional privacy the team can encrypt the files that they want to share with each other on Nextcloud.
@@ -291,7 +294,7 @@ For android phones.
 
 - [**maps.me**](https://maps.me/)
 
-These two applications are very useful as they are offline maps. They also contain ads and asks for some permissions that are not needed for functionality. Check [Privacy setup](./privacy_setup.md) for more information.
+These two applications are very useful as they are offline maps. They also contain ads and asks for some permissions that are not needed for functionality. Check [**Privacy setup**](./privacy_setup.md) for more information.
 
 ## Virtual payment cards
 
