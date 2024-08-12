@@ -6,36 +6,15 @@
 
 - [Manifesto](./manifesto.md)
 
-# Governance 
-
-- [Overview](./overview.md)  
-- [Committees](./committees.md)  
-- [Governance process](./process.md)
-
-# LIP
-
-- [LIP-0001](./lip-0001.md)
-
 # Venture
 
 - [Preface](./preface.md)   
 - [Mission](./mission.md)
 - [Investment thesis](./investment_thesis.md)
 
-# DAO Architecture
-
-- [Moloch V3](./moloch_v3.md)
-- [Tokenomics](./tokenomics.md)  
-- [Fund management](./fund_management.md)  
-    - [Portfolio](./portfolio.md)  
-    - [Syndicate](./syndicate.md)  
-- [Investment template](./investment_template.md)  
-- [Conclusion](./conclusion.md)  
-
 # Infrastructure
 
 - [Nym exit gateways](./gateways.md)  
-- [DarkFi ircd behind Nym Mixnet](./mixnetircd.md)
 
 # Surveillance
 
