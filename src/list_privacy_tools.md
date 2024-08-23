@@ -174,11 +174,13 @@ A private browser (onion routing) that hides your IP address. It is decentralize
 - [**IVPN**](https://ivpn.net)  
 [Documentation](https://github.com/ivpn)  
 No logs, no user data stored. Protecting IP address from exposure.
-
+ 
 ## Browsers
 
 - [**Librewolf**](https://librewolf.net/)  
-Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**uBlock**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
+Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**uBlock**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).    
+- [**Brave**](https://brave.com/) blocks tracking,fingerprinting, third-party ads and cookie acceptance pop-ups.  
+- [**Tor browser**](https://www.torproject.org/download/) is developed to circumvent censorship and enable privacy. This is done using onion routing of data through multiple servers.
 
 ## Private network layer
 
