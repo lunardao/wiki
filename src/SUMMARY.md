@@ -71,11 +71,6 @@
 - [darkirc](./darkirc.md)
 - [tau](./tau.md)
 
-# Education
-
-- [Overview](./academy_intro.md)
-- [Adalan Academy](https://t.me/adalancommunity)
-
 # Resources
 
 - [Articles](./articles.md)
