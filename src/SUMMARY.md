@@ -20,7 +20,7 @@
 
 - [Introduction](./surveillance_intro.md)
 - [European union chat surveillance](./chat.md)  
-- [SIS](./sis.md)  
+- [Schengen Information System](./sis.md)  
 - [Data rentention initiative](./data_retention_initiative.md)  
 - [Echelon](./echelon.md)  
 - [Facebook selling data](./facebook.md)  

@@ -24,10 +24,3 @@ For the current list of primitives and projects discussed as possible investment
 
 We believe that the loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out in the desert with regressive regFi.
 
-## Knowledge as a Value
-
-The privacy investment sphere is LunarDAO's main focus. At the same time we see education as an essential value to fulfill our mission.
-
-The DAO creates possibilities for technical literacy by building [research](https://wiki.lunardao.net/anoma.html) and [wiki](https://wiki.lunardao.net/intro.html) and supporting [educational](https://wiki.lunardao.net/academy_intro.html) structures such as the partnering project [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem. Such education empowers the community and shape thinkers, who bring value back to the ecosystem. Education is a long-term investment.
-
-![](./pics/landscape01.jpg)
