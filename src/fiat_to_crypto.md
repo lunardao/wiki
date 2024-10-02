@@ -2,18 +2,20 @@
 
 When using a regular os (instead of ie. tails), make sure to protect network privacy by using ie. mixnet or VPN such as [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/), [Lokinet](https://lokinet.org/), [Geph](https://geph.io/en) or [ProtonVPN](https://protonvpn.com/download).
 
-## Set up a metamask wallet
+## Set up a Metamask wallet
 
 A Metamask wallet can be set up on virtual machine, Tails or Tor browser on regular OS (read Linux).
 
-- Open tor browser.  
+- Open Tor browser.  
 - In the upper right corner (the burger), go to 'Add-ons and themes'.  
 - Search for Metamask.  
-- 'Install for firefox' (works for tor browser as well) as browser extention. select 'Continue to installation' (this will take a minute or so), 'Add',  'Allow this extention to run in private windows'. The icon will be visible in the upper right corner.  
-- Click on icon. It will open a new tab in tor browser. 
+- 'Install for firefox' (works for Tor browser as well) as browser extention. select 'Continue to installation' (this will take a minute or so), 'Add',  'Allow this extention to run in private windows'. 
+The icon will be visible in the upper right corner.  
+- Click on icon. It will open a new tab in Tor browser. 
 - Select 'Create a new wallet', 'I agree', submit a password and 'Create a new wallet'.  
 - Choose 'Secure my wallet'. This will bring you to the recovery phrase. 'Reveal Secret recovery Phrase'. 
-- Write down the recovery phrase in ie. keepass or any other safe place. With the recovery phrase (even without password, it possible to access the wallet, but not vice versa especially if the browser doesn't store any information the recovery phrase will be continously used).
+- Write down the recovery phrase in ie. keepass or any other safe place. With the recovery phrase (even without password, it possible to access the wallet, but not vice versa especially if the 
+browser doesn't store any information the recovery phrase will be continously used).
 - When asked to re-enter parts of the recovery phrase make sure there are no whitespaces or it is not possible to proceed.  
 - When completed and in the wallet - At the top, the wallet address is partially displayed. Copy the address to the keepass to have easy access.  
 - Change RPC to not leak metadata (default ones collect a lot of user data): [https://wiki.lunardao.net/change_rpc.html](https://wiki.lunardao.net/change_rpc.html)  
@@ -44,20 +46,8 @@ A Metamask wallet can be set up on virtual machine, Tails or Tor browser on regu
 
 ![](pics/bity/from_fiat/5.png)
 
-## Anonymize ETH via Tornado cash
-
-The ETH that is now in the Metamask wallet is kyc (know your customer) money because they were sent from a bank account connected to an identity. To move towards the dark forest there is a need to anonymize the money, for example via [Tornado cash](https://tornadocash.3th.ws/) (*Note: Tornado cash has deposits and withdrawals in 0.1, 1, 10 and 100 ETH, which is to strengthen the anonymity set as arbitrary number will be revealing).  
-- Here is a [user guide](https://cryptobriefing.com/how-to-use-tornado-cash-ethereum-privacy-solution/) for Tornado cash deposits and withdrawals.  
-- More post censorship info about Tornado cash [here](https://forums.tornadocash.community/t/post-censorship-guide/43).  
-- Wait at least 24h before withdrawing funds.  
-- Set up another Metamask wallet according to instruction in 'Set up a metamask wallet'. This is the address which wil be used to withdraw funds from Tornado cash.
-
 ## Exchange to other currencies
 
-Swaps to other currencies can be done via:
-
-- [Sideshift](https://sideshift.ai)  
-- [Fixed float](https://fixedfloat.com)  
-- [Trocador](https://trocador.app/en)
+After buying crypto via Bity, make sure to [Anonymize your assets](./anonymizing_assets.md).
 
 
