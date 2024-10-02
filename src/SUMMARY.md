@@ -77,8 +77,5 @@
 - [Books](./books.md)
 - [Videos](./videos.md)
 
-# Support  
-
-- [FAQ](./faq.md)
 
  
