@@ -9,9 +9,9 @@ To walk the talk, we lead by an example. Our first milestone to establish such i
 
 ## LunarDAO Gateways
 
-LunarDAO currently operates 15 Nym Exit Gateways.
+LunarDAO currently operates 15 Nym-nodes as Exit Gateways.
 
-| Gateway                                                   | Admin    | Location; IP; ID & Sphinx keys; NR, IPR & SOCKS5 addresses |
+| Gateway                                                   | Admin    | Uptime; Location; IP; ID & Sphinx keys; NR, IPR & SOCKS5 addresses |
 | :--- | :--- | :-- | 
 | [gateway1.lunardao.net](https://gateway1.lunardao.net/)   | Stewards | [harbourmaster.nymtech.net/gateway/B94EfVLMAk1ZWcwdi1G8WeuWGYSmXZrU46o12qDBBVvk](https://harbourmaster.nymtech.net/gateway/B94EfVLMAk1ZWcwdi1G8WeuWGYSmXZrU46o12qDBBVvk) |
 | [gateway2.lunardao.net](thttps://gateway2.lunardao.net/)  | Stewards | [harbourmaster.nymtech.net/gateway/GQHPaMs1k6GyhMug1Q3cfTFhRsnHZxdt7pkgyUWJBwtF](https://harbourmaster.nymtech.net/gateway/GQHPaMs1k6GyhMug1Q3cfTFhRsnHZxdt7pkgyUWJBwtF) |
@@ -29,13 +29,19 @@ LunarDAO currently operates 15 Nym Exit Gateways.
 | [gateway14.lunardao.net](https://gateway14.lunardao.net/) | Stewards | [harbourmaster.nymtech.net/gateway/ELjxhHLX1ZxfnJgQhtBTUiVUzLbfZs9Y6bSTpLLkAkR7](https://harbourmaster.nymtech.net/gateway/ELjxhHLX1ZxfnJgQhtBTUiVUzLbfZs9Y6bSTpLLkAkR7) |
 | [gateway15.lunardao.net](https://gateway15.lunardao.net/) | Stewards | [harbourmaster.nymtech.net/gateway/Ca4bbfxVGtuGuiYvH7V5jSnj9Jp4VJa4Sznu2doZD5np](https://harbourmaster.nymtech.net/gateway/Ca4bbfxVGtuGuiYvH7V5jSnj9Jp4VJa4Sznu2doZD5np) |
 
-## Nym Mixnet Routing with Socks5 Client
+## Connect to LunarDAO Gateways
 
-> Run `ircd` over the mixnet using LunarDAO gateways for max anonymity. Follow the guide [here](./mixnetircd.md).
+Users and devs can channel their Mixnet connections through LunarDAO gateways either via NymVPN or SOCKS5 client.
 
-Nym has been developing an app to channel all users' traffic through the mixnet. Now users can use a client to run any SOCKS5 proxy traffic through. Many older version of Nym Network Requesters are limited by the outdated *allowed.list* and users had to run their own with a custom list of whitelisted services. LunarDAO Nym Gateways have Network Requester (NR) and Internet Pacet Router (IPR) embedded and they run according to the new Nym exit policy - a combination of Tornull and Tor reduced policy - a default filter allowing users to connect to any but blacklisted IPs and ports.
+### NymVPN
 
-To use LunarDAO Nym Exit Gateways, run your own `nym-socks5-client` and route it through one of our embedded NR's. Here is how:
+NymVPN is a client routing all users traffic thorugh Nym mixnet. The CLI version (setup guide [here](https://nymtech.net/developers/nymvpn/cli.html) enables users to choose any Gateway providing options `--entry-gateway-id [ENTRY_GATEWAY_ID]` and `--exit-gateway-id [EXIT_GATEWAY_ID]`. To get LunarDAO ID keys needed for this setup, choose gateways from the [table above](#lunardao-gateways) and supply the key to your command. 
+
+### Nym SOCKS5 Client
+
+LunarDAO Nym Gateways have Network Requester (NR) and Internet Packet Router (IPR) embedded and they run according to the new Nym exit policy - a combination of Tornull and Tor reduced policy - a default filter allowing users to connect to any but blacklisted IPs and ports.
+
+To use LunarDAO Nym Exit Gateways, run your own [`nym-socks5-client`](https://nymtech.net/developers/clients/socks5-client.html) and route it through one of our embedded NR's. Here is how:
 
 1. Get `nym-socks5-client` from [Nym release page](https://github.com/nymtech/nym/releases).
 2. Make executable: `chmod u+x nym-socks5-client`
@@ -45,5 +51,5 @@ To use LunarDAO Nym Exit Gateways, run your own `nym-socks5-client` and route it
 ```
 4. Run `./nym-socks5-client run --id [YOUR_ID]`
 
-Now the client shall be connected to `127.0.0.1` and port `1080`, drop these values to any SOCKS5 supporting app to run through the mixnet, like in this example with [electrum Bitcoin wallet](https://nym-website-docs-n2epi5j7h-nyx-network-staging.vercel.app/developers/tutorials/electrum.html#electrum-bitcoin-wallet-via-nymconnect).
+Now the client should be connected to `127.0.0.1` and port `1080`, drop these values to any SOCKS5 supporting app to run through the mixnet, like in [this example](https://nymtech.net/developers/clients/socks5/usage.html) or check out [this list of supported applications](https://nymtech.net/developers/clients/socks5/usage.html#supported-applications).
 
