@@ -89,7 +89,7 @@ You can connect your wallet to this node over tor. For best privacy practices, y
 
 ## Obtaining Monero
 
-- [LocalMonero](https://localmonero.co/) & [AgoraDesk](https://agoradesk.com/).
+- [https://openmonero.co](https://openmonero.co)
 - [Mining](https://p2pool.io/): Decentralized Monero mining.
 - [TradeOgre](https://tradeogre.com/): Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
 - [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
