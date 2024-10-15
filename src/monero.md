@@ -80,8 +80,12 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 ## Monero Nodes
 
 - [XMR Fail](https://monero.fail/): List of available public XMR nodes including nodes running over Tor. You can use this resource to choose online nodes for your wallet software to connect to.
+- [LunarDAO XMR full onion node](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089): 
+[http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089) 
+You can connect your wallet to this node over tor. For best privacy practices, you should always run your own node.    
 - [Run a Monero Node](https://github.com/sethforprivacy/sethforprivacy.com/blob/master/content/guides/run-a-monero-node.md): Guide to run an XMR node on a linux virtual private server.
 - [Setting up Your Own Node](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/): Guide to run an XMR node locally.
+
 
 ## Obtaining Monero
 
