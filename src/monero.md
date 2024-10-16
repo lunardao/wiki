@@ -75,7 +75,8 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 - [Monerujo](https://www.monerujo.io/): Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).
 - [Anonero](https://gitea.com/ANONERO/ANON/releases): Mandatory Tor, enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.
 - [Monero.com wallet](https://github.com/cake-tech/cake_wallet/releases): Was created by the CakeWallet team. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses swap service [trocador.app](https://trocador.app).  
-- [Mysu](hyyps://mysu.dev) via onion link: [http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/](http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/). Includes Tor and I2P support, coin control, seed offsets, churning option when selecting UTXOs, and mutli-destination transactions.
+- [Mysu](hyyps://mysu.dev) via onion link:  
+[http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/](http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/). Includes Tor and I2P support, coin control, seed offsets, churning option when selecting UTXOs, and mutli-destination transactions.
 
 
 ## Monero Nodes
@@ -83,7 +84,8 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 - [XMR Fail](https://monero.fail/): List of available public XMR nodes including nodes running over Tor. You can use this resource to choose online nodes for your wallet software to connect to.
 - [Run a Monero Node](https://github.com/sethforprivacy/sethforprivacy.com/blob/master/content/guides/run-a-monero-node.md): Guide to run an XMR node on a linux virtual private server.
 - [Setting up Your Own Node](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/): Guide to run an XMR node locally.
-- [LunarDAO XMR full onion node](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089): [http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089)  You can connect your wallet to this node over Tor. For best privacy practices, you should always run your own node.
+- [LunarDAO XMR full onion node](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089):  
+[http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089)  You can connect your wallet to this node over Tor. For best privacy practices, you should always run your own node.
 
 ## Obtaining Monero
 
