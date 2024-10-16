@@ -37,7 +37,7 @@ A Poisoned Output Attack can be mitigated by several different measures by a use
 
 A *Janus Attack* is when a malicious party can discover that different subaddresses are shared by the same Monero seed. This is a specific kind of attack and usually needs off-chain confirmation that funds were received. This is an issue if the user is maintaining separate identities and using separate subaddresses from the same seed, between these separate identities. This would confirm both online identites that the user was keeping separate are actually in control of the same Monero seed. A surveilling attacker can successfully execute a Janus attack if they're able to verify sucessful receipt of funds. This can be from various sources (e.g. user informs reciept of funds, Point of sale system informs receipt of funds, etc.).
 
-A Janus attack can be mitigated by several different measures by a user: Do not confirm receipt of funds. Do not publish or share subaddress publicly. Use different wallet seeds for different identitites. Do not give out subaddresses tied to a real identity including subaddresses from exchanges. Use different Monero seeds if using a subaddress tied to a specific identity. If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This comes with a trade-off of convenience for privacy. 
+A Janus attack can be mitigated by several different measures by a user: Do not confirm receipt of funds. Do not publish or share subaddress publicly. Use different wallet seeds for different identities. Do not give out subaddresses tied to a real identity including subaddresses from exchanges. Use different Monero seeds if using a subaddress tied to a specific identity. If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This comes with a trade-off of convenience for privacy. 
 
 **Churning** 
 
@@ -45,7 +45,7 @@ Churning is the act of sending oneself an entire balance. This creates a new out
 
 **Output consolidation** 
 
-If a user's outputs are being surveilled, and a user consolidates many outputs into a single transaction, with statistical analysis, this increases the likelihood that the transaction was sent by the surveilled user. This works similary to managing UTXO's in bitcoin, but Monero's security assumptions adds more complexity to increase the user's plausible deniability. Use wallets that allow for the user to manage individual outputs (coin control). [Feather Wallet] offers coin control. 
+If a user's outputs are being surveilled, and a user consolidates many outputs into a single transaction, with statistical analysis, this increases the likelihood that the transaction was sent by the surveilled user. This works similarly to managing UTXO's in bitcoin, but Monero's security assumptions adds more complexity to increase the user's plausible deniability. Use wallets that allow for the user to manage individual outputs (coin control). [Feather Wallet] offers coin control. 
 
 ## Metadata Considerations | Potential Attack Vectors
 
@@ -57,16 +57,17 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 
 - **Block explorer - transaction and IP address linking:** When using a block explorer, use a hidden service over TOR, I2P, or VPN and be sure to use different browser sessions. The best solution is to run an own node and access the information locally.
 
-- **Understanding hueristics:** There are heuristics that can be used to conclude further information about a Monero transaction. The more data that a user gives up, which can come from transaction information, transaction partners, network information, metadata, etcetera leads to an increase in the data that can be used in models by surveilling counter-parties. Many attackers are observing information on-chain and off-chain data. The stronger on-chain guarantees for privacy there are, the higher the likelihood that off-chain data will be used to de-anonymize users. 
+- **Understanding heuristics:** There are heuristics that can be used to conclude further information about a Monero transaction. The more data that a user gives up, which can come from transaction information, transaction partners, network information, metadata, etcetera leads to an increase in the data that can be used in models by surveilling counter-parties. Many attackers are observing information on-chain and off-chain data. The stronger on-chain guarantees for privacy there are, the higher the likelihood that off-chain data will be used to de-anonymize users. 
 
 - **AI and machine learning:** There is concern that the developments in AI and Machine learning will lead to a degradation to Monero security guarantees. The input selection algorithm and spending habits of individuals are two large areas of concern. Following the transaction graph and tracing the spending habits of users create pieces of information that models test for. 
 
-- **Further Developments & Analysis:** Technologicial developments and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward. This includes increasing the ring size while also providing scalability. Monero maintains a strong market share because it accomplishes what it sets out to do in the current environment. See also *Monero project research-lab*
+- **Further Developments & Analysis:** Technological developments and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward. This includes increasing the ring size while also providing scalability. Monero maintains a strong market share because it accomplishes what it sets out to do in the current environment. See also *Monero project research-lab*
 
 ## Wallets
 
 ### Desktop Wallet
 
+- [Monero CLI Wallet](https://www.getmonero.org/downloads/#cli)
 - [Feather Wallet](https://featherwallet.org/): Is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. It ships with strong defaults for normal users but can be configured for high or uncommon threat models.
 
 ### Mobile Wallet
@@ -80,20 +81,18 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 ## Monero Nodes
 
 - [XMR Fail](https://monero.fail/): List of available public XMR nodes including nodes running over Tor. You can use this resource to choose online nodes for your wallet software to connect to.
-- [LunarDAO XMR full onion node](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089): You can connect your wallet to this node over tor. For best privacy practices, you should always run your own node.    
 - [Run a Monero Node](https://github.com/sethforprivacy/sethforprivacy.com/blob/master/content/guides/run-a-monero-node.md): Guide to run an XMR node on a linux virtual private server.
 - [Setting up Your Own Node](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/): Guide to run an XMR node locally.
-
+- [LunarDAO XMR full onion node](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089): [http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089)  You can connect your wallet to this node over Tor. For best privacy practices, you should always run your own node.
 
 ## Obtaining Monero
 
-- [https://openmonero.co](https://openmonero.co)
-- [Mining](https://p2pool.io/): Decentralized Monero mining.
+- [OpenMonero](https://openmonero.co/)
+- [Mining](https://p2pool.io/) & [Gupax.io](https://gupax.io): Decentralized Monero mining.
 - [TradeOgre](https://tradeogre.com/): Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
 - [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
-- [Trocador](https://trocador.app) via onion link:  
-[http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion).   
-Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
+- [Trocador](https://trocador.app) via onion link: [http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion). Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
+- [Haveno](https://haveno.exchange/): Decentralized exchange forked from bisq and monero as the base pair. Haveno routes over Tor by default.
 - [Bisq](https://bisq.network): Decentralized exchange built into an open source desktop application. Bisq routes over Tor by default.  Bitcoin is the base currency but Monero has the largest alt-coin volume traded on Bisq. 
 
 ## Atomic Swaps
@@ -102,7 +101,8 @@ Swap exchange aggregator that finds the best rate for instant swap services. The
 
 ## Marketplaces
 
-- [Monero market](https://moneromarket.io)  
+- [Monero market](https://moneromarket.io)
+- [XMRBazaar.com](https://xmrbazaar.com)
 - [Bitejo](https://bitejo.com)
 - [Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
 - [Accepted Here](https://www.acceptedhere.io/catalog/currency/xmr/)
