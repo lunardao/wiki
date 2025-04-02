@@ -65,6 +65,8 @@
 # Lightning Network
 
 - [Lightning Network](./lightningnetwork.md)
+- [On-chain Privacy with Lightning Network](./lightningprivacy.md)
+
 
 # Research
 
