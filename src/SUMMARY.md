@@ -61,6 +61,11 @@
     - [Changing RPC guide](./change_rpc.md)
 - [Privacy projects](./crypto_privacy_projects.md)
 
+
+# Lightning Network
+
+- [Lightning Network](./lightningnetwork.md)
+
 # Research
 
 - [Anoma](./anoma.md)  
