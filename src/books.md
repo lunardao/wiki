@@ -1,14 +1,14 @@
 # Books
 
-- [Manifesto for a democratic civilization vol 1](https://libgen.ee/book_137483732), by Abdullah Ocalan
-- [Wretched of the earth](https://libgen.ee/book_137999833), by Franz Fanon
-- [Zeroes and ones](https://libgen.ee/book_138125024), by Sadie Plant
-- [Princes of Yen](https://libgen.ee/book_137197427), by Richard Werner
-- [The new paradigm in macroeconomics](https://libgen.ee/book_136318400), by Rickard Werner
+- [Manifesto for a democratic civilization vol 1](https://books.ms/main/5DACE4863145F8AE3E506116CC5856C1), by Abdullah Ocalan
+- [Wretched of the earth](https://books.ms/main/243B2AFC95746C32A8142D71C96DAA75), by Franz Fanon
+- [Zeroes and ones](https://books.ms/main/25D4C4987A4E78601A6E6C227692F091), by Sadie Plant
+- [Princes of Yen](https://books.ms/main/67D33FAF9406CA34C388B875A962346C), by Richard Werner
+- [The new paradigm in macroeconomics](https://books.ms/main/3FA08BD80315FA4E331E6BA0BDF929FE), by Rickard Werner
 - [Authoritarian and Democratic Technics](https://theanarchistlibrary.org/library/lewis-mumford-authoritarian-and-democratic-technics), by Lewis Mumford
-- [Society of spactacle](https://libgen.ee/book_136174668), by Guy Debord
-- [Cypherpunks; freedom and the future of internet](https://libgen.ee/book_4761276), by Julian Assange
-- [The Linux Command Line A Complete Introduction](https://libgen.is/book/index.php?md5=3C531CCECB36FF9FFC64081E1233A638), by William E. Shotts
+- [Society of the spactacle](https://books.ms/main/4E589BD7EBEE15B2E508ADD70C94AE16), by Guy Debord
+- [Cypherpunks; freedom and the future of internet](https://books.ms/main/6CFBEDE8234A35317180E0C77CB869AC), by Julian Assange
+- [The Linux Command Line A Complete Introduction](https://books.ms/main/3C531CCECB36FF9FFC64081E1233A638), by William E. Shotts
 - [Git pocket guide](https://libgen.is/book/index.php?md5=CCBD27EB344E03CA49666716DEAE9E5A), by Richard E. Silverman
 - [Understanding Pure Mathematics](https://libgen.is/book/index.php?md5=A12418F80B9FEFF3CF993253B88F3055), by A. J. Sadler, D.W.S.Thorning
 - [A programmer's introduction to mathematics](https://libgen.is/book/index.php?md5=14074C1DD80FAD624DE1FD4149266E50), by Jeremy Kun
@@ -20,5 +20,5 @@
 - [My whole life was a struggle](https://annas-archive.org/md5/e96a51a5bbbf91082821c5120e209fc6), by Sakine Cansiz
 - [How to Opt-Out of the Technocratic State](https://annas-archive.org/md5/056e4a80fe37fa5243bc45076c6eeead), by Derrick Broze
 - [Agorism in the 21st Century](https://agorist.xyz/)  
-- [Extreme privacy: What it takes to disappear](https://library.lol/main/4B7C8EA0859310170FF4E742B940AFEA) by Michael Bazzell
-- [	The Second Realm: Book on Strategy](https://library.lol/main/1EAE9327B90F560028A497F68C1D6953) by Smuggler and XYZ
+- [Extreme privacy: What it takes to disappear](https://libgen.is/book/index.php?md5=BBE0EC80467926B9086CFAEF77FE88A7) by Michael Bazzell
+- [	The Second Realm: Book on Strategy](https://libgen.is/book/index.php?md5=1EAE9327B90F560028A497F68C1D6953) by Smuggler and XYZ
