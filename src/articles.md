@@ -8,7 +8,7 @@
 - [Status quo](https://dark.fi/insights/the-status-quo.html), by Parazyd
 - [Crypto Anarchy and Virtual Communities](https://nakamotoinstitute.org/virtual-communities/), by Timothy C. May
 - [The Cyphernomicon](https://nakamotoinstitute.org/static/docs/cyphernomicon.txt)
-- [Lunarpunk and the Dark Side of the Cycle](https://www.egirlcapital.com/writings/107533289)
+- [Lunarpunk and the Dark Side of the Cycle](https://dark.fi/insights/dark-side-of-the-cycle.html)
 - [New Libertarian Manifesto](https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto) by SEK III
 - [Declaration of the Independence of Cyberspace](https://nakamotoinstitute.org/cyberspace-independence/)
 - [DarkFi Manifesto](https://dark.fi/manifesto.html)
