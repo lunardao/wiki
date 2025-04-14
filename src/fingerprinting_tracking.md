@@ -2,7 +2,7 @@
 
 Device fingerprinting or browser fingerprinting is the systematic collection of information about a remote device, for identification purposes. [Princeton University's WebTAP project](https://webtransparency.cs.princeton.edu/webcensus/#results) did a measurement and analysis of online tracking in 2016. Sites that contain news, arts and sports have the most trackers. Google, Facebook, and Twitter are the only third-party entities present on more than 10% of sites. 
 
-Analysing information about tracking and fingerprinting cannot be separated when viewed from the angle of Big tech dominance on internet. Parazyd from [DarkFi](dark.fi) wrote about this in [Status Quo](https://dark.fi/insights/the-status-quo.html). Gary Kovacs, from Mozilla Corporation, shared about the unconsentual tracking in a [TED talk](https://www.ted.com/talks/gary_kovacs_tracking_our_online_trackers). 
+Analysing information about tracking and fingerprinting cannot be separated when viewed from the angle of Big tech dominance on internet. Parazyd from [DarkFi](https://dark.fi/) wrote about this in [Status Quo](https://dark.fi/insights/the-status-quo.html). Gary Kovacs, from Mozilla Corporation, shared about the unconsentual tracking in a [TED talk](https://www.ted.com/talks/gary_kovacs_tracking_our_online_trackers). 
 
 The information in this post is primarily compiled from [Am I Unique](https://www.amiunique.org), [EFF](https://coveryourtracks.eff.org) and [The Markup](https://themarkup.org/the-breakdown/2020/09/22/i-scanned-the-websites-i-visit-with-blacklight-and-its-horrifying-now-what). There is extensive research and information on these pages on tracking and fingerprinting as well as proposal on how to improve privacy. This is the TL;DR version.
 
@@ -29,7 +29,7 @@ If the user changes the identifier of the browser to a more common browser, it w
 
 **Canvas fingerprinting**
 
-Fingerprining can identify a user even with cookies being disables. The canvas fingerprinting technique identifies users by drawing shapes and text on the webpage and the differences in features can distinguish one device from another. The canvas is invisible to the user. Here is [a list of more than 15000 sites]((https://webtransparency.cs.princeton.edu/webcensus/canvas_scripts.html)) with canvas fingerprinting scripts.
+Fingerprining can identify a user even with cookies being disables. The canvas fingerprinting technique identifies users by drawing shapes and text on the webpage and the differences in features can distinguish one device from another. The canvas is invisible to the user. Here is [a list of more than 15000 sites](https://webtransparency.cs.princeton.edu/webcensus/canvas_scripts.html) with canvas fingerprinting scripts.
 
 **Cookies**
 
