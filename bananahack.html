@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Nokia &quot;Banana&quot; jailbreak</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Venture</li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">3.</strong> Mission</a></li><li class="chapter-item expanded "><a href="investment_thesis.html"><strong aria-hidden="true">4.</strong> Investment thesis</a></li><li class="chapter-item expanded affix "><li class="part-title">Infrastructure</li><li class="chapter-item expanded "><a href="gateways.html"><strong aria-hidden="true">5.</strong> Nym exit gateways</a></li><li class="chapter-item expanded affix "><li class="part-title">Surveillance</li><li class="chapter-item expanded "><a href="surveillance_intro.html"><strong aria-hidden="true">6.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="chat.html"><strong aria-hidden="true">7.</strong> European union chat surveillance</a></li><li class="chapter-item expanded "><a href="sis.html"><strong aria-hidden="true">8.</strong> Schengen Information System</a></li><li class="chapter-item expanded "><a href="data_retention_initiative.html"><strong aria-hidden="true">9.</strong> Data rentention initiative</a></li><li class="chapter-item expanded "><a href="echelon.html"><strong aria-hidden="true">10.</strong> Echelon</a></li><li class="chapter-item expanded "><a href="facebook.html"><strong aria-hidden="true">11.</strong> Facebook selling data</a></li><li class="chapter-item expanded "><a href="google.html"><strong aria-hidden="true">12.</strong> Google tracking users</a></li><li class="chapter-item expanded "><a href="tiktok.html"><strong aria-hidden="true">13.</strong> Tik tok selling data to China</a></li><li class="chapter-item expanded "><a href="wikileaks.html"><strong aria-hidden="true">14.</strong> Wikileaks publications</a></li><li class="chapter-item expanded "><a href="pegasus.html"><strong aria-hidden="true">15.</strong> Pegasus</a></li><li class="chapter-item expanded "><a href="china.html"><strong aria-hidden="true">16.</strong> Surveillance in China</a></li><li class="chapter-item expanded "><a href="bigtech.html"><strong aria-hidden="true">17.</strong> Government requesting Big tech data</a></li><li class="chapter-item expanded "><a href="fingerprinting_tracking.html"><strong aria-hidden="true">18.</strong> Fingerprinting & Tracking</a></li><li class="chapter-item expanded "><a href="simdata.html"><strong aria-hidden="true">19.</strong> SIM card data collection</a></li><li class="chapter-item expanded affix "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">20.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bananahack.html" class="active"><strong aria-hidden="true">20.1.</strong> Nokia "Banana" jailbreak</a></li><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">20.2.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">20.2.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">20.3.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">20.4.</strong> Virtualbox with Whonix</a></li><li class="chapter-item expanded "><a href="tails_guide.html"><strong aria-hidden="true">20.5.</strong> Tails</a></li><li class="chapter-item expanded "><a href="fiat_to_crypto.html"><strong aria-hidden="true">20.6.</strong> Fiat to crypto</a></li><li class="chapter-item expanded "><a href="crypto_to_fiat.html"><strong aria-hidden="true">20.7.</strong> Crypto to fiat</a></li><li class="chapter-item expanded "><a href="luks.html"><strong aria-hidden="true">20.8.</strong> LUKS disk encryption</a></li><li class="chapter-item expanded "><a href="monero.html"><strong aria-hidden="true">20.9.</strong> Monero privacy guide</a></li><li class="chapter-item expanded "><a href="veracrypt.html"><strong aria-hidden="true">20.10.</strong> VeraCrypt</a></li><li class="chapter-item expanded "><a href="simplexchat.html"><strong aria-hidden="true">20.11.</strong> SimpleX chat</a></li><li class="chapter-item expanded "><a href="atomicswap.html"><strong aria-hidden="true">20.12.</strong> BTC --&gt; XMR atomic swap</a></li><li class="chapter-item expanded "><a href="sip_calls.html"><strong aria-hidden="true">20.13.</strong> SIP calls with jmp.chat & csip</a></li><li class="chapter-item expanded "><a href="signal_privacy_guide.html"><strong aria-hidden="true">20.14.</strong> Signal privacy guide</a></li><li class="chapter-item expanded "><a href="taskwarrior.html"><strong aria-hidden="true">20.15.</strong> Taskwarrior</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">21.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">22.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html"><strong aria-hidden="true">23.</strong> Privacy setup for android with Graphene OS</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">24.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">24.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">25.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html"><strong aria-hidden="true">26.</strong> Anoma</a></li><li class="chapter-item expanded "><a href="penumbra.html"><strong aria-hidden="true">27.</strong> Penumbra</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="darkirc.html"><strong aria-hidden="true">28.</strong> darkirc</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">29.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">30.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">31.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">32.</strong> Videos</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="nokia-8110-banana---jailbreak"><a class="header" href="#nokia-8110-banana---jailbreak">Nokia 8110 &quot;Banana&quot; - Jailbreak</a></h1>
+<p><em>Warning: Changing IMEI number is illegal in multiple jurisdictions. This report is not to promote any activity which can cause users any legal problems! Please research the laws concerning this issue in your region. Treat this report as educational source.</em></p>
+<p>This report speaks about GSM network data monitoring. Do NOT confuse it with internet identifiers (MAC, IP address etc).</p>
+<h2 id="problem-imei-number-identification"><a class="header" href="#problem-imei-number-identification">Problem: IMEI Number Identification</a></h2>
+<p>There are multiple security risks when using a mobile provider (phone or router + sim card) as a hotspot. One security risk is the unique sim card number. However sim cards can be purchased without KYC and changed, the internet or hotspot device - phone or portable router - has a unique IMEI number (International Mobile Equipment Identity). this number remains the same (despite changing MAC or IP address). This makes a device easy to track as IMEI number is communicated to the mobile provider.</p>
+<h2 id="solution-unlocking-imei-modification"><a class="header" href="#solution-unlocking-imei-modification">Solution: Unlocking IMEI Modification</a></h2>
+<p>Nokia 8110 or &quot;Banana phone&quot; (as it's known) is a great hotspot device, separated from the users main internet device (smart phone, tablet or laptop). With a few hacks, the Banana phone allows users to change the IMEI number any time. This setup has several advantages:</p>
+<ul>
+<li>Keeps the SIM away from the actual user's devices. Prevents leakage of the main the main internet device IMEI.</li>
+<li>Hacked Nokia 8110 can appear on GSM network as any other phone since IMEI numbers are unique per device and model.</li>
+<li>If IMEI and SIM card are changed together - the user is very hard to be linked (mind the place of connection and other active devices!).</li>
+</ul>
+<p><strong>Tip:</strong> An IMEI number on Nokia 8110 can be seen in Menu -&gt; Settings -&gt; Device -&gt; Device Information -&gt; More Information or by dialing *#06#. Validate the setup functionality by running a test check before and after the IMEI change.</p>
+<h2 id="pre-requisities"><a class="header" href="#pre-requisities">Pre-Requisities</a></h2>
+<ul>
+<li>Nokia 8110 4G &quot;Banana&quot;</li>
+<li>USB &lt;-&gt; Micro-USB cable with a capacity to handle data</li>
+<li>Internet</li>
+<li>Android SDK Tools</li>
+<li>WebIDE - Palemoon works well</li>
+</ul>
+<h3 id="sdk-tools"><a class="header" href="#sdk-tools">SDK Tools</a></h3>
+<p>To communicate with the phone via computer an adb command &amp; shell are needed. Adb is a part of Android SDK Tools. Install as below.</p>
+<p><strong>Linux (Debian based)</strong></p>
+<pre><code class="language-sh">sudo apt update &amp;&amp; sudo apt install android-sdk
+</code></pre>
+<p><strong>Windows</strong> - Follow steps in <a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">this manual</a>.</p>
+<h3 id="webide---palemoon"><a class="header" href="#webide---palemoon">WebIDE - Palemoon</a></h3>
+<p>WebIDE is used to sideload (install without the bootloader hacking) the needed apps via GUI. An older version of Palemoon works well. Open terminal in a directory where Palemoon will be downloaded and enter the following commands.</p>
+<pre><code class="language-sh">wget http://archive.palemoon.org/palemoon/28.x/28.6.1/palemoon-28.6.1.linux-x86_64.tar.bz2
+</code></pre>
+<pre><code class="language-sh">tar -xf palemoon-28.6.1.linux-x86_64.tar.bz2
+</code></pre>
+<p>Move to Palemoon directory and remove auto-update scripts to keep stay on this version.</p>
+<pre><code class="language-sh">cd palemoon
+</code></pre>
+<pre><code class="language-sh">rm -rf update*
+</code></pre>
+<p>Run Palemoon</p>
+<pre><code class="language-sh">./palemoon
+</code></pre>
+<p>In case Palemoon still prompts to update, deny!</p>
+<h2 id="installation--setup"><a class="header" href="#installation--setup">Installation &amp; Setup</a></h2>
+<p>Regardless of the chosen setup, the Banana phone must have updated firmware and activated debugging mode.</p>
+<p>Keep the device and desktop connected throughout the entire installation process.</p>
+<h3 id="update-nokia-firmware"><a class="header" href="#update-nokia-firmware">Update Nokia Firmware</a></h3>
+<p>The device must be updated to the latest firmware.</p>
+<p><strong>Check Firmware Version</strong></p>
+<p>Settings -&gt; Device -&gt; Device Information -&gt; Software</p>
+<p><strong>Update Firmware Version</strong></p>
+<p>Settings -&gt; Device -&gt; Device Information -&gt; Software Update -&gt; Select -&gt; Select</p>
+<h3 id="debugging"><a class="header" href="#debugging">Debugging</a></h3>
+<p>Debugging is a mode in which developer changes can be implemented. Dial the code <em>#</em>#33284#<em>#</em> (<em>#</em>#debug#<em>#</em>) with your keypad. A bug icon should appear in the system taskbar above (as already said, on some devices it is necessary to open a menu using the additional code <em>#</em>#0574#<em>#</em> and from there enable the USB debugging).</p>
+<h3 id="different-setups"><a class="header" href="#different-setups">Different Setups</a></h3>
+<p>This manual has three options, divided according to the three levels of customization and difficulty of the setup. All three of them include unlocking IMEI customization option.</p>
+<p><strong>Three Options</strong></p>
+<ol>
+<li><strong>Minimal</strong> - The necessary steps to allow IMEI &amp; TTL modification *</li>
+<li><strong>Advanced</strong> - Minimal + FOSS alternative enabled, remove Google apps enabled *</li>
+<li><strong>Expert</strong> (not described in this manual yet)- Reinstalling the complete OS to Gerda - IMEI &amp; TTL changing app is included with auto-randomizing script.</li>
+</ol>
+<p>Chose option and follow the proceeding described under that option directly (ie if 2. is the choice, don't do 1. before).</p>
+<p><strong>Note:</strong> The points with * use Wallace Toolbox to change IMEI. User needs to enter the new IMEI manually. LunarDAO listed a database of IMEI numbers at <a href="wiki.lunardao.net/imei_tables/imei_table.html">wiki.lunardao.net/imei_tables/imei_table.html</a>.</p>
+<h3 id="1-minimal-setup---wallace-toolbox-sideload"><a class="header" href="#1-minimal-setup---wallace-toolbox-sideload">1. Minimal Setup - Wallace Toolbox Sideload</a></h3>
+<p>This setup is the fastest and the least difficult one. The only customization is a sideload of the Wallace Toolbox enabling user to change IMEI, TTL and do few other temporary root actions.</p>
+<p><strong>Get Wallace Toolbox</strong></p>
+<p>Open terminal in target directory to download and run:</p>
+<pre><code class="language-sh">wget https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip
+unzip wallace-toolbox-master.zip
+</code></pre>
+<p><strong>Install</strong></p>
+<ol>
+<li>Open Palemoon WebIDE: Open Palemoon browser (the steps above) and press Shift + F8 or navigate to Tools -&gt; Web Developer -&gt; WebIDE</li>
+<li>Setup adb to tcp socket 6000. In terminal run:</li>
+</ol>
+<pre><code class="language-sh">adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
+</code></pre>
+<ol start="3">
+<li>Connect Palemoon WebIDE app to the phone: click on <em>Remote Runtime</em> on the right and make sure it's set to localhost:6000.</li>
+<li>In Palemoon WebIDE app click on <em>Open Packaged App</em>... On the left</li>
+<li>Navigate to the <em>wallace-toolbox-master</em> directory and click <em>Open</em>.</li>
+<li>Click on the play button on top to sideload it.</li>
+<li>Done. Unmount the device.</li>
+</ol>
+<p><strong>Usage</strong></p>
+<p>Open the Wallace Toolbox app in the phone menu. Use index numbers to navigate. To edit IMEI1 or IMEI2, the new number must be correct, use <a href="wiki.lunardao.net/imei_tables/imei_table.html">wiki.lunardao.net/imei_tables/imei_table.html</a> to get one based on device and model of your choice. Reboot and control the IMEI in the phone settings.</p>
+<p><strong>Important:</strong> Test it few times without a sim card. After each reboot dial *#06# to confirm the IMEI number was edited. To maintain privacy, remove the phone back cover before the IMEI edit. When the phone turns off to reboot take off the battery and exchange sim cards. Assemble and power on.</p>
+<h2 id="2-advanced-setup---replacing-google-services-with-foss"><a class="header" href="#2-advanced-setup---replacing-google-services-with-foss">2. Advanced Setup - Replacing Google Services with FOSS</a></h2>
+<p><strong>WARNING!</strong> This process includes factory reset. All data and application will be wiped out!</p>
+<p>This setup is probably the best compromise of spent time, needed skills, risk and outcome. The result is a rooted KaiOS (the original OS) enabling user to be in control of all applications and processes. This allows for access to developer menu, removing unwanted apps (Google services), sideloading any new apps and (like in setup #1) editing IMEI &amp; TTL number.</p>
+<p>This hack disables <em>navigator.mozApps.mgmt.import</em> method package signature checks, installs <a href="https://sites.google.com/view/bananahackers/install-omnisd">OmniSD</a> and allows for app config modification.</p>
+<p>Before this process, make sure Palemoon is installed (read Pre-Requsities), the firmware is up to date and the device debug mode is enabled.</p>
+<p><strong>Donwload OmniSD</strong></p>
+<p>Download OmniSD.zip and extract. Open terminal in the target directory and run the following commands:</p>
+<pre><code class="language-sh">mkdir omisd
+</code></pre>
+<pre><code class="language-sh">cd ominsd
+</code></pre>
+<pre><code class="language-sh">wget https://cloud.disroot.org/s/QTC5oM4tZ9rWpAZ/download/OmniSD.zip
+unzip OminSD.zip2
+</code></pre>
+<h3 id="install-omnisd--run-priviledged-factory-reset"><a class="header" href="#install-omnisd--run-priviledged-factory-reset">Install OmniSD &amp; Run Priviledged Factory Reset</a></h3>
+<ol>
+<li>Open Palemoon WebIDE: Open Palemoon browser (the steps above) and press Shift + F8 or navigate to Tools -&gt; Web Developer -&gt; WebIDE</li>
+<li>Setup adb to tcp socket 6000. In terminal run:</li>
+</ol>
+<pre><code class="language-sh">adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
+</code></pre>
+<ol start="3">
+<li>Connect Palemoon WebIDE app to the phone: click on <em>Remote Runtime</em> on the right and make sure it's set to localhost:6000.</li>
+<li>In Palemoon WebIDE app click on <em>Open Packaged App</em>... On the left</li>
+<li>Navigate to the <em>omnisd</em> directory and click <em>Open</em>.</li>
+<li>Click on the play button on top to sideload it.</li>
+<li>In OmniSD menu on your device press # and accept privileged reset.</li>
+<li>Let the device reboot and run the initial setup.</li>
+<li>Allow debug mode again. Either dial <em>#</em>#33284#<em>#</em> or Settings -&gt; Device -&gt; Developer Menu -&gt; Enable debugger in the &quot;ADB and DevTools&quot; mode.</li>
+<li>Repeat the steps 1 to 6.</li>
+<li>When the installation is finished, all the applications shall be listed in the left-side bar of the WebIDE.</li>
+</ol>
+<p>Keep the phone plugged, WebIDE connected and move through the following points.</p>
+<p><strong>Get Wallace Toolbox</strong></p>
+<p>Open terminal in target directory to download and run:</p>
+<pre><code class="language-sh">wget https://gitlab.com/suborg/wallace-toolbox/-/archive/master/wallace-toolbox-master.zip
+unzip wallace-toolbox-master.zip
+</code></pre>
+<p><strong>Install Wallace Toolbox</strong></p>
+<ol>
+<li>In Palemoon WebIDE app click on <em>Open Packaged App</em>... On the left</li>
+<li>Navigate to the <em>wallace-toolbox-master</em> directory and click <em>Open</em>.</li>
+<li>Click on the play button on top to sideload it.</li>
+</ol>
+<p><strong>Uninstall Pre-Installed Apps</strong></p>
+<p>Pre-installed apps don't show the option <em>Uninstall</em> in the Menu. This quick hack makes them removable.</p>
+<ol>
+<li>Open Wallace Toolbox App and select 1:ADB root</li>
+<li>Pull <em>webapps</em> dictionary from the phone, in terminal enter:</li>
+</ol>
+<pre><code class="language-sh">adb pull /data/local/webapps/webapps.json
+</code></pre>
+<ol start="3">
+<li>Make a backup in case something goes wrong:</li>
+</ol>
+<pre><code class="language-sh">cp webapps.json webapps.json.bak
+</code></pre>
+<ol start="4">
+<li>Open downloaded <em>webapps.json</em> in a text editor</li>
+<li>Search every app to be set as removable and edit the dictionary line in the sub-dictionary from <em>&quot;removable&quot;: false</em>, to <em>&quot;removable&quot;: true</em>,. Save &amp; exit.</li>
+<li>Push the modified file back to the phone:</li>
+</ol>
+<pre><code class="language-sh">adb push webapps.json /data/local/webapps/
+</code></pre>
+<ol start="7">
+<li>Reboot: </li>
+</ol>
+<pre><code class="language-sh">adb reboot
+</code></pre>
+<ol start="8">
+<li>Uninstall Apps in the device menu: move selector to the chosen app -&gt; Options -&gt; Uninstall</li>
+</ol>
+<p><strong>Edit IMEI in Wallace Toolbox App</strong></p>
+<p>Open the Wallace Toolbox app in the phone menu. Use index numbers to navigate. To edit IMEI1 or IMEI2, the new number must be correct, use <a href="wiki.lunardao.net/imei_tables/imei_table.html">wiki.lunardao.net/imei_tables/imei_table.html</a> to get one based on device and model of your choice. Reboot and control the IMEI in the phone settings.</p>
+<p><strong>Important:</strong> Test it few times without a sim card. After each reboot dial *#06# to confirm the IMEI number was edited. To maintain privacy, remove the phone back cover before the IMEI edit. When the phone turns off to reboot take off the battery and exchange sim cards. Assemble and power on.</p>
+<h3 id="3-expert-setup---replacing-os"><a class="header" href="#3-expert-setup---replacing-os">3. Expert Setup - Replacing OS</a></h3>
+<p>This setup replace the original KaiOS with Gerda OS. Gerda OS by default has no Google services and IMEI randomization is semi-automatized (a user does not have to type the IMEI manually just pushes a button to randomize). However the installation requires good knowledge of Linux and the logic behind phone's backend and bootloader.</p>
+<p><em>To be tested and documented soon.</em></p>
+<h2 id="additional-security-steps"><a class="header" href="#additional-security-steps">Additional Security Steps</a></h2>
+<p>For maximal security do not use this phone for web browsing or other online applications. Run it as a hotspot and connect to it from another device using MAC spoofing and VPN or Tor!</p>
+<ul>
+<li>Always change both IMEI and sim card at the same time when changing a setup (from hotspot to burner etc)</li>
+<li>Disable Web Tracking: Menu -&gt; Settings -&gt; Privacy &amp; Security -&gt; Do Not Track -&gt; Tick [x] on <em>Tell websites and apps that I do not want to be tracked</em></li>
+<li>Clear Browsing History, Cookies &amp; Stored Data: Menu -&gt; Settings -&gt; Privacy &amp; Security -&gt; Browsing Privacy</li>
+<li>App Permissions: Menu -&gt; Settings -&gt; Privacy &amp; Security -&gt; App Permissions -&gt; Make sure no app has any permissions without asking.</li>
+<li>Search: Menu -&gt; Settings -&gt; Personalization -&gt; Search -&gt; <em>Change Engine</em> from <em>Google</em> to <em>DuckDuckGo</em> and turn <em>Search Suggestions</em> to <em>No</em>.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="intro.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="imei.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="intro.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="imei.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
