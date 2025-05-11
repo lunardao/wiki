@@ -10,18 +10,21 @@ The projects below are all claiming to be privacy oriented, but that doesn't mea
 - [**Zcash**](https://z.cash/) is a private crypto currency and also allows for transparent transactions.  
 [*Documentation*](https://zcash.readthedocs.io/en/latest/)
     
-- [**Oxen**](oxen.io) is a private cryptocurrency, Session, an end-to-end encrypted messaging platform, and Lokinet which provides network anonymity are both built atop of Oxen.
+- [**Oxen**](https://oxen.io/) is a private cryptocurrency, Session, an end-to-end encrypted messaging platform, and Lokinet which provides network anonymity are both built atop of Oxen.
 
 - [**Anoma**](https://anoma.net/) is a privacy oriented protocol which supports both transparent and shielded transactions. 
 [*Whitepaper*](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
 
-- [**NYM**](https://nymtech.net/)  
+- [**NYM**](https://nym.com/)  
 Is a decentralized mixnet ensuring data and metadata privacy.  
-[*Whitepaper*](https://nymtech.net/nym-whitepaper.pdf)
+[*Whitepaper*](https://nym.com/nym-whitepaper.pdf)
 
 - [**HOPR**](https://hoprnet.org/protocol)  
 Is a decentralized mixnet ensuring data and metadata privacy.  
 [*Documentation*](https://github.com/hoprnet)
+
+- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBC assets).  
+[*Documentation*](https://protocol.penumbra.zone/main/index.html)
 
 ### Layer 2
 
@@ -36,28 +39,22 @@ Check out *Steps to anonymize while using eth* in [**Anonymizing assets**](./ano
 - [**Sienna network**](https://sienna.network/) is a privacy by default crypto currency built on Secret Network. It's possible to acquire the token (*SIENNA*) on Uniswap.
 
 - [**Railgun**](https://railgun.ch/) is a privacy solution for transactions on Etherum, Polygon and Binance.  The token (*RAIL*) can be acquired on Uniswap.
-[*Whitepaper*](https://assets.railgun.org/docs/whitepaper)
+[*Railgun Docs*](https://docs.railgun.org/wiki)
 
 
 ## Keep a look out for these projects
 
-- [**DarkFi**](dark.fi)  
+- [**DarkFi**](https://dark.fi)  
 A layer 1, privacy by default lunarpunk project.
 
-- [**Penumbra**](https://penumbra.zone/) is a privacy solution for Cosmos ecosystem (IBC assets).  
-[*Documentation*](https://protocol.penumbra.zone/main/index.html)
- 	
 
 ## P2P trading platforms
 
-- [**Agoradesk**](https://agoradesk.com/)  
-A P2P Bitcoin and Monero exchange. It's possible to buy BTC and XMR with cash.
+- [**RetoSwap**](https://retoswap.com/)  
+RetoSwap is a decentralized, peer-to-peer exchange platform focused on privacy, allowing users to buy and sell Monero (XMR) and other cryptocurrencies or fiat directly, without intermediaries or KYC requirement
 
 - [**Bisq**](https://bisq.network/)  
 A P2P trading platform. Diverse ways for payment. Check [*Payment methods*](https://bisq.wiki/Payment_methods).
-
-- [**Local Monero**](https://localmonero.co/)  
-A P2P Monero exchange. Different payment methods which also includes cash.
 
 
 ## Proxy merchants
