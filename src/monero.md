@@ -68,15 +68,17 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 ### Desktop Wallet
 
 - [Monero CLI Wallet](https://www.getmonero.org/downloads/#cli)
+An open-source command line interface (CLI) wallet developed by the Monero community, completely free to use, best suited for developers, intermediate, and advanced users. 
+- [Monero GUI Wallet](https://www.getmonero.org/downloads/#gui)
+An open-source graphical user interface (GUI) wallet developed by the Monero community, completely free to use, suitable for both beginners and advanced users.
 - [Feather Wallet](https://featherwallet.org/): Is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. It ships with strong defaults for normal users but can be configured for high or uncommon threat models.
 
 ### Mobile Wallet
 
 - [Monerujo](https://www.monerujo.io/): Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).
-- [Anonero](https://gitea.com/ANONERO/ANON/releases): Mandatory Tor, enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.
+- [Anonero](http://anonero.io): (Mandatory Tor) enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.
 - [Monero.com wallet](https://github.com/cake-tech/cake_wallet/releases): Was created by the CakeWallet team. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses swap service [trocador.app](https://trocador.app).  
-- [Mysu](hyyps://mysu.dev) via onion link:  
-[http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/](http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/). Includes Tor and I2P support, coin control, seed offsets, churning option when selecting UTXOs, and mutli-destination transactions.
+- [Stack Wallet](https://stackwallet.com/): Stack Wallet is an open-source, non-custodial, privacy-focused cryptocurrency wallet that supports multiple coins like Monero and Bitcoin, keeping all private keys in the user's control while offering features such as built-in exchange, custom backups, and a user-friendly interface. 
 
 
 ## Monero Nodes
@@ -94,7 +96,7 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 - [TradeOgre](https://tradeogre.com/): Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
 - [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
 - [Trocador](https://trocador.app) via onion link: [http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion). Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
-- [Haveno](https://haveno.exchange/): Decentralized exchange forked from bisq and monero as the base pair. Haveno routes over Tor by default.
+- [RetoSwap](https://retoswap.com): RetoSwap is a decentralized, peer-to-peer exchange platform focused on privacy, allowing users to buy and sell Monero (XMR) and other cryptocurrencies or fiat directly, without intermediaries or KYC requirement.
 - [Bisq](https://bisq.network): Decentralized exchange built into an open source desktop application. Bisq routes over Tor by default.  Bitcoin is the base currency but Monero has the largest alt-coin volume traded on Bisq. 
 
 ## Atomic Swaps
@@ -105,7 +107,7 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 
 - [Monero market](https://moneromarket.io)
 - [XMRBazaar.com](https://xmrbazaar.com)
-- [Bitejo](https://bitejo.com)
+- [OrangeFren](https://orangefren.com/)
 - [Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
 - [Accepted Here](https://www.acceptedhere.io/catalog/currency/xmr/)
 
@@ -113,15 +115,18 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 
 - [Kyun](https://kyun.host/)
 - [FlokiNet](https://flokinet.is/)
+- [MyNymBox](https://mynymbox.io/)
+- [ServersGuru](https://servers.guru/)
+- [NiceVPS](https://nicevps.net/)
 
 ## Resources
 
 - [Open Monero project research-lab Issues](https://github.com/monero-project/research-lab/issues)
 - [Monero project researc-lab Open Research Questions](https://github.com/monero-project/research-lab/issues/94)
-- [Breaking Monero](https://www.monerooutreach.org/breaking-monero/)
+- [Breaking Monero](https://web.archive.org/web/20230321215142/https://www.monerooutreach.org/breaking-monero/)
 - [Monero's marketcap dominance](https://moneroj.net/dominance/)
 - [Monero metrics](https://www.monero.how/)
 - [Monero Stack Exchange](https://monero.stackexchange.com/)
 - [Zero to Monero: Second Edition](https://www.getmonero.org/library/Zero-to-Monero-2-0-0.pdf)
 - [MoneroResearch.info](https://moneroresearch.info/)
-
+- [Attack of the Poisoned Output - EP1 do EP30](https://www.youtube.com/watch?v=u9L-TUI-lf0&list=PLk4xsazIq6TZUKDScrxFjhajOKTlHknRx)
