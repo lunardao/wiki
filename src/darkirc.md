@@ -1,7 +1,7 @@
 # Chat - P2P IRC (Darkirc & Weechat)
 
 For the purpose of a quick and instant chat or communication which is 100% anonymous and if chosen private, especially for coordination of smaller groups or committees, we use Darkirc - a peer-to-peer 
-IRC chat, built by [DarkFi](dark.fi). Darkirc supports group chats (open and private) as well as DMs. 
+IRC chat, built by [DarkFi](https://dark.fi/). Darkirc supports group chats (open and private) as well as DMs. 
 
 Weechat is a client most use (runs in terminal), although other IRC clients will work as well.
 
@@ -36,4 +36,4 @@ End meeting.
 
 ## Darkirc on tor
 
-Here are steps to [set up a Tor-enabled Darkirc node](https://darkrenaissance.github.io/darkfi/misc/tor_darkirc.html).
+Here are steps to [set up a Tor-enabled Darkirc node](https://darkrenaissance.github.io/darkfi/misc/nodes/tor-guide.html).
