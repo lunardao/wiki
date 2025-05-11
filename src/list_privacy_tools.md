@@ -4,10 +4,10 @@ As efforts on decentralization, privacy and zero-knowledge cryptography constant
 
 ## Online video sharing platforms
 
-[**FreeTube**](https://freetubeapp.io/)  
+- [**FreeTube**](https://freetubeapp.io/)  
 A private YouTube client.
 
-[**Invidious**](https://inv.riverside.rocks/)  
+- [**Invidious**](https://invidious.io/)  
 Invidious is an open-source alternative to YouTube and is intended as a privacy alternative to the official YouTube website.  
 [Documentation](https://github.com/iv-org/documentation)
 
@@ -41,16 +41,16 @@ Molly is an independent Signal fork for Android. Molly is compatible with Signal
 
 - [**Element**](https://element.io/)  
 End-to-end encrypted messenger for DM and group chats, and video. Bridges to other chat app, even commercial/centralized an not private ones, such as Whatsapp and Telegram.  
-[Documentation](https://github.com/vector-im)
+[Documentation](https://github.com/element-hq)
 
-- [**XMPP**](https://xmpp.org/) with [**Jabber**](jabber.org) or [**Pidgin**](https://pidgin.im/)  
+- [**XMPP**](https://xmpp.org/) with [**Jabber**](https://jabber.org/) or [**Pidgin**](https://pidgin.im/)  
 XMPP is a set of open technologies for instant messaging, group chat, voice and video calls. It is decentralized and open source.  
 [Documentation](https://xmpp.org/about/technology-overview/)
 
 - [**Threema**](https://threema.ch/en/security)  
 Is an end-to end encrypted messenger for phone and desktop. User don't have to provide a phone number. Costs $6.
 
-- [**My Sudo**](https://mysudo.com/features/)  
+- [**My Sudo**](https://anonyome.com/individuals/mysudo/)  
 End-to-end encrypted messaging with the possibility to create multiple numbers, group chats, disappearing messages and soon also ability to create virtual cards. Available in US.
 
 - [**Hushed**](https://hushed.com)  
@@ -68,7 +68,7 @@ Provide UK SIMs. The data is stored encrypted on their server which is located o
 
 ## Twitter front-end
 
-- [**Nitter**](https://nitter.io.lol/about)  
+- [**Nitter**](https://nitter.net/about)  
 Privacy focused alternative to Twitter without JavaScript and ads.  
 [Documentation](https://github.com/zedeus/nitter)
 
@@ -79,9 +79,9 @@ Functions like mdbook. The user can create their own wiki and to-do lists in mar
 
 ## Virtual machines and Tails
 
-- [**Tails**](https://tails.boum.org/)  
+- [**Tails**](https://tails.net/)  
 Tails is a portable operating system which protects against surveillance. The entire OS is on a USB without accessing or storing data in the computer (only using RAM). No metadata stored after shut down. MAc adress spoofing and tor network to connect to internet by default. Data on USB encrypted. Based on a minimalistic version of Debian - Gnome. GPG encryption, email client, onion file share, pidgin, wiping option, keepass, metadata cleaner etc by default. Tails has a function which shuts down the computer immediatly after USB removal.  
-[Documentation](https://tails.boum.org/doc/index.en.html)
+[Documentation](https://tails.net/doc/index.en.html)
 
 - [**Whonix**](https://www.whonix.org/)  
 Whonix is a virtual machine that runs like a process (an app) inside the OS, to help user stay anonymous on internet by for example randomizing IP address and using TOR. When shut down, no data is stored.  
@@ -104,13 +104,13 @@ File encryption to single or multiple recipients. Run in terminal.
 
 These email providers are without cost and end-to-end encrypted. For Riseup and Systemli an invite code is required to be able to create a new email.
 
-- [**Tutanota**](https://tutanota.com/)  
+- [**Tuta**](https://tuta.com/)  
 Is an end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar. It is not possible to set up an account with Tor browser, but it is possible to use a more private browser alternative such as [Librewolf](https://librewolf.net/) together with VPN. After registration it takes 48h before activated as the address need to be approved. 
 
 - [**Protonmail**](https://proton.me/)  
 Is an end-to-end encrypted email service between protonmail accounts. It is possible to set up a free email, and the user have access directly. 
 
-- [**Riseup**](https://mail.riseup.net)
+- [**Riseup**](https://riseup.net/en/email)
 
 - [**Systemli**](https://www.systemli.org/service/mail/)
 
@@ -178,14 +178,21 @@ No logs, no user data stored. Protecting IP address from exposure.
 ## Browsers
 
 - [**Librewolf**](https://librewolf.net/)  
-Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**uBlock**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).    
-- [**Brave**](https://brave.com/) blocks tracking,fingerprinting, third-party ads and cookie acceptance pop-ups.  
+Is a custom version of Firefox which is privacy oriented. It includes search providers like [**Duck duck go**](https://duckduckgo.com/), [**uBlock**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) content blocker, no telemetry (automatic recording and transmission of data for monitoring and analysis).
+    
+- [**Brave**](https://brave.com/) blocks tracking,fingerprinting, third-party ads and cookie acceptance pop-ups.
+  
 - [**Tor browser**](https://www.torproject.org/download/) is developed to circumvent censorship and enable privacy. This is done using onion routing of data through multiple servers.
+
 
 ## Private network layer
 
 - [**I2P**](https://geti2p.net/en/about/intro)  
 Is an encrypted private network layer. The traffic inside I2P does not interact with the internet directly, it is a layer on top of the Internet. I2P protects activity, no one can see the origin, destination, or contents of the data. It is a peer-to-peer network and if the user wants to protect their IP address they also need to use a VPN while using I2P.
+
+- [**Nym**](https://nym.com/network)
+Is a decentralized mixnet ensuring data and metadata privacy. [Documentation](https://nym.com/docs/network/architecture)
+
 
 ## MAC address randomization
 
@@ -209,7 +216,7 @@ IMEI stands for [International Mobile Equipment Identity](https://en.wikipedia.o
 
 - [**Random IMEI generator**](https://randommer.io/imei-generator)
 
-- Installing [**Gerda OS**](https://gerda.tech/#h1.4_install) on Nokia 8110 for improved usability.
+- Installing [**Gerda OS**](https://archive.luxferre.top/gerdaos) on Nokia 8110 for improved usability.
 
 ## eSIM cards/virtual numbers
 
@@ -276,7 +283,7 @@ Hedgedoc is a collaboration tool which can also be self hosted without needing a
 Nextcloud is a  collaboration platform where it is possible to co-edit document, share files, chat, make video calls, manage mail and share calendar. 
 For additional privacy the team can encrypt the files that they want to share with each other on Nextcloud.
 
-- [**Cryptpad**](cryptpad.fr)  
+- [**CryptPad**](https://cryptpad.fr/)  
 Is a tool for co-editing documents (also possible to do in markdown) and provide a storage space.
 
 ## Publishing platforms
@@ -297,6 +304,12 @@ These two applications are very useful as they are offline maps. They also conta
 
 ## Virtual payment cards
 
+- [**Cake Pay**](https://cakepay.com/)
+Cake Pay is a marketplace where you could buy gift cards and related products with Monero, Bitcoin, Lightning, and many more cryptocurrencies.
+
+- [**Stealths**](https://stealths.net/)
+Buy Mastercard, Visa cards, AMEX cards, gift cards and eSIM plans with crypto.
+  
 - [**Fastcoincard**](https://fastcoincard.com/pricing.php)  
 Is a virtual Visa card, which can be used in stores and on sites that accept Visa for payments. It is possible to deposit with for example BTC and ETH, one time or reloadable card.
 
