@@ -1,0 +1,447 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Anoma</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Venture</li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">3.</strong> Mission</a></li><li class="chapter-item expanded "><a href="investment_thesis.html"><strong aria-hidden="true">4.</strong> Investment thesis</a></li><li class="chapter-item expanded affix "><li class="part-title">Infrastructure</li><li class="chapter-item expanded "><a href="gateways.html"><strong aria-hidden="true">5.</strong> Nym exit gateways</a></li><li class="chapter-item expanded affix "><li class="part-title">Surveillance</li><li class="chapter-item expanded "><a href="surveillance_intro.html"><strong aria-hidden="true">6.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="chat.html"><strong aria-hidden="true">7.</strong> European union chat surveillance</a></li><li class="chapter-item expanded "><a href="sis.html"><strong aria-hidden="true">8.</strong> Schengen Information System</a></li><li class="chapter-item expanded "><a href="data_retention_initiative.html"><strong aria-hidden="true">9.</strong> Data rentention initiative</a></li><li class="chapter-item expanded "><a href="echelon.html"><strong aria-hidden="true">10.</strong> Echelon</a></li><li class="chapter-item expanded "><a href="facebook.html"><strong aria-hidden="true">11.</strong> Facebook selling data</a></li><li class="chapter-item expanded "><a href="google.html"><strong aria-hidden="true">12.</strong> Google tracking users</a></li><li class="chapter-item expanded "><a href="tiktok.html"><strong aria-hidden="true">13.</strong> Tik tok selling data to China</a></li><li class="chapter-item expanded "><a href="wikileaks.html"><strong aria-hidden="true">14.</strong> Wikileaks publications</a></li><li class="chapter-item expanded "><a href="pegasus.html"><strong aria-hidden="true">15.</strong> Pegasus</a></li><li class="chapter-item expanded "><a href="china.html"><strong aria-hidden="true">16.</strong> Surveillance in China</a></li><li class="chapter-item expanded "><a href="bigtech.html"><strong aria-hidden="true">17.</strong> Government requesting Big tech data</a></li><li class="chapter-item expanded "><a href="fingerprinting_tracking.html"><strong aria-hidden="true">18.</strong> Fingerprinting & Tracking</a></li><li class="chapter-item expanded "><a href="simdata.html"><strong aria-hidden="true">19.</strong> SIM card data collection</a></li><li class="chapter-item expanded affix "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">20.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bananahack.html"><strong aria-hidden="true">20.1.</strong> Nokia "Banana" jailbreak</a></li><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">20.2.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">20.2.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">20.3.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">20.4.</strong> Virtualbox with Whonix</a></li><li class="chapter-item expanded "><a href="tails_guide.html"><strong aria-hidden="true">20.5.</strong> Tails</a></li><li class="chapter-item expanded "><a href="fiat_to_crypto.html"><strong aria-hidden="true">20.6.</strong> Fiat to crypto</a></li><li class="chapter-item expanded "><a href="crypto_to_fiat.html"><strong aria-hidden="true">20.7.</strong> Crypto to fiat</a></li><li class="chapter-item expanded "><a href="luks.html"><strong aria-hidden="true">20.8.</strong> LUKS disk encryption</a></li><li class="chapter-item expanded "><a href="monero.html"><strong aria-hidden="true">20.9.</strong> Monero privacy guide</a></li><li class="chapter-item expanded "><a href="veracrypt.html"><strong aria-hidden="true">20.10.</strong> VeraCrypt</a></li><li class="chapter-item expanded "><a href="simplexchat.html"><strong aria-hidden="true">20.11.</strong> SimpleX chat</a></li><li class="chapter-item expanded "><a href="atomicswap.html"><strong aria-hidden="true">20.12.</strong> BTC --&gt; XMR atomic swap</a></li><li class="chapter-item expanded "><a href="sip_calls.html"><strong aria-hidden="true">20.13.</strong> SIP calls with jmp.chat & csip</a></li><li class="chapter-item expanded "><a href="signal_privacy_guide.html"><strong aria-hidden="true">20.14.</strong> Signal privacy guide</a></li><li class="chapter-item expanded "><a href="taskwarrior.html"><strong aria-hidden="true">20.15.</strong> Taskwarrior</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">21.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">22.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html"><strong aria-hidden="true">23.</strong> Privacy setup for android with Graphene OS</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">24.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">24.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">25.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html" class="active"><strong aria-hidden="true">26.</strong> Anoma</a></li><li class="chapter-item expanded "><a href="penumbra.html"><strong aria-hidden="true">27.</strong> Penumbra</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="darkirc.html"><strong aria-hidden="true">28.</strong> darkirc</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">29.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">30.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">31.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">32.</strong> Videos</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="anoma-protocol"><a class="header" href="#anoma-protocol">Anoma Protocol</a></h1>
+<p>A market researcher <a href="https://twitter.com/serinko13">Serinko</a>, whom you may remember from <a href="https://twitter.com/Murdawk_Media/status/1576538737030438915">HCPP 2022</a> recently agreed to join LunarDAO research committee as an external. The following report is an illustration of Serinko's past work, done for <a href="https://nexus.blacksky.network">Black Sky Nexus</a> in collaboration with <a href="https://twitter.com/stellarmagnet">Stellar Magnet</a>. The following report was originally published in the the first issue of <a href="https://nexus.blacksky.network/zine/00000001/anoma-protocol">Nexus</a> in autumn 2022.</p>
+<h4 id="authors-stellar-magnet-serinko"><a class="header" href="#authors-stellar-magnet-serinko">Authors: Stellar Magnet, Serinko</a></h4>
+<h2 id="project-summary"><a class="header" href="#project-summary">Project Summary</a></h2>
+<p>Anoma is a new privacy-focused protocol that includes native features for counterparty discovery based on matchmaking <em>intents</em>, with support for multi-chain atomic settlements <sup class="footnote-reference"><a href="#1">1</a></sup>. Anoma is being developed by Heliax AG (Heliax), who are the founding development team funded by the Anoma Foundation, the latter of whom raised a $6.8M seed round in January 2021 and a $26M follow-on round in November 2021, valuing Anoma at $260M. <sup class="footnote-reference"><a href="#2">2</a></sup></p>
+<p>The narrative around the Anoma protocol is heavily constructed around this concept of <em>intents</em> as a core aspect of the protocol design. Intents are envisioned to enable &quot;any digital representation of value to be used as a means of exchange, payment or trade&quot;. Essentially, intents are a way for a user of the protocol to broadcast their desire to acquire a good or service for a particular price or within a particular price range. Anoma has broad goals for intents to be used for the bartering of goods and services in local physical communities <sup class="footnote-reference"><a href="#3">3</a></sup>, but there are currently no technical designs for how to realistically establish such barter economies.</p>
+<p>In Anoma, <em>validity</em> predicates contain the logic that communicates with the state machine to ultimately identify whether a state change is valid. The validity predicate check is stateless and can be parallelized for any number of accounts that are involved in a transaction.</p>
+<p>Initially Anoma is based on Tendermint, a Byzantine Fault Tolerant (BFT) consensus mechanism, but later versions will deploy <a href="https://specs.anoma.net/main/architecture/consensus/typhon.html">Typhon</a>, which is Heliax's implementation of Heterogeneous Paxos that enables consensus to be shared across the states of independent (heterogeneous) chains, enabling multi-chain atomic settlement in a singular consensus round. A heterogeneous chain within the Anoma network is known as a fractal instance. <sup class="footnote-reference"><a href="#4">4</a></sup></p>
+<p>Anoma utilizes zk-SNARKs to provide transaction privacy, initially with the Multi-Asset Shielded Pool (MASP) that offers a singular anonymity set for both Ethereum and IBC-compatible assets <sup class="footnote-reference"><a href="#5">5</a></sup> within a single fractal instance. Namada is the name of Anoma's initial fractal instance, which utilizes Tendermint and will include the MASP. Future versions of Anoma will replace the MASP with <a href="https://github.com/anoma/taiga/blob/main/book/src/overview.md">Taiga</a>, which will eventually support a singular anonymity set across multiple fractal instances. <sup class="footnote-reference"><a href="#6">6</a></sup></p>
+<p>Heliax is also developing various languages that will spawn private and verifiable interfaces, protocols, and applications within the Anoma network. These languages include Juvix, Alucard, and Vamp-IR. Together, this set of languages is known as the J-group. <sup class="footnote-reference"><a href="#7">7</a></sup></p>
+<p>The two main problems Anoma is trying to address are that of scaling the number of parties involved in financial transactions (&quot;n-party bartering&quot;) and bringing privacy to these types of transactions.</p>
+<h3 id="highlights"><a class="header" href="#highlights">Highlights</a></h3>
+<ul>
+<li>Heterogeneous Paxos and stateless validity predicate checks are each interesting designs in the landscape of scaling blockchain systems. We are curious to see whether Anoma bring this unique vision to life and whether they find success with it.</li>
+<li>Vamp-IR, Anoma's language for creating universal representations of arithmetic circuits, can potentially be useful for other zk projects outside of Anoma.</li>
+<li>Anoma's <a href="https://specs.anoma.net/main/releases/v3.html">v3</a>, with the full vision of <a href="https://github.com/anoma/taiga/blob/main/book/src/overview.md">Taiga</a> implemented, is a more compelling offering compared to earlier versions of the protocol (v1, v2) that offer less privacy.</li>
+</ul>
+<h3 id="production-stage-testnet"><a class="header" href="#production-stage-testnet">Production Stage: Testnet</a></h3>
+<p>Feigenbaum was Anoma’s first public testnet, launched in November 2021 <sup class="footnote-reference"><a href="#8">8</a></sup>, and is currently down. The next testnet will operate on Namada <sup class="footnote-reference"><a href="#9">9</a></sup>, Anoma’s first fractal instance operating Anoma v1. Currently, there is not a way for future users to join the testnet, but future users can submit an email to receive a newsletter of pertinent announcements <sup class="footnote-reference"><a href="#10">10</a></sup>. There are plans to take Namada to mainnet, but the timeline is unclear.</p>
+<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
+<h3 id="consensus-protocol"><a class="header" href="#consensus-protocol">Consensus Protocol</a></h3>
+<p>Initially Anoma is based on Tendermint, a Byzantine Fault Tolerant (BFT) consensus mechanism, though later versions will deploy <a href="https://specs.anoma.net/main/architecture/consensus/typhon.html">Typhon</a>, which is Heliax's implementation of Heterogeneous Paxos that enables consensus to be shared across the states of independent (heterogeneous) chains, enabling multi-chain atomic settlement in a singular consensus round.</p>
+<p>This will make possible the creation of multiple interoperable &quot;fractal instances,&quot; which are sovereign chains that can have different functional utility and state machines, such as one being a bartering protocol, another supporting shielded assets, and another being a global settlement layer. Each of these fractal instances can have different security models as well, such as being proof of work, proof of authority, or proof of stake, etc.</p>
+<p>This design is Anoma's solution for scaling, where diverse chains in the Anoma network will be able to easily intercommunicate with one another and settle transactions atomically, while utilizing independent state machines and security models. <sup class="footnote-reference"><a href="#4">4</a></sup></p>
+<h3 id="intent-gossip--matchmaking-subprotocol"><a class="header" href="#intent-gossip--matchmaking-subprotocol">Intent Gossip &amp; Matchmaking Subprotocol</a></h3>
+<p>Anoma includes an intent gossip and matchmaking subprotocol which helps match and settle intents across multiple parties. Anoma does not require a double coincidence of wants, instead, as more intents are broadcast by <em>gossip nodes, matchmaking nodes</em> are able to help settle complex n-party trades atomically <sup class="footnote-reference"><a href="#11">11</a></sup>. For example, if the following intents are individually broadcast:</p>
+<ul>
+<li>Alice wants to sell at most 8 <code>$tokenA</code> and buy at least 1 <code>$tokenB</code></li>
+<li>Bob wants to sell at most 1 <code>$tokenB</code> and buy at least 4 <code>$tokenC</code></li>
+<li>Carol wants to sell at most 4 <code>$tokenC</code> and buy at least 8 <code>$tokenA</code></li>
+</ul>
+<p>Then the first matchmaking node to match the three intents can facilitate settlement of the transaction and receive a reward. Alice did not have to find someone who wanted her 8 <code>$tokenA</code> for 1 <code>$tokenB</code>. Instead, the intent was matched with another intent, which ultimately got her the asset she was looking for, and at the exchange rate within her limits.</p>
+<p>Once an intent is shared with a gossip node, it is considered binding, although it is possible to include an <em>expiry time</em> within the intent for how long the intent is valid. However these standards are not requirements when it comes to the Anoma protocol: since the intent and gossip matchmaking system is considered a subprotocol of Anoma, it is possible for there to be even more specific subprotocols developed that are better catered toward different use cases.<sup class="footnote-reference"><a href="#12">12</a></sup></p>
+<p>While Anoma markets itself as &quot;privacy-preserving protocol for decentralized counterparty discovery&quot;, in the v1 design of the intent gossip and matchmaking system, it is not possible for matchmaking nodes to do their job without knowing the contents of the intent (e.g. the currencies and exchange rates), although it is possible to have privacy for the address of the counterparties. <sup class="footnote-reference"><a href="#13">13</a></sup></p>
+<h3 id="validity-predicates"><a class="header" href="#validity-predicates">Validity Predicates</a></h3>
+<p>Similar to other distributed virtual machines such as the Ethereum Virtual Machine (EVM), Anoma’s ledger contains multiple independent accounts with different state subspaces and code. What differs is the execution, as Anoma does not operate in a step-by-step order where contracts call each other. Instead, transactions execute arbitrary code in a WASM virtual machine, meaning any transaction is able to read or write any state as desired. For this to be written to the ledger, all accounts involved in the transaction must accept the transaction. The way this is handled in Anoma is with <em>validity predicates</em>. Validity predicates are code that each account has, in addition to each token (i.e. ETH, ATOM, BTC), or specialized accounts like zero-knowledge circuits. Validity predicates for each account are public code (in initial versions of Anoma), and contain the logic that communicates with the Anoma state machine, to ultimately identify whether a state change for an account is valid. The validity predicate check is stateless and can be parallelized for any number of accounts that are involved in a transaction.<sup class="footnote-reference"><a href="#13">13</a></sup> <sup class="footnote-reference"><a href="#14">14</a></sup></p>
+<h3 id="treshold-decryption"><a class="header" href="#treshold-decryption">Treshold Decryption</a></h3>
+<p>Anoma will use <a href="https://eprint.iacr.org/2022/898">Ferveo</a>, a threshold transaction decryption scheme for front-running protection, where the set of transactions for a newly proposed block are encrypted, meaning validators have no information about the contents of the transactions and hence do not have a game-theoritic advantage over other users. As described in the Anoma whitepaper <sup class="footnote-reference"><a href="#13">13</a></sup>, the cryptography process proceeds as follows:</p>
+<ol>
+<li>Periodically, validators run a byzantine-fault tolerant distributed key generation protocol, generating a shared public key and private key shards split among the validators.</li>
+<li>Before submitting them to the peer-to-peer network, users encrypt transactions to this shared public key.</li>
+<li>The proposer then includes a set of encrypted transactions in a block, committing to a particular execution order.</li>
+<li>Once the block has been finalized, the validators run a threshold decryption protocol, each generating and gossiping their share of the decrypted transaction.</li>
+<li>Once the threshold is reached, the decrypted transactions can then be included in a future block, where it will be executed as soon as all prior transactions (in the previously committed-to execution order) have been decrypted and executed.</li>
+</ol>
+<h3 id="namada"><a class="header" href="#namada">Namada</a></h3>
+<p>Namada is Anoma's initial fractal instance which deploys v1 of the Anoma protocol using Tendermint BFT consensus, and is under development by the founding team Heliax. Core to Namada's architecture is the Multi-Asset Shielded Pool (MASP), which allows all assets bridged to Namada from Ethereum or <a href="https://ibcprotocol.org/">IBC</a> chains to share a singular anonymity set. <sup class="footnote-reference"><a href="#15">15</a></sup></p>
+<h4 id="multi-asset-shielded-pool-masp"><a class="header" href="#multi-asset-shielded-pool-masp">Multi-Asset Shielded Pool (MASP)</a></h4>
+<p>Anoma supports both transparent and shielded transactions: it is not a fully shielded blockchain protocol. The MASP is the initial design included in Anoma v1, which provides support for shielded transactions in which transaction privacy is secured by a zero-knowledge circuit shared across all assets bridged to Namada. This results in a unified shielded pool where senders, recipients, amounts, and asset denominations for transactions taking place among two familiar parties are encrypted as far as the public is concerned. This means once users bridge their assets to Namada, the information will become part of a singular MASP with all of the different assets sent by other users, such as Ethereum ERC20 tokens and NFTs, or even IBC-compatible assets.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><img src="https://miro.medium.com/max/1400/1*PrbT6AD-I3vdryvyF-K-3g.jpeg" alt="Anoma's MASP" /></th></tr></thead><tbody>
+<tr><td style="text-align: center"><em>Image source: <a href="https://medium.com/anomanetwork/introducing-namada-shielded-transfers-with-any-assets-dce2e579384c">Introducing Namada: Shielded Transfers with Any Assets</a></em></td></tr>
+</tbody></table>
+</div>
+<h5 id="trusted-setup"><a class="header" href="#trusted-setup">Trusted Setup</a></h5>
+<p>To enable the MASP, Namada requires a <a href="https://zkproof.org/2021/06/30/setup-ceremonies/">trusted setup ceremony</a>, which is a multi-party computation (MPC) ceremony that lets many participants contribute randomness to a zk-SNARK's public parameters. Trusted setups consist of two phases. For the first phase, Namada will leverage the Powers of Tau from Zcash's Sapling MPC seeing as the first phase is circuit agnostic, so it's possible to bootstrap this process utilizing the data from an existing ceremony. For the second phase, a new ceremony is required to construct the parameters for the MASP zk-SNARK, since the phase is circuit-specific.<sup class="footnote-reference"><a href="#16">16</a></sup></p>
+<h5 id="cryptography-enhancements"><a class="header" href="#cryptography-enhancements">Cryptography Enhancements</a></h5>
+<p>The current version of MASP relies on Groth16, which means that any changes to the pool design will require a new trusted setup. Heliax is researching upgrade paths and are considering using PlonKup (PLONK+plookup) or Halo 2 instead of the Groth16 based design<sup class="footnote-reference"><a href="#17">17</a></sup>. PlonKup is a universal circuit that still requires a trusted setup, but upgrades wouldn't require new trusted setups. Halo 2 doesn't require a trusted setup.<sup class="footnote-reference"><a href="#18">18</a></sup></p>
+<h3 id="j-group"><a class="header" href="#j-group">J-group</a></h3>
+<p>Heliax is developing various languages that will help spawn private and verifiable interfaces, protocols, and applications within the Anoma network. These languages include Juvix, Alucard, and Vamp-IR. Together, this set of languages is known as the <em>J-group</em>.<sup class="footnote-reference"><a href="#7">7</a></sup></p>
+<ul>
+<li>Juvix is a statically typed functional language that supports compiling validity predicates to the C language. Juvix can be considered Anoma's Solidity, except it has the goal of enabling <em>formally verifiable smart contracts.</em><sup class="footnote-reference"><a href="#19">19</a></sup>
+<ul>
+<li>Various examples are available for review in the <a href="https://docs.juvix.org/index.html">Juvix documentation</a>, such as a <a href="https://docs.juvix.org/examples/html/ValidityPredicates/SimpleFungibleToken.html">simple fungible token</a>.</li>
+</ul>
+</li>
+<li>ALucard (Alu) is a domain-specific language (DSL) for writing zero-knowledge circuits that are compiled into Vamp-IR. Alu's syntax is derived from <a href="https://common-lisp.net/">Common Lisp</a>. <sup class="footnote-reference"><a href="#20">20</a></sup></li>
+<li>Vamp-IR is a language for specifying arithmetic circuits and consists of a parser, compiler, and a prover runtime. Vamp-IR stands for <em>Vamp-IR Aliased Multivariate Polynomial Intermediate Representation</em>.<sup class="footnote-reference"><a href="#21">21</a></sup> The compiler can transform an arithmetic circuit into a form compatible with any proving system backend, such as R1CS, vanilla PLONK, PLONK with lookups and/or custom gates, PLONKish Halo 2, etc. Vamp-IR enables a circuit IR to capture the intention of the circuit alone, and remains agnostic to both the proving system features and the specific constraint system it targets.<sup class="footnote-reference"><a href="#22">22</a></sup></li>
+</ul>
+<h3 id="taiga"><a class="header" href="#taiga">Taiga</a></h3>
+<p>Anoma predominantly describes and presents “transparent” Anoma in its whitepaper and blog documents. In transparent Anoma, validity predicate functions, as well as the asset type being traded via the gossip protocol, are public.<sup class="footnote-reference"><a href="#23">23</a></sup> “Private Anoma”, named Taiga, is currently in R&amp;D by Heliax, but will bring privacy to both the validity predicate functions as well as the asset type being traded.<sup class="footnote-reference"><a href="#24">24</a></sup> An initial implementation of Taiga is expected to be included in v2 of Anoma <sup class="footnote-reference"><a href="#25">25</a></sup>, but Heliax has not yet figured out the complex fully homomorphic encryption/multi-party computation cryptography involved for multi-party private state transitions which is slated for v3 of the protocol.<sup class="footnote-reference"><a href="#26">26</a></sup></p>
+<h2 id="analysis"><a class="header" href="#analysis">Analysis</a></h2>
+<h3 id="user-privacy"><a class="header" href="#user-privacy">User Privacy</a></h3>
+<h4 id="public-validity-predicates-leak-user-preferences"><a class="header" href="#public-validity-predicates-leak-user-preferences">Public Validity Predicates Leak User Preferences</a></h4>
+<p>Anoma’s documentation provides a few examples of how a user can customize their account’s validity predicate to add additional verifiers, such as not accepting any state changes that result in the user’s BTC balance going below 3 or requiring the signature of two private keys instead of one for transfers above a certain value. <sup class="footnote-reference"><a href="#14">14</a></sup></p>
+<p>In initial versions of Anoma, such as <a href="https://specs.anoma.net/main/releases/v1.html">v1</a>, validity predicate functions are public, meaning when a user customizes their validity predicates, Anoma will leak data around balance preferences and transaction threshold amounts that require greater security. In later versions, <a href="https://specs.anoma.net/main/releases/v3.html">v3</a>, once the full spec of Taiga is devised, developed, and released, it will be possible to have validate predicates with private functions that support multi-party transactions.</p>
+<p>Note: Namada's release path includes taking Anoma's v1 to mainnet, which does not yet fulfill on Anoma's mission of creating a “privacy-preserving protocol”.</p>
+<h4 id="anoma-can-be-transparent-andor-private"><a class="header" href="#anoma-can-be-transparent-andor-private">Anoma Can Be Transparent and/or Private</a></h4>
+<p>Compared to privacy layer 1 protocols like Aleo, Penumbra, and DarkFi, Anoma is not a fully shielded blockchain and supports both transparent transactions in addition to shielded transactions.</p>
+<p>The clearest competitor to Anoma is Cosmos when assessing Anoma from the higher architectural level with respect to the vision around fractal instances. If the Cosmos ecosystem decided to replace Tendermint with Typhon, then perhaps the two ecosystems would not be competitors, and would instead be allies.</p>
+<p>Anoma’s fractal instances can be thought of as similar to Cosmos’s concept of zones, but they will be more advanced assuming the Heterogeneous Paxos spec is brought to life successfully, which has the design goal of achieving a multi-chain atomic settlement in a singular consensus round. A potential evolution of the Anoma ecosystem, once systems such as Taiga are fully developed, is many fractal instances that are fully shielded.</p>
+<p>Given the current fractal instance design, and Anoma supporting both transparent and shielded interactions, there can be a lot more ways privacy can go wrong within Anoma, unless each fractal instance is designed and deployed very intentionally and the user has sufficient warnings when performing activities that can be potentially de-anonymizing in one way or another.</p>
+<h4 id="anonymity-set"><a class="header" href="#anonymity-set">Anonymity Set</a></h4>
+<p>Since Namada, Anoma's first fractal instance is not currently live, there is no size yet of Anoma's anonymity set. But one of the key properties of Namada's MASP is that all assets will be sharing a singular anonymity set, initially supporting fungible or non-fungible assets on both Ethereum or IBC-compatible chains. Assuming enough users adopt Namada, this can significantly strengthen privacy guarantees compared to single asset protocols such as Tornado Cash or Aztec Network's zk.money, and will be useful for assets with low transaction volumes or transactions with high values, assuming they remained within Namada.<sup class="footnote-reference"><a href="#15">15</a></sup></p>
+<p>Once Anoma develops Taiga, as well as a solution for private bridging (<a href="https://hackmd.io/cob1x80xSuecMtwmbCPvVA">see their work-in-progress spec</a>), then a singular anonymity set can be shared across multiple fractal instances <sup class="footnote-reference"><a href="#6">6</a></sup>, which will be a compelling offering if it works. Penumbra founder Henry de Valence and Anoma co-founder Christopher Goes were having a Twitter debate on September 17, 2022 about this topic of private bridging, and de Valence believes it is a bad design decision <sup class="footnote-reference"><a href="#27">27</a></sup>:</p>
+<blockquote>
+<p>This is bad because private chains have meaningfully greater risks (e.g., secret inflation), and it’s important not to allow economic contagion between different shielded pools. Which is possible when the transfers are public, but isn’t when they’re private.</p>
+</blockquote>
+<p>Although from a longer-term perspective, private bridging must be where the future of cryptocurrency is headed if one assumes there will be more private cryptocurrencies and people will always have the desire to transact between different types of currencies.</p>
+<h3 id="networking-privacy"><a class="header" href="#networking-privacy">Networking Privacy</a></h3>
+<p>There are no mentions in Anoma's documentation for how the protocol aims to address privacy of networking data (e.g. IP address and packet sizes) for users or validators of the network. When the team was questioned in their Discord about this topic, co-founder Christopher Goes mentioned that they plan to eventually integrate a mix network such as Nym into the Anoma stack, but this was not an immediate priority. <sup class="footnote-reference"><a href="#6">6</a></sup></p>
+<p>Nowadays, experienced privacy advocates understand that this is a crucial design consideration that is important to be addressed to offer stakeholders the best &quot;state of the art&quot; privacy. Given that Anoma co-founder Awa Sun Yin's prior job was working &quot;at a company that developed tools to deanonymize user data on blockchains and sold them for profit&quot; <sup class="footnote-reference"><a href="#15">15</a></sup>, it is unfortunate that this dimension is not addressed in the current protocol design. Networking privacy is quite often an afterthought among many privacy-focused layer 1 projects, yet this is where adversarial parties can gather ephemeral networking data to partially de-anonymize validators, users, and transactions.</p>
+<h3 id="censorship-resistance"><a class="header" href="#censorship-resistance">Censorship Resistance</a></h3>
+<p>The Ferveo threshold decryption mechanism is great for censorship-resistance, ensuring that validators behave in a credibly neutral way, which has become a more prominent design consideration in consensus protocols, after the August 8, 2022 US Treasury sanctions against Tornado Cash. <sup class="footnote-reference"><a href="#28">28</a></sup></p>
+<p>What is concerning when it comes to censorship resistance is this vision around fractal scaling proposed in the whitepaper <sup class="footnote-reference"><a href="#13">13</a></sup>:</p>
+<blockquote>
+<p>The frequency of commerce is inversely correlated with the distance (of any form) between the counterparties: most buyers in Shanghai are buying from a seller in Shanghai, and most buyers in Berlin are buying from a seller in Berlin. The topology of a digital barter network should reflect this, for both reasons of latency and local sovereignty: transactions in Berlin should be settled on a Berlin-controlled ledger, transactions in Shanghai should be settled on a Shanghai-controlled ledger – and the (far more infrequent) transactions between Berlin and Shanghai should be settled when necessary on a global ledger.</p>
+</blockquote>
+<p>With this scaling vision, local ledgers will potentially be less censorship resistant than global ledgers, since validators of local city-based ledgers will have to be more conscious of complying with local money transmitter laws, otherwise they can be fined or may go to jail. For example, let's say a Tehran fractal instance was created. Validators who are running a Los Angeles fractal instance will have to block incoming transactions from the Tehran instance, otherwise they will be breaking economic sanctions that exist between the USA and Iran.</p>
+<p>While it seems possible in the future for Anoma to include private bridges wherein the “source fractal instance” cannot be identified <sup class="footnote-reference"><a href="#29">29</a></sup>, that does not mean it will be legal for a Los Angeles fractal instance to use bridging technology that blinds them from the transaction origination source, especially once Iranian, Syrian, and North Korean fractal instances are created.</p>
+<p>It’s also possible a jurisdiction may ban fully private Anoma altogether and require fractal city-based instances to comply with local banking laws. If the intention is to build a system that can’t be regulated by local authorities, then stakeholders securing the ledger of a city-based instance are going to need a lot more privacy and will have to figure out how to earn trust in their ledger without publicly revealing their identity, while additionally doing a good job of masking their location in the city.</p>
+<p>Ledgers based on existing cities that are tied to a specific jurisdiction don't seem that great for privacy or censorship resistance. While Anoma's intention seems to be honest, it results in a network design that may be more fragile. We are hoping this concept does not take off, but if it does, we recommend city-based ledgers assume the following qualities moving forward:</p>
+<ul>
+<li>They are fully shielded: they never have a concept of transparent transactions or transparent validity predicates.</li>
+<li>There is no way to bridge onto city-based ledgers from transparent chains external to Anoma, such as Ethereum or IBC-compatible chains.</li>
+<li>If city-based ledgers are delegated proof of stake networks, then there is great privacy for both validators and delegators (networking privacy, identities, etc.).</li>
+</ul>
+<p>Anoma's whitepaper was written before the Tornado Cash event, so hopefully the event at least serves as inspiration for the protocol visionaries to come up with better examples for fractal instances that don't accidentally make it so easy to recreate the existing financial order with a blockchain protocol. When a fractal instance is thought of more as an app chain, similar to a Cosmos zone, it's a lot easier to comprehend. Alternatively, if the vision of city-based ledgers was situated toward enabling a <a href="https://en.wikipedia.org/wiki/Parallel_Polis">Parallel Polis</a>, it would be more aligned with cryptocurrency's cypherpunk spirit.</p>
+<h3 id="community-incentives"><a class="header" href="#community-incentives">Community Incentives</a></h3>
+<p>Namada is offering incentives for participating in their trusted setup ceremony <sup class="footnote-reference"><a href="#16">16</a></sup>. Regardless that the vision behind the Anoma protocol is one that champions privacy, KYC will be required to earn rewards in this incentive program. This is unfortunate, although these sort of over-compliance measures are expected for early stage protocols managed by foundations or corporations that have yet to decentralize operations, and hence have to follow jurisdictional laws, such as those of Switzerland, in the case of Anoma. <a href="#30">^30</a></p>
+<p>It’s instead possible to design incentive programs that maintain the full privacy of the community, such as allowing incentive programs and tokenomics of the protocol to be managed and distributed by a community DAO or guild, although this alternate method is not necessarily aligned with the current normative venture capital fundraising model in which the initial tokenomics are controlled by the founding stakeholders.</p>
+<h3 id="strategy--narrative"><a class="header" href="#strategy--narrative">Strategy &amp; Narrative</a></h3>
+<p>Anoma suffers a narrative problem. First, it is difficult to imagine or understand how barter economies where farmers are exchanging goods can really be brought to life with Anoma or if a blockchain protocol is really needed for this use case, since tracking your harvest with a validity predicate doesn't seem practical.</p>
+<p>In addition to these problematic bartering for physical goods examples, Anoma also quite often talks about the use case of a person trying to buy a festival ticket, a hotel, and a train ticket at the same time 11, which is uninspiring and doesn't seem like a super important problem to solve.</p>
+<p>Anoma would be easier to understand if they focused on multi-asset exchanges, and used more relatable examples, as their existing narrative and usage examples generally weaken the value proposition of the protocol.</p>
+<h2 id="additional-resources"><a class="header" href="#additional-resources">Additional Resources</a></h2>
+<h3 id="cryptography-research"><a class="header" href="#cryptography-research">Cryptography Research</a></h3>
+<p>Anoma has a <a href="https://anoma.net/research">research page</a> where the team shares cryptography research papers they have contributed to which are related to the Anoma protocol design, particularly:</p>
+<ul>
+<li><a href="https://eprint.iacr.org/2021/1152">Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field</a></li>
+<li><a href="https://eprint.iacr.org/2022/086">PlonKup: Reconciling PlonK with plookup</a></li>
+<li><a href="https://arxiv.org/pdf/2204.10611.pdf">Bridging Sapling: Private Cross-Chain Transfers</a></li>
+<li><a href="https://eprint.iacr.org/2022/898">Ferveo: Threshold Decryption for Mempool Privacy in BFT networks</a></li>
+</ul>
+<h3 id="links"><a class="header" href="#links">Links</a></h3>
+<ul>
+<li><a href="https://anoma.net/">Anoma Website</a></li>
+<li><a href="https://anoma.net/community">Anoma Community Page</a></li>
+<li><a href="https://twitter.com/anomanetwork">Anoma Twitter</a></li>
+<li><a href="https://discord.com/invite/anoma">Anoma Discord</a></li>
+<li><a href="https://t.me/anomanetwork">Anoma Telegram</a></li>
+<li><a href="https://www.youtube.com/anoma">Anoma YouTube</a></li>
+<li><a href="https://github.com/anoma">Anoma Github</a></li>
+<li><a href="https://namada.net/">Namada Website</a></li>
+<li><a href="https://network.us7.list-manage.com/subscribe?u=69adafe0399f0f2a434d8924b&amp;id=e30866c43d">Namada Newsletter</a></li>
+</ul>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Anoma.net‌. Accessed 2022.<br />
+<a href="https://anoma.net/">https://anoma.net/</a>.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>Bourgi, Sam. “Polychain Capital Leads Anoma Network’s $26M Raise.” Cointelegraph, 17 Nov. 2021,<br />
+<a href="https://cointelegraph.com/news/polychain-capital-leads-anoma-network-s-26m-raise">https://cointelegraph.com/news/polychain-capital-leads-anoma-network-s-26m-raise</a>.</p>
+</div>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">3</sup>
+<p>Goes, C, et al. “Anoma: Undefining Money Vision Paper.” 20 July 2021.<br />
+<a href="https://anoma.net/vision-paper.pdf">https://anoma.net/vision-paper.pdf</a>.</p>
+</div>
+<div class="footnote-definition" id="4"><sup class="footnote-definition-label">4</sup>
+<p>Sheff, Isaac. “Heterogeneous Paxos and Multi-Chain Atomic Commits.” Anoma (blog), 13 Sept. 2021,<br />
+<a href="https://anoma.net/blog/">https://anoma.net/blog/</a></p>
+</div>
+<div class="footnote-definition" id="5"><sup class="footnote-definition-label">5</sup>
+<p>Yin, Awa Sun. “An Overview of Anoma’s Architecture.” Anoma (blog). 3 June 2022,<br />
+<a href="https://medium.com/anomanetwork/an-overview-of-anoma-s-architecture-26b72e8c9be5">https://medium.com/anomanetwork/an-overview-of-anoma-s-architecture-26b72e8c9be5</a>.</p>
+</div>
+<div class="footnote-definition" id="6"><sup class="footnote-definition-label">6</sup>
+<p>Discord. “Anoma Discord Channel.” Accessed 2022.<br />
+<a href="https://discord.com/channels/833618405537218590/996749519284875265/1012047414699503778">https://discord.com/channels/833618405537218590/996749519284875265/1012047414699503778</a>.</p>
+</div>
+<div class="footnote-definition" id="7"><sup class="footnote-definition-label">7</sup>
+<p>Specs.anoma.net. “Anoma Specifications: J-Group.” Accessed 2022.<br />
+<a href="https://specs.anoma.net/main/architecture/language/j-group.html">https://specs.anoma.net/main/architecture/language/j-group.html</a>.</p>
+</div>
+<div class="footnote-definition" id="8"><sup class="footnote-definition-label">8</sup>
+<p>Yin, Awa Sun. “Announcing Feigenbaum: Anoma’s First Public Testnet.” Medium, 1 Dec. 2021,<br />
+<a href="https://medium.com/anomanetwork/announcing-feigenbaum-anomas-first-public-testnet-21eaa64d193b">https://medium.com/anomanetwork/announcing-feigenbaum-anomas-first-public-testnet-21eaa64d193b</a>.</p>
+</div>
+<div class="footnote-definition" id="9"><sup class="footnote-definition-label">9</sup>
+<p>Twitter.com &quot; @namadanetwork.” 8 June 2022,<br />
+<a href="https://twitter.com/namadanetwork/status/1534514340006662144?s=20&amp;t=Vq4ay7zlAKOgi-HxST7WaQ">https://twitter.com/namadanetwork/status/1534514340006662144?s=20&amp;t=Vq4ay7zlAKOgi-HxST7WaQ</a>.</p>
+</div>
+<div class="footnote-definition" id="10"><sup class="footnote-definition-label">10</sup>
+<p>Namada Mailing List. Accessed 2022.<br />
+<a href="https://dev.us7.list-manage.com/subscribe?u=69adafe0399f0f2a434d8924b&amp;id=263f552276">https://dev.us7.list-manage.com/subscribe?u=69adafe0399f0f2a434d8924b&amp;id=263f552276</a>.</p>
+</div>
+<div class="footnote-definition" id="11"><sup class="footnote-definition-label">11</sup>
+<p>Wong, Gabriella. “Enabling N-Party Transactions with Anoma’s State Machine.” Anoma (blog), 1 Sept. 2021,<br />
+<a href="https://anoma.net/blog/enabling-n-party-transactions-with-anomas-state-machine/">https://anoma.net/blog/enabling-n-party-transactions-with-anomas-state-machine/</a>.</p>
+</div>
+<div class="footnote-definition" id="12"><sup class="footnote-definition-label">12</sup>
+<p>van Daalen, Annabel. “Enabling Counterparty Discovery with Anoma’s Intent Gossip and Matchmaking System.” Anoma (blog), 29 May 2021,<br />
+<a href="https://anoma.net/blog/intent-gossip-and-matchmaking-system/">https://anoma.net/blog/intent-gossip-and-matchmaking-system/</a>.</p>
+</div>
+<div class="footnote-definition" id="13"><sup class="footnote-definition-label">13</sup>
+<p>Goes, Christopher, et al. “Anoma: Undefining Money Whitepaper.” 26 Apr. 2021,<br />
+<a href="https://anoma.net/whitepaper.pdf">https://anoma.net/whitepaper.pdf</a>.</p>
+</div>
+<div class="footnote-definition" id="14"><sup class="footnote-definition-label">14</sup>
+<p>Samartino, Alex Flory. “Validity Predicates.” Anoma (blog), 17 May 2021,<br />
+<a href="https://anoma.net/blog/validity-predicates/">https://anoma.net/blog/validity-predicates/</a>.</p>
+</div>
+<div class="footnote-definition" id="15"><sup class="footnote-definition-label">15</sup>
+<p>Yin, Awa Sun “Introducing Namada: Shielded Transfers with Any Assets.” Medium, 13 June 2022,<br />
+<a href="https://medium.com/anomanetwork/introducing-namada-shielded-transfers-with-any-assets-dce2e579384c">https://medium.com/anomanetwork/introducing-namada-shielded-transfers-with-any-assets-dce2e579384c</a>.</p>
+</div>
+<div class="footnote-definition" id="16"><sup class="footnote-definition-label">16</sup>
+<p>Namada.net‌. “Namada FAQ.”  Accessed 2022.<br />
+<a href="https://namada.net/faq.html">https://namada.net/faq.html</a>. </p>
+</div>
+<div class="footnote-definition" id="17"><sup class="footnote-definition-label">17</sup>
+<p>Samartino, Alex Flory. “Enabling Multi-Asset Privacy on Anoma.” Anoma (blog), 21 June 2021,<br />
+<a href="https://anoma.net/blog/enabling-multi-asset-privacy-on-anoma/">https://anoma.net/blog/enabling-multi-asset-privacy-on-anoma/</a>.</p>
+</div>
+<div class="footnote-definition" id="18"><sup class="footnote-definition-label">18</sup>
+<p>Bowe, Sean. “Explaining Halo 2.” Electric Coin Company (blog), 1 Sept. 2020,<br />
+<a href="https://electriccoin.co/blog/explaining-halo-2/">https://electriccoin.co/blog/explaining-halo-2/</a>.</p>
+</div>
+<div class="footnote-definition" id="19"><sup class="footnote-definition-label">19</sup>
+<p>Juvix.org‌. “The Juvix Book.” Accessed 2022.<br />
+<a href="https://docs.juvix.org/index.html">https://docs.juvix.org/index.html</a>.</p>
+</div>
+<div class="footnote-definition" id="20"><sup class="footnote-definition-label">20</sup>
+<p>GitHub.com‌. “Anoma/Juvix-Circuits.” Accessed 2022.<br />
+<a href="https://github.com/anoma/juvix-circuits">https://github.com/anoma/juvix-circuits</a>.</p>
+</div>
+<div class="footnote-definition" id="21"><sup class="footnote-definition-label">21</sup>
+<p>GitHub.com‌.  “Anoma/Vamp-Ir” Accessed 2022.<br />
+<a href="https://github.com/anoma/vamp-ir">https://github.com/anoma/vamp-ir</a>.</p>
+</div>
+<div class="footnote-definition" id="22"><sup class="footnote-definition-label">22</sup>
+<p>Specs.anoma.‌net. “Anoma Specifications: Design Philosophy.” Accessed 2022.<br />
+<a href="https://specs.anoma.net/master/architecture/language/j-group/vampir/ir_design.html">https://specs.anoma.net/master/architecture/language/j-group/vampir/ir_design.html</a>.<br />
+<sup class="footnote-reference"><a href="#23">23</a></sup>: Youtube.com‌. “An Introduction to Taiga — Yulia Khalniyazova — Privacy Evolution 22.” Video, 29 Aug. 2022,<br />
+<a href="https://www.youtube.com/watch?v=BaZbmiR6F54">https://www.youtube.com/watch?v=BaZbmiR6F54</a>.</p>
+</div>
+<div class="footnote-definition" id="24"><sup class="footnote-definition-label">24</sup>
+<p>GitHub.com‌. “Taiga/Overview.” Accessed 2022.<br />
+<a href="https://github.com/anoma/taiga/blob/main/book/src/overview.md">https://github.com/anoma/taiga/blob/main/book/src/overview.md</a>.</p>
+</div>
+<div class="footnote-definition" id="25"><sup class="footnote-definition-label">25</sup>
+<p>Specs.anoma.net‌. “Anoma Specifications: V2.” Accessed 2022.<br />
+<a href="https://specs.anoma.net/master/releases/v2.html">https://specs.anoma.net/master/releases/v2.html</a>.</p>
+</div>
+<div class="footnote-definition" id="26"><sup class="footnote-definition-label">26</sup>
+<p>Youtube.com‌ “Anoma Huddle Amsterdam - Anoma: Endgame.” Video, 11 May 2022,<br />
+<a href="https://www.youtube.com/watch?v=XdkXswGWHHQ">https://www.youtube.com/watch?v=XdkXswGWHHQ</a>.</p>
+</div>
+<div class="footnote-definition" id="27"><sup class="footnote-definition-label">27</sup>
+<p>Twitter.com‌, “@hdevalence.” 17 Sept. 2022,<br />
+<a href="https://twitter.com/hdevalence/status/1571206859888943104">https://twitter.com/hdevalence/status/1571206859888943104</a>.</p>
+</div>
+<div class="footnote-definition" id="28"><sup class="footnote-definition-label">28</sup>
+<p>U.S. Department of the Treasury. “U.S. Treasury Sanctions Notorious Virtual Currency Mixer Tornado Cash.” 8 Aug. 2022,<br />
+<a href="https://home.treasury.gov/news/press-releases/jy0916">https://home.treasury.gov/news/press-releases/jy0916</a>.</p>
+</div>
+<div class="footnote-definition" id="29"><sup class="footnote-definition-label">29</sup>
+<p>Discord. “Discord Channel” Accessed 2022.<br />
+<a href="https://discord.com/channels/833618405537218590/996749519284875265/1018917858136293447">https://discord.com/channels/833618405537218590/996749519284875265/1018917858136293447.</a>.</p>
+</div>
+<div class="footnote-definition" id="30"><sup class="footnote-definition-label">30</sup>
+<p>Wilhelm, Alex. “The Anoma Protocol Raises $26M for Its Work to Undefine Money” TechCrunch, 17 Nov. 2021,<br />
+<a href="https://techcrunch.com/2021/11/17/the-anoma-protocol-raises-26m-for-its-work-to-undefine-money/">https://techcrunch.com/2021/11/17/the-anoma-protocol-raises-26m-for-its-work-to-undefine-money/</a>.</p>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="crypto_privacy_projects.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="penumbra.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="crypto_privacy_projects.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="penumbra.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
