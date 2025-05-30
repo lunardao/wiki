@@ -41,11 +41,11 @@ A Janus attack can be mitigated by several different measures by a user: Do not 
 
 **Churning** 
 
-Churning is the act of sending oneself an entire balance. This creates a new output and helps break the transaction graph. This obscures the output path. There are pros (obscuring output path) and cons for churning(chain bloat, false assumptions) and there is still discussion if this actually produces the correct outcomes. See also *Poisoned Outputs Attacks (EAE Attacks)*. Churning isn't necessary for all users but if done correctly can benefit specific use cases.
+Churning is the act of sending oneself an entire balance. This creates a new output and helps break the transaction graph. This obscures the output path. There are pros (obscuring output path) and cons for churning(chain bloat, false assumptions) and there is still discussion if this actually produces the correct outcomes. See also *Poisoned Outputs Attacks (EAE Attacks)*. Churning isn't necessary for all users but if done correctly can benefit specific use cases. You should perform sweep-all spends to yourself at varying times, consolidating your spends. Avoid churning funds that you've just received (less than an hour old). Churning is further enhanced if you are running your own node over Tor, and if you acquire monero via non-kyc methods. 
 
 **Output consolidation** 
 
-If a user's outputs are being surveilled, and a user consolidates many outputs into a single transaction, with statistical analysis, this increases the likelihood that the transaction was sent by the surveilled user. This works similarly to managing UTXO's in bitcoin, but Monero's security assumptions adds more complexity to increase the user's plausible deniability. Use wallets that allow for the user to manage individual outputs (coin control). [Feather Wallet] offers coin control. 
+If a user's outputs are being surveilled, and a user consolidates many outputs into a single transaction, with statistical analysis, this increases the likelihood that the transaction was sent by the surveilled user. This works similarly to managing UTXO's in bitcoin, but Monero's security assumptions adds more complexity to increase the user's plausible deniability. Use wallets that allow for the user to manage individual outputs (coin control). [Feather Wallet](https://featherwallet.org/) offers coin control. 
 
 ## Metadata Considerations | Potential Attack Vectors
 
@@ -77,7 +77,7 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 
 - [Monerujo](https://www.monerujo.io/): Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).
 - [Anonero](http://anonero.io): (Mandatory Tor) enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.
-- [Monero.com wallet](https://github.com/cake-tech/cake_wallet/releases): Was created by the CakeWallet team. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses swap service [trocador.app](https://trocador.app).  
+- [Monero.com wallet & Cake wallet](https://github.com/cake-tech/cake_wallet/releases): Created by the CakeWallet team. Monero.com wallet is the Monero-ONLY wallet. Cake Wallet is the multi-currency wallet. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses a variety of swap services.  
 - [Stack Wallet](https://stackwallet.com/): Stack Wallet is an open-source, non-custodial, privacy-focused cryptocurrency wallet that supports multiple coins like Monero and Bitcoin, keeping all private keys in the user's control while offering features such as built-in exchange, custom backups, and a user-friendly interface. 
 
 
@@ -85,6 +85,7 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 
 - [XMR Fail](https://monero.fail/): List of available public XMR nodes including nodes running over Tor. You can use this resource to choose online nodes for your wallet software to connect to.
 - [Run a Monero Node](https://github.com/sethforprivacy/sethforprivacy.com/blob/master/content/guides/run-a-monero-node.md): Guide to run an XMR node on a linux virtual private server.
+- [MoneroNodo](https://moneronodo.com/): Out of the box Monero Node on a single board computer. Includes Tor & I2P support, and OLED touchscreen.
 - [Setting up Your Own Node](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/): Guide to run an XMR node locally.
 - [LunarDAO XMR full onion node](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089):  
 [http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089](http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089)  You can connect your wallet to this node over Tor. For best privacy practices, you should always run your own node.
@@ -92,11 +93,13 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 ## Obtaining Monero
 
 - [OpenMonero](https://openmonero.co/)
-- [Mining](https://p2pool.io/) & [Gupax.io](https://gupax.io): Decentralized Monero mining.
+- [Mining](https://p2pool.io/), [Gupax.io](https://gupax.io), & [Gupaxx](https://github.com/Cyrix126/gupaxx): Decentralized Monero mining.
 - [TradeOgre](https://tradeogre.com/): Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
 - [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
 - [Trocador](https://trocador.app) via onion link: [http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion). Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
+- [OrangeFren](https://orangefren.com/) via onion link: [http://rnwis2whetqcj4oknksnc5l24jbh33nflunifff3xtjjonnoxu3ld6id.onion/](http://rnwis2whetqcj4oknksnc5l24jbh33nflunifff3xtjjonnoxu3ld6id.onion/). Similar to Trocador.app, Swap exchange aggregator for instant swap services. Orangefren sends you with a referral code to the recommended instant swap service.
 - [RetoSwap](https://retoswap.com): RetoSwap is a decentralized, peer-to-peer exchange platform focused on privacy, allowing users to buy and sell Monero (XMR) and other cryptocurrencies or fiat directly, without intermediaries or KYC requirement.
+- [BasicSwapDex](https://basicswapdex.com/): Decentralized exchange desktop application. Swaps are done via atomic swaps. You need to sync the blockchains of the coins you want to trade on. 
 - [Bisq](https://bisq.network): Decentralized exchange built into an open source desktop application. Bisq routes over Tor by default.  Bitcoin is the base currency but Monero has the largest alt-coin volume traded on Bisq. 
 
 ## Atomic Swaps
@@ -105,11 +108,10 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 
 ## Marketplaces
 
-- [Monero market](https://moneromarket.io)
 - [XMRBazaar.com](https://xmrbazaar.com)
-- [OrangeFren](https://orangefren.com/)
 - [Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
 - [Accepted Here](https://www.acceptedhere.io/catalog/currency/xmr/)
+- [ShopinBit](https://shopinbit.com)
 
 ## VPS provider
 
@@ -129,4 +131,5 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 - [Monero Stack Exchange](https://monero.stackexchange.com/)
 - [Zero to Monero: Second Edition](https://www.getmonero.org/library/Zero-to-Monero-2-0-0.pdf)
 - [MoneroResearch.info](https://moneroresearch.info/)
-- [Attack of the Poisoned Output - EP1 do EP30](https://www.youtube.com/watch?v=u9L-TUI-lf0&list=PLk4xsazIq6TZUKDScrxFjhajOKTlHknRx)
+- [Attack of the Poisoned Output - EP1 to EP30](https://www.youtube.com/watch?v=u9L-TUI-lf0&list=PLk4xsazIq6TZUKDScrxFjhajOKTlHknRx)
+- [Monero Eco](https://monero.eco/)
