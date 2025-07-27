@@ -6,8 +6,9 @@ This privacy setup guide's aim is to support those interested in getting started
 
 ### What is needed
 
-**Google Pixel 4 or higher** (less than 4 is no longer maintained. Check specifics for 6a on Graphene OS web page if considering getting this one specifically)  
-Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/) in a private manner. Some of the Google Pixel phones are carrier locked (OEM locked) and there is no way to know until opening the phone and viewing if the OEM unlock option is disabled. This OEM is an option in the developer options section which need to be unlocked in order to install Graphene OS. Check with the seller when buying the phone if it is possible to unlock OEM.
+GrapheneOS is specifically developed for Google Pixel phones. See [Supported devices](https://grapheneos.org/faq#supported-devices) to know which ones are maintained and for how long. Google Pixel phones with GrapheneOS installed can be purchased from [**ProxyStore**](https://proxysto.re/) in a private manner. 
+
+To install GrapheneOS yourself, keep in mind that Google Pixel phones can be carrier locked (OEM locked) and there is no way to know until opening the phone and viewing if the OEM unlock option is disabled. This OEM is an option in the developer options section which need to be unlocked in order to install Graphene OS. Check with the seller when buying the phone if it is possible to unlock OEM. 
 
 **Graphene OS**
 
@@ -26,7 +27,7 @@ Google Pixel phones can be purchased from [**ProxyStore**](https://proxysto.re/)
 
 Here is some information about the lack of privacy with Google and the benefits with Graphene OS. Check out [**GrapheneOS; the greatest mobile OS of all time**](https://yewtu.be/watch?v=yIZmUINSvQ4), which also include links (in descriptions) to more reading on 'Privacy violations of stock android' and Samsung and Facebook data collection.
 
-If there are any difficulties with the installation, it is possible to ask for support in our [**forum**](forum.lunardao.net). Graphene OS also has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element).
+If there are any difficulties with the installation, Graphene OS has a [**support chat**](https://app.element.io/#/room/#grapheneos:grapheneos.org) (Element) and a [forum](https://discuss.grapheneos.org).
 
 ### Steps for installation of applications
 
@@ -34,7 +35,7 @@ If there are any difficulties with the installation, it is possible to ask for s
 - Install Tor browser via Vanadium and then open the application.
 - Go to [**F-Droid**](https://f-droid.org/en/) and download the F-Droid app.  
 - With F-Droid, download and install [**Aurora store**](https://f-droid.org/en/packages/com.aurora.store/)(to be able to install apps with security issues preferrably on an island (using ie.insular) or apps which is not existing in f-droid).   
-- Download [**Geph**](https://geph.io/en) (from Aurora store), [**ProtonVPN**](https://protonvpn.com/download) or [**Bitmask**](https://f-droid.org/en/packages/se.leap.bitmaskclient/) from f-droid and directly set up a VPN. Check [**Privacy tools**](./list_privacy_tools.md) for more options.
+- Download and set up a VPN. We recommend [NymVPN](https://nym.com/) (see [litepaper](https://nym.com/nymvpn-litepaper), although there are also free options, such a Orbot . DYOR to make sure it has the needed requirements. See [**Privacy tools**](./list_privacy_tools.md) for more options.
 
 **VPN:**  
 
@@ -63,7 +64,7 @@ Both function like any app store. F-Droid will mark apps with *Anti-features* if
 
 - Many still use [**Signal**](https://www.signal.org/), which unfortunately requires a phone number. If using signal, a phone number can be acquired via [**jmp.chat**](https://jmp.chat/) or [**Crypton**](https://crypton.sh).    
 
-Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy. Also check [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) for more options.
+Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy. See [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) for more options.
 
 ***How to get a number from jmp.chat:***
 
@@ -162,9 +163,8 @@ To set up a new *User profile*, go to:
 - Select *Add user*, chose name etcetera. 
 *Note: Everything need to be set up from scratch.*
 
-**Sources:**  
+**Source:**  
 - [**https://grapheneos.org/features#more-user-profiles**](https://grapheneos.org/features#more-user-profiles)  
-- [**https://inv.riverside.rocks/watch?v=20C0FD7mGDY**](https://inv.riverside.rocks/watch?v=20C0FD7mGDY)
 
 ## Banana phone as hotspot
 
