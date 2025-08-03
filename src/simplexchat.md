@@ -78,3 +78,7 @@ Running Simplex from CLI gives you the opportunity to run directly from your com
 [https://simplex.chat/contact#/?v=1-2&smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FR16MC75GlD-NQk240O3TjoY1ayua85jW%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAs0P_JQapG1DgwGqpJSZOVTzFM55MAApfw5KiEa4XJxc%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22TncwwotxmO-JHZ4Ato3KNw%3D%3D%22%7D
 ](https://simplex.chat/contact#/?v=1-2&smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FR16MC75GlD-NQk240O3TjoY1ayua85jW%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAs0P_JQapG1DgwGqpJSZOVTzFM55MAApfw5KiEa4XJxc%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22TncwwotxmO-JHZ4Ato3KNw%3D%3D%22%7D
 )
+
+**Invite (Short) Link:**
+
+[https://smp10.simplex.im/g#X41jZOkseJ_YUMBnASTUygUSnb06dJGYdz0NfBYv3g8](https://smp10.simplex.im/g#X41jZOkseJ_YUMBnASTUygUSnb06dJGYdz0NfBYv3g8)
