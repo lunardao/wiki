@@ -78,7 +78,8 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 - [Monerujo](https://www.monerujo.io/): Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).
 - [Anonero](http://anonero.io): (Mandatory Tor) enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.
 - [Monero.com wallet & Cake wallet](https://github.com/cake-tech/cake_wallet/releases): Created by the CakeWallet team. Monero.com wallet is the Monero-ONLY wallet. Cake Wallet is the multi-currency wallet. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses a variety of swap services.  
-- [Stack Wallet](https://stackwallet.com/): Stack Wallet is an open-source, non-custodial, privacy-focused cryptocurrency wallet that supports multiple coins like Monero and Bitcoin, keeping all private keys in the user's control while offering features such as built-in exchange, custom backups, and a user-friendly interface. 
+- [Stack Wallet](https://stackwallet.com/): Stack Wallet is an open-source, non-custodial, privacy-focused cryptocurrency wallet that supports multiple coins like Monero and Bitcoin, keeping all private keys in the user's control while offering features such as built-in exchange, custom backups, and a user-friendly interface.
+- [Monfluo wallet](https://codeberg.org/acx/monfluo): Monfluo is a fork of the now de-funct Mysu wallet. Monfluo offers coin control, polyseed, passphrase, multi-wallet and multi account support. You can input your own node, and there is no other support for other coins and no integrations.
 
 
 ## Monero Nodes
@@ -93,8 +94,6 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 ## Obtaining Monero
 
 - [Mining](https://p2pool.io/), [Gupax.io](https://gupax.io), & [Gupaxx](https://github.com/Cyrix126/gupaxx): Decentralized Monero mining.
-- [TradeOgre](https://tradeogre.com/): Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
-- [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
 - [Trocador](https://trocador.app) via onion link: [http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion). Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
 - [OrangeFren](https://orangefren.com/) via onion link: [http://rnwis2whetqcj4oknksnc5l24jbh33nflunifff3xtjjonnoxu3ld6id.onion/](http://rnwis2whetqcj4oknksnc5l24jbh33nflunifff3xtjjonnoxu3ld6id.onion/). Similar to Trocador.app, Swap exchange aggregator for instant swap services. Orangefren sends you with a referral code to the recommended instant swap service.
 - [RetoSwap](https://retoswap.com): RetoSwap is a decentralized, peer-to-peer exchange platform focused on privacy, allowing users to buy and sell Monero (XMR) and other cryptocurrencies or fiat directly, without intermediaries or KYC requirement.
@@ -103,7 +102,7 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 
 ## Atomic Swaps
 
-- [Unstoppable Swap](https://unstoppableswap.net/) GUI. Trustlessly swap BTC to XMR. There is no option to swap from XMR to BTC. The only way an atomic swap from XMR to BTC will after a Monero hard-fork that would enable support for this.
+- [Eigen Wallet]((https://eigenwallet.org/)) GUI. Trustlessly swap BTC to XMR. There is no option to swap from XMR to BTC. The only way an atomic swap from XMR to BTC will after a Monero hard-fork that would enable support for this.
 
 ## Marketplaces
 
@@ -123,7 +122,7 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 ## Resources
 
 - [Open Monero project research-lab Issues](https://github.com/monero-project/research-lab/issues)
-- [Monero project researc-lab Open Research Questions](https://github.com/monero-project/research-lab/issues/94)
+- [Monero project research-lab Open Research Questions](https://github.com/monero-project/research-lab/issues/94)
 - [Breaking Monero](https://web.archive.org/web/20230321215142/https://www.monerooutreach.org/breaking-monero/)
 - [Monero's marketcap dominance](https://moneroj.net/dominance/)
 - [Monero metrics](https://www.monero.how/)
