@@ -1,6 +1,6 @@
 # Anonymizing assets
 
-LunarDAO is focused on privacy oriented projects. This ethos permeates how you should participate in the DAO. Privacy techniques are strongly encouraged when interacting with the DAO. Make sure to also DYOR. 
+LunarDAO is focused on privacy oriented projects. This ethos permeates how you should participate in the DAO. Privacy techniques are strongly encouraged when interacting with the DAO, especially when interacting on Ethereum. Make sure to also DYOR. 
 
 **Privacy leaks**
 
@@ -20,7 +20,7 @@ If you are looking to participate in the DAO, a user should use anonmyzing priva
 
 ### Protect network pivacy and metadata
 
-Consider using [NYM mixnet](https://nymtech.net/) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [Geph](https://geph.io/en), 
+Consider using [NYM mixnet/VPN](https://nym.com/) to protect your IP address and metadata, [Tor browser](https://www.torproject.org/download/), [Geph](https://geph.io/en), 
 [Proton VPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (note that VPNs change location, but doesn't necessarily protect metadata. DYOR) or run your own private node 
 to submit transactions. Another option is to run operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html).
 
@@ -52,6 +52,7 @@ Of course aim to use a provider you can trust. The endpoint maintained by Parale
 ## Anonymize assets using XMR
 
 *Note: As shared above, network privacy is an important part of remaining undoxxed.*
+*Note: Refer to our [Monero Privacy Guide](./monero.md) for a better detailed look into using Monero Privately*
 
 Anonymizing assets when starting with ETH/BTC/USDT/LTC/USDC (and many more options) on a non-anon wallet.
 
@@ -59,11 +60,12 @@ Anonymizing assets when starting with ETH/BTC/USDT/LTC/USDC (and many more optio
 
 2) Swap ETH/BTC/USDT/LTC/USDC (ERC20) to Monero (XMR) from non-anon wallet with:  
 
-- [Fixed float](https://fixedfloat.com)  
-- [Trocador](https://trocador.app/en)  
-- [Change now](https://changenow.io)  
-- [Sideshift](https://sideshift.ai)    
-
+- [Wizard Swap](https://wizardswap.io)
+- [Exolix](https://exolix.com)
+- [Trocador](https://trocador.app/en)
+- [Intercambio](https://intercambio.app)  
+- [RetoSwap](https://retoswap.com/)
+  
 3) Send XMR to your new Monero wallet.
 
 4) [Set up Metamask wallet](./fiat_to_crypto.md) on Tor browser (and [change RPC](https://wiki.lunardao.net/change_rpc.html)).
