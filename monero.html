@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Monero privacy guide</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Venture</li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">3.</strong> Mission</a></li><li class="chapter-item expanded "><a href="investment_thesis.html"><strong aria-hidden="true">4.</strong> Investment thesis</a></li><li class="chapter-item expanded affix "><li class="part-title">Infrastructure</li><li class="chapter-item expanded "><a href="gateways.html"><strong aria-hidden="true">5.</strong> Nym exit gateways</a></li><li class="chapter-item expanded affix "><li class="part-title">Surveillance</li><li class="chapter-item expanded "><a href="surveillance_intro.html"><strong aria-hidden="true">6.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="chat.html"><strong aria-hidden="true">7.</strong> European union chat surveillance</a></li><li class="chapter-item expanded "><a href="sis.html"><strong aria-hidden="true">8.</strong> Schengen Information System</a></li><li class="chapter-item expanded "><a href="data_retention_initiative.html"><strong aria-hidden="true">9.</strong> Data rentention initiative</a></li><li class="chapter-item expanded "><a href="echelon.html"><strong aria-hidden="true">10.</strong> Echelon</a></li><li class="chapter-item expanded "><a href="facebook.html"><strong aria-hidden="true">11.</strong> Facebook selling data</a></li><li class="chapter-item expanded "><a href="google.html"><strong aria-hidden="true">12.</strong> Google tracking users</a></li><li class="chapter-item expanded "><a href="tiktok.html"><strong aria-hidden="true">13.</strong> Tik tok selling data to China</a></li><li class="chapter-item expanded "><a href="wikileaks.html"><strong aria-hidden="true">14.</strong> Wikileaks publications</a></li><li class="chapter-item expanded "><a href="pegasus.html"><strong aria-hidden="true">15.</strong> Pegasus</a></li><li class="chapter-item expanded "><a href="china.html"><strong aria-hidden="true">16.</strong> Surveillance in China</a></li><li class="chapter-item expanded "><a href="bigtech.html"><strong aria-hidden="true">17.</strong> Government requesting Big tech data</a></li><li class="chapter-item expanded "><a href="fingerprinting_tracking.html"><strong aria-hidden="true">18.</strong> Fingerprinting & Tracking</a></li><li class="chapter-item expanded "><a href="simdata.html"><strong aria-hidden="true">19.</strong> SIM card data collection</a></li><li class="chapter-item expanded affix "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">20.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bananahack.html"><strong aria-hidden="true">20.1.</strong> Nokia "Banana" jailbreak</a></li><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">20.2.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">20.2.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">20.3.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">20.4.</strong> Virtualbox with Whonix</a></li><li class="chapter-item expanded "><a href="tails_guide.html"><strong aria-hidden="true">20.5.</strong> Tails</a></li><li class="chapter-item expanded "><a href="fiat_to_crypto.html"><strong aria-hidden="true">20.6.</strong> Fiat to crypto</a></li><li class="chapter-item expanded "><a href="crypto_to_fiat.html"><strong aria-hidden="true">20.7.</strong> Crypto to fiat</a></li><li class="chapter-item expanded "><a href="luks.html"><strong aria-hidden="true">20.8.</strong> LUKS disk encryption</a></li><li class="chapter-item expanded "><a href="monero.html" class="active"><strong aria-hidden="true">20.9.</strong> Monero privacy guide</a></li><li class="chapter-item expanded "><a href="veracrypt.html"><strong aria-hidden="true">20.10.</strong> VeraCrypt</a></li><li class="chapter-item expanded "><a href="simplexchat.html"><strong aria-hidden="true">20.11.</strong> SimpleX chat</a></li><li class="chapter-item expanded "><a href="atomicswap.html"><strong aria-hidden="true">20.12.</strong> BTC --&gt; XMR atomic swap</a></li><li class="chapter-item expanded "><a href="sip_calls.html"><strong aria-hidden="true">20.13.</strong> SIP calls with jmp.chat & csip</a></li><li class="chapter-item expanded "><a href="signal_privacy_guide.html"><strong aria-hidden="true">20.14.</strong> Signal privacy guide</a></li><li class="chapter-item expanded "><a href="taskwarrior.html"><strong aria-hidden="true">20.15.</strong> Taskwarrior</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">21.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">22.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html"><strong aria-hidden="true">23.</strong> Privacy setup for android with Graphene OS</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">24.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">24.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">25.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html"><strong aria-hidden="true">26.</strong> Anoma</a></li><li class="chapter-item expanded "><a href="penumbra.html"><strong aria-hidden="true">27.</strong> Penumbra</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="darkirc.html"><strong aria-hidden="true">28.</strong> darkirc</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">29.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">30.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">31.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">32.</strong> Videos</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="advanced-user-monero-privacy-guide"><a class="header" href="#advanced-user-monero-privacy-guide">Advanced user Monero privacy guide</a></h1>
+<p>This is an advanced privacy guide for Monero to inform users with extreme threat models of best privacy practices.</p>
+<h2 id="what-monero-is"><a class="header" href="#what-monero-is">What Monero is</a></h2>
+<p><em>General description of Monero's consensus, security and UTXO based model</em></p>
+<p>Monero follows a UTXO-based model that Bitcoin pioneered and includes privacy technologies (listed below) implemented directly into the core protocol.  Monero is built on top of the CryptoNote protocol. There are 0.3 XMR mined per minute. The block subsidy is 0.6 XMR, and the block time between Monero blocks is 2 minutes. Monero has a dynamic block size and a tail emission of 0.6 XMR per block forever. The Monero supply is deflationary.</p>
+<p>A Monero transaction occurs by a sum of inputs being consumed and creating an equal sum amount of outputs. During an XMR transaction inputs are destroyed and 16 outputs are utilized. This is called the ring signature. The outputs created from the transaction include one real output and 15 decoy outputs. The decoy outputs are arbitrarily picked from previous transactions on the blockchain. Each of these outputs look valid to an outside observer. The current default ring size is 16 which makes up your anonymity set.</p>
+<p>Transaction amounts are hidden via RingCT. Sender and recipient addresses are hidden via Stealth Addresses. </p>
+<ul>
+<li>Monero uses a Proof of Work consensus with a mining algorithm called <a href="https://web.getmonero.org/resources/moneropedia/randomx.html">RandomX</a>. CPU's are used to mine XMR instead of ASIC.</li>
+<li><a href="https://www.getmonero.org/resources/moneropedia/ringsignatures.html">Ring Signatures</a></li>
+<li><a href="https://www.getmonero.org/resources/moneropedia/ringCT.html">Ring CT</a></li>
+<li><a href="https://www.getmonero.org/resources/moneropedia/stealthaddress.html">Stealth Addresses</a></li>
+</ul>
+<h2 id="what-monero-is-not"><a class="header" href="#what-monero-is-not">What Monero is not</a></h2>
+<p>Monero is one of the most private cryptocurrencies currently available along with having the largest user-base. Although, Monero focuses on privacy, there are still trade-offs when using Monero. There is a potential future concern whenever using a blockchain that is &quot;currently&quot; private. As technology breakthroughs occur, a once private transaction may be broken and publicly visible for surveillance software to trace. For Monero, this isn't currently possible by any known techniques, but this is a risk with using any distributed ledger technology. When using Monero, the largest your total anonymity set can be is the total amount of Monero users. Monero does not offer perfect privacy, it offers plausible deniability for its users.</p>
+<h2 id="spending-best-practices"><a class="header" href="#spending-best-practices">Spending Best Practices</a></h2>
+<p><strong>Basic Users:</strong> Most users of Monero don't need to take considerations when using Monero. It works for every day purchases. If there are larger threats to consider such as avoiding sanctions, totalitarian governments, and risk of physical harm, a user should consider these before utilizing Monero. These kinds of attacks are specific in nature and as mentioned previously, do not affect most users. </p>
+<h2 id="advanced-attacks"><a class="header" href="#advanced-attacks">Advanced attacks</a></h2>
+<p><strong>Poisoned Outputs Attack (EAE Attack)</strong></p>
+<p>A <em>Poisoned Outputs Attacks (EAE Attacks)</em> consists of two colluding parties on either side of a transaction. The user being surveilled in this attack example is represented by 'A'. The first external party 'E' sends an output to 'A' and monitors the chain for potential paths the output can take. When an output reaches a destination (the second 'E' in the EAE attack) both colluding parties can discover with some degree of certainty the owner 'A'. The more times this occurs, this higher the degree of probabilistic certainty.</p>
+<p>A Poisoned Output Attack can be mitigated by several different measures by a user: Do not post addresses online attached to an identity or avoid re-using addresses. Use a new subaddress for every transaction. Avoid malicious parties on both sides of the transactions. Reduce the interactions with potential malicious parties that could surveil the transactions. Use different services to limit the chances of interacting with a service that may surveil the transactions. Use <em>churning</em> to add entropy to the transaction.</p>
+<p><strong>Janus attack</strong></p>
+<p>A <em>Janus Attack</em> is when a malicious party can discover that different subaddresses are shared by the same Monero seed. This is a specific kind of attack and usually needs off-chain confirmation that funds were received. This is an issue if the user is maintaining separate identities and using separate subaddresses from the same seed, between these separate identities. This would confirm both online identites that the user was keeping separate are actually in control of the same Monero seed. A surveilling attacker can successfully execute a Janus attack if they're able to verify sucessful receipt of funds. This can be from various sources (e.g. user informs reciept of funds, Point of sale system informs receipt of funds, etc.).</p>
+<p>A Janus attack can be mitigated by several different measures by a user: Do not confirm receipt of funds. Do not publish or share subaddress publicly. Use different wallet seeds for different identities. Do not give out subaddresses tied to a real identity including subaddresses from exchanges. Use different Monero seeds if using a subaddress tied to a specific identity. If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This comes with a trade-off of convenience for privacy. </p>
+<p><strong>Churning</strong> </p>
+<p>Churning is the act of sending oneself an entire balance. This creates a new output and helps break the transaction graph. This obscures the output path. There are pros (obscuring output path) and cons for churning(chain bloat, false assumptions) and there is still discussion if this actually produces the correct outcomes. See also <em>Poisoned Outputs Attacks (EAE Attacks)</em>. Churning isn't necessary for all users but if done correctly can benefit specific use cases. You should perform sweep-all spends to yourself at varying times, consolidating your spends. Avoid churning funds that you've just received (less than an hour old). Churning is further enhanced if you are running your own node over Tor, and if you acquire monero via non-kyc methods. </p>
+<p><strong>Output consolidation</strong> </p>
+<p>If a user's outputs are being surveilled, and a user consolidates many outputs into a single transaction, with statistical analysis, this increases the likelihood that the transaction was sent by the surveilled user. This works similarly to managing UTXO's in bitcoin, but Monero's security assumptions adds more complexity to increase the user's plausible deniability. Use wallets that allow for the user to manage individual outputs (coin control). <a href="https://featherwallet.org/">Feather Wallet</a> offers coin control. </p>
+<h2 id="metadata-considerations--potential-attack-vectors"><a class="header" href="#metadata-considerations--potential-attack-vectors">Metadata Considerations | Potential Attack Vectors</a></h2>
+<ul>
+<li>
+<p><strong>Network analysis:</strong> Run a full node &amp; keep it running 24/7, a public node that other people can route transactions through, makes it possible to hide among other users that are using this node.</p>
+</li>
+<li>
+<p><strong>Counter-party surveillance:</strong> Is about interacting with malicious parties that want to surveil your transactions. This can range from a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users, or it could be a malicous merchant that is collecting on-chain and off-chain data. Counter-parties exist on either side of a transaction to a user.</p>
+</li>
+<li>
+<p><strong>Remote node considerations related to timing analysis:</strong> If you routinely connecting to a remote node when sending funds, this network data leaks information about spending habits. </p>
+</li>
+<li>
+<p><strong>Block explorer - transaction and IP address linking:</strong> When using a block explorer, use a hidden service over TOR, I2P, or VPN and be sure to use different browser sessions. The best solution is to run an own node and access the information locally.</p>
+</li>
+<li>
+<p><strong>Understanding heuristics:</strong> There are heuristics that can be used to conclude further information about a Monero transaction. The more data that a user gives up, which can come from transaction information, transaction partners, network information, metadata, etcetera leads to an increase in the data that can be used in models by surveilling counter-parties. Many attackers are observing information on-chain and off-chain data. The stronger on-chain guarantees for privacy there are, the higher the likelihood that off-chain data will be used to de-anonymize users. </p>
+</li>
+<li>
+<p><strong>AI and machine learning:</strong> There is concern that the developments in AI and Machine learning will lead to a degradation to Monero security guarantees. The input selection algorithm and spending habits of individuals are two large areas of concern. Following the transaction graph and tracing the spending habits of users create pieces of information that models test for. </p>
+</li>
+<li>
+<p><strong>Further Developments &amp; Analysis:</strong> Technological developments and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward. This includes increasing the ring size while also providing scalability. Monero maintains a strong market share because it accomplishes what it sets out to do in the current environment. See also <em>Monero project research-lab</em></p>
+</li>
+</ul>
+<h2 id="wallets"><a class="header" href="#wallets">Wallets</a></h2>
+<h3 id="desktop-wallet"><a class="header" href="#desktop-wallet">Desktop Wallet</a></h3>
+<ul>
+<li><a href="https://www.getmonero.org/downloads/#cli">Monero CLI Wallet</a>
+An open-source command line interface (CLI) wallet developed by the Monero community, completely free to use, best suited for developers, intermediate, and advanced users. </li>
+<li><a href="https://www.getmonero.org/downloads/#gui">Monero GUI Wallet</a>
+An open-source graphical user interface (GUI) wallet developed by the Monero community, completely free to use, suitable for both beginners and advanced users.</li>
+<li><a href="https://featherwallet.org/">Feather Wallet</a>: Is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. It ships with strong defaults for normal users but can be configured for high or uncommon threat models.</li>
+</ul>
+<h3 id="mobile-wallet"><a class="header" href="#mobile-wallet">Mobile Wallet</a></h3>
+<ul>
+<li><a href="https://www.monerujo.io/">Monerujo</a>: Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).</li>
+<li><a href="http://anonero.io">Anonero</a>: (Mandatory Tor) enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.</li>
+<li><a href="https://github.com/cake-tech/cake_wallet/releases">Monero.com wallet &amp; Cake wallet</a>: Created by the CakeWallet team. Monero.com wallet is the Monero-ONLY wallet. Cake Wallet is the multi-currency wallet. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses a variety of swap services.</li>
+<li><a href="https://stackwallet.com/">Stack Wallet</a>: Stack Wallet is an open-source, non-custodial, privacy-focused cryptocurrency wallet that supports multiple coins like Monero and Bitcoin, keeping all private keys in the user's control while offering features such as built-in exchange, custom backups, and a user-friendly interface.</li>
+<li><a href="https://codeberg.org/acx/monfluo">Monfluo wallet</a>: Monfluo is a fork of the now de-funct Mysu wallet. Monfluo offers coin control, polyseed, passphrase, multi-wallet and multi account support. You can input your own node, and there is no other support for other coins and no integrations.</li>
+</ul>
+<h2 id="monero-nodes"><a class="header" href="#monero-nodes">Monero Nodes</a></h2>
+<ul>
+<li><a href="https://monero.fail/">XMR Fail</a>: List of available public XMR nodes including nodes running over Tor. You can use this resource to choose online nodes for your wallet software to connect to.</li>
+<li><a href="https://github.com/sethforprivacy/sethforprivacy.com/blob/master/content/guides/run-a-monero-node.md">Run a Monero Node</a>: Guide to run an XMR node on a linux virtual private server.</li>
+<li><a href="https://moneronodo.com/">MoneroNodo</a>: Out of the box Monero Node on a single board computer. Includes Tor &amp; I2P support, and OLED touchscreen.</li>
+<li><a href="https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/">Setting up Your Own Node</a>: Guide to run an XMR node locally.</li>
+<li><a href="http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089">LunarDAO XMR full onion node</a>:<br />
+<a href="http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089">http://tqpihjiy4umx4ksp5nhdq2e5oju3pm4gbqa347lhszvipncrx622bpid.onion:18089</a>  You can connect your wallet to this node over Tor. For best privacy practices, you should always run your own node.</li>
+</ul>
+<h2 id="obtaining-monero"><a class="header" href="#obtaining-monero">Obtaining Monero</a></h2>
+<ul>
+<li><a href="https://p2pool.io/">Mining</a>, <a href="https://gupax.io">Gupax.io</a>, &amp; <a href="https://github.com/Cyrix126/gupaxx">Gupaxx</a>: Decentralized Monero mining.</li>
+<li><a href="https://trocador.app">Trocador</a> via onion link: <a href="http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion">http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion</a>. Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.</li>
+<li><a href="https://orangefren.com/">OrangeFren</a> via onion link: <a href="http://rnwis2whetqcj4oknksnc5l24jbh33nflunifff3xtjjonnoxu3ld6id.onion/">http://rnwis2whetqcj4oknksnc5l24jbh33nflunifff3xtjjonnoxu3ld6id.onion/</a>. Similar to Trocador.app, Swap exchange aggregator for instant swap services. Orangefren sends you with a referral code to the recommended instant swap service.</li>
+<li><a href="https://retoswap.com">RetoSwap</a>: RetoSwap is a decentralized, peer-to-peer exchange platform focused on privacy, allowing users to buy and sell Monero (XMR) and other cryptocurrencies or fiat directly, without intermediaries or KYC requirement.</li>
+<li><a href="https://basicswapdex.com/">BasicSwapDex</a>: Decentralized exchange desktop application. Swaps are done via atomic swaps. You need to sync the blockchains of the coins you want to trade on. </li>
+<li><a href="https://bisq.network">Bisq</a>: Decentralized exchange built into an open source desktop application. Bisq routes over Tor by default.  Bitcoin is the base currency but Monero has the largest alt-coin volume traded on Bisq. </li>
+</ul>
+<h2 id="atomic-swaps"><a class="header" href="#atomic-swaps">Atomic Swaps</a></h2>
+<ul>
+<li><a href="(https://eigenwallet.org/)">Eigen Wallet</a> GUI. Trustlessly swap BTC to XMR. There is no option to swap from XMR to BTC. The only way an atomic swap from XMR to BTC will after a Monero hard-fork that would enable support for this.</li>
+</ul>
+<h2 id="marketplaces"><a class="header" href="#marketplaces">Marketplaces</a></h2>
+<ul>
+<li><a href="https://xmrbazaar.com">XMRBazaar.com</a></li>
+<li><a href="https://cryptwerk.com/pay-with/xmr/">Cryptwerk</a></li>
+<li><a href="https://www.acceptedhere.io/catalog/currency/xmr/">Accepted Here</a></li>
+<li><a href="https://shopinbit.com">ShopinBit</a></li>
+</ul>
+<h2 id="vps-provider"><a class="header" href="#vps-provider">VPS provider</a></h2>
+<ul>
+<li><a href="https://kyun.host/">Kyun</a></li>
+<li><a href="https://flokinet.is/">FlokiNet</a></li>
+<li><a href="https://mynymbox.io/">MyNymBox</a></li>
+<li><a href="https://servers.guru/">ServersGuru</a></li>
+<li><a href="https://nicevps.net/">NiceVPS</a></li>
+</ul>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<ul>
+<li><a href="https://github.com/monero-project/research-lab/issues">Open Monero project research-lab Issues</a></li>
+<li><a href="https://github.com/monero-project/research-lab/issues/94">Monero project research-lab Open Research Questions</a></li>
+<li><a href="https://web.archive.org/web/20230321215142/https://www.monerooutreach.org/breaking-monero/">Breaking Monero</a></li>
+<li><a href="https://moneroj.net/dominance/">Monero's marketcap dominance</a></li>
+<li><a href="https://www.monero.how/">Monero metrics</a></li>
+<li><a href="https://monero.stackexchange.com/">Monero Stack Exchange</a></li>
+<li><a href="https://www.getmonero.org/library/Zero-to-Monero-2-0-0.pdf">Zero to Monero: Second Edition</a></li>
+<li><a href="https://moneroresearch.info/">MoneroResearch.info</a></li>
+<li><a href="https://www.youtube.com/watch?v=u9L-TUI-lf0&amp;list=PLk4xsazIq6TZUKDScrxFjhajOKTlHknRx">Attack of the Poisoned Output - EP1 to EP30</a></li>
+<li><a href="https://monero.eco/">Monero Eco</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="luks.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="veracrypt.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="luks.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="veracrypt.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

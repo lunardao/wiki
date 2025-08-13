@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>SimpleX chat</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Venture</li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">3.</strong> Mission</a></li><li class="chapter-item expanded "><a href="investment_thesis.html"><strong aria-hidden="true">4.</strong> Investment thesis</a></li><li class="chapter-item expanded affix "><li class="part-title">Infrastructure</li><li class="chapter-item expanded "><a href="gateways.html"><strong aria-hidden="true">5.</strong> Nym exit gateways</a></li><li class="chapter-item expanded affix "><li class="part-title">Surveillance</li><li class="chapter-item expanded "><a href="surveillance_intro.html"><strong aria-hidden="true">6.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="chat.html"><strong aria-hidden="true">7.</strong> European union chat surveillance</a></li><li class="chapter-item expanded "><a href="sis.html"><strong aria-hidden="true">8.</strong> Schengen Information System</a></li><li class="chapter-item expanded "><a href="data_retention_initiative.html"><strong aria-hidden="true">9.</strong> Data rentention initiative</a></li><li class="chapter-item expanded "><a href="echelon.html"><strong aria-hidden="true">10.</strong> Echelon</a></li><li class="chapter-item expanded "><a href="facebook.html"><strong aria-hidden="true">11.</strong> Facebook selling data</a></li><li class="chapter-item expanded "><a href="google.html"><strong aria-hidden="true">12.</strong> Google tracking users</a></li><li class="chapter-item expanded "><a href="tiktok.html"><strong aria-hidden="true">13.</strong> Tik tok selling data to China</a></li><li class="chapter-item expanded "><a href="wikileaks.html"><strong aria-hidden="true">14.</strong> Wikileaks publications</a></li><li class="chapter-item expanded "><a href="pegasus.html"><strong aria-hidden="true">15.</strong> Pegasus</a></li><li class="chapter-item expanded "><a href="china.html"><strong aria-hidden="true">16.</strong> Surveillance in China</a></li><li class="chapter-item expanded "><a href="bigtech.html"><strong aria-hidden="true">17.</strong> Government requesting Big tech data</a></li><li class="chapter-item expanded "><a href="fingerprinting_tracking.html"><strong aria-hidden="true">18.</strong> Fingerprinting & Tracking</a></li><li class="chapter-item expanded "><a href="simdata.html"><strong aria-hidden="true">19.</strong> SIM card data collection</a></li><li class="chapter-item expanded affix "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">20.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bananahack.html"><strong aria-hidden="true">20.1.</strong> Nokia "Banana" jailbreak</a></li><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">20.2.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">20.2.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">20.3.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">20.4.</strong> Virtualbox with Whonix</a></li><li class="chapter-item expanded "><a href="tails_guide.html"><strong aria-hidden="true">20.5.</strong> Tails</a></li><li class="chapter-item expanded "><a href="fiat_to_crypto.html"><strong aria-hidden="true">20.6.</strong> Fiat to crypto</a></li><li class="chapter-item expanded "><a href="crypto_to_fiat.html"><strong aria-hidden="true">20.7.</strong> Crypto to fiat</a></li><li class="chapter-item expanded "><a href="luks.html"><strong aria-hidden="true">20.8.</strong> LUKS disk encryption</a></li><li class="chapter-item expanded "><a href="monero.html"><strong aria-hidden="true">20.9.</strong> Monero privacy guide</a></li><li class="chapter-item expanded "><a href="veracrypt.html"><strong aria-hidden="true">20.10.</strong> VeraCrypt</a></li><li class="chapter-item expanded "><a href="simplexchat.html" class="active"><strong aria-hidden="true">20.11.</strong> SimpleX chat</a></li><li class="chapter-item expanded "><a href="atomicswap.html"><strong aria-hidden="true">20.12.</strong> BTC --&gt; XMR atomic swap</a></li><li class="chapter-item expanded "><a href="sip_calls.html"><strong aria-hidden="true">20.13.</strong> SIP calls with jmp.chat & csip</a></li><li class="chapter-item expanded "><a href="signal_privacy_guide.html"><strong aria-hidden="true">20.14.</strong> Signal privacy guide</a></li><li class="chapter-item expanded "><a href="taskwarrior.html"><strong aria-hidden="true">20.15.</strong> Taskwarrior</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">21.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">22.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html"><strong aria-hidden="true">23.</strong> Privacy setup for android with Graphene OS</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">24.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">24.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">25.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html"><strong aria-hidden="true">26.</strong> Anoma</a></li><li class="chapter-item expanded "><a href="penumbra.html"><strong aria-hidden="true">27.</strong> Penumbra</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="darkirc.html"><strong aria-hidden="true">28.</strong> darkirc</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">29.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">30.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">31.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">32.</strong> Videos</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="simplex-guide"><a class="header" href="#simplex-guide">SimpleX guide</a></h1>
+<p>This guide is a remixed version of the <a href="https://medium.com/notrustverify/what-is-simplex-chat">initial one published </a> by Oheka &amp; CGI_Bin from <a href="https://notrustverify.ch">No Trust Verify</a>.</p>
+<blockquote>
+<p>SimpleX is a privacy focused federated messaging platform offering an alternative to other centralized apps such as Signal, thanks to total confidentiality, no identifiers, Simplex protects against spam and gives users control over their data which is stored on their device and not on a centralized server. This application offers a more decentralized and less invasive alternative to Signal (no phone number required, for example). However some challenges are still present such as the ability to synchronize discussions across multiple devices, and optimal management of large groups are still present. </p>
+</blockquote>
+<h2 id="components-of-simplex"><a class="header" href="#components-of-simplex">Components of SimpleX</a></h2>
+<p>This application uses the SimpleX platform, which consists of several components:</p>
+<ul>
+<li><strong>SimpleX Messaging Protocol</strong> (SMP) is a protocol for sending messages in one direction to a recipient, with a server in between. Messages are delivered via one-way queues created by the recipients. SMP relies on a transport protocol (such as TLS) to ensure integrity, server authentication, confidentiality and binding to the transport channel.</li>
+<li><strong>A SimpleX server</strong> is one of these servers.</li>
+<li><strong>The SimpleX network</strong> is the term used to designate the set of SimpleX servers that facilitate the SMP.</li>
+<li><strong>SimpleX client libraries</strong> speak SMP to SimpleX servers, providing a low-level API that is not generally intended for use by applications.</li>
+<li><strong>SimpleX agents</strong> interface with SimpleX clients to provide a higher-level API for use by applications. They are usually integrated as libraries, but are designed to be abstracted into local services.</li>
+</ul>
+<h2 id="how-does-it-work"><a class="header" href="#how-does-it-work">How does it work?</a></h2>
+<p>SimpleX Chat (https://simplex.chat/) uses the various components mentioned above. SMP is the communication protocol used by network elements to exchange messages. The SimpleX agent is used as an abstraction layer to simplify the management of operations, and will also offer functionalities such as adding noise to protect the privacy of people using the application.</p>
+<blockquote>
+<p>The use of SimpleX queues is the major difference with other platforms such as WhatsApp, Signal or Matrix. Unlike other platforms, SimpleX doesn’t require users to create an account, and users don’t have a login as such.
+For the users of the application, the way it works is no different from any other messaging platform. The first step is to create a SimpleX address, which can be used on a one-time or persistent basis.</p>
+</blockquote>
+<p>To explain the protocol simply lets look at how Bob sends a message to Alice. Alice will share her previously created SimpleX address with Bob. When Bob adds his contact, Alice will receive a request offering the possibility of refusing or accepting.</p>
+<p>Once the connection has been accepted, the queue creation process will start on the SMP server, and will be used by Bob to deposit (as it were) messages for Alice, and then his application will retrieve the messages and display them in SimpleX Chat. This queue creation part has to be done for Bob, so for Alice to be able to send messages and reply to him, another SMP server can be used, thus improving resilience and user privacy. The complete process is much more comprehensive <a href="https://github.com/simplex-chat/simplexmq/blob/stable/protocol/overview-tjr.md">and can be found here</a></p>
+<p><strong>Incognito mode</strong></p>
+<p>Allows you to protect your profile (image and nickname) by not transmitting this information when you start a new discussion. A random name is generated for each new contact, making it possible to chat with 2 people without them knowing that they’re chatting with the same person. You could compare this to a browser’s private browsing.</p>
+<p><strong>Live message feature</strong></p>
+<p>One of the most interesting features of SimpleX that it allows you to write messages without having to send them, and the recipient will see what you’re typing live (while looking at the screen), so there’s no need to wait. This can be useful in a place where you can’t talk but want to exchange information, or as an example, given on the SimpleX website:
+An activist reporting live when there’s a risk of losing his phone or connection at any moment. This function allows you to send as many messages as possible, right down to the last word, without having to send only very short messages.</p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Simplex Lock  - A local passcode for the application.</li>
+<li>Voice and Video calls.</li>
+<li>Self-destruct passcode - alternate passcode that wipes all app data.</li>
+<li>SOCKS proxy routing  - Choose to route traffic through a SOCKS proxy over port 9050.</li>
+<li>.onion hosts - Choose if you want onion hosts required for each connection.</li>
+<li>Database passphrase and export - Choose a timeline to delete messages after a certain amount of time &amp; choose if the application data is backed up/exported/imported and encrypted with a passphrase.</li>
+<li>Disappearing messages - The user has the ability to enable disappearing messages in a chat as long as the other particpant allows disappearing messages.</li>
+<li>Group chats - Group chat creators have the ability to enable disappearing messages, direct messages, delete for everyone, &amp; if the group should allow for voice messages. There are also roles that can be assigned (owner, admin, member, observer).</li>
+</ul>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<p><strong>Quick Simplex chat client install</strong></p>
+<p><code>curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/stable/install.sh | bash</code></p>
+<p>Once the chat client is installed, simply run <code>simplex-chat</code> from your terminal.</p>
+<ul>
+<li><a href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/CLI.md">Detailed CLI install steps</a></li>
+</ul>
+<p>Running Simplex from CLI gives you the opportunity to run directly from your computer. This limits the potential exposure from introducing an application to your phone. You'll need to connect to chat rooms or direct messages by receiving an invitation link out of band, and importing the invite code into the CLI. </p>
+<p><strong>Download SimpleX Chat</strong></p>
+<ul>
+<li><a href="https://apps.apple.com/us/app/simplex-chat/id1605771084">iOS — SimpleX Chat Client</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=chat.simplex.app&amp;pli=1">Play Store — SimpleX Chat Client</a></li>
+<li><a href="https://app.simplex.chat/">F-Droid — SimpleX Chat</a></li>
+</ul>
+<p><strong>Further resources</strong></p>
+<ul>
+<li><a href="https://simplex.chat/">Website</a></li>
+<li><a href="https://github.com/simplex-chat">Github Repo </a></li>
+<li><a href="https://github.com/simplex-chat/simplexmq/blob/stable/protocol/overview-tjr.md">Whitepaper</a></li>
+<li><a href="https://github.com/simplex-chat/simplexmq/blob/stable/protocol/overview-tjr.md#threat-model">Threat model</a></li>
+<li>No Trust Verify provides an SMP server, to add it you can use this address <code>smp://HZOF26feHaaMXqYuLTzhBFB652DEYENZEN8zpLxIeKs=@simplex.notrustverify.ch </code></li>
+</ul>
+<p><strong>Let's test together the service &amp; join the LunarDAO Community Chat on SimpleX</strong></p>
+<p><strong>Invite link:</strong></p>
+<p><a href="https://simplex.chat/contact#/?v=1-2&amp;smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FR16MC75GlD-NQk240O3TjoY1ayua85jW%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAs0P_JQapG1DgwGqpJSZOVTzFM55MAApfw5KiEa4XJxc%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion&amp;data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22TncwwotxmO-JHZ4Ato3KNw%3D%3D%22%7D">https://simplex.chat/contact#/?v=1-2&amp;smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FR16MC75GlD-NQk240O3TjoY1ayua85jW%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAs0P_JQapG1DgwGqpJSZOVTzFM55MAApfw5KiEa4XJxc%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion&amp;data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22TncwwotxmO-JHZ4Ato3KNw%3D%3D%22%7D
+</a></p>
+<p><strong>Invite (Short) Link:</strong></p>
+<p><a href="https://smp10.simplex.im/g#X41jZOkseJ_YUMBnASTUygUSnb06dJGYdz0NfBYv3g8">https://smp10.simplex.im/g#X41jZOkseJ_YUMBnASTUygUSnb06dJGYdz0NfBYv3g8</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="veracrypt.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="atomicswap.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="veracrypt.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="atomicswap.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
