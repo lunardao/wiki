@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Privacy setup for android with Graphene OS</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="part-title">Philosophy</li><li class="chapter-item expanded "><a href="manifesto.html"><strong aria-hidden="true">1.</strong> Manifesto</a></li><li class="chapter-item expanded affix "><li class="part-title">Venture</li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">3.</strong> Mission</a></li><li class="chapter-item expanded "><a href="investment_thesis.html"><strong aria-hidden="true">4.</strong> Investment thesis</a></li><li class="chapter-item expanded affix "><li class="part-title">Infrastructure</li><li class="chapter-item expanded "><a href="gateways.html"><strong aria-hidden="true">5.</strong> Nym exit gateways</a></li><li class="chapter-item expanded affix "><li class="part-title">Surveillance</li><li class="chapter-item expanded "><a href="surveillance_intro.html"><strong aria-hidden="true">6.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="chat.html"><strong aria-hidden="true">7.</strong> European union chat surveillance</a></li><li class="chapter-item expanded "><a href="sis.html"><strong aria-hidden="true">8.</strong> Schengen Information System</a></li><li class="chapter-item expanded "><a href="data_retention_initiative.html"><strong aria-hidden="true">9.</strong> Data rentention initiative</a></li><li class="chapter-item expanded "><a href="echelon.html"><strong aria-hidden="true">10.</strong> Echelon</a></li><li class="chapter-item expanded "><a href="facebook.html"><strong aria-hidden="true">11.</strong> Facebook selling data</a></li><li class="chapter-item expanded "><a href="google.html"><strong aria-hidden="true">12.</strong> Google tracking users</a></li><li class="chapter-item expanded "><a href="tiktok.html"><strong aria-hidden="true">13.</strong> Tik tok selling data to China</a></li><li class="chapter-item expanded "><a href="wikileaks.html"><strong aria-hidden="true">14.</strong> Wikileaks publications</a></li><li class="chapter-item expanded "><a href="pegasus.html"><strong aria-hidden="true">15.</strong> Pegasus</a></li><li class="chapter-item expanded "><a href="china.html"><strong aria-hidden="true">16.</strong> Surveillance in China</a></li><li class="chapter-item expanded "><a href="bigtech.html"><strong aria-hidden="true">17.</strong> Government requesting Big tech data</a></li><li class="chapter-item expanded "><a href="fingerprinting_tracking.html"><strong aria-hidden="true">18.</strong> Fingerprinting & Tracking</a></li><li class="chapter-item expanded "><a href="simdata.html"><strong aria-hidden="true">19.</strong> SIM card data collection</a></li><li class="chapter-item expanded affix "><li class="part-title">Opt out</li><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">20.</strong> Manuals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bananahack.html"><strong aria-hidden="true">20.1.</strong> Nokia "Banana" jailbreak</a></li><li class="chapter-item expanded "><a href="imei.html"><strong aria-hidden="true">20.2.</strong> Randomizing IMEI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="imei_tables/imei_table.html"><strong aria-hidden="true">20.2.1.</strong> IMEI table</a></li></ol></li><li class="chapter-item expanded "><a href="firejail.html"><strong aria-hidden="true">20.3.</strong> Firejail</a></li><li class="chapter-item expanded "><a href="virtualbox_whonix.html"><strong aria-hidden="true">20.4.</strong> Virtualbox with Whonix</a></li><li class="chapter-item expanded "><a href="tails_guide.html"><strong aria-hidden="true">20.5.</strong> Tails</a></li><li class="chapter-item expanded "><a href="fiat_to_crypto.html"><strong aria-hidden="true">20.6.</strong> Fiat to crypto</a></li><li class="chapter-item expanded "><a href="crypto_to_fiat.html"><strong aria-hidden="true">20.7.</strong> Crypto to fiat</a></li><li class="chapter-item expanded "><a href="luks.html"><strong aria-hidden="true">20.8.</strong> LUKS disk encryption</a></li><li class="chapter-item expanded "><a href="monero.html"><strong aria-hidden="true">20.9.</strong> Monero privacy guide</a></li><li class="chapter-item expanded "><a href="veracrypt.html"><strong aria-hidden="true">20.10.</strong> VeraCrypt</a></li><li class="chapter-item expanded "><a href="simplexchat.html"><strong aria-hidden="true">20.11.</strong> SimpleX chat</a></li><li class="chapter-item expanded "><a href="atomicswap.html"><strong aria-hidden="true">20.12.</strong> BTC --&gt; XMR atomic swap</a></li><li class="chapter-item expanded "><a href="sip_calls.html"><strong aria-hidden="true">20.13.</strong> SIP calls with jmp.chat & csip</a></li><li class="chapter-item expanded "><a href="signal_privacy_guide.html"><strong aria-hidden="true">20.14.</strong> Signal privacy guide</a></li><li class="chapter-item expanded "><a href="taskwarrior.html"><strong aria-hidden="true">20.15.</strong> Taskwarrior</a></li></ol></li><li class="chapter-item expanded "><a href="list_privacy_tools.html"><strong aria-hidden="true">21.</strong> Privacy tools</a></li><li class="chapter-item expanded "><a href="privacy_resources.html"><strong aria-hidden="true">22.</strong> Privacy resources</a></li><li class="chapter-item expanded "><a href="privacy_setup.html" class="active"><strong aria-hidden="true">23.</strong> Privacy setup for android with Graphene OS</a></li><li class="chapter-item expanded affix "><li class="part-title">Crypto</li><li class="chapter-item expanded "><a href="anonymizing_assets.html"><strong aria-hidden="true">24.</strong> Anonymizing assets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="change_rpc.html"><strong aria-hidden="true">24.1.</strong> Changing RPC guide</a></li></ol></li><li class="chapter-item expanded "><a href="crypto_privacy_projects.html"><strong aria-hidden="true">25.</strong> Privacy projects</a></li><li class="chapter-item expanded affix "><li class="part-title">Research</li><li class="chapter-item expanded "><a href="anoma.html"><strong aria-hidden="true">26.</strong> Anoma</a></li><li class="chapter-item expanded "><a href="penumbra.html"><strong aria-hidden="true">27.</strong> Penumbra</a></li><li class="chapter-item expanded affix "><li class="part-title">Tools</li><li class="chapter-item expanded "><a href="darkirc.html"><strong aria-hidden="true">28.</strong> darkirc</a></li><li class="chapter-item expanded "><a href="tau.html"><strong aria-hidden="true">29.</strong> tau</a></li><li class="chapter-item expanded affix "><li class="part-title">Resources</li><li class="chapter-item expanded "><a href="articles.html"><strong aria-hidden="true">30.</strong> Articles</a></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">31.</strong> Books</a></li><li class="chapter-item expanded "><a href="videos.html"><strong aria-hidden="true">32.</strong> Videos</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"><img class="menu-image" src="/data/logo.png"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="privacy-setup-graphene-os--banana-phone"><a class="header" href="#privacy-setup-graphene-os--banana-phone">Privacy setup: Graphene OS &amp; Banana phone</a></h1>
+<p>This privacy setup guide's aim is to support those interested in getting started with digital privacy practices, but might also provide something new to those who are more experienced. It is important to remember that even if personal privacy is paramount, one of the main reasons for compromised privacy is that those we communicate with are not thinking about privacy. That's why it is important to share existing resources with each other as well as understanding how to use them. Check out <a href="https://wiki.lunardao.net/privacy_resources.html"><strong>Privacy resources</strong></a> for more projects.</p>
+<h2 id="secure-android-phone"><a class="header" href="#secure-android-phone">Secure Android phone</a></h2>
+<h3 id="what-is-needed"><a class="header" href="#what-is-needed">What is needed</a></h3>
+<p>GrapheneOS is specifically developed for Google Pixel phones. See <a href="https://grapheneos.org/faq#supported-devices">Supported devices</a> to know which ones are maintained and for how long. Google Pixel phones with GrapheneOS installed can be purchased from <a href="https://proxysto.re/"><strong>ProxyStore</strong></a> in a private manner. </p>
+<p>To install GrapheneOS yourself, keep in mind that Google Pixel phones can be carrier locked (OEM locked) and there is no way to know until opening the phone and viewing if the OEM unlock option is disabled. This OEM is an option in the developer options section which need to be unlocked in order to install Graphene OS. Check with the seller when buying the phone if it is possible to unlock OEM. </p>
+<p><strong>Graphene OS</strong></p>
+<ul>
+<li><a href="https://grapheneos.org/install/cli"><strong>Command line installer</strong></a></li>
+<li><a href="https://grapheneos.org/install/web"><strong>Web installer</strong></a></li>
+</ul>
+<p><strong>Here are some of the features of Graphene OS, check their website for more:</strong></p>
+<ul>
+<li>Graphene OS is not based on Google and can be run completely without any Google apps, emails etcetera, but it is possible to use these applications if wanted. Rather, it is the choice of the user and not a default.</li>
+<li>Every time the phone connects to internet, the <a href="https://en.wikipedia.org/wiki/MAC_address"><strong>MAC address</strong></a> is changed (randomly).</li>
+<li>No sensitive metadata in screenshots and pictures (it only includes the orientation). Note that metadata stripping for videos is not implemented.</li>
+<li>There is an option for PIN scrambling, which means that the numbers on the display change place every time the user enters the PIN, so nobody can figure out the PIN from watching the user input their code.</li>
+<li>If the phone has been inactive for a certain period of time (from 10 min as the shortest time to 72h as longest) it will autoreboot.</li>
+<li>Sensor permission can be disallowed (ie. camera, microphone, body sensor, activity recognition). When access is disabled, apps receive zeroed data when they check for sensor values.</li>
+<li>It's possible to create multiple users on one phone. The separate users are isolated from each other. More on this in section 'User profiles on Graphene OS' below.</li>
+</ul>
+<p>Here is some information about the lack of privacy with Google and the benefits with Graphene OS. Check out <a href="https://yewtu.be/watch?v=yIZmUINSvQ4"><strong>GrapheneOS; the greatest mobile OS of all time</strong></a>, which also include links (in descriptions) to more reading on 'Privacy violations of stock android' and Samsung and Facebook data collection.</p>
+<p>If there are any difficulties with the installation, Graphene OS has a <a href="https://app.element.io/#/room/#grapheneos:grapheneos.org"><strong>support chat</strong></a> (Element) and a <a href="https://discuss.grapheneos.org">forum</a>.</p>
+<h3 id="steps-for-installation-of-applications"><a class="header" href="#steps-for-installation-of-applications">Steps for installation of applications</a></h3>
+<ul>
+<li>When starting the process of installing applications, the recommendation is to first download <a href="https://www.torproject.org/download/"><strong>Tor browser</strong></a> for android. On Graphene, Vanadium is the pre-installed default browser, using <a href="duckduckgo.com"><strong>duckduckgo.com</strong></a> as search engine.</li>
+<li>Install Tor browser via Vanadium and then open the application.</li>
+<li>Go to <a href="https://f-droid.org/en/"><strong>F-Droid</strong></a> and download the F-Droid app.</li>
+<li>With F-Droid, download and install <a href="https://f-droid.org/en/packages/com.aurora.store/"><strong>Aurora store</strong></a>(to be able to install apps with security issues preferrably on an island (using ie.insular) or apps which is not existing in f-droid).</li>
+<li>Download and set up a VPN. We recommend <a href="https://nym.com/">NymVPN</a> (see <a href="https://nym.com/nymvpn-litepaper">litepaper</a>, although there are also free options, such a Orbot . DYOR to make sure it has the needed requirements. See <a href="./list_privacy_tools.html"><strong>Privacy tools</strong></a> for more options.</li>
+</ul>
+<p><strong>VPN:</strong></p>
+<p>An IP address is a digital address. Every device connected to the internet has one, and someone who looks up your IP address can see your location. The VPN, such as the ones mentioned above, are used to protect the IP address. When using a VPN it appears as if ths user is somewhere else in the world. </p>
+<ul>
+<li>After the VPN is installed, go to Settings --&gt; Networks &amp; internet  --&gt; VPN. The installed VPN has a settings option there. Select <em>'Always-on VPN'</em> to be sure that the IP address is always protected. The VPN can also be switched off and on manually.</li>
+<li>Go to the downloaded VPN app to check that it's on. In the free versions there only a few options for IP address (it's possible to select by country in protonVPN, and by city in Bitmask).</li>
+<li>Go to <a href="https://www.whatismyip.com/"><strong>What is my IP</strong></a> to see if it correlates with the selected VPN.</li>
+<li>When this setup is completed, install other applications.</li>
+</ul>
+<p>The VPN solutions that exist today route traffic through proxies. Any adversary that surveils the traffic can view the size of data packets entering and leaving the VPN service. With internet traffic surveillance, an adversary can see who, when, and how often you communicate with someone. The paid ProtonVPN option provides the possibility of <em>secure core</em> which means two hops. There is also the option of <a href="https://support.torproject.org/glossary/orbot/"><strong>Orbot</strong></a> which is developed by Tor project. To ensure network privacy VPNs are incomplete as a solution and something to keep in mind.</p>
+<h3 id="applications-for-your-graphene-os-phone"><a class="header" href="#applications-for-your-graphene-os-phone">Applications for your Graphene OS phone</a></h3>
+<p><strong>App store:</strong> </p>
+<ul>
+<li>
+<p><a href="https://f-droid.org/en/"><strong>F-Droid</strong></a></p>
+</li>
+<li>
+<p><a href="https://f-droid.org/en/packages/com.aurora.store/"><strong>Aurora app</strong></a>.</p>
+</li>
+</ul>
+<p>Both function like any app store. F-Droid will mark apps with <em>Anti-features</em> if, for example, they contain ads or not open source or not free.</p>
+<p><strong>Messaging app:</strong> </p>
+<ul>
+<li>
+<p><a href="https://simplex.chat/"><strong>Simplex chat</strong></a> is an end-to-end encrypted messaging for chat, audio and video with no identifiers assigned to the users. The username can be changed, random names can be generated for new chats and subaccount can be created for different communication needs.</p>
+</li>
+<li>
+<p>Many still use <a href="https://www.signal.org/"><strong>Signal</strong></a>, which unfortunately requires a phone number. If using signal, a phone number can be acquired via <a href="https://jmp.chat/"><strong>jmp.chat</strong></a> or <a href="https://crypton.sh"><strong>Crypton</strong></a>.</p>
+</li>
+</ul>
+<p>Signal is widely used and well known, but it isn't the only messaging app that focuses on privacy. See <a href="https://wiki.lunardao.net/list_privacy_tools.html"><strong>Privacy tools</strong></a> for more options.</p>
+<p><em><strong>How to get a number from jmp.chat:</strong></em></p>
+<ol>
+<li>Go to <a href="mov.im"><strong>mov.im</strong></a> and sign up a new account. Make sure to use a VPN when you create an account, so that IP address is not leaked.</li>
+<li>Make a new account based on the guided steps as it gets you to <a href="movim.eu"><strong>movim.eu</strong></a> or <a href="jappix.com"><strong>jappix.com</strong></a>.</li>
+<li>Sign in.</li>
+<li>Go jmp.chat and select a number.</li>
+<li>Add your mov.im account to the prompt.</li>
+<li>Continue with the bot in your mov.im chat based on instructions + pay.</li>
+</ol>
+<p>Make sure to stay anonymous when paying for the new number with Bitcoin. One option is to anonymize ETH and then swap to BTC:</p>
+<ul>
+<li>Add Metamask extension/add-on to Tor Browser (it will say it's for Firefox, but it will work anyway).</li>
+<li>Create a new Metamask account.</li>
+<li>Only use this account with Tor browser which means setting up the add-on every time as Tor browser don't save any data (which is the privacy consideration we are looking for).</li>
+<li><a href="https://wiki.lunardao.net/change_rpc.html"><strong>Change RPC</strong></a>.</li>
+<li>Check this guide on <a href="https://wiki.lunardao.net/anonymizing_assets.html"><strong>how to anonymize assets</strong></a>. </li>
+<li>Use <a href="https://sideshift.ai/btc/eth"><strong>Sideshift</strong></a> to swap from ETH to BTC.</li>
+<li>One can for example use <a href="https://electrum.org/"><strong>Electrum</strong></a> wallet to for BTC. Make sure to use tor or VPN. </li>
+</ul>
+<p>To exchange from fiat money (paper money) to crypto assets, see <a href="./fiat_to_crypto.html"><strong>Fiat to crypto</strong></a> guide.</p>
+<!---sadar: This might also be good for an article or multiple articles: "How to remain private using ETH" "How to remain private using BTC" "How to remain private using Monero"--->
+<p><strong>Email:</strong></p>
+<ul>
+<li>
+<p><a href="https://tutanota.com/"><strong>Tutanota</strong></a><br />
+Is end-to-end encrypted mail (between Tutanota email addresses). Tutanota also encrypts the entire mailbox and also offer encrypted address book and calendar.</p>
+</li>
+<li>
+<p><a href="https://proton.me"><strong>Protonmail</strong></a><br />
+The Protonmail mobile app can be downloaded in the Aurora Store. It is possible to set up a free email. To create the email anonymously, be sure to use a VPN when signing up. It is end-to-end encrypted between protonmail accounts.</p>
+</li>
+</ul>
+<p>To email other addresses securely, create an encryption key with:</p>
+<ul>
+<li><a href="https://www.openkeychain.org/"><strong>OpenKeychain</strong></a>. With this application it is possible to create or import an encryption key. To set up, write a nick and an email and a key will be generated. To share the <em>Public key</em>, select the entry that was just made --&gt; click on the three dots in the upper right corner --&gt; choose <em>Advanced</em> --&gt; <em>Share</em> --&gt; <em>Share with</em> and share icon --&gt; the application to use in order to send the key --&gt; Send. The format will be .asc. You can import this .asc file into your Protonmail account.</li>
+</ul>
+<p><strong>Browser:</strong></p>
+<ul>
+<li>
+<p><a href="https://www.torproject.org/download/"><strong>Tor browser</strong></a>. Tor has built in protection of IP address.</p>
+</li>
+<li>
+<p><a href="https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/"><strong>Fennec</strong></a> is based on the latest Firefox release. This browser blocks trackers and also has a private mode. The private mode means that when selecting the mask in the upper right corner of the browser, a tab with enhanced privacy properties will open, from which history is cleared when closing the tab or app.</p>
+</li>
+</ul>
+<p><strong>Video app (Youtube front-end):</strong></p>
+<ul>
+<li><a href="https://f-droid.org/en/packages/InfinityLoop1309.NewPipeEnhanced/"><strong>PipePipe</strong></a> is an ad free YouTube alternative.</li>
+</ul>
+<p><strong>Notes:</strong></p>
+<ul>
+<li><a href="https://f-droid.org/en/packages/net.gsantner.markor/"><strong>Markor</strong></a> for writing Markdown docs, and because its also compatible with any other plaintext software on any platfrom, it is compatible with usage on computer.</li>
+</ul>
+<p><strong>Isolation of non-privacy apps:</strong></p>
+<ul>
+<li><a href="https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/"><strong>Insular</strong></a>, which creates an <em>island</em> and isolates this space from the rest of your phone. On the island it is possible to keep apps which have security issues. Such apps can be downloaded in the island via Aurora store. </li>
+</ul>
+<p>In Insular there is <em>Mainland</em> and <em>Island</em>. These two are separated from each other. Certain applications can cause security problems, such as Google apps which gather a lot of user data. </p>
+<p>On the main screen there will be two options, <em>Personal</em> and <em>Work</em>. All applications on the Island exists on the Work screen. They are visible with a lock on the logo and through this they can be distinguished from other applications. These icons can be moved from somewhere else if this is wanted. </p>
+<p>In Insular: In the Mainland section, click on an application, ie. Aurora store. There is a plus (+) in the lower right corner. When clicking on the plus (+), it's possible to clone the app from Mainland to the Island. </p>
+<p>If Aurora store is opened on the Island, all downloaded applications from Aurora store will be directly stored on the Island.</p>
+<p>Also see the option of <a href="https://wiki.lunardao.net/privacy_setup.html#user-profiles-on-graphene-os"><em>User profiles on Graphene OS</em></a> below.</p>
+<p><strong>Remove metadata from pictures:</strong></p>
+<ul>
+<li>
+<p><a href="https://guardianproject.info/apps/org.witness.sscphase1/"><strong>ObscuraCam</strong></a>. Blur faces and remove metadata. </p>
+</li>
+<li>
+<p><a href="https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif/"><strong>Scrambled Exif</strong></a> to remove metadata.</p>
+</li>
+</ul>
+<p>To use Scrambled Exif, there is no need to open the application. Instead, go directly to the Gallery, select the picture to share, click on the <em>share</em> icon, and select Scrambled Exif. Then choose the app to use in order to send the picture, choose contact and send.</p>
+<p><strong>Navigation:</strong></p>
+<ul>
+<li>
+<p><a href="https://osmand.net/"><strong>Osmand</strong></a></p>
+</li>
+<li>
+<p><a href="https://maps.me/"><strong>maps.me</strong></a> </p>
+</li>
+</ul>
+<p>Both of these applications can be used as offline maps. maps.me asks for a lot of permissions. It is possible to deny all of them for privacy considerations (the request for permissions appear two times). After having denied the requests, go to Settings --&gt; Apps --&gt; All apps --&gt; maps.me/OsmAnd --&gt; Permissions. Disallow <em>sensors</em> and allow <em>folder and media</em> (so the two allowed are <em>Network</em> and <em>Folder and media</em> for internet and storage). Both of these apps have <a href="https://f-droid.org/en/docs/Anti-Features/">anti-features</a>, but offline maps can be handy to have.</p>
+<p><strong>Crypto wallet:</strong> </p>
+<ul>
+<li>
+<p><a href="https://www.monerujo.io"><strong>Monerujo</strong></a> is a Monero wallet, which allows usage of <a href="https://www.techradar.com/features/what-is-tor-and-how-does-it-work">tor onion nodes</a> when connecting the wallet.</p>
+</li>
+<li>
+<p><a href="https://cakewallet.com/"><strong>Cake wallet</strong></a>. Send, receive and exchange Monero, Bitcoin, Litecoin and Haven with Cake Wallet. It's good to utilize Monero as it is private by default, but there might be occasions when other currencies are needed. If the device has been set up in a secure way (using VPN or tor), then other transactions are not connected to a IP address which is also connected to the real address.</p>
+</li>
+</ul>
+<h2 id="user-profiles-on-graphene-os"><a class="header" href="#user-profiles-on-graphene-os">User profiles on Graphene OS</a></h2>
+<p>Graphene OS <em>User profiles</em> are isolated workspaces that has it's own set of encryption keys. It functions as setting up a completely new phone and each profile have their own instances of apps, app data and profile data (contacts, media store, home directory and so on). Apps can't see the apps running on other user profiles and can only communicate with apps within the same profile. The profiles have separate passwords. It is possible to have 31 (+1 guest) profiles.</p>
+<p>If holding the power button (as if wanting to reboot phone), select <em>End session</em> and everything that was running on the profile has been terminated (not deleted, just shut down). This avoid leakage of metadata when not actively using that profile and also ensures no apps running in the background.</p>
+<p>To set up a new <em>User profile</em>, go to:</p>
+<ul>
+<li><em>Settings</em> --&gt; <em>System</em> --&gt; <em>Multiple users</em>.</li>
+<li>Toggle <em>Allow Multiple users</em></li>
+<li>Select <em>Add user</em>, chose name etcetera. 
+<em>Note: Everything need to be set up from scratch.</em></li>
+</ul>
+<p><strong>Source:</strong></p>
+<ul>
+<li><a href="https://grapheneos.org/features#more-user-profiles"><strong>https://grapheneos.org/features#more-user-profiles</strong></a></li>
+</ul>
+<h2 id="banana-phone-as-hotspot"><a class="header" href="#banana-phone-as-hotspot">Banana phone as hotspot</a></h2>
+<ul>
+<li>Read <a href="./simdata.html"><strong>SIM card data collection</strong></a> to have a background for the suggestion to not use a SIM card in this set up.</li>
+<li>Read <a href="./bananahack.html"><strong>Nokia &quot;Banana&quot; jailbreak</strong></a> on how to set up a Nokia 8110, to use as a hotspot for the Graphene phone, and be able to randomize IMEI number.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="privacy_resources.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="anonymizing_assets.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="privacy_resources.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="anonymizing_assets.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
