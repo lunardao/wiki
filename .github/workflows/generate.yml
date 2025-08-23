@@ -18,10 +18,16 @@ jobs:
       run: mdbook test && mdbook build 
     - name: Deploy GitHub Pages
       run: |
-        git worktree add /tmp/website website
+        git worktree add /tmp/website
         rm -rf /tmp/website/*
+        rm -r /tmp/website/.github/
+        rm -r /tmp/website/.gitignore
         cp -rp book/* /tmp/website/
+        git config user.name "Deploy from CI"
+        git config user.email "git@git"
         cd /tmp/website
+        # Delete the ref to avoid keeping history.
+        git update-ref -d refs/heads/website
         git add -A
-        git commit -m "Deploy $GITHUB_SHA to website" || echo "No changes to commit"
-        git push origin website
+        git commit -m "Deploy $GITHUB_SHA to website"
+        git push --force origin website
