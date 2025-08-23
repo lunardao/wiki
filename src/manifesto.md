@@ -71,5 +71,5 @@ Sunset has arrived. The moonlit night is coming.
 # Moonlight, or the lunarpunk future
 
 In the darkness of the night, the forest of encryption is alive. Many tribes have found a sanctuary under the thick branches of its trees. Societies are regaining their strength, and free life is being built under the gentle light of the moon. Outside of the forest, war is raging. Nation states are in conflict with one another, ecocide is being perpetrated against nature, and repression strikes those who struggle for freedom. The more the agents of the state attack, the more individuals and groups escape the scorching sun of surveillance and seek refuge in the moonlight of anonymity. Societies, finally aware of themselves, defend their forest through cyber-guerrilla and regain territory. 
-**A new moon shines on earth.**
+A new moon shines on earth.
 
