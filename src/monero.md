@@ -109,6 +109,7 @@ An open-source graphical user interface (GUI) wallet developed by the Monero com
 - [XMRBazaar.com](https://xmrbazaar.com)
 - [Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
 - [Accepted Here](https://www.acceptedhere.io/catalog/currency/xmr/)
+- [XMRList](https://xmrlist.com/)
 - [ShopinBit](https://shopinbit.com)
 
 ## VPS provider
